@@ -1,5 +1,7 @@
 # OrbusVR Classic — Community Server
 
+![The entrance to Highsteppe in OrbusVR Classic](docs/highsteppe.jpg)
+
 OrbusVR was the first MMO made for room-scale VR. It launched in December of 2017 after a successful 
 Kickstarter campaign. This is the version of the game that existed right before the servers were shutdown
 for the launch of OrbusVR: Reborn in 2019.
