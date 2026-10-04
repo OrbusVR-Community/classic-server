@@ -16,7 +16,6 @@ Read on for more information on getting started.
 - [Requirements](#requirements)
 - [Quick start](#quick-start)
 - [Letting other players connect](#letting-other-players-connect)
-- [Voice chat](#voice-chat)
 - [Configuration](#configuration)
 - [Modding](#modding)
 - [Admin tools](#admin-tools)
@@ -118,11 +117,6 @@ Players should back up their identity file to keep their characters if they rein
 
 If a player loses it, an admin can move their characters to their new identity — see
 [Account recovery](#account-recovery).
-
-## Voice chat
-
-Proximity voice chat is built in: voice travels through the game connection to your server, so there's
-nothing to set up and no third-party account needed.
 
 ## Configuration
 
