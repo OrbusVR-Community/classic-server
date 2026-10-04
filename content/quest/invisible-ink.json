@@ -1,0 +1,20 @@
+{
+    "description": "Entrusting you with more important work, Commander Fassith has asked that you deliver this top secret letter to her contact at Lakewood Inn. Deliver it to the man in the green hat.",
+    "name": "Invisible Ink (MSQ)",
+    "completed": "You have the secret contacts response letter, return it to Commander Fassith at the center of Guild City to collect your reward. But, perhaps Sir Petyr would benefit from this information?",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "171",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 10,
+    "rewards": [
+        "giveitems xp@5000,coin@160"
+    ],
+    "autocomplete": false
+}

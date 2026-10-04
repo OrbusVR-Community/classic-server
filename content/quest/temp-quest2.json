@@ -1,0 +1,25 @@
+{
+    "description": "The frozen villager seems sick of the tigers attacking his shipments, clear the Heathrun Track of tigers and return to the villager to collect your reward.",
+    "name": "",
+    "completed": "Return to the Frozen Villager in the village of Heathrun near the graveyard.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "albinotiger",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 16,
+    "rewards": [
+        "giveitems xp@10000"
+    ],
+    "autocomplete": false
+}

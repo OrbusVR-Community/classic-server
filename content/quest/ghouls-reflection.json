@@ -1,0 +1,20 @@
+{
+    "description": "Iblis the Ghoul will hear your plea, but only once you have solved his riddle. \"You saw me where I never was and where I could never be. And yet within that very place, my face, you often see. What am I?\" Search for the token that answers the riddle and return with it to him.",
+    "name": "A Ghoul's Riddle  (MSQ)",
+    "completed": "You have solved the riddle and found a mirror to bring back to Iblis. Return to him near the Ancient ruins in the Desert to sway him into action.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_mirrior-found",
+            "typenum": 1,
+            "typeextra": "Solve Iblis' Riddle"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 15,
+    "rewards": [
+        "giveitems xp@15000"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,20 @@
+{
+    "description": "After appeasing Tinny’s boozy needs, the Witch is ready to teach you the basics of Runespeak. However, you are missing a wand. You must find a suitable Black Yuckaw branch for Tinny to enchant. Search the near the water of Kingsport Lake near Lakewood Inn to find a suitable tree.",
+    "name": "Witch’s Apprentice",
+    "completed": "You've gathered a branch, return to Tinny and unlock the hidden power of the branch.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "116",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 3,
+    "rewards": [
+        "giveitems 3@1,xp@1000"
+    ],
+    "autocomplete": false
+}

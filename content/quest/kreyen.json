@@ -1,0 +1,26 @@
+{
+    "description": "The Obnobi Bedouin are no friends of the Order and are willing to help the Knights, but only if you help them first. Word has it that throughout the desert, villages have been disappearing, almost without a trace. Find out what is behind these disappearances and put a stop to it. The last village to be destroyed was to the South, across the barren desert, near the Mountains of the Lucian Plateau.",
+    "name": "Loyalty Of The Tribe (MSQ)",
+    "completed": "Return to Kreyen, at Balaam Fa Cher, with evidence of the sandworm’s demise and news of her village, for reward of their loyalty.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "sandworm1",
+            "typenum": 15,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "191",
+            "typenum": 10,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 13,
+    "rewards": [
+        "giveitems xp@15000,coin@160,184@1"
+    ],
+    "autocomplete": false
+}

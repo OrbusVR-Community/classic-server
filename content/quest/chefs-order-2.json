@@ -1,0 +1,20 @@
+{
+    "description": "Chef Lethrow, not satisfied with your last collection of ingredients, sends you out into the Forest of the Green Lady. This time to find the legendary Red Truffle, a mushroom which he hopes, will elevate the Bishop’s dish beyond all expectation.",
+    "name": "A Demanding Chef II (MSQ)",
+    "completed": "You've gathered what you need, now hurry back to Chef Lethrow to make sure there is time before the festival.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "113",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 4,
+    "rewards": [
+        "giveitems coin@25"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,20 @@
+{
+    "description": "The Explorer’s League don’t normally muddle in political affairs, but the Order are making it difficult to venture into ancient remains. Helga will help, but only if you help her find a way deeper into the Tradu Ruins first. Journey into the mines and down the shaft to solve the puzzle of the unknown Essa door. Be wary, there are things that live in the dark canyon that have killed many explorers.",
+    "name": "Loyalty Of The League (MSQ)",
+    "completed": "Speak with Helga now that she has her entrance to the mine, and find new ally in her League.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_puzzle-door-open",
+            "typenum": 1,
+            "typeextra": "Solve Essa Door Puzzle"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 15,
+    "rewards": [
+        "giveitems xp@18800,186@1"
+    ],
+    "autocomplete": false
+}

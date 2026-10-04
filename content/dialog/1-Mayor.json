@@ -1,0 +1,77 @@
+{
+    "bishop-roma-plot-ip": {
+        "reqFlags": [
+            "qf_bishop-roma-plot_ip"
+        ],
+        "indicator": "objective",
+        "text": "bishop-roma-plot-ip",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Nice to see you again $NAME. It’s been a while hasn’t it? I expect you must be excited! A Highsteppe Guardian!"
+            },
+            "1": {
+                "text": "Such a great honor for a person of your station. I apologize for not coming to see your final trials - I’ve been caught up in the preparations for this festival…",
+                "choices": {
+                    "0": {
+                        "text": "Anything I can do?",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Yes! Our new Bishop requires the finest of things. Including a venue. The main tent still needs to be set up, and I’m lacking in  hands and time to collect all the bits and pieces needed."
+                            },
+                            "1": {
+                                "text": "We require rope, pegs and a hammer to put it all together. Have a look around and see if you can find those things for me would you?",
+                                "choices": {
+                                    "0": {
+                                        "text": "Yes Sir",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "giveQuest": "celebration",
+                                                "text": "Thank you $NAME. You can begin your search near Cenn's farm and around the Market place, the kids of the village tend to carry off these parts for their little games."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "celebration-cp": {
+        "completeQuest": "celebration",
+        "text": "celebration-cp",
+        "tree": {
+            "0": {
+                "emotion": "agree",
+                "text": "It’s done? You’ve all the pieces? Why, you’ve saved my neck $NAME. I would have never lived it down if we didn't have everything set up in time for Bishop Roma’s speech."
+            },
+            "1": {
+                "text": "Here's something for helping me."
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "The speech is about to begin, we best go see what the Bishop has to say."
+            },
+            "3": {
+                "text": "..",
+                "choices": {
+                    "0": {
+                        "text": "@movie@1"
+                    }
+                }
+            },
+            "4": {
+                "setFlags": [
+                    "qf_speak-mayor-highsteppe"
+                ],
+                "emotion": "afraid",
+                "text": "Rebels...Trying to kill the Bishop? Unbelievable?"
+            }
+        },
+        "indicator": "dialog"
+    }
+}

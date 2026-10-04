@@ -1,0 +1,72 @@
+{
+    "missing-dad": {
+        "reqFlags": [
+            "qf_second-parent"
+        ],
+        "text": "missing-dad",
+        "tree": {
+            "0": {
+                "setFlags": [
+                    "qf_rescue-children"
+                ],
+                "emotion": "afraid",
+                "text": "Please, have you seen my son? I was meant to take him on a fishing trip, but he’s disappeared… Please, if you see him, would you tell him his papa is looking for him?",
+                "choices": {
+                    "0": {
+                        "text": "Where was he last seen?",
+                        "tree": {
+                            "0": {
+                                "setFlags": [
+                                    "qf_firstchild"
+                                ],
+                                "emotion": "afraid",
+                                "text": "I put him to bed last night and that was the last I saw him. The window was open in the morning...but my boy was gone. I've seen some horrible monsters in the woods lately, half tree, half man, you don’t think they could have...?",
+                                "choices": {
+                                    "0": {
+                                        "text": "I'll find the children.",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "missing-children",
+                                                "emotion": "explain",
+                                                "text": "Thank you stranger. At least someone cares about us small folk."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "missing-children-cp": {
+        "completeQuest": "defeat-stickquest",
+        "text": "missing-children-cp",
+        "tree": {
+            "0": {
+                "removeFlags": [
+                    "qf_child3pathing"
+                ],
+                "emotion": "cheer",
+                "text": "My boy! Thank you! What took him?",
+                "choices": {
+                    "0": {
+                        "text": "It was creature from the wilds, a walking tree.",
+                        "tree": {
+                            "0": {
+                                "setFlags": [
+                                    "qf_child-safe-home"
+                                ],
+                                "emotion": "agree",
+                                "text": "These are dark days indeed… I fear for my family. Here, please, let me pay you for your help. You deserve it. You’ve returned to me my true treasure!"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

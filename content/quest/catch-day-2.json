@@ -1,0 +1,20 @@
+{
+    "description": "Ernest wants to test your skill again by asking you to catch 5 Green Bellied Bass. He mentioned that these fish like both Small Tooth and Tongue, but wonders if there is anything else to be added to help your chances.",
+    "name": "Catch of the Day II",
+    "completed": "Return to Ernest on the North side of Kingsport Lake, to show him your catch of the day.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "74",
+            "typenum": 5,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        "giveitems coin@50"
+    ],
+    "autocomplete": false
+}

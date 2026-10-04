@@ -1,0 +1,20 @@
+{
+    "description": "Head towards the Lowland Woods to track down twenty Roto Spores.",
+    "name": "Spore Hog",
+    "completed": "You've collected all the spores you need. Return to the villager to make your trade.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "48",
+            "typenum": 20,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 4,
+    "rewards": [
+        "giveitems 103@1"
+    ],
+    "autocomplete": false
+}

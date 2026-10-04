@@ -1,0 +1,133 @@
+{
+    "bandit": {
+        "completeQuest": "seek-petyr",
+        "text": "bandit",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Hello then! Sir Petyr’s the name. I’m a Knight, just like yourself, and I must say, I’ve been dying to meet you - unlike some of the other layabouts we’ve got in our little fraternity…"
+            },
+            "1": {
+                "text": "I guess I’m just a bit more accepting of outsiders than most. I’m a bastard you see. No noble family to speak of - I weren’t even born to a servant of a Lord or Lady!"
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "They call me “Petyr of the Bastard Sons” I must admit, it’s got a nice ring to it. Now, I suppose you must be getting ready to take some work from off my plate? Make sure you’re ready and we’ll get started."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "secret-commander": {
+        "reqFlags": [
+            "qf_seek-petyr_cp"
+        ],
+        "indicator": "mainquest",
+        "text": "secret-commander",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "Okay,  $NAME, Markos has asked that I throw the odd mission or two your way while he’s busy, so here’s your first one. It seems some of our spies have reported odd movements on behalf of your Commander Fassith."
+            },
+            "1": {
+                "giveQuest": "secret-commander",
+                "text": "They’ve been saying she’s frequently leaving and collecting messages outside of the Order fort near Guild City. Ever since Oscars execution, things have been too hot to get close enough to see what these letters are about, but you’re an Enforcer - you should have no problem getting in there."
+            }
+        }
+    },
+    "secret-commander-cp": {
+        "completeQuest": "secret-commander",
+        "text": "secret-commander-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Ah! Having an Enforcer amongst our ranks proves useful after all! I see you’ve returned with the letter, well come on, don’t keep me in suspense,  let me read it!",
+                "choices": {
+                    "0": {
+                        "text": "What does it say?",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Ha! That’s the thing about them Order folk! They talk a pious game, but they’re all in bed with each other! It looks as if your Commander and General Clavacius have been writing dirty things to one another! Seems their mutual hatred is nothing but a sham, or some kind of kink between the two.."
+                            },
+                            "1": {
+                                "text": "Interesting, the letter also talks about wanting Bishop Roma out and the old Bishop Archibald back in."
+                            },
+                            "2": {
+                                "giveQuest": "two-lives",
+                                "emotion": "explain",
+                                "text": "Well, let me think on it and how we can exploit this little romance. Here’s your pay for a job well done. Best head back to Fassith now, don't want her getting suspicious."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "invisible-ink-ip-knight": {
+        "reqFlags": [
+            "qf_invisible-ink_ip"
+        ],
+        "indicator": "objective",
+        "text": "invisible-ink-ip-knight",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "What’s this? Another secret letter! Hmm… looks like this one’s  written in an invisible ink. Luckily I know just the spell!"
+            },
+            "1": {
+                "text": "Ah, there we go… A perfect copy and the ink is revealed. Hmm.. appears to be more conspiracy work to bring Archibald back into power…This is growing concerning. Roma may be bad, but Archibald - he was a true believer. Roma’s cruelty comes from a lust for power. Archibalds - pure conviction."
+            },
+            "2": {
+                "setFlags": [
+                    "qf_player-tamper"
+                ],
+                "emotion": "explain",
+                "text": "Here, I’ll make a third copy for you to have a read of, if you want. I’d suggest putting the original back in it's envelope and delivering it anyway. Don’t want anyone to suspect we’ve tampered with it!",
+                "unlockPages": [
+                    "171"
+                ]
+            }
+        }
+    },
+    "time-off-cp": {
+        "completeQuest": "time-off",
+        "text": "time-off-cp",
+        "tree": {
+            "0": {
+                "setFlags": [
+                    "qf_hide-general"
+                ],
+                "emotion": "cheer",
+                "text": "Good to see you $NAME. Listen, I've gathered a group of Knights near the graveyard in New Kingsport. Meet them there and prepare for the job to come."
+            },
+            "1": {
+                "giveQuest": "meet-up",
+                "text": "Make sure to keep an eye on Adela, I'm still not sure where her loyalties lie. She’s Sir Albert's sister, and based off that, I’d say she deserves both faith and suspicion. Come to think of it, where is Albert?"
+            }
+        },
+        "indicator": "quest"
+    },
+    "to-be-a-bandit-cp": {
+        "completeQuest": "bandit",
+        "text": "to-be-a-bandit-cp",
+        "tree": {
+            "0": {
+                "setFlags": [
+                    "qf_roma-advisor"
+                ],
+                "emotion": "explain",
+                "text": "Oh, you’re back. Well that was quick. A job well done I assume? And would I be correct in thinking Adela didn’t lift a bloody finger?"
+            },
+            "1": {
+                "text": "Now, if I were you, I’d head back to the City. I hear there’s been a bit of a shakeup among your company of Enforcers Heh..."
+            },
+            "2": {
+                "giveQuest": "the-shakeup",
+                "emotion": "explain",
+                "text": "I don’t want to spoil the surprise, but let’s just say I figured out a way to use the intel on our two lovebirds against them..."
+            }
+        },
+        "indicator": "quest"
+    }
+}

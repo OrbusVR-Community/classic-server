@@ -1,0 +1,180 @@
+{
+    "kings-bones-cp": {
+        "completeQuest": "kings-bones",
+        "text": "kings-bones-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Hello, friend. I am Beslial, historian, archaeologist and leader of the Kingsport Restoration Committee."
+            },
+            "1": {
+                "jumpPointName": "questions",
+                "text": "As you can tell by my title, I am here to make sure that the city of Kingsport is restored to its former glory, though I also have a keen interest in cataloguing this fascinating city’s ancient history.",
+                "choices": {
+                    "0": {
+                        "text": "Do you know of King Wolfgang?",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Yes, I have heard of him. There are many who called him “the forgotten king”. The stories tell that on the eve of his thirty first birthday, he disappeared from the Kingdom without a trace."
+                            },
+                            "1": {
+                                "text": "It was the Queen of course, who was responsible. But back then,  nothing could ever be proven."
+                            },
+                            "2": {
+                                "emotion": "explain",
+                                "text": "In fact, I have on my person, a collection of diary entries said to be written by the murderous woman herself. If his story is what you are interested in, I could be persuaded to part with it for the promise of a favor in the future.",
+                                "choices": {
+                                    "0": {
+                                        "text": "Consider it already done.",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "Very well you seem trustworthy enough. Here are the diary pages I’ve found. Dug them up out of the mud, just the other day. Take this map of the Rainforest also, it might help you stay out of a tigers belly."
+                                            },
+                                            "1": {
+                                                "giveQuest": "queens-treachery",
+                                                "setFlags": [
+                                                    "qf_show-kings-bones"
+                                                ],
+                                                "text": "Many say that the town of New Kingsport was built upon the Old Kings bones, but  I take that as fairy tales told to children."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>What happened here?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "They used to call this city “The Jewel of Patreayl”. Did you know that? It’s hard to believe, looking at it now. Difficult to say really, what happened to this city, or to the monarchy that ruled it."
+                            },
+                            "1": {
+                                "goToJump": "questions",
+                                "text": "Many stories flicker in and out of life amongst the dusty analogues of history. Rumors of devil worship, natural disasters, curses from the goddess… I doubt we'll ever know for certain…"
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "<c=lore>What are you doing here?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "As leader of the Kingsport Restoration Committee, Kingsport will soon be the thriving metropolis it once was. I have several very interested, very rich investors coming over shortly from the Ottathamine Empire, so it shan’t be long before rebuilding will begin, much to the disdain of the current… locals."
+                            },
+                            "1": {
+                                "goToJump": "questions",
+                                "text": "I hope to see you visiting once everything is up and running!"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "something-fishy-cp": {
+        "completeQuest": "something-fishy",
+        "text": "something-fishy-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Good to see you again $NAME?",
+                "choices": {
+                    "0": {
+                        "text": "Something is killing the fish.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Ah yes, I had heard something about that. And you think the source of such a disaster is… here?"
+                            },
+                            "1": {
+                                "text": "Seems plausible…",
+                                "choices": {
+                                    "0": {
+                                        "text": "How is the digging?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "hmph",
+                                                "text": "Oh, it’s hard going, slugging away come sun or rain, in the mud, while these xenophobic morons try to chase me off the land."
+                                            },
+                                            "1": {
+                                                "text": "Even so, I’ve managed to do a bit of digging over there, at the edge of the water. Looks like it was once the sight of an ancient Kingsport temple, or church of some sort."
+                                            },
+                                            "2": {
+                                                "giveQuest": "uncovered-truth",
+                                                "emotion": "hmph",
+                                                "text": "If you think it’ll help, feel free to have a nose around in the dirt, just… let me know if you find anything interesting."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "digging-deeper-cp": {
+        "completeQuest": "digging-deeper",
+        "text": "digging-deeper-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Ah! Who’s there? ...Oh it’s you. Praise the goddess. I thought I might see you here."
+            },
+            "1": {
+                "text": "Listen, I don’t know what’s going on inside that cave, but judging from the chanting - it can’t be good."
+            },
+            "2": {
+                "giveQuest": "sushi",
+                "emotion": "hmph",
+                "text": "I saw a few black robed locals going in and lost track of them. If I were you, I’d turn around and forget I’d ever heard of this damned place..."
+            }
+        },
+        "indicator": "quest"
+    },
+    "sushi-cp": {
+        "reqFlags": [
+            "qf_sushi-ip-cp"
+        ],
+        "indicator": "objective",
+        "text": "sushi-cp",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "What did you find? These locals are an odd sort, what kind of pagan rites are they performing in there?",
+                "choices": {
+                    "0": {
+                        "text": "They were worshiping a frozen beast.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "That thing in the cave could prove to be a problem. I can’t rightly say what it is, but the way you describe it,it sounds like it bears a striking resemblance to descriptions of “Necropolar Lords” written about in the myths and legends of the Barbarian age.",
+                                "choices": {
+                                    "0": {
+                                        "text": "What should we do with it?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "It’s too heavy to move on my own, but once the restoration of the city gets underway, my coworkers and I will make sure it disappears somewhere secret, somewhere safe and somewhere far, far away from here."
+                                            },
+                                            "1": {
+                                                "text": "In the meantime, should your superiors ask you about it, I would suggest you lie and say the creature was cremated.."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

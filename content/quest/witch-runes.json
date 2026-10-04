@@ -1,0 +1,30 @@
+{
+    "description": "After returning with a Black Yuckaw Branch, tiny inscribes the wand with Word of Power, and attempts to teach you basic Runespeak.",
+    "name": "Witch’s Runespeak",
+    "completed": "You've learned all you can from Tinny, but be sure you do not practice near Order Guards, they will not be as kind.",
+    "objectives": [
+        {
+            "type": "cast",
+            "typedata": "fireball",
+            "typenum": null,
+            "typeextra": ""
+        },
+        {
+            "type": "cast",
+            "typedata": "frostbolt",
+            "typenum": null,
+            "typeextra": ""
+        },
+        {
+            "type": "cast",
+            "typedata": "affliction",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 3,
+    "rewards": [],
+    "autocomplete": false
+}

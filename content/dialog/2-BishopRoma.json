@@ -1,0 +1,81 @@
+{
+    "airship-cp": {
+        "completeQuest": "airship",
+        "text": "airship-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "You made it, my young friend! Welcome to my home. Now, have you been to see High Commander Fassith yet? She is the leader of my Enforcers and will give you your directives in your new occupation.",
+                "giveItems": [
+                    "219@1"
+                ]
+            },
+            "1": {
+                "jumpPointName": "questions",
+                "text": "You can find her hanging around the Marketplace, checking on the guard there I believe....",
+                "choices": {
+                    "0": {
+                        "text": "<c=lore>Commander Fassith?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Commander of my guard, she fought her way to the top, and clings to her position with tooth and nail. She was onboard before my administration, advisor to Bishop Archibald, if I recall correctly."
+                            },
+                            "1": {
+                                "goToJump": "questions",
+                                "text": "I can’t say I particularly like her, but she's useful to keep around. Now go! Begin your work! "
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "Right away!",
+                        "tree": {
+                            "0": {
+                                "giveQuest": "new-recruit",
+                                "removeFlags": [
+                                    "qf_show-oscar"
+                                ],
+                                "setFlags": [
+                                    "qf_oscar-show-2"
+                                ],
+                                "emotion": "hmph",
+                                "text": "I brought you here to do a job, so go on, get to it!"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "mean": {
+        "reqFlags": [
+            "qf_job-seeker_ip"
+        ],
+        "notFlags": [
+            "qf_pilgrim-journey_cp"
+        ],
+        "text": "mean",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "I understand I have bred familiarity between us, but you really should keep a respectful distance from now on. If you wish to speak with me, you need go through the proper channels. I won’t tolerate informality."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "casual": {
+        "reqFlags": [
+            "qf_pilgrim-journey_cp"
+        ],
+        "text": "casual",
+        "tree": {
+            "0": {
+                "allowrepeat": true,
+                "emotion": "explain",
+                "text": "I hope you are behaving, Enforcer. I hear you are making quite a name for yourself. I knew it was the right thing to do - taking a risk on bringing you here."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

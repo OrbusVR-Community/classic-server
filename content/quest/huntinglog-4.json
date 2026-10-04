@@ -1,0 +1,32 @@
+{
+    "description": "Track down the specimens Sicilus wishes to study. She was very exact in the place needed to be searched this time. Head deep into the Rainforest, past the Mountain Crest town and into the Cut Throat Forest. There she spoke of odd plants that will grow legs and attack, possibly even being carnivorous. It would be wise to bring others with you on this journey.",
+    "name": "Sicilus Beastiary IV",
+    "completed": "Return to Sicilus at the Zoological Gardens, to the North West of Loch Caplargh, to deliver the specimens to her.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "rootmanbig",
+            "typenum": 10,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "rootboss",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "rootmanmini",
+            "typenum": 3,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 13,
+    "rewards": [
+        "giveitems xp@18000,coin@160"
+    ],
+    "autocomplete": false
+}

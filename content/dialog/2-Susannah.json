@@ -1,0 +1,92 @@
+{
+    "lady-susannah": {
+        "reqFlags": [
+            "qf_show-susannah"
+        ],
+        "indicator": "objective",
+        "text": "lady-susannah",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "I have not come above the surface of my lake for quite some time, yet here you are.",
+                "choices": {
+                    "0": {
+                        "text": "I seek your blessing my Lady.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "My blessing? I do not give out such power willingly. It is true that a strange power flows through your blood, but even so…"
+                            },
+                            "1": {
+                                "jumpPointName": "questions",
+                                "text": "What guarantee have I that you are pure of heart, seeking only that which is good for our land?",
+                                "choices": {
+                                    "0": {
+                                        "text": "How did you become a spirit?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "I thought I was betrayed… My dearest Wolfgang - he was the monarch of Kingsport. He loved me. But his wife, the Queen. My sister. She became enraged when she discovered us  together. She imprisoned me and thought to have me killed."
+                                            },
+                                            "1": {
+                                                "text": "Wolfgang freed me. He told me to wait for him here. He promised he would meet me in one week's time. Together we would elope…"
+                                            },
+                                            "2": {
+                                                "emotion": "explain",
+                                                "text": "He never came. I waited for him. For three weeks I waited. Then, when I realized I was a mistake he needed ridding of, I threw myself from the highest rock, into this cold blue that’s now my home.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "Perhaps he got lost?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "hmph",
+                                                                "text": "Perhaps. I have considered many of the perhaps’s and what ifs in my death, but whatever the case, it is too little, too late.",
+                                                                "choices": {
+                                                                    "0": {
+                                                                        "text": "What if I reunite you?",
+                                                                        "tree": {
+                                                                            "0": {
+                                                                                "emotion": "hmph",
+                                                                                "text": "Reunite me? He is long dead now. Though, your proposition does interest me."
+                                                                            },
+                                                                            "1": {
+                                                                                "giveQuest": "kings-bones",
+                                                                                "text": "Stranger, find out for certain what happened to my sweetheart, and if you can, return his bones to me. Then, and only then will you have deemed yourself worthy of my blessing."
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "kings-bones": {
+        "completeQuest": "queens-treachery",
+        "text": "kings-bones",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Then… he did not betray me after all. It was my callous sister…"
+            },
+            "1": {
+                "text": "Oh, my dearest Wolfgang, you have come home to me at last! Thank you, Stranger, you've done me a true kindness, and in return, I bless you and will anoint you with this sword."
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "It is the shard of pain and anger that pierced my heart for all these years. I have no need of it any longer, perhaps you will get better use out of it, should you fight for truth, beauty and love."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

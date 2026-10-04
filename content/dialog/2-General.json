@@ -1,0 +1,98 @@
+{
+    "ambitious-general-ip": {
+        "reqFlags": [
+            "qf_ambitious-general_ip"
+        ],
+        "indicator": "objective",
+        "text": "ambitious-general-ip",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Hello! Enforcer. It’s about time one of you morons showed up. My men here are starving. You best have brought us food. My men require meat and wine, and lots of it!"
+            },
+            "1": {
+                "text": "Do you know who I am? I am Xavier Clavacius the third! The highest decorated General in the armies of the great Ottathamine Empire. It will forever escape my understanding as to why I agreed to be transferred to a piss-pot station such as this “Patreayl.”"
+            },
+            "2": {
+                "jumpPointName": "questions",
+                "emotion": "hmph",
+                "text": "Yet, here I am, and while I am here, I demand to be treated according to my reputation and status!",
+                "choices": {
+                    "0": {
+                        "text": "<c=lore>Guild City?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Guild City is a trash heap. My brother, the High Bishop Archibald Clavacius told me Guild City was a marvel of the modern age! A city to end all cities! Well, now he’s gone. Dethroned."
+                            },
+                            "1": {
+                                "text": "Replaced by that idiot Roma, and so I spit on his damnable stories. Guild City pales in comparison to my home of Elephantine! That isn’t to say it doesn’t have potential however… Why… If I were in control…"
+                            },
+                            "2": {
+                                "goToJump": "questions",
+                                "emotion": "hmph",
+                                "text": "If it were me ruling this trash heap instead of that pathetic puppet government dancing for the whims of Roma and his Order… Well, things would be different. Guild City in my hands, would be a sight to see, a light atop a hill to which millions would flock!"
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>Bishop Roma?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "He’s a frail old man and frail old men should never hold such high office in the Church nor in any other kind of group or society. I’ve met the man once or twice. He invited me for dinner, actually."
+                            },
+                            "1": {
+                                "text": "Tried to make amends for usurping my brother by serving me up the most disgusting, rubbery slab of mutton I’ve ever set my jaws on. Ha, he burned that bridge right then and there."
+                            },
+                            "2": {
+                                "goToJump": "questions",
+                                "emotion": "hmph",
+                                "text": "But, chain of command is chain of command, and Archibald wouldn’t want me to bloody my hands with that of a holy man... "
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "<c=lore>The Clavacius?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "My brother and I, we are of the great Clavacius bloodline, hailing back into the distant smoke of history past! We’re one of the oldest noble families in all of Ottathamine, and heirs to the great Elephantine Princely Estate."
+                            },
+                            "1": {
+                                "text": "My father was a General, like I am today. My mother, a concubine from the whorepits of Octophia who rose to wear my father’s ring and hold his title."
+                            },
+                            "2": {
+                                "goToJump": "questions",
+                                "emotion": "explain",
+                                "text": "My Grandfather was third cousin to the Royal Vizier family of Ryell, my brother - as I said, before his unjust dismissal, ruled Guild City, and I? Well now I’m stuck here in this mud puddle of a country, waiting to move on to bigger and better things."
+                            }
+                        }
+                    },
+                    "3": {
+                        "text": "The supplies?",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Tell me, do you look before you and see a fool? Am I some kind of dumbstruck idiot to you? No? Then why have you brought hardly any supplies for me and my men? What's wrong with you Enforcers?"
+                            },
+                            "1": {
+                                "text": "Where’s the roast King Stag? Me and My Men, We must have roast King Stag! And Wine! Yet  you’ve brought me… sinewy fox meat and the dregs from the bottom of the barrels at Lakewood Inn, no doubt."
+                            },
+                            "2": {
+                                "emotion": "hmph",
+                                "text": "Well, I’ll tell you what Enforcer, I’ll keep these rations you’ve delivered, but you’ll return to the city and inform that stupid woman, Fassith that I expect triple this amount next time. And there better be meat!",
+                                "giveItems": [
+                                    "131@1"
+                                ],
+                                "takeItems": [
+                                    "130@1"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

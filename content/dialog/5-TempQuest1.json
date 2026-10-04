@@ -1,0 +1,56 @@
+{
+    "temp-quest1": {
+        "reqFlags": [
+            "qf_faction-hero_cp"
+        ],
+        "text": "temp-quest1",
+        "tree": {
+            "0": {
+                "text": "You look the strapping type, would you have time to help a frozen stranger?",
+                "choices": {
+                    "0": {
+                        "text": "Of course.",
+                        "tree": {
+                            "0": {
+                                "text": "Mixed among these beautiful hills of snow and trees lays the devil himself in the form of a tiger."
+                            },
+                            "1": {
+                                "text": "These beasts have caused more then their share of problems and I wish them gone. If you can hunt these monsters down for me I will be sure to reward you in kind.",
+                                "choices": {
+                                    "0": {
+                                        "text": "Im on it.",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "temp-quest1",
+                                                "text": "Track and slay twenty-five of these beasts, then return to me once you have had your fill."
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "Tigers? Actually...",
+                                        "tree": {
+                                            "0": {
+                                                "allowrepeat": true,
+                                                "text": "Very well."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "Not Now.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "text": "Very well return to me once you have the time."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    }
+}

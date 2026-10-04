@@ -1,0 +1,20 @@
+{
+    "description": "Defeat the Redtail monster in the arena to continue with your training",
+    "name": "Monster Slayer",
+    "completed": "Speak with Guardian Bart to continue training.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "redtail",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

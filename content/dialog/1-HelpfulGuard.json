@@ -1,0 +1,51 @@
+{
+    "beginner-use-caution": {
+        "text": "beginner-use-caution",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Use caution heading into the Southern forest. There's been reports of vicious wargs prowling that area. I’d suggest you make your way North towards the Lakewood. There’s an Inn there that offers safety."
+            },
+            "1": {
+                "text": "Dosa, the owner is  bound to have lit up a nice, roaring fire in the hearth, and will have stout ale on the table."
+            },
+            "2": {
+                "emotion": "hmph",
+                "text": "On the way there, if you have the time to clear out some of the Almas Sprite, it would be much appreciated.",
+                "choices": {
+                    "0": {
+                        "text": "Consider them exorcised..",
+                        "tree": {
+                            "0": {
+                                "giveQuest": "beginner-use-caution",
+                                "emotion": "hmph",
+                                "text": "Thanks, we appreciates your service."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "On second thought....",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "text": "Alright, I'd avoid the wargs all the same."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "beginner-use-caution-cp": {
+        "completeQuest": "beginner-use-caution",
+        "text": "beginner-use-caution-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Thanks for your assistance, here's some dram for you as a reward."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

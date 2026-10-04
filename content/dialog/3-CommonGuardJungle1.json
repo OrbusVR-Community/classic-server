@@ -1,0 +1,13 @@
+{
+    "greeting": {
+        "text": "greeting",
+        "tree": {
+            "0": {
+                "allowrepeat": true,
+                "emotion": "hmph",
+                "text": "Be wary when walking the paths of the Rainforest, there are creatures hiding in every shadow. I’ve lost three brothers-in-arms defending this region, such a waste....."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

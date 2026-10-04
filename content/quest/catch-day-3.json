@@ -1,0 +1,20 @@
+{
+    "description": "Ernest has offered to share some of his profits for his Market stall with you if you supply him with fish. Today he needs twelve Katyharan Catfish, to replace the ones he sold to travelers heading towards Guild City.",
+    "name": "Catch of the Day III",
+    "completed": "Return to Ernest on the North side of Kingsport Lake, to show him your catch of the day, and collect your reward.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "75",
+            "typenum": 12,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        "giveitems coin@100"
+    ],
+    "autocomplete": false
+}

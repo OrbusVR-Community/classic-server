@@ -1,0 +1,38 @@
+{
+    "description": "Kill eighteen of all the creatures on the list to receive your reward.",
+    "name": "Noah's Ark Frosted Spit",
+    "completed": "Return to Hunter Dern, he can usually be found hunting along the paths of the Lowland Woods, or selling his furs inside the marketplace of Highsteppe.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "albinotiger",
+            "typenum": 18,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "foxsnow",
+            "typenum": 18,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "whitemoose",
+            "typenum": 18,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "parkaguybig",
+            "typenum": 18,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 18,
+    "rewards": [
+        "giveitems xp@31000,coin@150"
+    ],
+    "autocomplete": false
+}

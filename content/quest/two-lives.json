@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "A Double Life (MSQ)",
+    "completed": "Return to Commander Fassith at Oscars execution site in Guild City, better to not leave her with anything to be suspicious about.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 10,
+    "rewards": [
+        "giveitems 170@1"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,139 @@
+{
+    "blood-debt-cp": {
+        "reqFlags": [
+            "qf_blood-debt_ip"
+        ],
+        "text": "blood-debt-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Oh, Ma’at, take me from this heat… Wait a minute...You there! Are you the new servant?"
+            },
+            "1": {
+                "text": "Thank the goddess, you’ve arrived! The skin beneath my folds is quite hot and bothered. I believe I’m due for a good scrub. Ah yes, a nice soothing sponge bath..."
+            },
+            "2": {
+                "emotion": "hmph",
+                "text": "Well? Chop chop! I don’t want any more bacteria growing down there!",
+                "choices": {
+                    "0": {
+                        "text": "I’m not your servant.",
+                        "tree": {
+                            "0": {
+                                "emotion": "afraid",
+                                "text": "What’s that? Oh! Ah… erm… forget what you just heard then. I’m as clean as a… as a… well, as a clean thing!"
+                            },
+                            "1": {
+                                "jumpPointName": "questions",
+                                "text": "Speak up! Who are you? What do you want?",
+                                "choices": {
+                                    "0": {
+                                        "text": "<c=lore>Tell me about this place.</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "This place? You mean my encampment? Yes, well, this is the Rainforest station for the noble Order of Ma’at."
+                                            },
+                                            "1": {
+                                                "goToJump": "questions",
+                                                "text": "I am General Jethin, son of the esteemed Bishop Vahara who rules over the Architectural District in the great city of Elephantine."
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "<c=lore>You're a General?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "Excuse me? While it’s  true, I’m not as… able-bodied… as other Generals, nor am I as agile…"
+                                            },
+                                            "1": {
+                                                "text": "And yes, it is also true that I can no longer walk in the marches… or anywhere for that matter… I’m an integral part of the Order’s military establishment!"
+                                            },
+                                            "2": {
+                                                "emotion": "hmph",
+                                                "text": "How dare you question my ability to perform my job. Why if I didn’t find these pillows so comfortable, I’d challenge you to a fight for such disrespect!"
+                                            },
+                                            "3": {
+                                                "text": "Anyway, if I weren’t an important General, why would I have been trusted to look after this Encampment?",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "What, this backwater place?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "explain",
+                                                                "text": "Oh, who am I kidding? You’re right. I was perfectly happy in Elephantine, indulging my finer self to all the pleasures the city had to offer."
+                                                            },
+                                                            "1": {
+                                                                "text": "But I’m no fool. I saw my father’s coworkers whispering and laughing about me. Pointing their bony fingers in judgement. Next I knew, I was stuffed in a boat and shipped off to this sweltering garbage tip."
+                                                            },
+                                                            "2": {
+                                                                "goToJump": "questions",
+                                                                "emotion": "explain",
+                                                                "text": "The heat here is unbearable! And the bugs! Oh, gods, the bugs!"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "2": {
+                                        "text": "I work for Boss Ngathu.",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "afraid",
+                                                "text": "Oh no! Please, please don’t kill me! Please! I’ll do anything! ...Within reason. Oh gods, I knew it. I knew this would happen.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "Do you have the dram?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "explain",
+                                                                "text": "I do! I do! Only… Well, it’s in that big chest over there. The problem is, thieves stole the key to the damn thing. I don’t know why they took the key and not the chest, but they did!"
+                                                            },
+                                                            "1": {
+                                                                "giveQuest": "jethin-box",
+                                                                "text": "If you can open it, you’re welcome to pay my debt from its contents, there is more than enough in there to pay..."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "jethin-box-cp": {
+        "completeQuest": "jethin-box",
+        "text": "jethin-box-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "You did it! You got my key back from those dirty thieves."
+            },
+            "1": {
+                "text": "Just imagine all the pleasures we could buy with what’s inside that box… All the roast stag, all the wine…",
+                "choices": {
+                    "0": {
+                        "text": "Your debt?",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Oh, right, of course. I was only dreaming. Take what you need and leave my presence! Where is my servant? It’s time for my sponge bath…"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

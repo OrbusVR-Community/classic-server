@@ -1,0 +1,16 @@
+{
+    "training": {
+        "text": "training",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "If you are looking to practice combat alone, your own <c=ooc>Personal instance</c> combat arena is right up the stairs."
+            },
+            "1": {
+                "allowrepeat": true,
+                "text": "Return anytime you wish to practice, or to speak with Guardian Bart."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

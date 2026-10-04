@@ -1,0 +1,14 @@
+{
+    "junglepath": {
+        "text": "junglepath",
+        "tree": {
+            "0": {
+                "text": "Be careful heading down the path, attack reports are starting to become more frequent."
+            },
+            "1": {
+                "text": "<c=ooc> You are about to enter a Lvl 12 zone be careful if you are a new adventurer</c>"
+            }
+        },
+        "indicator": "dialog"
+    }
+}

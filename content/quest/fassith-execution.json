@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "Grand Affair (MSQ)",
+    "completed": "Find Commander Fassith in the center of Guild City, near the marketplace, where Sir Oscar will soon lose his head.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 9,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,20 @@
+{
+    "description": "Follow the clues in the Queens diary. There may be clues left among her words that, to the keen eye, will lead you to the path of the Kings final resting place. When seeking places you have never been, be sure to use your compass as a guide.",
+    "name": "The Queens Treachery (MSQ)",
+    "completed": "Return to Lady Susannah of the lake, on the Island point of the Corner Path, and return to her what she has been seeking for so long.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "166",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 9,
+    "rewards": [
+        "giveitems 165@1"
+    ],
+    "autocomplete": false
+}

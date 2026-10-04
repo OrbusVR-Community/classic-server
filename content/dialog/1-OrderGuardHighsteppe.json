@@ -1,0 +1,68 @@
+{
+    "guard-bribe": {
+        "reqFlags": [
+            "qf_forest-secrets_ip"
+        ],
+        "indicator": "objective",
+        "text": "guard-bribe",
+        "tree": {
+            "0": {
+                "removeFlags": [
+                    "qf_show-knights"
+                ],
+                "emotion": "hmph",
+                "text": "Halt! This house is off limits.",
+                "choices": {
+                    "0": {
+                        "text": "The Bishop, he's in danger!",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Danger? Was that a threat? Are you threatening his holiness? Leave now, before I make you.",
+                                "choices": {
+                                    "0": {
+                                        "text": "Please, it’s urgent!",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "guard-bribe",
+                                                "emotion": "hmph",
+                                                "text": "Gee, you really want to see him, huh $NAME? Well, perhaps I could be persuaded to look the other way with a few Dram in my purse…."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "guard-bribe-cp": {
+        "completeQuest": "guard-bribe",
+        "text": "guard-bribe-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Brilliant, I can get my sword polished with this… Ahem… “Oh, what’s that over there? I think I saw something moving in the bushes!”"
+            },
+            "1": {
+                "text": "Psst! Get going, before I change my mind."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "guard-bribe-shout": {
+        "shout": true,
+        "reqFlags": [
+            "qf_forest-secrets_ip"
+        ],
+        "text": "guard-bribe-shout",
+        "tree": {
+            "0": {
+                "text": "No one sees the Bishop without going through me first."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "description": "Catch the monsters lurking in the depths of the marsh, you have better catch a few to ensure that Belle is found.",
+    "name": "Belle",
+    "completed": "Bring the Saddled Lion Eel back to Belle's Owner near the edge of the water in New Kingsport.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "76",
+            "typenum": 5,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 12,
+    "rewards": [
+        "giveitems 105@10,xp@1000"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,32 @@
+{
+    "description": "Track down the specimens Sicilus wishes to study. The list she has given you is from only one location in the Desert, she mentions a hatch among the ruins in the West of the Desert. Enter the ruins and retrieve some flesh from the specimens she wishes to study. It would be wise to bring others with you on this journey.",
+    "name": "Sicilus Beastiary V",
+    "completed": "Return to Sicilus at the Zoological Gardens, to the North West of Loch Caplargh, to deliver the specimens to her.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "mechboss",
+            "typenum": 3,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "minidragon",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "ghoul",
+            "typenum": 5,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 16,
+    "rewards": [
+        "giveitems xp@18000,coin@180"
+    ],
+    "autocomplete": false
+}

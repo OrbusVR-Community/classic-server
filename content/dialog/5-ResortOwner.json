@@ -1,0 +1,299 @@
+{
+    "resort-owner-intro": {
+        "notFlags": [
+            "qf_hot-springs_ip",
+            "qf_figure-moor_ip",
+            "qf_resort-owner-errand_ip",
+            "qf_elspeth-madness_ip"
+        ],
+        "text": "resort-owner-intro",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Hello! Welcome! Welcome! To the Frontier Pools Resort - the finest holiday destination in all of Patreayl!"
+            },
+            "1": {
+                "text": "Can I interest you in our luxury day spa package? How about a three night stay in one of our famous balloon hotels?",
+                "choices": {
+                    "0": {
+                        "text": "No thanks.",
+                        "tree": {
+                            "0": {
+                                "jumpPointName": "questions",
+                                "emotion": "explain",
+                                "text": "Not your thing aye? Well, then, how can I help you stranger?",
+                                "choices": {
+                                    "0": {
+                                        "text": "<c=lore>Tell me about the pools?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "The Frontier Pools Resort is famous throughout the whole of Tӓella-Oso! It has existed here for a hundred years, and hopefully will continue to stand for a hundred more…"
+                                            },
+                                            "1": {
+                                                "goToJump": "questions",
+                                                "text": "What makes us so popular of course, is our exclusive access to the Lamavora Hot Springs. The water from those underground pockets, bubbles up to the surface and is the perfect temperature for bathing in…"
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "<c=lore>Hot springs?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "Those rock barriers you see surrounding the water? They’re actually man-made. The pools, you see, are owned in alliance by both your Patreaylin government and my own people in the country of Lamavora."
+                                            },
+                                            "1": {
+                                                "text": "The rock barriers are to protect the water and stop those outside of the alliance from stealing the sacred water."
+                                            },
+                                            "2": {
+                                                "goToJump": "questions",
+                                                "emotion": "explain",
+                                                "text": "Through the use of underground pipes, we funnel the water - which has miraculous healing properties - into the many baths within our resort."
+                                            }
+                                        }
+                                    },
+                                    "2": {
+                                        "text": "<c=lore>Lamavora Frontier</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "It’s a beautiful piece of land, though hotly contested by both countries. Many of the gypsy tribes in Lamavora have tried to maintain control over the area. Still sore from the Dandelion Wars, I suppose..."
+                                            },
+                                            "1": {
+                                                "text": "But they have always been thwarted by the governments of our two great nations. Though, I’d still be careful wandering the wilderness…in case of bandits.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "<c=lore>Gypsies want the land?</c>",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "explain",
+                                                                "text": "They want the  Hot Pools, of course… The Tradu Ruins as well… But mainly because, the uncomfortable truth is, that this land used to belong to them. It was part of Lamavora for thousands of years."
+                                                            },
+                                                            "1": {
+                                                                "text": "In the grand scheme of things, it’s only been considered Patreaylin land for the smallest time. There are many in my country who would like to see the land returned to it's rightful owners."
+                                                            },
+                                                            "2": {
+                                                                "goToJump": "questions",
+                                                                "emotion": "hmph",
+                                                                "text": "Not me of course! Not me..."
+                                                            }
+                                                        }
+                                                    },
+                                                    "1": {
+                                                        "text": "Hmm..",
+                                                        "tree": {
+                                                            "0": {
+                                                                "goToJump": "questions",
+                                                                "emotion": "hmph",
+                                                                "text": "Anything else?"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "3": {
+                                        "text": "Nothing now thanks.",
+                                        "tree": {
+                                            "0": {
+                                                "allowrepeat": true,
+                                                "emotion": "explain",
+                                                "text": "If you happen to change your mind, I’ve had a room just open up... Seems the guest left in the middle of the night, and these rooms don’t stay vacant for long!"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "hot-springs-ip": {
+        "reqFlags": [
+            "qf_hot-springs_ip"
+        ],
+        "text": "hot-springs-ip",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Hello! Welcome, welcome to the Frontier Pools Resort - the finest holiday destination in all of Patreayl!"
+            },
+            "1": {
+                "text": "Can I interest you in our luxury day spa package? How about a three night stay in one of our famous balloon hotels?",
+                "choices": {
+                    "0": {
+                        "text": "Boss Ngathu sent me.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Oh! Erm… and what can I do for Mr Ngathu?",
+                                "choices": {
+                                    "0": {
+                                        "text": "You promised him storage…",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "afraid",
+                                                "text": "Oh did I? I… I don’t recall that... No, sorry, we’re all booked up, there’s no room, I’m afraid. Has he perhaps tried one of the Taverns in the Midlands?",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "Can we come to an arrangement?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "explain",
+                                                                "text": "An arrangement? Hmm… Well, I suppose one of our rooms could be freed up… If you could do me this one favor.",
+                                                                "choices": {
+                                                                    "0": {
+                                                                        "text": "What is it?",
+                                                                        "tree": {
+                                                                            "0": {
+                                                                                "emotion": "explain",
+                                                                                "text": "Why? Surely you’ve heard of our resident boogey man? “The Figure on the Moors” they call it, though I’ve never seen such a thing myself."
+                                                                            },
+                                                                            "1": {
+                                                                                "text": "Still, what with the missing tourist, our guests are suitably terrified. They fear the creature will prey on them next!"
+                                                                            },
+                                                                            "2": {
+                                                                                "emotion": "explain",
+                                                                                "text": "You solve this mystery for me and I will ensure that Boss Ngathu has a room whenever needed.",
+                                                                                "choices": {
+                                                                                    "0": {
+                                                                                        "text": "Where should I look?",
+                                                                                        "tree": {
+                                                                                            "0": {
+                                                                                                "emotion": "explain",
+                                                                                                "text": "A few of the other visitants have reported seeing something staring out across the moors in the early evening."
+                                                                                            },
+                                                                                            "1": {
+                                                                                                "giveQuest": "figure-moor",
+                                                                                                "text": "Perhaps speak with them first and see if they can offer any clues as to where to look next…"
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "figure-moor-cp": {
+        "completeQuest": "defeat-mushroom",
+        "text": "figure-moor-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "It was a what?! By the goddess… I never knew such things existed… And it came up from the ground near here?! Stranger, I thank you for solving the mystery, but it seems like you’ve only revealed an even greater enigma!"
+            },
+            "1": {
+                "text": "One that I don’t think I have the resolve to find an answer to. It looks as if I’ll be selling this place much sooner than I thought…"
+            },
+            "2": {
+                "setFlags": [
+                    "qf_room-ready"
+                ],
+                "emotion": "explain",
+                "text": "Oh, anyway, I’m a man of my word, I will ready the room for Boss Ngathu. Tell him he’s welcome to use it whenever suits him.",
+                "takeItems": [
+                    "306@1"
+                ]
+            }
+        },
+        "indicator": "dialog"
+    },
+    "resort-owner-errand": {
+        "reqFlags": [
+            "qf_elspeth-madness_ip"
+        ],
+        "text": "resort-owner-errand",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Hello! Welcome! Welcome! To the Frontier Pools Resort - the finest holiday destination in all of Patreayl!"
+            },
+            "1": {
+                "text": "Can I interest you in our luxury day spa package? How about a three night stay in one of our famous balloon hotels?",
+                "choices": {
+                    "0": {
+                        "text": "I need a vial of your healing water.",
+                        "tree": {
+                            "0": {
+                                "text": "You what? I’m sorry, I’m afraid that’s… that’s quite impossible! The waters are for the exclusive use of the baths and the Order of Ma’at’s baptismal ceremonies."
+                            },
+                            "1": {
+                                "text": "If you wish to find healing in our sacred baths, the price is 650,000 dram a night, otherwise…",
+                                "choices": {
+                                    "0": {
+                                        "text": "Can we work it out?",
+                                        "tree": {
+                                            "0": {
+                                                "text": "There is one thing, but it could be dangerous...."
+                                            },
+                                            "1": {
+                                                "setFlags": [
+                                                    "qf_resort-owner"
+                                                ],
+                                                "text": "We’ve been having trouble keeping guests what with all the attacks recently. First that mushroom thing... and now it seems the creatures of this land have grown bolder."
+                                            },
+                                            "2": {
+                                                "giveQuest": "resort-owner-errand",
+                                                "text": "Clear a path for my guests to make their way to the resort, and I might be able to see to it, that a flask of this water comes your way."
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "That's outrageous.",
+                                        "tree": {
+                                            "0": {
+                                                "allowrepeat": true,
+                                                "text": "I can always summon the Order Guards and let them know someone is trying to pilfer their baptismal supply… Without the Dram or a favor there is no water for you."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "resort-owner-errand-cp": {
+        "completeQuest": "resort-owner-errand",
+        "text": "resort-owner-errand-cp",
+        "tree": {
+            "0": {
+                "text": "Hmm… Well, yes everything seems to be in order. You’ve a deal, my friend. I shall have one of my trusted messengers deliver it to Lady Hulthine in the Vale as per your request."
+            },
+            "1": {
+                "text": "Oh no, If I were to give it straight to you, you’d bound to be caught! Not only would the Order have your head, but they’d take mine as well! That won’t do!"
+            },
+            "2": {
+                "setFlags": [
+                    "qf_magical-vial"
+                ],
+                "text": "Our business is done, check with Lady Hulthine in a few days and the water should be in her possession."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

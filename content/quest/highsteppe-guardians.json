@@ -1,0 +1,26 @@
+{
+    "description": "Guardian Bart has left to raise the alarm around Highsteppe, and wishes for you to remain here until his return. Although he does not seem to happy to see you......",
+    "name": "Highsteppe Under Siege (MSQ)",
+    "completed": "After being ambushed by so many Order Guards at Guardian Bart's home, you worry that he may have been injured raising the alarm. Find Guardian Bart inside Highsteppe and ensure he is safe.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "bartfight",
+            "typenum": 3,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "bartinquisitor",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 14,
+    "rewards": [
+        "giveitems xp@13277,coin@200"
+    ],
+    "autocomplete": false
+}

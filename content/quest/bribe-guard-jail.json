@@ -1,0 +1,20 @@
+{
+    "description": "Convince the Guard to let you pass to into the Order Jail. It seems as though he will not take anything less than some weight of Dram in his hand though.",
+    "name": "New Dress (MSQ)",
+    "completed": "Head inside the jail to rescue Ethan of Runvale. He will be held inside one of the cells inside.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "coin",
+            "typenum": 30,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 10,
+    "rewards": [
+        "giveitems 195@1"
+    ],
+    "autocomplete": false
+}

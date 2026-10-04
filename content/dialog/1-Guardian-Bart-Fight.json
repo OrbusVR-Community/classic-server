@@ -1,0 +1,93 @@
+{
+    "introa": {
+        "completeQuest": "highsteppe1",
+        "reqFlags": [
+            "qf_bart-nice"
+        ],
+        "indicator": "mainquest",
+        "text": "introa",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "$NAME! You don’t know how glad I am to see you. You're wearing the garb of the Patreayl Knights I see…"
+            },
+            "1": {
+                "text": "And as you can see, the relationship between Highsteppe and the Order has changed considerably since we last spoke…. I don’t know why they are attacking us, but I’ve heard stories of the Inquisitors from when I was a child."
+            },
+            "2": {
+                "emotion": "afraid",
+                "text": "Nasty pieces of work they were, but nothing could prepare me for this… slaughter! Please, $NAME for all our sake, help us fend off these vile men!",
+                "choices": {
+                    "0": {
+                        "text": "Why are they after you?",
+                        "tree": {
+                            "0": {
+                                "setFlags": [
+                                    "qf_order-attack-bart"
+                                ],
+                                "emotion": "hmph",
+                                "text": "Since you have left, I still remain as the commander of the Guardians. The Inquisitors believe if they kill me, then the rest of the Guardians will fall in line."
+                            },
+                            "1": {
+                                "giveQuest": "highsteppe-guardiansnice",
+                                "emotion": "explain",
+                                "text": "We must protect this village! I'll sound the alarm. Wait for me here and prepare for battle."
+                            },
+                            "2": {
+                                "setFlags": [
+                                    "qf_hide-bart"
+                                ],
+                                "text": "...."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "intro": {
+        "completeQuest": "highsteppe1",
+        "notFlags": [
+            "qf_bart-nice"
+        ],
+        "indicator": "mainquest",
+        "text": "intro",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "$NAME, you've returned to us, and your timing could not be better. You get to see what your actions have wrought upon your home!"
+            },
+            "1": {
+                "text": "Why else would these \"Inquisitors\" come here, and prepare a siege on our peaceful hamlet? If the spark of a Guardian still burns somewhere within you, then help us."
+            },
+            "2": {
+                "emotion": "hmph",
+                "text": "Undo your mess. It’s not fair that we should suffer your betrayal of the Order!",
+                "choices": {
+                    "0": {
+                        "text": "Why are they after you?",
+                        "tree": {
+                            "0": {
+                                "setFlags": [
+                                    "qf_order-attack-bart"
+                                ],
+                                "emotion": "hmph",
+                                "text": "Since you have left, I still remain as the commander of the Guardians. The Inquisitors believe if they kill me, then the rest of the Guardians will fall in line."
+                            },
+                            "1": {
+                                "giveQuest": "highsteppe-guardians",
+                                "text": "We must protect this village! I'll sound the alarm. Wait for me here and prepare for battle."
+                            },
+                            "2": {
+                                "setFlags": [
+                                    "qf_hide-bart"
+                                ],
+                                "text": "...."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

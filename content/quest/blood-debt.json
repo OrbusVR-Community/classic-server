@@ -1,0 +1,20 @@
+{
+    "description": "Boss Ngathu wants you to collect the debt owed to him by General Jethin. You can find Jethin inside his fort in the Patreayl Rainforest to the West of New Kingsport. Speak with the General and collect the debt, by any means necessary.",
+    "name": "Blood Debt",
+    "completed": "Return to Boss Ngathu at the town of Tarth Fa Dathrun and deliver General Jethin's debt.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "293",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 16,
+    "rewards": [
+        "giveitems xp@6000"
+    ],
+    "autocomplete": false
+}

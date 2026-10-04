@@ -1,0 +1,102 @@
+{
+    "ludwig-sarrow": {
+        "reqFlags": [
+            "qf_faction-hero_cp"
+        ],
+        "indicator": "objective",
+        "text": "ludwig-sarrow",
+        "tree": {
+            "0": {
+                "text": "You there! I know who you are - $NAME.",
+                "choices": {
+                    "0": {
+                        "text": "How do you know that?",
+                        "tree": {
+                            "0": {
+                                "text": "I’m Ludwig Sarrow, brother to the famed explorer Helga Sarrow and word travels fast in my family. I was hoping I might run into you at some stage.",
+                                "choices": {
+                                    "0": {
+                                        "text": "Why’s that?",
+                                        "tree": {
+                                            "0": {
+                                                "text": "To test your steel of course! Oh, I don’t mean to fight you, but I do wish to test your skills through other means."
+                                            },
+                                            "1": {
+                                                "jumpPointName": "questions",
+                                                "text": "I’m a hunter by trade - one of the best in the business. But over here in the Frosted Spit, you can’t mess around. You have to be the best. The only place we hunt out here is the Heathrun track.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "You’re on.",
+                                                        "tree": {
+                                                            "0": {
+                                                                "text": "Fantastic! You might want to take some time to stock up on provisions, you could be gone for quite some time... If you’re already prepared, then take this kill list."
+                                                            },
+                                                            "1": {
+                                                                "giveQuest": "ludwig-sarrow",
+                                                                "text": "I need you to bag a lot of these bastards so we can feed and clothe the children around these parts.Once you’ve weighed yourself down with meat and hide come back and see me."
+                                                            }
+                                                        }
+                                                    },
+                                                    "1": {
+                                                        "text": "<c=lore>The Heathrun Track?</c>",
+                                                        "tree": {
+                                                            "0": {
+                                                                "text": "A sprawling and beautiful piece of wilderness, she is! But not one to venture into alone, lest you find your spleen ruptured by a stray antler or two."
+                                                            },
+                                                            "1": {
+                                                                "goToJump": "questions",
+                                                                "text": "I’ve got to go catch the local villages some wild meat, and I’d love to see what you’re made of. You know, make certain you’re exactly the kind of “Knight” I want hanging around my baby sister."
+                                                            }
+                                                        }
+                                                    },
+                                                    "2": {
+                                                        "text": "Maybe another time.",
+                                                        "tree": {
+                                                            "0": {
+                                                                "allowrepeat": true,
+                                                                "text": "I must say, I’m disappointed to hear that $NAME. But I suppose there’s nothing I can do. Perhaps time will change your mind."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "Not Now.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "text": "Very well return to me when you’ve the time."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "ludwig-sarrow-cp": {
+        "completeQuest": "ludwig-sarrow",
+        "text": "ludwig-sarrow-cp",
+        "tree": {
+            "0": {
+                "text": "Phewh, talk about a legendary feat! I would be proud to fight alongside you, should the situation call for it. My sister is in good hands.",
+                "choices": {
+                    "0": {
+                        "text": "Helga and I, we’re not…",
+                        "tree": {
+                            "0": {
+                                "text": "Together? Of course not! But knowing you’re out there working alongside her, and that you can handle yourself in the most dire of situations is exactly the kind of confidence I need. Here, take this, Dram, your earnings off the hides I will sell. See you around my friend."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

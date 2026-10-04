@@ -1,0 +1,29 @@
+{
+    "missingchildren": {
+        "reqFlags": [
+            "qf_bezoula_cp"
+        ],
+        "text": "missingchildren",
+        "tree": {
+            "0": {
+                "emotion": "afraid",
+                "text": "You! Stranger! Have you seen my boys? My twin boys have gone missing!",
+                "choices": {
+                    "0": {
+                        "text": "Calm down, what happened?",
+                        "tree": {
+                            "0": {
+                                "setFlags": [
+                                    "qf_first-parent"
+                                ],
+                                "emotion": "afraid",
+                                "text": "I woke this morning to find their beds empty! Please, if you see my boys, will you make sure they get home safely? They never stray this far from home."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

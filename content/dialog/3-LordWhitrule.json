@@ -1,0 +1,18 @@
+{
+    "just-rewards": {
+        "reqFlags": [
+            "qf_just-rewards"
+        ],
+        "indicator": "objective",
+        "text": "just-rewards",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "So you’re the Enforcer who found my stupid boy? Well, I suppose thanks are in order. Can’t take my eyes off that kid for a second."
+            },
+            "1": {
+                "text": "I hope he didn’t cause you too much trouble on your journey. My wife and I thank you for finding him, and in advance for keeping his recklessness quiet. We are now in your debt, call upon us if ever the need."
+            }
+        }
+    }
+}

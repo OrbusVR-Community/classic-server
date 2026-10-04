@@ -1,0 +1,20 @@
+{
+    "description": "Harvest three Queens Ear from inside the arena.",
+    "name": "Gathering Training",
+    "completed": "Speak with Guardian Bart to continue training.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "46",
+            "typenum": 3,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

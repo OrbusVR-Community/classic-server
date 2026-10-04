@@ -1,0 +1,15 @@
+{
+    "patknight1 ": {
+        "shout": true,
+        "reqFlags": [
+            "qf_forest-secrets_ip"
+        ],
+        "text": "patknight1 ",
+        "tree": {
+            "0": {
+                "text": "Where's Oscar? It's almost time... That Bishop won't know what hit him!"
+            }
+        },
+        "indicator": "dialog"
+    }
+}

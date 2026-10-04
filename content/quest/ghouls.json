@@ -1,0 +1,26 @@
+{
+    "description": "Deep within the ruins of the Chthonic Ruins lay these sub human Ghouls. Gherion has found an entrance to the abandoned lower ruins where she believes the Ghouls are gathering, enter the ruins and retrieve what the ghouls are gathering around. The ruins have become a place of gathering for all sorts of creatures, you will need a party of 5 to defeat them all.",
+    "name": "Ghouls (MSQ)",
+    "completed": "Return to Gherion at their hillside village of Balaam Fa Cher, and deliver the Black Guide book to see what she knows of it.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_get-black-guide",
+            "typenum": 1,
+            "typeextra": "Retrieve Ritual Book"
+        },
+        {
+            "type": "kill",
+            "typedata": "ghoul",
+            "typenum": 3,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 16,
+    "rewards": [
+        "giveitems xp@12000,coin@200"
+    ],
+    "autocomplete": false
+}

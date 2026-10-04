@@ -1,0 +1,39 @@
+{
+    "pilgrim-leader-cp": {
+        "reqFlags": [
+            "qf_pilgrim-cp"
+        ],
+        "indicator": "objective",
+        "text": "pilgrim-leader-cp",
+        "tree": {
+            "0": {
+                "setFlags": [
+                    "qf_pilgrim-cp2"
+                ],
+                "emotion": "cheer",
+                "text": "May the goddess bless you. You have our thanks."
+            }
+        }
+    },
+    "pilgrim-leader-cp-2": {
+        "reqFlags": [
+            "qf_pilgrim-cp2"
+        ],
+        "indicator": "objective",
+        "text": "pilgrim-leader-cp-2",
+        "tree": {
+            "0": {
+                "removeFlags": [
+                    "qf_pilgrim-journey-end"
+                ],
+                "emotion": "explain",
+                "text": "I haven’t much, but here, take this relic. It's been in my family for generations. I’m afraid I don’t know what it does exactly, but it's always brought me and my family good luck. It's yours now.",
+                "choices": {
+                    "0": {
+                        "text": "132 @ 3"
+                    }
+                }
+            }
+        }
+    }
+}

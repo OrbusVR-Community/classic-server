@@ -1,0 +1,15 @@
+{
+    "patknight": {
+        "shout": true,
+        "reqFlags": [
+            "qf_forest-secrets_ip"
+        ],
+        "text": "patknight",
+        "tree": {
+            "0": {
+                "text": "The festival approaches! We must ready ourselves."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

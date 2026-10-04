@@ -1,0 +1,20 @@
+{
+    "description": "Track down Völuspá, the mother wyrm, and remove her head. Talk to Lord Rudolf of Wenderwood to see if he can lead you to the beast.",
+    "name": "Second Trial (MSQ)",
+    "completed": "Return to Markos of Runvale in the secret cave of Ma'at's Throat to deliver the tooth of Völuspá as proof.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "160",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 9,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

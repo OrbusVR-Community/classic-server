@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "Journey to Highsteppe (MSQ)",
+    "completed": "Return to Guardian Bart and try to convince him to let you use the Highsteppe Guardians on your cause.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 14,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,16 @@
+{
+    "guild-city-wilds": {
+        "text": "guild-city-wilds",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Best steer clear of Hulthine's Gate at the moment. Ever since Lord Derreth was killed, we’ve stopped patrolling that area. The Order priests tell us the place is cursed."
+            },
+            "1": {
+                "allowrepeat": true,
+                "text": "Countless travelers return from the Vale and Lucian’s Plateau without the burden of their goods - courtesy of cowardly bandits no doubt."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

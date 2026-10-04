@@ -1,0 +1,37 @@
+{
+    "kingtown2 intro": {
+        "reqFlags": [
+            "qf_digging-deeper_ip"
+        ],
+        "text": "kingtown2 intro",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Filthy outsider. What do you want? You’re trespassing, you know."
+            },
+            "1": {
+                "text": "You do know that don’t you? Ugh, You lot make me sick! Thinking you can come here and do whatever you want."
+            },
+            "2": {
+                "emotion": "hmph",
+                "text": "Well, I’ve got news for you - this is my land!",
+                "choices": {
+                    "0": {
+                        "text": "This is a village?",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Ain't nothing wrong with our little village. We’ve gots it just how we likes it. The dead lord will awaken soon, and he’ll reward us for his safe keeping."
+                            },
+                            "1": {
+                                "allowrepeat": true,
+                                "text": "What? What’s that look you be giving me? I hope you rot in the water, you foreign scum."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

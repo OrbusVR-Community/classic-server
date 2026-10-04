@@ -1,0 +1,18 @@
+{
+    "claim-items": {
+        "text": "claim-items",
+        "tree": {
+            "0": {
+                "setFlags": [
+                    "claimitems"
+                ],
+                "text": "I may have some items for you here based on your <c=ooc>Backer Level</c>. Let me check..."
+            },
+            "1": {
+                "allowrepeat": true,
+                "text": "Okay, if I had anything for you, you've got it now!"
+            }
+        },
+        "indicator": "dialog"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "description": "The Brotherhood wants you to carry out one of their contracts, but this one is different. They want you to kill one of their own, a disgraced Brother. He mentioned a wanted poster in New Kingsport with his picture on it.",
+    "name": "The Grimm Reaper VI",
+    "completed": "Return to Brotherhood with news for reward, but at what cost to your Soul?",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "contractkill7",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 20,
+    "rewards": [
+        "giveitems xp@60000,coin@21,435@1"
+    ],
+    "autocomplete": false
+}

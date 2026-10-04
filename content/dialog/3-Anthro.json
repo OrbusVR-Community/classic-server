@@ -1,0 +1,78 @@
+{
+    "antrho-save": {
+        "completeQuest": "anthropologist",
+        "notFlags": [
+            "qf_lizard-codex_ip"
+        ],
+        "text": "antrho-save",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Hmm? What’s that? Oh, no. Nothing’s wrong. I may look like I’m in trouble, but all this is absolutely fascinating!"
+            },
+            "1": {
+                "text": "Where did these creatures come from? Are they intelligent? What’s their culture like?",
+                "choices": {
+                    "0": {
+                        "text": "I'm here to save you.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Did that poncy Mayor send you? Huh. Figures."
+                            },
+                            "1": {
+                                "text": "He doesn’t understand the importance of my research. In the beginning of our histories, there were three creations. Three. The Reptiles, the Pigs and us."
+                            },
+                            "2": {
+                                "emotion": "explain",
+                                "text": "But why? Where did we all come from? What created us?"
+                            },
+                            "3": {
+                                "text": "Hmm? Sorry, I got caught up in my thoughts just then. Free me if you wish, but I won’t be returning until I get my hands on the Reptilian Codex - a book of their language. There is a Leader of the Reptiles walking around with it, I need to get that codex.",
+                                "choices": {
+                                    "0": {
+                                        "text": "I'll get it, you go back.",
+                                        "tree": {
+                                            "0": {
+                                                "setFlags": [
+                                                    "qf_anthro-town"
+                                                ],
+                                                "emotion": "explain",
+                                                "text": "You would do that for me? Once you find it, bring it to me at my house in New Kingsport."
+                                            },
+                                            "1": {
+                                                "giveQuest": "lizard-codex",
+                                                "text": "I shall return to the township and ease the troubled mind of their Mayor."
+                                            },
+                                            "2": {
+                                                "removeFlags": [
+                                                    "qf_show-anthro"
+                                                ],
+                                                "text": "..."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "lizard-codex-cp": {
+        "completeQuest": "lizard-codex",
+        "text": "lizard-codex-cp",
+        "tree": {
+            "0": {
+                "emotion": "cheer",
+                "text": "You found it? Give it! "
+            },
+            "1": {
+                "text": "I must discover the truth of the Reptiles origins… Oh! I suppose you want a reward. Here, the University sent me this, but I don’t need it. It’s yours."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

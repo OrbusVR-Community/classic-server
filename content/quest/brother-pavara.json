@@ -1,0 +1,20 @@
+{
+    "description": "The Brotherhood wants you to carry out one of their contracts, possibly killing an innocent person. Hunt down Claudie da LaForge. She is from the town of Narrow Orchard and is believed to have ties to Lord Rudolf of Wenderwood. Kill this innocent and gain the brotherhoods favor.",
+    "name": "Loyalty Of The Shadows (MSQ)",
+    "completed": "Return to Brother Pavara with news of Claudies demise for reward, and loyalty.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "contractkill1",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 12,
+    "rewards": [
+        "giveitems xp@7000,coin@357,185@1"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,39 @@
+{
+    "description": "Ernest has spoken of a rare fish, one that has not been seen above the dark depths for some time. Follow your instinct, and the whispers of other fisherman, to hunt down this elusive prey. The way Ernest spoke, it was a mystery that could be present in one body of water, then gone with the changing tide. While you are out, make sure to bring back a full basket of lower fish for the stall also.",
+    "name": "Catch of the Day X",
+    "completed": "Return to Ernest on the North side of Kingsport Lake,to deliver your catch.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "74",
+            "typenum": 20,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "75",
+            "typenum": 20,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "212",
+            "typenum": 20,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "211",
+            "typenum": 5,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        "giveitems coin@3000,449@1,313@4",
+        "unlockpage 321"
+    ],
+    "autocomplete": false
+}

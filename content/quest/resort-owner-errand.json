@@ -1,0 +1,26 @@
+{
+    "description": "The Resort Owner is trying to extort you for some of the healing waters. He wants the path cleared to help drive up business to his resort.",
+    "name": "Minor Errands",
+    "completed": "Return to the Resort Owner at the Cloud Resort to demand your payment in water.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "redtail1",
+            "typenum": 20,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "venomspider",
+            "typenum": 35,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 19,
+    "rewards": [
+        "giveitems xp@30000"
+    ],
+    "autocomplete": false
+}

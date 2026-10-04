@@ -1,0 +1,64 @@
+{
+    "roma-adviseer": {
+        "completeQuest": "the-shakeup",
+        "text": "roma-adviseer",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Ah, the noble and pious $NAME, most favored soldier of the Holy Enforcers, how lovely to see you. I am, of course, Guïayne, Bishop Roma’s most trusted Advisor.",
+                "choices": {
+                    "0": {
+                        "text": "Why are you here?",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "You may be wondering where your Commander, Petra Fassith is, as she would normally be delivering missions to you and other Enforcers around here, about now, would she not?",
+                                "choices": {
+                                    "0": {
+                                        "text": "Do you know where she is?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "Alas, I do not. Well, not exactly. I suspect she’s in hiding at this moment, for it would seem that while you’ve been off, a plot has unraveled!!"
+                                            },
+                                            "1": {
+                                                "text": "Fassith had been scheming  with General Clavacius to overthrow Bishop Roma and reinstate the old High Bishop Archibald."
+                                            },
+                                            "2": {
+                                                "emotion": "explain",
+                                                "text": "His holiness  has put out a warrant for Fassith’s arrest, but she is most likely camped out with Clavacius somewhere, both of them, safe and sound… for now.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "Who do I report to?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "explain",
+                                                                "text": "Why, this is good news for you, my friend! It means you are to receive a promotion! As Advisor of Lavera Roma, High Bishop of Guild City, I hereby instate the title of High Commander upon you."
+                                                            },
+                                                            "1": {
+                                                                "text": "Right, now that the formalities are over, Bishop Roma wishes to see you in his private chambers \"High Commander $NAME\"."
+                                                            },
+                                                            "2": {
+                                                                "giveQuest": "promotion",
+                                                                "setFlags": [
+                                                                    "qf_roma-remove"
+                                                                ],
+                                                                "emotion": "hmph",
+                                                                "text": "Best not keep him waiting."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    }
+}

@@ -1,0 +1,521 @@
+{
+    "intro": {
+        "notFlags": [
+            "qf_first-trials_ip",
+            "qf_first-trials_cp"
+        ],
+        "indicator": "objective",
+        "text": "intro",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Oh, hello there! You’ve the look of somebody I know… Are you sure we’ve never met? No? ...Must have one of those faces… Ah yes, I’m Sicilus! Nice to meet you."
+            },
+            "1": {
+                "text": "A scholar for the Traveling Brothers of Science, though, we don’t do much in the way of traveling anymore and I'm a woman as well... hmm. Oh, sorry, forgive me, who are you?",
+                "choices": {
+                    "0": {
+                        "text": "I'm an Enforcer.",
+                        "tree": {
+                            "0": {
+                                "emotion": "agree",
+                                "text": "Right, right, of course you are. Sorry, I tend to forget my manners a lot. Happens when you spend most of your days hovering over dangerous chemicals!"
+                            },
+                            "1": {
+                                "jumpPointName": "questions",
+                                "text": "But enough about me, are you looking to be of service?",
+                                "choices": {
+                                    "0": {
+                                        "text": "No not now.",
+                                        "tree": {
+                                            "0": {
+                                                "allowrepeat": true,
+                                                "emotion": "hmph",
+                                                "text": "Very well you know where I'll be."
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "What may I do for you?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "You may not realize this, but I’m a bit of a scientific hobbyist. Biology is something that utterly fascinates me! I’m attempting to understand the inner workings of all the creatures that live and breath in our dear Patreayl, but, I have no time to travel about the place catching them all."
+                                            },
+                                            "1": {
+                                                "text": "Oh, I don’t need the whole animal - I’ve complete living specimens over at my Zoological Gardens in the Rainforest, but they are so far away, and I can’t rightly dissect my living specimens can I?"
+                                            },
+                                            "2": {
+                                                "giveQuest": "huntinglog-1",
+                                                "emotion": "explain",
+                                                "text": "Just, bring me back what ever you manage to pull out of the monster corpses I’m sure you leave in your wake, that’ll suffice for now! One from each creature please!"
+                                            }
+                                        }
+                                    },
+                                    "2": {
+                                        "text": "<c=lore>University Island?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "Oh, oh, University Isle has been around for five hundred and eighty seven years exactly! But you should know that. You've a face that looks like it should know that. A face that looks like… looks like… a face… huh. Nevermind..."
+                                            },
+                                            "1": {
+                                                "text": "Oh! The university, yes - built in 387 B.E. A base of operations and a place for learning, constructed and maintained by the Traveling Brothers of Science."
+                                            },
+                                            "2": {
+                                                "emotion": "explain",
+                                                "text": "Did you know Khabor Jan and his followers, they were part of the Brothers? So was the first High Pope of the Order - Toras Ryll. Just think, all of them, together under one roof, under this roof!"
+                                            },
+                                            "3": {
+                                                "goToJump": "questions",
+                                                "text": "Can’t imagine it would go well. Actually, come to think of it, it didn’t really. There was this teacher you see - Sara Lucian. He’s the one that discovered the Lucian Plateau! But enough about all that. You’ll lose your tongue talking about those forbidden parts of history!"
+                                            }
+                                        }
+                                    },
+                                    "3": {
+                                        "text": "<c=lore>The Janists?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "hmph",
+                                                "text": "Janists, shhh! Don’t say that word, they’ll rip out our tongues if they hear them wagging on about that lot! They’re all gone now - the Janists that is."
+                                            },
+                                            "1": {
+                                                "text": "Bunch of sorry souls they were. Converted or killed off - they got to decide. Some of ‘em, they happily switched sides, but most?"
+                                            },
+                                            "2": {
+                                                "emotion": "explain",
+                                                "text": "Most had grown so used to dealing in the Essence and studying the great gods in Laegonelle, that there wasn’t a chance they’d give up their research."
+                                            },
+                                            "3": {
+                                                "goToJump": "questions",
+                                                "text": "Though, near the end there, that research was more like religious fervor than anything else. Ahh, the ways of these worlds. Is there none that just want truth for truth’s sake?"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "intro-2": {
+        "notFlags": [
+            "qf_first-trials_ip",
+            "qf_huntinglog-1_cp",
+            "qf_huntinglog-1_ip"
+        ],
+        "reqFlags": [
+            "qf_first-trials_cp"
+        ],
+        "indicator": "objective",
+        "text": "intro-2",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "You may not realize this, but I’m a bit of a scientific hobbyist. Biology is something that utterly fascinates me! I’m attempting to understand the inner workings of all the creatures that live and breath in our dear Patreayl, but, I have no time to travel about the place catching them all."
+            },
+            "1": {
+                "text": "Oh, I don’t need the whole animal - I’ve complete living specimens over at my Zoological Gardens in the Rainforest, but they are so far away, and I can’t rightly dissect my living specimens can I?"
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "Just, bring me back what ever you manage to pull out of the monster corpses I’m sure you leave in your wake, that’ll suffice for now! One from each creature please!"
+            },
+            "3": {
+                "giveQuest": "huntinglog-1",
+                "text": "...."
+            }
+        }
+    },
+    "huntinglog-1-cp": {
+        "completeQuest": "huntinglog-1",
+        "notFlags": [
+            "qf_first-trials_ip"
+        ],
+        "text": "huntinglog-1-cp",
+        "tree": {
+            "0": {
+                "setFlags": [
+                    "qf_done-huntinglog1-already"
+                ],
+                "emotion": "cheer",
+                "achievement": "elitehunte1",
+                "text": "Oh thank you, thank you, thank you kindly! Here’s some Dram to help you out in your journey."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "first-trials-1": {
+        "reqFlags": [
+            "qf_first-trials_ip"
+        ],
+        "indicator": "objective",
+        "text": "first-trials-1",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Hello there my familiar faced friend! What can I do for you today?",
+                "choices": {
+                    "0": {
+                        "text": "Markos Runvale sent me.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Shhhh! Don’t let anyone hear you say his name! It’s, it’s not… proper! Well, I mean, yes, I am his  informant, but shhhh! If any Enforcer hears, I’ll never get to work on my precious chemicals again!"
+                            },
+                            "1": {
+                                "text": "The Knights want to test your wits so they send you to me huh? Well there’s one way you can prove yourself... I suppose."
+                            },
+                            "2": {
+                                "giveQuest": "sicilus-riddle",
+                                "emotion": "explain",
+                                "text": "Read over this riddle, and return to me once you have the answer. But be wary, choose wrong and you’ll have to work harder to prove yourself.",
+                                "unlockPages": [
+                                    "163"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "sicilus-riddle-cp": {
+        "completeQuest": "sicilus-riddle",
+        "text": "sicilus-riddle-cp",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "In the story, the farmer and his family starve when Nitho the fox steals their chicken Oltha. But Nitho and his family would’ve starved if he’d not taken that plucky young bird! What a conundrum! So tell me, in that story - who’s the villain?",
+                "choices": {
+                    "0": {
+                        "text": "<c=pc>The Fox.</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Hmm… that’s true, though, if you were in his place and your loved ones were about to starve, can you honestly say you would'nt have done the same?"
+                            },
+                            "1": {
+                                "giveQuest": "sicilus-riddle-1",
+                                "text": "No. I don’t think that’s the answer I’m after. It seems you need to hone your wits a bit more…"
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=pc>The Farmer.</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "While the Farmer did destroy Nitho’s habitat to build his farm, he needed to provide for his family. I don’t think that is an accurate answer to the question."
+                            },
+                            "1": {
+                                "giveQuest": "sicilus-riddle-1",
+                                "text": "It seems you need to take care of your intellect a little more!"
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "<c=pc>The Sun.</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "The Sun? I’ve not heard that one before. No. While it did cause the drought, the sun is an impersonal force. It can’t commit right or wrong, and therefore, can’t be a villain or a hero."
+                            },
+                            "1": {
+                                "giveQuest": "sicilus-riddle-1",
+                                "text": "I think you should work on growing that brain of yours!"
+                            }
+                        }
+                    },
+                    "3": {
+                        "text": "<c=pc>The Chicken.</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Ah, the opportunist chicken! She took advantage of suffering to become poultry royalty! I’m afraid you might be reading a little too much between the lines!"
+                            },
+                            "1": {
+                                "giveQuest": "sicilus-riddle-1",
+                                "text": "There’s nothing in the text to support Oltha being devious. She’s just a dumb bird. Though, she may be smarter than you, right about now…"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "sicilus-riddle1-cp": {
+        "completeQuest": "sicilus-riddle-1",
+        "text": "sicilus-riddle1-cp",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "Ahh.. so you have an answer for me, tell me, in that story - who’s the villain?",
+                "choices": {
+                    "0": {
+                        "text": "<c=pc>The Farmer.</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "While the Farmer did destroy Nitho’s habitat to build his farm, he needed to provide for his family. I don’t think that is an accurate answer to the question."
+                            },
+                            "1": {
+                                "giveQuest": "sicilus-riddle-2",
+                                "text": "It seems you need to take care of your intellect a little more!"
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=pc>There is no villain.</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "cheer",
+                                "text": "Correct! The first tenet of three in Janist thought - Good and Evil do not exist. Morality as a concept can be divided four ways. Good, Evil, Right, Wrong. Transcendental morals and Societal rules. Janists reject the former and begrudgingly accept the latter."
+                            },
+                            "1": {
+                                "text": "The duality of good and evil, right and wrong, is a fallacy - Täella-Oso is not the world of order, nor is Täella-Brüha the world of chaos. They are simply different sides of the same coin. Sisters."
+                            },
+                            "2": {
+                                "emotion": "agree",
+                                "text": "Well done! You’ve passed the trial! Here, a letter of recommendation. Take this to Markos and he’ll give you your next trial.",
+                                "giveItems": [
+                                    "162@1"
+                                ]
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "<c=pc>The Chicken.</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Ah, the opportunist chicken! She took advantage of suffering to become poultry royalty! I’m afraid you might be reading a little too much between the lines!"
+                            },
+                            "1": {
+                                "giveQuest": "sicilus-riddle-2",
+                                "text": "There is nothing in the text to support Oltha being devious about her position in the family. She’s just a dumb bird. Though, she may be smarter than you, right about now.."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "sicilus-riddle2-cp": {
+        "completeQuest": "sicilus-riddle-2",
+        "text": "sicilus-riddle2-cp",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "Back again for a guess I see, so tell me, in that story - who is the villain?",
+                "choices": {
+                    "0": {
+                        "text": "<c=pc>The Sun.</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "The Sun? I’ve not heard that one before. No. While it did cause the drought, he sun is an impersonal force."
+                            },
+                            "1": {
+                                "giveQuest": "sicilus-riddle-3",
+                                "text": "It cannot commit right or wrong, and therefore, cannot be a villain or hero. I think you should work on growing that brain of yours!"
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=pc>The Fox.</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Hmm… that’s true, though, if you were in his place and your loved ones were about to starve, can you honestly say you wouldn’t have done the same?"
+                            },
+                            "1": {
+                                "giveQuest": "sicilus-riddle-3",
+                                "text": "No. I don’t think that’s the answer I’m after. It seems you need to hone your wits a bit more…"
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "<c=pc>There is no villain.</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "cheer",
+                                "text": "Correct! The first tenet of three in Janist thought - Good and Evil do not exist. Morality as a concept can be divided four ways. Good, Evil, Right, Wrong. Transcendental morals and Societal rules. Janists reject the former and begrudgingly accept the latter."
+                            },
+                            "1": {
+                                "text": "The duality of good and evil, right and wrong, is a fallacy - Täella-Oso is not the world of order, nor is Täella-Brüha the world of chaos. They are simply different sides of the same coin. Sisters."
+                            },
+                            "2": {
+                                "emotion": "agree",
+                                "text": "Well done! You’ve passed the trial! Here, a letter of recommendation. Take this to Markos and he’ll give you your next trial.",
+                                "giveItems": [
+                                    "162@1"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "sicilus-riddle-3-cp": {
+        "completeQuest": "sicilus-riddle-3",
+        "text": "sicilus-riddle-3-cp",
+        "tree": {
+            "0": {
+                "jumpPointName": "questions",
+                "emotion": "explain",
+                "text": "Ahh.. so you have an answer for me, well then what is it?",
+                "choices": {
+                    "0": {
+                        "text": "<c=pc>There is no villain.</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "cheer",
+                                "text": "Correct! The first tenet of three in Janist thought - Good and Evil do not exist. Morality as a concept can be divided four ways. Good, Evil, Right, Wrong. Transcendental morals and Societal rules. Janists reject the former and begrudgingly accept the latter."
+                            },
+                            "1": {
+                                "text": "The duality of good and evil, right and wrong, is a fallacy - Täella-Oso is not the world of order, nor is Täella-Brüha the world of chaos. They are simply different sides of the same coin. Sisters."
+                            },
+                            "2": {
+                                "emotion": "agree",
+                                "text": "Well done! You’ve passed the trial! Here, a letter of recommendation. Take this to Markos and he’ll give you your next trial.",
+                                "giveItems": [
+                                    "162@1"
+                                ]
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=pc>The Chicken.</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "There is nothing in the text to support Oltha being devious about her position in the family. She’s just a dumb bird. Though, she may be smarter than you, right about now…"
+                            },
+                            "1": {
+                                "goToJump": "questions",
+                                "text": "Try again.....Think hard before answering."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "hunting-log-2-start": {
+        "reqFlags": [
+            "qf_huntinglog-1_cp",
+            "qf_first-trials_cp"
+        ],
+        "text": "hunting-log-2-start",
+        "tree": {
+            "0": {
+                "jumpPointName": "questions",
+                "emotion": "greeting",
+                "text": "Hello $NAME, You’re just in time! I was informed of a rare specimen roaming the thick trees to the West of New Kingsport. Will you help me catch it?",
+                "choices": {
+                    "0": {
+                        "text": "Yes.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "It seems to be some form of a mutated Reptile, I think they are called Valusia. If you could bring a fresh specimen for me to study, I’ll pay you well.",
+                                "choices": {
+                                    "0": {
+                                        "text": "In Dram?",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "huntinglog-2",
+                                                "text": "Yes, Yes.. now hurry before it's too late, and while you’re out there, see if there are any other oddities I don't have in my collection."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>Rainforest?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "I must admit, my memory is a bit vague around the history of that place. They used to run prisons out of there until perhaps twenty years ago?"
+                            },
+                            "1": {
+                                "text": "Just think! Men and women, convicted of all sorts of nasty things, working away to cut down trees and mine the hills. That famous writer - Ernest Trimm, he spent time in one of the old jails."
+                            },
+                            "2": {
+                                "goToJump": "questions",
+                                "emotion": "explain",
+                                "text": "Oh, I just love his work, don’t you? The Legionnaire is perhaps my favorite."
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "<c=lore>Is the Rainforest dangerous?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "They say it  was unpopulated until the fleeing Kingsport locals cut a path into the jungle and colonized the land. But the Brotherhood Altar has been there far longer than that."
+                            },
+                            "1": {
+                                "text": "They say that if you offer Dram to the altar’s tributary, you can hire one of those black cloaked assassins. Oh! I’ve never tried myself, but I hear you need to pay in the weight of the human soul… you know?"
+                            },
+                            "2": {
+                                "goToJump": "questions",
+                                "emotion": "explain",
+                                "text": "The twenty one grams a body loses upon death? Pseudo-science at best, but it has a nice thematic ring to it, doesn’t it?"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "huntinglog-2": {
+        "completeQuest": "huntinglog-2",
+        "text": "huntinglog-2",
+        "tree": {
+            "0": {
+                "setFlags": [
+                    "qf_sicilus-zoo"
+                ],
+                "emotion": "agree",
+                "text": "Oh thank you, thank you kindly! Here’s the Dram I promised."
+            },
+            "1": {
+                "achievement": "elitehunte2",
+                "text": "You have proven yourself quite the hunter.",
+                "choices": {
+                    "0": {
+                        "text": "Thanks.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "I’ll be spending some time in my Zoological Gardens over in the Rainforest soon, if you’re interested, stop by  and get the grande tour."
+                            },
+                            "1": {
+                                "text": "Follow the path through the Lowland Woods near Highsteppe until you reach Loch Caplargh. The Gardens path is to the North West of the waters bank, across the wild meadow. Come and find me!"
+                            },
+                            "2": {
+                                "setFlags": [
+                                    "qf_move-sicilus"
+                                ],
+                                "text": ".."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

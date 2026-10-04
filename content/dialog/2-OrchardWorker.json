@@ -1,0 +1,109 @@
+{
+    "orchard-worker": {
+        "notFlags": [
+            "qf_king-sweetie_ip",
+            "qf_king-sweetie_cp"
+        ],
+        "text": "orchard-worker",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Lovely day we’re having! Best be careful heading on the path towards the Lucian Plateau. Rumors are that bandits rule the countryside now, riding on the backs of monstrous beasts with ten eyes and and three heads!"
+            },
+            "1": {
+                "text": "At least that's what people are saying... Good day."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "king-sweetie-ip": {
+        "reqFlags": [
+            "qf_king-sweetie_ip"
+        ],
+        "indicator": "objective",
+        "text": "king-sweetie-ip",
+        "tree": {
+            "0": {
+                "jumpPointName": "questions",
+                "emotion": "afraid",
+                "text": "Wait, are you... Oh, please tell me you’re that Enforcer the Order promised to send our way? Our Orchard’s been entirely overrun and Lord Runvale’s going to kill me!",
+                "choices": {
+                    "0": {
+                        "text": "I am, I'm on it!",
+                        "tree": {
+                            "0": {
+                                "setFlags": [
+                                    "qf_show-monsters-orchard"
+                                ],
+                                "emotion": "agree",
+                                "text": "Oh, thank you! Hurry, hurry!"
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>King Sweeties?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Why, surely you already know about our little rubies? The King Sweetie Apple is only the most sought after fruit in all of Sontibas, grown here, in our very own Patreayl."
+                            },
+                            "1": {
+                                "goToJump": "questions",
+                                "text": "Got it's name for being the favorite snack of King Laurence, the fourteenth monarch of Kingsport. It’s said he liked to roast the apples over an open fire and sprinkle the flesh with spiced sugar and crumbled breads."
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "<c=lore>Narrow Orchard?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Narrow Orchard’s been around for centuries. It’s one of Patreayl’s oldest townships. We predate the fall of the Kingsport Monarchy by two hundred years!"
+                            },
+                            "1": {
+                                "goToJump": "questions",
+                                "text": "I fear for my village as of late though. The beasts of the wild are growing reckless, if we don’t scare them off our crops soon, it'll ruin our little hamlet."
+                            }
+                        }
+                    },
+                    "3": {
+                        "text": "<c=lore>Kingsport?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "The ruins of Kingsport lie a short distance to the north, on the back of Kingsport Lake. The place was once a thriving metropolis, thrice the size of the tiny island it is now."
+                            },
+                            "1": {
+                                "text": "It was home to the great monarchs of the old kingdom. Before they angered the goddess of course…"
+                            },
+                            "2": {
+                                "goToJump": "questions",
+                                "emotion": "explain",
+                                "text": "A landslide came from the slopes of the Patreayl Ranges! Pushed most of the great city into the waters! Oh, I wouldn’t advise you go there. Those who still live there  are odd folk - funny looking and hostile to strangers."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "king-sweetie-cp": {
+        "reqFlags": [
+            "qf_king-sweetie_cp"
+        ],
+        "indicator": "objective",
+        "text": "king-sweetie-cp",
+        "tree": {
+            "0": {
+                "emotion": "cheer",
+                "text": "Praise be to you, Enforcer, and bless the Order! I had my doubts about your establishment, but you’ve proven yourself and your goddess to me here and now..."
+            },
+            "1": {
+                "text": "Oh, don’t think I’m a foolish pagan! Forgive me, I meant not to cast doubt at the feet of Ma’at. Please, take this token of my gratitude and let us not speak of it again.",
+                "giveItems": [
+                    "56@5"
+                ]
+            }
+        }
+    }
+}

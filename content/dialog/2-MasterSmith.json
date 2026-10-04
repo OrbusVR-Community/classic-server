@@ -1,0 +1,136 @@
+{
+    "new-enforcer": {
+        "reqFlags": [
+            "qf_job-seeker1",
+            "qf_smith-intro"
+        ],
+        "notFlags": [
+            "qf_job-seeker_cp"
+        ],
+        "indicator": "objective",
+        "text": "new-enforcer",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "You again? So you’re the new Enforcer are ya? That damned Bishop’s building a private bloody army! All you local peasants he's scooping up from the countrysides... Bringing all you odd ones here...."
+            },
+            "1": {
+                "jumpPointName": "questions",
+                "text": "Why he’s doing it is a damned riddle to me. Well, I suspect you’ll be after something, what'll it be? ",
+                "choices": {
+                    "0": {
+                        "text": "A Cloak?",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Yes the Enforcers garb, designed and built myself, specifically for you lot. ",
+                                "giveItems": [
+                                    "124@1"
+                                ]
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>Knowledge?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Well, $NAME, I’ll be honest with yer. There ain't a damned thing I can teach yer as long as yer working for the bloody Order of Ma’at. My procedures aren’t exactly the kind of thing you folk look too kindly upon."
+                            },
+                            "1": {
+                                "text": "Only way this here relationship functions is if we both look the other way at each other’s little indiscretions. Attempting to teach you anything would be like trying to catch a butterfly with an iron axe."
+                            },
+                            "2": {
+                                "goToJump": "questions",
+                                "emotion": "hmph",
+                                "text": "We’d both end up with mud on our faces and someone would be losing their head.."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "new-enforcer1": {
+        "reqFlags": [
+            "qf_job-seeker1"
+        ],
+        "notFlags": [
+            "qf_job-seeker_cp"
+        ],
+        "indicator": "objective",
+        "text": "new-enforcer1",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "So you’re the new Enforcer are ya? That damned Bishop’s building a private bloody army! All you local peasants he's scooping up from the countrysides... Bringing all you odd ones here...."
+            },
+            "1": {
+                "jumpPointName": "questions",
+                "text": "Why he’s doing it is a damned riddle to me. Well, I suspect you’ll be after something, what'll it be?",
+                "choices": {
+                    "0": {
+                        "text": "A Cloak, Mount?",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Yes the Enforcers garb, designed and built myself, specifically for you lot.",
+                                "giveItems": [
+                                    "124@1"
+                                ]
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>You are?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "The name’s Aelfraed Vogoul, I’m the Master Smither ‘round these parts. I find myself In the employ of everyone from Kings and Warlords to Aristocrats, Nobles and hundreds upon hundreds of bloody Libertarians!"
+                            },
+                            "1": {
+                                "goToJump": "questions",
+                                "text": "I tell yer, if yer catered to the folk I cater to, you’d swear they were pourin’ outta the bloody cracks in the ground!"
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "<c=lore>Knowledge?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Well, $NAME, I’ll be honest with yer. There ain't a damned thing I can teach yer as long as yer working for the bloody Order of Ma’at. My procedures aren’t exactly the kind of thing you folk look too kindly upon."
+                            },
+                            "1": {
+                                "text": "Only way this here relationship functions is if we both look the other way at each other’s little indiscretions. Attempting to teach you anything would be like trying to catch a butterfly with an iron axe."
+                            },
+                            "2": {
+                                "goToJump": "questions",
+                                "emotion": "hmph",
+                                "text": "We’d both end up with mud on our faces and someone would be losing their head.."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "mount-awarded": {
+        "reqFlags": [
+            "qf_job-seeker_cp"
+        ],
+        "text": "mount-awarded",
+        "tree": {
+            "0": {
+                "text": "You forgot something I see, the <c=ooc> Basic Mount </c> you were suppose to get. Here it is, a strange creation the Order has created. Allows you to float above the ground and move at greater speeds then those on foot."
+            },
+            "1": {
+                "text": "<c=ooc>To summon your mount, equip it in the inventory slot, place both hands together holding both grip buttons. Separate your hands, once the mount is fully expanded it will fly under your feet.</c>",
+                "giveItems": [
+                    "552@1"
+                ]
+            }
+        },
+        "indicator": "dialog"
+    }
+}

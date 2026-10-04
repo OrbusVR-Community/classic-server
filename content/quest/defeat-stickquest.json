@@ -1,0 +1,20 @@
+{
+    "description": "The one with the jagged sword seems to be in charge. If you can chop him down the rest may follow. Follow the last child home to Huthine's Vale and back to his father, and be on the look out for the leader with the jagged sword.",
+    "name": "Lumber Jack",
+    "completed": "Speak with the worried father in the town of Huthine's Vale.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "stickquestfinal",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 18,
+    "rewards": [
+        "giveitems xp@10000,coin@75"
+    ],
+    "autocomplete": false
+}

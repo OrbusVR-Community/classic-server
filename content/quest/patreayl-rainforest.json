@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "The Patreayl Rainforest (MSQ)",
+    "completed": "You have heard rumors that the Brotherhood's lair is located in the Patreayl Rainforest, but where and how to gain access to the entrance no one knows. You best start your search near the town of  Mountain Crest. Speak with the locals to see if you can find any clues.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 12,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

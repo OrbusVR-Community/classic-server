@@ -1,0 +1,70 @@
+{
+    "magicks-shout": {
+        "reqFlags": [
+            "qf_pagan-magicks_ip"
+        ],
+        "shout": true,
+        "notFlags": [
+            "qf_pagan-magicks-talked"
+        ],
+        "text": "magicks-shout",
+        "tree": {
+            "0": {
+                "text": "Oh, Enforcer, please, don’t…."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "magicks": {
+        "reqFlags": [
+            "qf_pagan-magicks_ip"
+        ],
+        "notFlags": [
+            "qf_pagan-magicks_cp"
+        ],
+        "indicator": "objective",
+        "text": "magicks",
+        "tree": {
+            "0": {
+                "emotion": "afraid",
+                "text": "I know why you're here. But I ask of you, please respect our ways - the old ways.",
+                "choices": {
+                    "0": {
+                        "text": "<c=pc>Repent! Be saved!</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "afraid",
+                                "text": "Then let us humble ourselves. Please, I shall return to my village - to Wenderwood and speak with those who still follow the teachings of Janism."
+                            },
+                            "1": {
+                                "text": "We will go underground, though I cannot promise you our conversions, I can try my best to make sure the Order never hears from us again."
+                            },
+                            "2": {
+                                "setFlags": [
+                                    "qf_pagan-magicks-talked"
+                                ],
+                                "emotion": "agree",
+                                "text": "Bring these ribbons back so they know we're no longer a threat.",
+                                "giveItems": [
+                                    "128@6"
+                                ]
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=pc>You cursed this land!</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Our ways curse this land? What about the horrors your Order has inflicted upon good honest people like my friends and family?"
+                            },
+                            "1": {
+                                "text": "...Go on then. Destroy our shrines. If you must. I won’t stop you. I’m too frail to stop you. But may the old gods strike you down in your sleep…"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "description": "Boss Ngathu needs you to secure a storage room for his \"shipment\". Speak with the Resort Owner at the Cloud Resort in the Lamavora Frontier. Convince the owner that it is in his best interest that he ready a room for Ngathu.",
+    "name": "Hot Springs",
+    "completed": "Return to Boss Ngathu at the town of Tarth Fa Dathrun and inform him of a successful mission.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_room-ready",
+            "typenum": 1,
+            "typeextra": "Secure Resort Storage"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 17,
+    "rewards": [
+        "giveitems xp@10000"
+    ],
+    "autocomplete": false
+}

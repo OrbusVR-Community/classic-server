@@ -1,0 +1,20 @@
+{
+    "description": "The Narwhal horn is capable of carrying the Essence’s raw power. Travel into the astral pocket between worlds and have it blessed by the great gods of Chaos. Step through the portal they have constructed and to have the horn blessed upon the altar.",
+    "name": "The Narwhal Wizard",
+    "completed": "Step back through the tear in the realm, returning to the world you know. Hurry though, you must stop the Order before they dig too deep.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "504",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 18,
+    "rewards": [
+        "giveitems xp@70000,504@1"
+    ],
+    "autocomplete": false
+}

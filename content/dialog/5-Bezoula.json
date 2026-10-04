@@ -1,0 +1,124 @@
+{
+    "intro": {
+        "completeQuest": "lucianwilds",
+        "text": "intro",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Speak quickly before I have my Rune Warg peel the skin from your skull. Who are you stranger? Why do you trespass on our sacred Ithecac? I should kill you right now for your blasphemy!",
+                "choices": {
+                    "0": {
+                        "text": "We have the same enemy!",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "The same enemy? You are my enemy stranger! You and every other tetho that claims this land as their own! You are all invaders, every last one of you!",
+                                "choices": {
+                                    "0": {
+                                        "text": "We both want to destroy the Order!",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "hmph",
+                                                "text": "Those tetho have murdered many of my men, many of my women, and even our children. They think us savages - animals that need to be wiped out!"
+                                            },
+                                            "1": {
+                                                "text": "But am I supposed to trust the words of a stranger? I will not be insulted and made second in my own land. I follow the spirit, I breathe the spirit, move with the spirit and go where the spirit leads me."
+                                            },
+                                            "2": {
+                                                "emotion": "hmph",
+                                                "text": "Your people know nothing of such ways, make peace with your gods, tetho. I am about to send you to them."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "lucian-wilds-cp": {
+        "reqFlags": [
+            "qf_lucianwilds_cp"
+        ],
+        "indicator": "mainquest",
+        "text": "lucian-wilds-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "But what is this? As I move to bleed you, I hear the spirit call out! It can’t be! You are marked. The spirit dwells upon you as much as it does I...",
+                "choices": {
+                    "0": {
+                        "text": "It does?",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Oh, mighty spirit! Be not angry with me! I am your faithful servant Bezoula! I shall not kill this tetho if you have plans for them that I cannot yet know!",
+                                "choices": {
+                                    "0": {
+                                        "text": "Will you help us then?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "hmph",
+                                                "text": "This is a blind meeting. In my visions, the spirit was silent about your coming. I did not know of today in my dreams. Perhaps this meeting is divine..."
+                                            },
+                                            "1": {
+                                                "text": "But it must be proven before I risk my tribe to help you. Take the Drink of Ithecac into your guts, and follow the guiding hand of the spirit. Journey through Lucian Plateau and return the bones of our lost ancestors from the place in which they lie.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "The Drink of Ithecac?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "giveQuest": "bezoula",
+                                                                "emotion": "explain",
+                                                                "text": "It is our most sacred communion. The drink of Ithecac will open you to the movements of the spirit, and lead you towards your destiny. Drink it.",
+                                                                "giveItems": [
+                                                                    "192@4"
+                                                                ],
+                                                                "unlockPages": [
+                                                                    "192"
+                                                                ]
+                                                            }
+                                                        }
+                                                    },
+                                                    "1": {
+                                                        "text": "Not right now.",
+                                                        "tree": {
+                                                            "0": {
+                                                                "allowrepeat": true,
+                                                                "emotion": "hmph",
+                                                                "text": "Should you want our help, you must drink this. But if you refuse, it makes no difference to me. Be gone from my sight, filthy tetho!"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "bezoula-cp": {
+        "completeQuest": "bezoula",
+        "text": "bezoula-cp",
+        "tree": {
+            "0": {
+                "achievement": "bezoulafaction",
+                "emotion": "greeting",
+                "text": "You return, and with the bones! That can’t be! Not even I could complete this act, yet you - A worthless tetho have done it. You must be a powerful sorcerer indeed."
+            },
+            "1": {
+                "giveQuest": "lamavora-frontier",
+                "text": "Worth having as an ally against those filthy priests. The spirit must think that your cause is a just one. And as you have returned that which is precious to us, I reward you with this…a ring made of our ancestors bones."
+            }
+        },
+        "indicator": "quest"
+    }
+}

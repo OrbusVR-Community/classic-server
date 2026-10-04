@@ -1,0 +1,46 @@
+{
+    "missing-kids-1": {
+        "text": "missing-kids-1",
+        "tree": {
+            "0": {
+                "setFlags": [
+                    "qf_secondchild"
+                ],
+                "emotion": "afraid",
+                "text": "Let me out! Before the big one comes back!",
+                "choices": {
+                    "0": {
+                        "text": "Where are the others?",
+                        "tree": {
+                            "0": {
+                                "setFlags": [
+                                    "qf_missing-child"
+                                ],
+                                "emotion": "afraid",
+                                "text": "That big stick took them further into the forest...",
+                                "choices": {
+                                    "0": {
+                                        "text": "Go home.",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "agree",
+                                                "text": "I will.."
+                                            },
+                                            "1": {
+                                                "removeFlags": [
+                                                    "qf_firstchild"
+                                                ],
+                                                "text": "."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

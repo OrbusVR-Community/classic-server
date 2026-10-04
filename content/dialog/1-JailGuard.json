@@ -1,0 +1,95 @@
+{
+    "intro": {
+        "notFlags": [
+            "qf_kid-brother_ip"
+        ],
+        "text": "intro",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Halt! Only authorized guards may pass through these doors.",
+                "choices": {
+                    "0": {
+                        "text": "But I’m an Enforcer…",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "...And you’re not authorized."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "kid-brother-ip": {
+        "reqFlags": [
+            "qf_kid-brother_ip"
+        ],
+        "indicator": "objective",
+        "text": "kid-brother-ip",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Halt! Only authorized guards may pass through these doors.",
+                "choices": {
+                    "0": {
+                        "text": "But I’m an Enforcer",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "And you’re not authorized.",
+                                "choices": {
+                                    "0": {
+                                        "text": "<c=pc>Can we help each other?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "bribe-guard-jail",
+                                                "emotion": "explain",
+                                                "text": "Oh! Erm… That depends on what you’ve got. Thirty Drams should do it. The wife’s been begging me for a new dress, you see..."
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "<c=pc>I demand Entrance!</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "hmph",
+                                                "text": "Really? Then I’ll grant you entry. As soon as you show me a letter of authorization, that is.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "Step aside!",
+                                                        "tree": {
+                                                            "0": {
+                                                                "allowrepeat": true,
+                                                                "emotion": "hmph",
+                                                                "text": "You’d dare threaten a fellow servant of Ma’at? You disgrace yourself. There are thirty men inside that will come out with only a whistle. Do not try me again!"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "bribe-guard-jail-cp": {
+        "completeQuest": "bribe-guard-jail",
+        "text": "bribe-guard-jail-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Right you are! Everything seems to be in order. You may proceed. Use my keys to get inside, just be sure to return them when you're done."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

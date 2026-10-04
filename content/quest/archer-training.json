@@ -1,0 +1,20 @@
+{
+    "description": "Defeat the dummy near the tree to continue your training.",
+    "name": "Ranger Training",
+    "completed": "Speak with Guardian Bart to continue training.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "dummy",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

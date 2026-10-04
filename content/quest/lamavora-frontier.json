@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "The Lamavora Frontier (MSQ)",
+    "completed": "Locate the Explorer’s League Encampment outside the Tradu Mines and speak with their leader Helga Sarrow.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 15,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

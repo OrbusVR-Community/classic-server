@@ -1,0 +1,20 @@
+{
+    "description": "Khabor’s Waystation lies before you. Roma and his Enforcers explore the catacombs beneath. The Order has installed a magickal barrier to keep people out. Find a way to get inside! With Sicilus and Tinny's help you may be able to tear the barrier down and get inside before it's too late.",
+    "name": "Cradle and Coffin",
+    "completed": "",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_barrier-destroyed",
+            "typenum": 1,
+            "typeextra": "Follow Tinny's plan to destroy the barrier"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 18,
+    "rewards": [
+        "giveitems xp@80000"
+    ],
+    "autocomplete": true
+}

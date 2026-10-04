@@ -1,0 +1,44 @@
+{
+    "description": "Kill forty of each of the monsters on you list. They can be found roaming over the dangerous wilds areas.",
+    "name": "Noah's Ark Wilds",
+    "completed": "Return to Hunter Dern, he can usually be found hunting along the paths of the Lowland Woods, or selling his furs inside the marketplace of Highsteppe.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "corruptfox",
+            "typenum": 40,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "corruptdeer",
+            "typenum": 40,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "corruptelk",
+            "typenum": 40,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "corruptwolf",
+            "typenum": 40,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "corruptboar",
+            "typenum": 40,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 20,
+    "rewards": [
+        "giveitems coin@2000"
+    ],
+    "autocomplete": false
+}

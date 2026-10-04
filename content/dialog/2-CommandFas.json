@@ -1,0 +1,390 @@
+{
+    "job-seeker": {
+        "completeQuest": "new-recruit",
+        "text": "job-seeker",
+        "tree": {
+            "0": {
+                "setFlags": [
+                    "qf_job-seeker1"
+                ],
+                "giveQuest": "job-seeker",
+                "emotion": "explain",
+                "text": "Be gone with you, do not let me see you again until you have the cloak of an Enforcer. They are issued from the Blacksmith, if you're lucky, he’s in the city marketplace right now. Be off!"
+            }
+        },
+        "indicator": "quest"
+    },
+    "pilgrim-journey": {
+        "completeQuest": "job-seeker",
+        "text": "pilgrim-journey",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "So you’re the new recruit I’ve been hearing about? Typical, I work my ass off for this job, and then a new Bishop just waltzes in and expects me to play babysitter to the likes of you."
+            },
+            "1": {
+                "jumpPointName": "questions",
+                "text": "Where is the mount you were suppose to get from the Master Smith? Be sure to return to him and collect it before taking off, you have already wasted enough of my time.",
+                "choices": {
+                    "0": {
+                        "text": "My orders?",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Right, well enough chattering, you’ve got a job to do now. Speaking of which, here’s your first assignment. I was gonna take it for myself, but looking at the details, it’s not my idea of a fun time. You can have it I suppose."
+                            },
+                            "1": {
+                                "text": "Head to the far end of the bridge near the airship dock. There’s a bunch a pilgrims loitering around waiting for one of us to accompany them on their journey to Ma’at’s Keep where they can say their prayers and repent."
+                            },
+                            "2": {
+                                "giveQuest": "pilgrim-journey",
+                                "setFlags": [
+                                    "qf_pilgrim"
+                                ],
+                                "emotion": "hmph",
+                                "text": "Make sure none of them get killed and I’ll pay you out what I was supposed to get for doing it. Take this map to familiarize yourself with the area you will be patrolling."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>What do Enforcers do?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Are you really asking me about who we are, after you’ve joined our ranks? Ma'at give me strength! The Enforcers are a highly trained, highly important guild of warriors."
+                            },
+                            "1": {
+                                "text": "We’ve proven not only our strength but our wits and our loyalty as well. It’s our job to not only watch over the High Bishop of Guild City… whoever that useless bugger  might be…"
+                            },
+                            "2": {
+                                "emotion": "hmph",
+                                "text": "But also to enact the laws of the mother goddess throughout the Midlands.",
+                                "choices": {
+                                    "0": {
+                                        "text": "<c=lore>Is Roma in charge?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "hmph",
+                                                "text": "He’s not my Bishop. Sure, I’ll serve him, do as I’m told, but I’d be lying if I said I wasn’t still sore about Bishop Archibald’s removal from office."
+                                            },
+                                            "1": {
+                                                "goToJump": "questions",
+                                                "text": "Now that was a true holy man. Roma gives me the creeps, he acts nice, but that smile of his belongs in the jaws of a Reptilian, not a man."
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "My orders?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "hmph",
+                                                "text": "Right, well enough chattering, you’ve got a job to do now. Speaking of which, here’s your first assignment. I was gonna take it for myself, but looking at the details, it’s not my idea of a fun time. You can have it I suppose."
+                                            },
+                                            "1": {
+                                                "text": "Head to the far end of the bridge near the airship dock. There’s a bunch a pilgrims loitering around waiting for one of us to accompany them on their journey to Ma’at’s Keep where they can say their prayers and repent."
+                                            },
+                                            "2": {
+                                                "giveQuest": "pilgrim-journey",
+                                                "setFlags": [
+                                                    "qf_pilgrim"
+                                                ],
+                                                "emotion": "hmph",
+                                                "text": "I’m sure you know the road there can be fraught with all sorts of nasty dangers. Make sure none of them get killed and I’ll pay you out what I was supposed to get for doing it."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "<c=lore>What do you think of Knights?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "You got something wrong with you or are you just stupid? You ask me what I think of those Knights like I might have a different opinion to everyone else?"
+                            },
+                            "1": {
+                                "text": "They are dirty, smelly criminals who get a kick out of destroying peace and order for us decent folks. I heard you’re the one who caught that disgusting ringleader of theirs - Sir Oscar of the Hulthine Vale’s what they call him."
+                            },
+                            "2": {
+                                "goToJump": "questions",
+                                "emotion": "hmph",
+                                "text": "Say he’s a Lord! A Lord! The noblest thing about him is he’s keeping his trap shut now that he’s behind bars."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "pilgrim-journey-cp": {
+        "completeQuest": "pilgrim-journey",
+        "text": "pilgrim-journey-cp",
+        "tree": {
+            "0": {
+                "removeFlags": [
+                    "qf_pilgrim"
+                ],
+                "emotion": "explain",
+                "text": "Well look who survived their run to Ma’at’s Keep. We better thank the goddess I guess. Here, take it, my pay for the job, minus a small finder's fee."
+            },
+            "1": {
+                "jumpPointName": "questions",
+                "text": "If your purse is feeling heavy you should check out the marketplace, they sell all kinds of junk around these parts.",
+                "choices": {
+                    "0": {
+                        "text": "<c=lore>The market?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Guild City holds the largest marketplace in all the lands. We have ships and merchants from Parathime that come to peddle their wares. Anything one could want to buy is located within these great walls."
+                            },
+                            "1": {
+                                "goToJump": "questions",
+                                "text": "Be careful of the underground markets though. Shady merchants with hidden passages and secret phrases. These people have no morals, no allegiance to anything other than the person holding the most dram."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "Yes Ma'm.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Be off with you now, I need to check on my troops. Report back when your  purse is lighter."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "pagan-magicks": {
+        "reqFlags": [
+            "qf_pilgrim-journey_cp"
+        ],
+        "indicator": "mainquest",
+        "text": "pagan-magicks",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "Right, now that you’ve proven yourself, and I can be sure you won’t fall on your own sword, there’s another problem that needs some attention.",
+                "choices": {
+                    "0": {
+                        "text": "Let's get to it.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "To the South-East, near Wenderwood lies the Burning Forest - small collection of Wenderwood Timber trees that light up like candles and never burn out."
+                            },
+                            "1": {
+                                "text": "Some folk in Wenderwood village have been conducting a secret life of pagan ritual and worship over in that clearing. They reckon just because of the high danger of Valsunga Wyrm attacks in that area, the Order will simply turn a blind eye!"
+                            },
+                            "2": {
+                                "emotion": "hmph",
+                                "text": "That’s not going to happen. Make your way over there and destroy the idols they’ve placed among the trees. Root out the perpetrators and question them if you can, though that’s not officially part of the job…"
+                            },
+                            "3": {
+                                "giveQuest": "pagan-magicks",
+                                "setFlags": [
+                                    "qf_show_idols"
+                                ],
+                                "text": "Well go on, get moving!"
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "Maybe Later.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "explain",
+                                "text": "Just because you save the Bishop's life once, doesn't  mean he’ll let you slack off. Come back when you’re ready to work."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "pagan-magicks-cpA": {
+        "completeQuest": "pagan-magicks",
+        "notFlags": [
+            "qf_pagan-magicks-talked"
+        ],
+        "text": "pagan-magicks-cpA",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "You’re back, and I hear from my spies there’s a fair few angry pagans crying over their broken statues. Did you manage to figure out who was running the cult?"
+            },
+            "1": {
+                "text": "Never mind, I don’t care. Let’s just hope their suffering brings them to repent sooner rather than later. Here’s a bit more Dram to keep you up and running. Report back when you are ready for your next set of orders."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "pagan-magicks-cpB": {
+        "completeQuest": "pagan-magicks",
+        "reqFlags": [
+            "qf_pagan-magicks-talked"
+        ],
+        "text": "pagan-magicks-cpB",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "You’re back, and from what I hear you managed to convert those cultists from their devil worshipping ways? I suppose getting them saved was the “right” decision. Perhaps not the most decisive one… Only time will tell."
+            },
+            "1": {
+                "text": "In the meantime here’s some Dram to see you fed. Make sure to keep your purse strings tight. Report back once you’re ready for your next set of orders."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "report-duty": {
+        "reqFlags": [
+            "qf_pagan-magicks_cp"
+        ],
+        "indicator": "mainquest",
+        "text": "report-duty",
+        "tree": {
+            "0": {
+                "text": "Right let’s get down to it, there’s been more reports of bandits at our farthest guard tower near Hulthine’s Gate. Follow the path out of Guild City, turning right passing through Narrow Orchard. You will see the tower along the path leading to Wenderwood."
+            },
+            "1": {
+                "emotion": "hmph",
+                "text": "Once there report to Sergeant of the Guard, Sergeant Siegfried, and see if you can be of some assistance."
+            },
+            "2": {
+                "giveQuest": "report-duty",
+                "text": "He’ll be waiting on you before setting out on his next mission, so don’t keep him waiting."
+            }
+        }
+    },
+    "king-sweetie": {
+        "reqFlags": [
+            "qf_king-sweetie_ip"
+        ],
+        "notFlags": [
+            "qf_show-monsters-orchard"
+        ],
+        "indicator": "objective",
+        "text": "king-sweetie",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "achievement": "savenarroworchard",
+                "text": "Finally you’ve returned. You’re starting to look like a true Enforcer as well. Sergeant Siegfried has been keeping tabs on you for me, and says he’s quite impressed with your work."
+            },
+            "1": {
+                "text": "Keep it up and you might find yourself doing my job someday! But for now...I’ve got an easy one for you.The King Sweetie Apples over near Narrow Orchard look to have been overrun by monsters."
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "Us Enforcers, don’t just keep the laws of Ma’at, we’re also responsible for keeping peace in the Midlands, so sharpen your wits - ready your weapons - and get yourself over to Narrow Orchard as fast as you can manage."
+            }
+        }
+    },
+    "king-sweetie-cp": {
+        "completeQuest": "king-sweetie",
+        "text": "king-sweetie-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Another job well done, if I’m judging softly. Here’s your pay. I hope you’re putting all this Dram to good use and not just spending it on booze and useless contraptions."
+            },
+            "1": {
+                "text": "That’s about all I have for you for the next while. Oh wait… Other than this one thing…"
+            }
+        },
+        "indicator": "dialog"
+    },
+    "ambitious-general": {
+        "reqFlags": [
+            "qf_king-sweetie_cp"
+        ],
+        "indicator": "mainquest",
+        "text": "ambitious-general",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "General Clavacius is camped up in the fortress just outside of the city. His army’s running low on supplies and are in need of someone to run food and medicine their way."
+            },
+            "1": {
+                "text": "Speak with the General, but be warned he’s a right nasty piece of work, hence why I won’t be doing this one myself… He gets me all… hot and bothered."
+            },
+            "2": {
+                "giveQuest": "ambitious-general",
+                "emotion": "hmph",
+                "text": "Same deal as last time, you’ll get my pay minus a finder’s fee, and you’ll be damn glad of it. Just don’t get Clavacius talking about himself or you’ll never hear the end of it!",
+                "giveItems": [
+                    "130@1"
+                ]
+            }
+        }
+    },
+    "ambitous-general-cp": {
+        "completeQuest": "ambitious-general",
+        "text": "ambitous-general-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Ha, by the goddess! You’re all pale and sickly. He was that bad was he? I did warn you not to get him going. Well, you managed to escape with most of your sanity in tact by the looks of it, so here’s your pay."
+            },
+            "1": {
+                "text": "Hopefully that’ll be the last we see of the bastard for a while. Take this Dram and get yourself some rest, we must be ready for whatever the Bishop asks of us."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "green-mile": {
+        "reqFlags": [
+            "qf_ambitious-general_cp"
+        ],
+        "indicator": "mainquest",
+        "text": "green-mile",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "You remember that scoundrel you caught trying to cut off the Bishop’s head back in Highsteppe? Oscar? Well, he’s about ready to lose his own, we’ve just gotta take care of his “final rights” first.."
+            },
+            "1": {
+                "giveQuest": "green-mile",
+                "text": "Head over to the Fort and find out what he wants for his last meal. By law we have to grant it, no matter what he asks for. If he says he wants flaming apple strudel with a side of live trout, then you best brush up on your fishing and pastry skills."
+            }
+        }
+    },
+    "see-fassifth-cp": {
+        "completeQuest": "see-fassifth",
+        "text": "see-fassifth-cp",
+        "tree": {
+            "0": {
+                "removeFlags": [
+                    "qf_oscar-show-2"
+                ],
+                "emotion": "hmph",
+                "text": "Done are you? Good. Time to go lop off his head then. Excuse me, I best prepare. I need to put on my “royal decree” voice."
+            },
+            "1": {
+                "setFlags": [
+                    "qf_move-fassith"
+                ],
+                "text": "Meet me in the city center when you’re ready. You caught this bugger, you should be there when the life leaves his body."
+            },
+            "2": {
+                "giveQuest": "fassith-execution",
+                "emotion": "hmph",
+                "text": "Oh, and here’s some more coin. Dress up nice. Ain't every day we get to execute a “Lord.”"
+            },
+            "3": {
+                "setFlags": [
+                    "qf_fassith_ex"
+                ],
+                "text": "...."
+            }
+        },
+        "indicator": "quest"
+    }
+}

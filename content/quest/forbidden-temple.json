@@ -1,0 +1,20 @@
+{
+    "description": "Helga has asked that you prove your exploration capabilities once more by traversing through the forbidden temple of Mecethu-Kalaam, to the West of the Rainforest Order Encampment, and seeing what you can find there. She mentioned a staff of some great value buried with an ancient king.",
+    "name": "The Forbidden Temple (MSQ)",
+    "completed": "Return to Helga at her camp in the Lamavoria Frontier, to deliver the Star Staff, so she further understand the Esasa Culture.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "340",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 19,
+    "rewards": [
+        "giveitems xp@18500,coin@200"
+    ],
+    "autocomplete": false
+}

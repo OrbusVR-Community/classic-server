@@ -1,0 +1,115 @@
+{
+    "intro": {
+        "notFlags": [
+            "qf_into-the-wilds_ip"
+        ],
+        "text": "intro",
+        "tree": {
+            "0": {
+                "allowrepeat": true,
+                "emotion": "greeting",
+                "text": "Elajha, traveler."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "into-the-wilds-ip": {
+        "completeQuest": "desert",
+        "text": "into-the-wilds-ip",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Elajha, traveller on the sands. I am Kreyen, leader of this Fa Cher. You have the look of one who has travelled far, a great thirst driving both your body and your ghost. How might I and my Fa Cher gratify your purpose?",
+                "choices": {
+                    "0": {
+                        "text": "I am of the Patreayl Knights.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "May the desert warm you, $NAME. I have heard of your Knighthood, our people trade secrets with the golden stag of your furūsiyya. Then you wish us to help you on your quest to overthrow the Order of Ma’at?",
+                                "choices": {
+                                    "0": {
+                                        "text": "I do. An alliance.",
+                                        "tree": {
+                                            "0": {
+                                                "jumpPointName": "questions",
+                                                "emotion": "explain",
+                                                "text": "My heart sings sorrow with your soul. But to leave our lands in this time is impossible. Though no Fa Cher is friends to the Order, we are loyal to each other, and this season is a season of disaster for our us, both far and wide.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "<c=lore>Whats wrong?</c>",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "explain",
+                                                                "text": "Omens in the sand. Strange tremors shake the earth. There are warnings in the night sky. An enigma casts it's deadly shadow across our tribes."
+                                                            },
+                                                            "1": {
+                                                                "text": "Whole villages have been ravaged, their Fa Cher disappearing without a trace. Something is taking them. To where, and why, I know not."
+                                                            },
+                                                            "2": {
+                                                                "goToJump": "questions",
+                                                                "emotion": "hmph",
+                                                                "text": "But until this horror is resolved, I am bound by honor to protect my people."
+                                                            }
+                                                        }
+                                                    },
+                                                    "1": {
+                                                        "text": "May I help?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "agree",
+                                                                "text": "Var kha! You would do this for a Fa Cher you do not know? Then go, find out what is abducting our people and put a stop to it."
+                                                            },
+                                                            "1": {
+                                                                "text": "I pray to the sun, that there might still be many Fa Cher left alive."
+                                                            },
+                                                            "2": {
+                                                                "giveQuest": "kreyen",
+                                                                "emotion": "explain",
+                                                                "text": "The last village to be lost was to the South of here, across the barren desert, near the mountains of the Lucian Plateau."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "kreyen-cp": {
+        "completeQuest": "kreyen",
+        "text": "kreyen-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Ptholethu me’fier! Sandworms? That size? By the Lizard’s back, what horror…",
+                "choices": {
+                    "0": {
+                        "text": "I don't think they suffered...",
+                        "tree": {
+                            "0": {
+                                "emotion": "cheer",
+                                "text": "$NAME, thank you for… helping with this matter. May the sun bless you with long life."
+                            },
+                            "1": {
+                                "giveQuest": "highsteppe1",
+                                "setFlags": [
+                                    "qf_highsteppe"
+                                ],
+                                "text": "I am sad for the lives that have been lost, but at least, the threat has been removed, our Fa Cher should be safe now. I wish to honor you with this scarf, a sign of our trust and partnership, I hope that we can begin a strong friendship together."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    }
+}

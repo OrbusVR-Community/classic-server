@@ -1,0 +1,29 @@
+{
+    "delivery-boy-ip": {
+        "reqFlags": [
+            "qf_delivery-boy_ip"
+        ],
+        "text": "delivery-boy-ip",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "Hello stranger what can I do for you?",
+                "choices": {
+                    "0": {
+                        "text": "I have a shipment from Bjorth.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Just in time, we’re almost dry. Here’s the payment. Make sure to tell Bjorth to double my order next time.",
+                                "giveItems": [
+                                    "298@1"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

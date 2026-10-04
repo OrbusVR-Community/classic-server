@@ -1,0 +1,21 @@
+{
+    "description": "High Commander Fassith will not tolerate an Enforcer not in proper attire, find the Master Smith in the Guild City Marketplace to purchase a cloak.",
+    "name": "Job Seeker (MSQ)",
+    "completed": "Return to Commander Fassith near the fountain to receive your orders.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "124",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 5,
+    "rewards": [
+        "giveitems 124@1,xp@2000,coin@40",
+        "unlockpage 154"
+    ],
+    "autocomplete": false
+}

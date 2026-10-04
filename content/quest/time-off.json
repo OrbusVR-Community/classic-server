@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "Time off (MSQ)",
+    "completed": "With some time off from being Fassith messenger, best to check back with Sir Petyr of The Twins, and see if he is in need of your service.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 11,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

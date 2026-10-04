@@ -1,0 +1,20 @@
+{
+    "description": "Deep within the Rainforest the Anthropologist has found a tribe of Lizardmen, thought to be in control of a codex passed down through the generations. In her last journal entry she writes that she was going to make contact with the Lizardmen. She believes their camp is straight North of the Order Encampment, near a ruined temple. Find out what has happened to the Anthropologist.",
+    "name": "The Anthropologist",
+    "completed": "Speak with the Anthropologist and discover what has happened, and how to free her from the cage. Hurry, there will be more Lizardmen returning soon.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_rescue-anthro",
+            "typenum": 1,
+            "typeextra": "Locate the Anthropologist"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 18,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

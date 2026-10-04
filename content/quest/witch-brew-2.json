@@ -1,0 +1,26 @@
+{
+    "description": "Tinny has asked you to prepare for her an intoxicating brew, as the Cauldron she would typically use has fallen victim to some kind of magical sickness. You recall seeing a spare one in your own home. Better head back there and see if you can follow the recipe the old hag wrote down  in your journal…",
+    "name": "An Intoxicating Brew Part 2",
+    "completed": "Return to Tinny with her concoction to continue your training.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "117",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "99",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "or",
+    "shortdesc": "",
+    "reqlevel": 3,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

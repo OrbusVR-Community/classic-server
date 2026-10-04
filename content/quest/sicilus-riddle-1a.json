@@ -1,0 +1,18 @@
+{
+    "description": "Failing to derive the right answer from Sicilus riddle, she has sent you off to Wenderwood to collect Wolf specimens for her studies.",
+    "name": "Sicilus Punishments",
+    "completed": "Return to Sicilus at University Island when you have deciphered the answer to the Riddle, but best be careful, choosing the wrong answer could have dire consequences..",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "wolf",
+            "typenum": 15,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 8,
+    "rewards": [],
+    "autocomplete": false
+}

@@ -1,0 +1,20 @@
+{
+    "description": "Slay the Valsunga Wyrms along the path to the dungeon. These monsters tend to gather near warmth.",
+    "name": "Wenderwood Woes",
+    "completed": "You have slain the dragons for now, return to the guard to collect your reward.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "wyvern",
+            "typenum": 8,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 6,
+    "rewards": [
+        "giveitems xp@1500,coin@25"
+    ],
+    "autocomplete": false
+}

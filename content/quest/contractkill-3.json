@@ -1,0 +1,20 @@
+{
+    "description": "The Brotherhood wants you to carry out one of their contracts, possibly killing an innocent person. Hunt down the target in the Frosted Spit. He is an expert at blending in, but be wary, if you kill the wrong target, they will likely retaliate.",
+    "name": "The Grimm Reaper II",
+    "completed": "Return to Brotherhood with news for reward, but at what cost to your Soul?",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "contractkill3",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 18,
+    "rewards": [
+        "giveitems xp@14000,coin@21"
+    ],
+    "autocomplete": false
+}

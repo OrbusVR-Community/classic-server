@@ -1,0 +1,34 @@
+{
+    "greeting": {
+        "text": "greeting",
+        "tree": {
+            "0": {
+                "text": "Here great warrior, take these two shields.",
+                "giveItems": [
+                    "354@1",
+                    "355@1"
+                ]
+            }
+        },
+        "indicator": "dialog"
+    },
+    "house-key": {
+        "text": "house-key",
+        "tree": {
+            "0": {
+                "text": "Here is a <c=ooc>House Deed</c>, you can use this to move your house to one of the 3 other locations outside of Highsteppe, including Guild City farms, Tarth Fa Dathrun, and New Kingsport. Speak with the Broker in front of the house to complete the move."
+            },
+            "1": {
+                "text": "Also have a <c=ooc>Fellowship Certificate</c> to test out making a Fellowship in game."
+            },
+            "2": {
+                "text": "Good Luck!",
+                "giveItems": [
+                    "376@1",
+                    "375@1"
+                ]
+            }
+        },
+        "indicator": "dialog"
+    }
+}

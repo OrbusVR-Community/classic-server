@@ -1,0 +1,20 @@
+{
+    "description": "Search among the cemeteries of old Kingsport. There you may find clues as to what is causing this problem, though be warned. The townsfolk seem to be of an odd sort, and not affected by the creatures that have taken over the ruined Island.",
+    "name": "Uncovered Truth",
+    "completed": "",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_truth-revealed1",
+            "typenum": 1,
+            "typeextra": "Investigate Kingsport Cemetery"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 17,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

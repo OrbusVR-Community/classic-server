@@ -1,0 +1,26 @@
+{
+    "description": "The Order have discovered catacombs beneath Khabor’s Waystation far predating the Janists. What horrors are they unearthing in this ancient Labyrinth. Locate Bishop Roma deep below and find out! Venture through the doors before you to find out what is hidden below.",
+    "name": "Into the Depths",
+    "completed": "The Necropolar Lords have risen! Roma is dead! Sephotep has saved you from the now freed \"Dethslatŭ of The Coming Plague,\" Markos must be warned and an army must be gathered before it's too late. Return to Markos atop Ma'at's Keep to relay the information.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "romasnow",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "504",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 19,
+    "rewards": [
+        "giveitems xp@130000"
+    ],
+    "autocomplete": false
+}

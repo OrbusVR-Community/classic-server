@@ -1,0 +1,20 @@
+{
+    "description": "Mikkas hunting ground has been overrun by Corrupted Order guards, rid them of his once sacred land.",
+    "name": "Returning Home",
+    "completed": "Return to Mikka to bring him the news",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "corrupt",
+            "typenum": 25,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 19,
+    "rewards": [
+        "giveitems xp@30000"
+    ],
+    "autocomplete": false
+}

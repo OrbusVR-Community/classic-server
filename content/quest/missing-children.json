@@ -1,0 +1,32 @@
+{
+    "description": "There are three children missing from their beds, and the townsfolk blame Bezoula. Head into the Lucian Plateau forests to find the missing children. The last parent you talked to spoke of tree shaped men, best to look deep in the forest for clues.",
+    "name": "From Their Beds",
+    "completed": "",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_missing-child",
+            "typenum": 1,
+            "typeextra": "Find missing girl"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_missing-child2",
+            "typenum": 1,
+            "typeextra": "Find missing girl"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_child-safe-home",
+            "typenum": 1,
+            "typeextra": "Find missing boy"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 18,
+    "rewards": [
+        "giveitems coin@150,xp@10000"
+    ],
+    "autocomplete": true
+}

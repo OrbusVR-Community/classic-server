@@ -1,0 +1,88 @@
+{
+    "npc-green-lady": {
+        "reqFlags": [
+            "qf_forest-secrets_cp"
+        ],
+        "text": "npc-green-lady",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Do you have time to make some extra Dram?",
+                "choices": {
+                    "0": {
+                        "text": "Always.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Go to the Lowland Woods - home to the famed Roto Spore! Those things sell at a high price to any Patreayl Chef, and even higher to those Parathimian bastards!"
+                            },
+                            "1": {
+                                "text": "They go crazy for the stuff, sprinkling all their fancy foods with shavings of the fungus. Can't hardly blame them, you ain't never tasted anything like the Roto Spore."
+                            },
+                            "2": {
+                                "emotion": "hmph",
+                                "text": "If only them damn hogs would stop eating them up before us folk can get to them…If you're lucky enough to stumble upon some I'll trade you for them.",
+                                "choices": {
+                                    "0": {
+                                        "text": "I'm in, how many?",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "npc-green-lady",
+                                                "emotion": "explain",
+                                                "text": "If you can find me twenty Roto Spore mushrooms I'll trade you a Potion to make your BIG dreams come true."
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "On second thought...",
+                                        "tree": {
+                                            "0": {
+                                                "allowrepeat": true,
+                                                "text": "Be sure to watch for them spores !"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "Not now I'm busy.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "Be sure to watch for them spores !"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "npc-green-lady-cp": {
+        "completeQuest": "npc-green-lady",
+        "text": "npc-green-lady-cp",
+        "tree": {
+            "0": {
+                "emotion": "agree",
+                "text": "You are better than any spore hog out there. Here's the potion like I promised."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "npc-narrow-orchard-cp": {
+        "reqFlags": [
+            "qf_npc-green-lady_cp"
+        ],
+        "text": "npc-narrow-orchard-cp",
+        "tree": {
+            "0": {
+                "allowrepeat": true,
+                "text": "I hope you enjoyed your time as a Giant, if you are looking for some other potions check back with me later....we may be able to make a deal."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

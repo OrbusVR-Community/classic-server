@@ -1,0 +1,20 @@
+{
+    "description": "Marcell is to be published in the Writer’s Guild’s compilation work. However, he is too frail to make the journey with the manuscript himself. Make sure you deliver it for him! Find the editor, Erin Von Leustron, near the waters of the village New Kingsport in the Rainforest.",
+    "name": "Marcell’s Poetry (MSQ)",
+    "completed": "Marcell tricked you. Return to Highsteppe and demand your reward!",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "157",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 8,
+    "rewards": [
+        "giveitems 156@1"
+    ],
+    "autocomplete": false
+}

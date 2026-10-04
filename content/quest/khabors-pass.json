@@ -1,0 +1,26 @@
+{
+    "description": "Bishop Roma has taken his men and set out into the Necropolar. What are they planning? Follow them by way of the hidden entrance. Speak with Sicilus’ at her Zoological Gardens to seek out the hidden tunnel. Then venture through the tunnel to the Necropolar. Once inside the frigid land of the Necropolar seek out the path Roma has taken.",
+    "name": "Khabor's Pass",
+    "completed": "Seek out help to find the direction Roma has fled inside the Necropolar. There is one called the Frozen Stranger whose people have lived here for generations. Seek him out among the snowy landscape to see if he may offer assistance.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_sicilus-speak",
+            "typenum": 1,
+            "typeextra": "Speak with Sicilus"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_reached-necropolar",
+            "typenum": 1,
+            "typeextra": "Venture to Necropolar"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 17,
+    "rewards": [
+        "giveitems coin@1000,xp@40000"
+    ],
+    "autocomplete": false
+}

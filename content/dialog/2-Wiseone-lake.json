@@ -1,0 +1,29 @@
+{
+    "summoning-potion": {
+        "completeQuest": "summoning-potion",
+        "text": "summoning-potion",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Good good, you’re here. I trust you have the potion?"
+            },
+            "1": {
+                "text": "Lovely, lovely…. Well, that’s it, here you go. I'll pour this into the water and let you two get acquainted."
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "There...I'll be on my way now."
+            },
+            "3": {
+                "setFlags": [
+                    "qf_show-susannah"
+                ],
+                "removeFlags": [
+                    "qf_move-wiseone"
+                ],
+                "text": "...."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

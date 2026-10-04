@@ -1,0 +1,44 @@
+{
+    "description": "Kill sixteen of all the creatures on the list to receive your reward.",
+    "name": "Noah's Ark Desert",
+    "completed": "Return to Hunter Dern, he can usually be found hunting along the paths of the Lowland Woods, or selling his furs inside the marketplace of Highsteppe.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "sandworm",
+            "typenum": 16,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "manticore",
+            "typenum": 16,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "cobra",
+            "typenum": 16,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "cactusmansmall",
+            "typenum": 16,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "wasp",
+            "typenum": 16,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 16,
+    "rewards": [
+        "giveitems xp@16000,coin@100"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,20 @@
+{
+    "description": "Strange reports of a mysterious, tall Blue figure have been floating around the luxury resort situated atop the Frontier hot pools, and now, a paying customer has gone missing! The Resort Owner has agreed to give you a room should you find the missing tourist.",
+    "name": "Little Helper",
+    "completed": "Follow the bloody footprints leading deeper into the Tradu Forest, be wary though, whatever has made these tracks could have a taste for blood.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_missing-tourist1",
+            "typenum": 1,
+            "typeextra": "Find the Missing Tourist"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 17,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": true
+}

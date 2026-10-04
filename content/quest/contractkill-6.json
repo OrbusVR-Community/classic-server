@@ -1,0 +1,20 @@
+{
+    "description": "The Brotherhood wants you to carry out one of their contracts, possibly killing an innocent person. He mentioned a woman in hiding, with little more then an idea of the area she is in. Search the Obnobi Desert to hunt her down.",
+    "name": "The Grimm Reaper V",
+    "completed": "Return to Brotherhood with news for reward, but at what cost to your Soul?",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "contractkill6",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 19,
+    "rewards": [
+        "giveitems xp@40000,coin@21"
+    ],
+    "autocomplete": false
+}

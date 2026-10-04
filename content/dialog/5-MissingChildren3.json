@@ -1,0 +1,55 @@
+{
+    "missing-kids-3": {
+        "text": "missing-kids-3",
+        "tree": {
+            "0": {
+                "emotion": "afraid",
+                "text": "I… I was supposed to be fishing with my Papa today. I’m so scared. Please, help me.",
+                "choices": {
+                    "0": {
+                        "text": "Who took you?",
+                        "tree": {
+                            "0": {
+                                "emotion": "afraid",
+                                "text": "There's a tree walking around with a giant sword, he seems to control the others. Please help I wanna go home!",
+                                "choices": {
+                                    "0": {
+                                        "text": "Go home.",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "defeat-stickquest",
+                                                "emotion": "afraid",
+                                                "text": "I'm scared they will get me again, take me for their own.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "I'll get you home, now let's go",
+                                                        "tree": {
+                                                            "0": {
+                                                                "setFlags": [
+                                                                    "qf_child3pathing"
+                                                                ],
+                                                                "emotion": "cheer",
+                                                                "text": "You’re a real hero. Thank you for saving me! I have to find my dad!"
+                                                            },
+                                                            "1": {
+                                                                "removeFlags": [
+                                                                    "qf_thirdchild"
+                                                                ],
+                                                                "text": ".."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    }
+}

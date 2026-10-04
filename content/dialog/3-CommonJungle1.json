@@ -1,0 +1,16 @@
+{
+    "brotherhood-clue1": {
+        "reqFlags": [
+            "qf_patreayl-rainforest_ip"
+        ],
+        "indicator": "objective",
+        "text": "brotherhood-clue1",
+        "tree": {
+            "0": {
+                "allowrepeat": true,
+                "emotion": "afraid",
+                "text": "The brotherhood.... Im sorry I dont have anytime to talk.... Best be getting on and not bring up such things again."
+            }
+        }
+    }
+}

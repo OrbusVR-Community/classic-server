@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "Follow the Signs (MSQ)",
+    "completed": "Oscar told you to follow the signs should you ever wish to change sides. You decide you need to figure out what he meant. You remember seeing a large Patreyal Knight symbol someone has painted near the square Oscar was executed at in Guild City. Is that what he meant by following the \"signs\"? You must make contact with the Markos of Runvale, leader of the Knights, and the man Oscar talked so fondly of.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 9,
+    "rewards": [
+        "giveitems xp@1500"
+    ],
+    "autocomplete": false
+}

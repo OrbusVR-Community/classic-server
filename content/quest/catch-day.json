@@ -1,0 +1,20 @@
+{
+    "description": "Ernest has given you the Beginners Rod and two Lure parts, but wants you to catch 5 Sunfish. Try the waters of Kingsport lake, the fish tend to school, so trying new spots around the lake is always recommended.",
+    "name": "Catch of the Day",
+    "completed": "Return to Ernest on the North side of Kingsport Lake, to show him your catch of the day.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "73",
+            "typenum": 5,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        "giveitems 313@2"
+    ],
+    "autocomplete": false
+}

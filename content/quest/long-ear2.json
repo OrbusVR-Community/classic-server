@@ -1,0 +1,20 @@
+{
+    "description": "The Redtails have returned to Marcell's fields. Clear them out before they eat all the seeds.",
+    "name": "Ravenous Redtails",
+    "completed": "Return to Marcell Cenn, near the Highsteppe marketplace, to collect your fee.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "redtail",
+            "typenum": 30,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 2,
+    "rewards": [
+        "giveitems xp@600,coin@30"
+    ],
+    "autocomplete": false
+}

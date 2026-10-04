@@ -1,0 +1,20 @@
+{
+    "description": "Speak with the Master Smith on the road to Khabor's Pass, he may know of a entrance into the Order camp. Before venturing off it may be wise to find other Guardians that will fight by your side. Once inside the camp, find and kill the Sword of Ma'at.",
+    "name": "Sword of Ma'at (MSQ)",
+    "completed": "Return to Guardian Bart, in Highsteppe near the Airship dock, now that the Sworn sword of Ma'at has been defeated, and try to persuade him to join the cause.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "swordmaat",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 14,
+    "rewards": [
+        "giveitems xp@18000,coin@200,188@1"
+    ],
+    "autocomplete": false
+}

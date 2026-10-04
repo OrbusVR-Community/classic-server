@@ -1,0 +1,21 @@
+{
+    "description": "You have decided to relocate your house to the famed town of Guild City. Purchase a Housing Deed from your local NPC Vendor to complete the purchase, she can be found in Guild City near the fountain.",
+    "name": "Guild City Home",
+    "completed": "Return to the NPC Broker in front of your future house in Guild City to complete the transaction.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "376",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        "giveitems 370@1",
+        "takeitems 369@1,371@1,372@1,373@1,374@1"
+    ],
+    "autocomplete": false
+}

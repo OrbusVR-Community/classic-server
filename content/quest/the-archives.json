@@ -1,0 +1,20 @@
+{
+    "description": "Investigate the Order Archives at University Island, Oscars map points to a secret door along the side of the building. Find the notes that Oscar left hidden away deep in the archives, in the book \"An Abridged History of Patreayl\".",
+    "name": "The Archives (MSQ)",
+    "completed": "Search out the woman from the stories, Mrs. Denhar, she resides in your town of Hightseppe. Question her to find out what the Order has truly been doing to its subjects.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "155",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "Investigate the Order Archives at University Island, Oscars map points to a secret door along the side of the building.",
+    "reqlevel": 9,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

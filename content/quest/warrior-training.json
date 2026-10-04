@@ -1,0 +1,20 @@
+{
+    "description": "Defeat the Dummy near the Arena to continue with you training.",
+    "name": "Sword Training",
+    "completed": "Speak with Guardian Bart to continue training.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "dummy",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

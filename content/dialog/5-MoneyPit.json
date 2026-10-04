@@ -1,0 +1,14 @@
+{
+    "money-pit": {
+        "text": "money-pit",
+        "tree": {
+            "0": {
+                "text": "What a lovely day, here have some dram to remember this day!",
+                "giveItems": [
+                    "coin@500"
+                ]
+            }
+        },
+        "indicator": "dialog"
+    }
+}

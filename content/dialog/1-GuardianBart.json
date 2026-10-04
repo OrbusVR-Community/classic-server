@@ -1,0 +1,580 @@
+{
+    "shout-greeting": {
+        "shout": true,
+        "text": "shout-greeting",
+        "tree": {
+            "0": {
+                "text": "To speak to me, <c=ooc>wave your hand at me in greeting</c> with weapons sheathed."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "training": {
+        "indicator": "mainquest",
+        "notFlags": [
+            "qf_airship_ip"
+        ],
+        "text": "training",
+        "tree": {
+            "0": {
+                "setFlags": [
+                    "qf_started-quest"
+                ],
+                "emotion": "greeting",
+                "text": "Well, $NAME, best be started. We train until the flame of a guardian sparks inside you. But we must be quick. The Festival approaches."
+            },
+            "1": {
+                "text": "<c=ooc>To access your Player Menu, press the Menu button on your controller.</c>",
+                "choices": {
+                    "0": {
+                        "text": "Press the Menu button on your controller @tooltip@right-menu@openmenu",
+                        "tree": {
+                            "0": {
+                                "text": "<c=ooc>Now select the Gear icon from the list.</c>",
+                                "choices": {
+                                    "0": {
+                                        "text": "Hold down on the Trigger button to point your finger,<br>then press on the Gear icon to open the Settings menu. @tooltip@right-trigger@menusettings",
+                                        "tree": {
+                                            "0": {
+                                                "text": "<c=ooc>Take a moment and set your preferred movement (Smooth/Teleport/Snap Turning) and graphical settings.</c>"
+                                            },
+                                            "1": {
+                                                "text": "<c=ooc>These options can be found under the \"Locomotion\" tab. When finished press the \"X\" to close the menu.</c>",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "Hold down the Trigger button to point your finger,<br>then press the \"X\" icon to close the menu. @tooltip@right-trigger@closemenu",
+                                                        "tree": {
+                                                            "0": {
+                                                                "text": "<c=ooc>To sprint using smooth locomotion in combat, hold the Grip button while moving.</c>"
+                                                            },
+                                                            "1": {
+                                                                "goToJump": "questions",
+                                                                "text": "Let's continue."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "2": {
+                "jumpPointName": "questions",
+                "text": "<c=ooc>There are many tools available to you, we will go over the Compass on the left of your chest first.</c>",
+                "choices": {
+                    "0": {
+                        "text": "To use the Compass, grab it by holding your<br>hand over the Compass on your chest<br> and pressing the Grip button. @tooltip@right-grip@grabcompass",
+                        "tree": {
+                            "0": {
+                                "text": "<c=ooc>The compass shows all the villages around the world, use this along with your map to guide your journey throughout the world.</c>"
+                            },
+                            "1": {
+                                "emotion": "explain",
+                                "text": "You'll also want to take a look in your Journal. It keeps track of your Quests and pages you've discovered in your travels. <c=ooc>Turn the compass over to access your Journal.</c>",
+                                "choices": {
+                                    "0": {
+                                        "text": "To access your Journal, hold the compass<br>and turn it upside down. @tooltip@right-grip@openjournal",
+                                        "tree": {
+                                            "0": {
+                                                "text": "<c=ooc>To re-position the Journal, grab the spline with the grip button. To turn the page grip and hold the bottom of the page to turn.</c>",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "To turn the pages of the Journal, hold your hand over the bottom corner<br>of the page, using the Grip button to hold the page and turn it. @tooltip@right-grip@turnjournalpage",
+                                                        "tree": {
+                                                            "0": {
+                                                                "text": "<c=ooc>You will see pages explaining each class, the Player Menu along with other helpful information. Take a moment to skim the pages.<c=ooc>"
+                                                            },
+                                                            "1": {
+                                                                "text": "<c=ooc>When finished, place the Journal behind your head like you are placing it in your backpack.</c>",
+                                                                "choices": {
+                                                                    "0": {
+                                                                        "text": "To put your Journal away, grab it at the bottom of the spine<br>in the middle of the book, then place it behind your head<br> like you are placing it in your backpack. @tooltip@right-grip@grabjournal",
+                                                                        "tree": {
+                                                                            "0": {
+                                                                                "emotion": "agree",
+                                                                                "text": "Aye, you've got the hang of it. Your Compass and Journal are valuable tools,  do not neglect them."
+                                                                            },
+                                                                            "1": {
+                                                                                "emotion": "explain",
+                                                                                "text": "I am to teach you foraging as well. <c=ooc>Use the Harvester tool to gather herbs, ore and other items. It's the pickaxe that shows up on your belt when your weapon is sheathed.</c>",
+                                                                                "choices": {
+                                                                                    "0": {
+                                                                                        "text": "To use the Harvester, grab it by holding your hand over the pickaxe<br> on your belt and pressing the Grip button with an empty hand. @tooltip@right-grip@grabtool",
+                                                                                        "tree": {
+                                                                                            "0": {
+                                                                                                "setFlags": [
+                                                                                                    "qf_show_queensear"
+                                                                                                ],
+                                                                                                "text": "<c=ooc>To harvest an Herb, swing your Harvester tool at the base of the herb and it will be added to your inventory.</c>"
+                                                                                            },
+                                                                                            "1": {
+                                                                                                "giveQuest": "foraging-training",
+                                                                                                "emotion": "explain",
+                                                                                                "text": "Head into the arena and collect three leaves of the Queen's Ear herb."
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "foraging-training-cp": {
+        "completeQuest": "foraging-training",
+        "text": "foraging-training-cp",
+        "tree": {
+            "0": {
+                "setFlags": [
+                    "qf_hide_queensear"
+                ],
+                "emotion": "explain",
+                "text": "All herbs/ores can also be sold to the <c=ooc>Apprentice Smith</c> in town if you're in need of extra Dram."
+            },
+            "1": {
+                "text": "Now to train you in the basics of combat. We'll start with the Musketeer class."
+            },
+            "2": {
+                "text": "<c=ooc>The Musketeer is a healing class in game, but can also do damage depending on the orb loadout you choose. Open your player menu and equip the Musket.</c>",
+                "choices": {
+                    "0": {
+                        "text": "Press the Menu button to open your Player Menu,<br>then equip the Beginner's Musket in your weapon slot<br> by selecting it from the right screen and placing it <br> in your right weapon slot on the left screen. @tooltip@right-menu@orbhealerclass",
+                        "tree": {
+                            "0": {
+                                "text": "<c=ooc>To switch which hand your weapon is in, place the weapon icon in the opposite weapon slot.</c>"
+                            },
+                            "1": {
+                                "text": "<c=ooc>Your Musket can fire Ability Orbs. Equip your Ability orbs by choosing them from your inventory on the Right and placing them into the slots along the bottom of the Left inventory screen.</c>"
+                            },
+                            "2": {
+                                "text": "<c=ooc>Hover your pointed finger over the Orb icons to view their descriptions. When finished close the Player Menu.</c>",
+                                "choices": {
+                                    "0": {
+                                        "text": "Hold down the Trigger button to point your finger,<br>then press the \"X\" icon to close the menu. @tooltip@right-trigger@closemenu",
+                                        "tree": {
+                                            "0": {
+                                                "text": "<c=ooc>Now unsheathe your Musket by reaching behind your head and pressing the grip button on the controller your weapon is assigned.</c>"
+                                            },
+                                            "1": {
+                                                "text": "<c=ooc>Ability Orbs have varying cool downs. To load an Ability Orb into the Musket, grab it using the Grip button with your hand and place it into the front of the gun.</c>"
+                                            },
+                                            "2": {
+                                                "text": "<c=ooc>You also have a turret orb on your chest, which can be deployed by grabbing it with the Grip button and throwing it into the air.</c>"
+                                            },
+                                            "3": {
+                                                "giveQuest": "warrior-training-monster",
+                                                "text": "Defeat the Redtail in the arena, then return to me to continue your training."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "warrior-training-monster1-cp": {
+        "completeQuest": "warrior-training-monster",
+        "text": "warrior-training-monster1-cp",
+        "tree": {
+            "0": {
+                "text": "Now for the test! Follow the map, in your <c=ooc>Player Journal</c>, I marked the King Stag's location with a white stag head in the lower left corner of the map. They roam on the same plateau that Highsteppe sits upon."
+            },
+            "1": {
+                "giveQuest": "kill-monster",
+                "emotion": "explain",
+                "text": "Return to me once you have proven your fighting skills by bringing me the meat from a King Stag. If feeling lost, be sure to ask for directions from fellow travelers, they will know the area the best."
+            }
+        },
+        "indicator": "quest"
+    },
+    "kill-monster-cp": {
+        "completeQuest": "kill-monster",
+        "indicator": "mainquest",
+        "text": "kill-monster-cp",
+        "tree": {
+            "0": {
+                "achievement": "completetraining",
+                "emotion": "cheer",
+                "text": "The day has finally come $NAME. I will pass to you the mantle of <c=pc>Guardian of Highsteppe</c>, informally of course. We'll save the ceremony 'till after Bishop Roma’s festivities."
+            },
+            "1": {
+                "text": "Best hurry back to town now, the celebrations will be due to start soon, and I’m sure <c=pc>Chef Lethrow</c> will be happy to receive the Stag meat."
+            },
+            "2": {
+                "emotion": "explain",
+                "setFlags": [
+                    "qf_guardianbart-interior"
+                ],
+                "text": "You can find <c=pc>Chef Lethrow</c> at his kitchen most days. Speak with his apprentice <c=pc>Francis</c>, look for him along the street next to the house with the large fork in the town."
+            },
+            "3": {
+                "giveQuest": "time-to-eat",
+                "setFlags": [
+                    "qf_tutorial-complete"
+                ],
+                "text": "<c=pc>Remember $NAME, you can always return to me to continue your training with the other weapons. Simply speak with me again when you have the need.</c>"
+            }
+        }
+    },
+    "post-tutorial": {
+        "notFlags": [
+            "qf_airship_ip"
+        ],
+        "reqFlags": [
+            "qf_tutorial-complete"
+        ],
+        "text": "post-tutorial",
+        "tree": {
+            "0": {
+                "text": "If you haven't already, remember to speak with Francis outside Chef Lethrow's kitchen in Highsteppe. He will be needing that King Stag meat very soon if you haven't delivered it yet."
+            },
+            "1": {
+                "jumpPointName": "questions",
+                "text": "Now what would you like to learn?",
+                "choices": {
+                    "0": {
+                        "text": "Movement/Menus",
+                        "tree": {
+                            "0": {
+                                "text": "<c=ooc>To access your Player Menu, press the Menu button on your controller.</c>",
+                                "choices": {
+                                    "0": {
+                                        "text": "Press the Menu button on your controller @tooltip@right-menu@openmenu",
+                                        "tree": {
+                                            "0": {
+                                                "text": "<c=ooc>The first icon (Player silhouette) is the nearby players' tab. You will see nearby players names displayed here.</c>"
+                                            },
+                                            "1": {
+                                                "text": "<c=ooc>After selecting a player from the list you will have the options of inviting players to a Party, Adding Friends, Trading, and muting or reporting.</c>"
+                                            },
+                                            "2": {
+                                                "text": "<c=ooc>Now press the Backpack Icon to access your Player Inventory.</c>",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "Hold down on the Trigger button to point your finger,<br>then press on the Backpack icon to open your inventory. @tooltip@right-trigger@menuinventory",
+                                                        "tree": {
+                                                            "0": {
+                                                                "text": "<c=ooc>Here you will find you player inventory.</c>",
+                                                                "choices": {
+                                                                    "0": {
+                                                                        "text": "Hold down on the Trigger button to point your finger,<br>then press on the Social icon, which looks like a group of people. @tooltip@right-trigger@menusocial",
+                                                                        "tree": {
+                                                                            "0": {
+                                                                                "text": "<c=ooc>This tab contains your Party list, Friends list, along with an in-game LFG system and PvP arena queue system.</c>"
+                                                                            },
+                                                                            "1": {
+                                                                                "text": "<c=ooc> The next icon is the Message icon (envelope), where all of your in-game messages will be delivered and can be viewed</c>",
+                                                                                "choices": {
+                                                                                    "0": {
+                                                                                        "text": "Hold down the Trigger button to point your finger,<br>then press the \"X\" icon to close the menu. @tooltip@right-trigger@closemenu",
+                                                                                        "tree": {
+                                                                                            "0": {
+                                                                                                "goToJump": "questions",
+                                                                                                "text": "Shall we continue?"
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "Tools",
+                        "tree": {
+                            "0": {
+                                "text": "<c=ooc>Your compass can also be used to communicate between your party and fellowship members. On the default setting (Purple core), the compass will broadcast to Party, while Green core will broadcast to your Fellowship</c>"
+                            },
+                            "1": {
+                                "text": "<c=ooc>To broadcast, hold the compass to your mouth until it turns red, this signifies you are broadcasting. To toggle between modes shake the compass, like the Musketeer Turret, the compass saves the last used mode.</c>"
+                            },
+                            "2": {
+                                "text": "<c=ooc>You may also equip potions to your tool slots, which will appear on your belt. To use a potion, grab it with the Grip Button and \"Drink\" the potion to activate it.</c>"
+                            },
+                            "3": {
+                                "text": "The last tool to know is the <c=ooc>Teleportation Device in your inventory which can be equipped in either Tool Slot on your belt.</c>"
+                            },
+                            "4": {
+                                "text": "The Teleport Device is equipped in the tool slot on the left, opposite the Harvester tool on your belt."
+                            },
+                            "5": {
+                                "goToJump": "questions",
+                                "text": "<c=ooc>Hold the device for 10 seconds and it will be activated taking you to the interior of your Player House. The device can only be used once every 20 minutes and will not work during combat.</c>"
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "Combat",
+                        "tree": {
+                            "0": {
+                                "text": "Which class would you like to learn?",
+                                "choices": {
+                                    "0": {
+                                        "text": "Ranger",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "hmph",
+                                                "text": "In the War of the Dandelion amidst the fray, I heard a swift shriek and a stout pop before a flood of red! Hit by an enemy swiftail!"
+                                            },
+                                            "1": {
+                                                "text": "<c=ooc>Equip your Beginner Bow by opening your player menu and equipping the bow into a weapon slot on the Left screen.</c>"
+                                            },
+                                            "2": {
+                                                "text": "<c=ooc>In addition to your basic arrow, you also have Ability arrows, which can be equipped in the Ability slots on the left screen.</c>"
+                                            },
+                                            "3": {
+                                                "text": "<c=ooc>Your Ability arrows will appear on your belt when your weapon is unsheathed.</c>"
+                                            },
+                                            "4": {
+                                                "text": "<c=ooc>You can grab an Ability arrow from your belt using the Grip button when your basic arrow is in your hand.</c>",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "To unsheathe your Bow and Arrow, reach behind your head<br>with your hands and press the Grip buttons on your controller. @tooltip@right-grip@rightunsheathe",
+                                                        "tree": {
+                                                            "0": {
+                                                                "text": "<c=ooc>You will gain extra damage by filling your Precision Orbs on the side of your bow, this is based on the distance and size of the enemy.</c>"
+                                                            },
+                                                            "1": {
+                                                                "allowrepeat": true,
+                                                                "text": "Aye, now get going. Practice on the dummy in the arena and return to me when finished."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "Warrior",
+                                        "tree": {
+                                            "0": {
+                                                "text": "<c=ooc>Warrior is the most physical class in game, be sure to take frequent breaks and know your limits while playing.</c>"
+                                            },
+                                            "1": {
+                                                "text": "<c=ooc>Damage is calculated based on the length of your swings, and experienced warriors will time their attacks between their shield blocks.</c>"
+                                            },
+                                            "2": {
+                                                "text": "<c=ooc>Open your Player Inventory and Equip the Beginner's Sword into your weapon slot on the Left inventory screen.</c>"
+                                            },
+                                            "3": {
+                                                "text": "<c=ooc>There are two shields you can equip from your Player Inventory. The larger shield has more HP but will decrease the damage on your attacks</c>"
+                                            },
+                                            "4": {
+                                                "text": "<c=ooc>The Small Shield, has less HP but will increase the damage on your attacks. The shield will be equipped in the Ability Slot below your Character on the left screen.</c>"
+                                            },
+                                            "5": {
+                                                "text": "Unsheathe your weapon and shield using the Grip button.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "To unsheathe your weapon and shield, reach behind your head<br>with your hands and press the Grip buttons on your controller. @tooltip@right-grip@rightunsheathe",
+                                                        "tree": {
+                                                            "0": {
+                                                                "allowrepeat": true,
+                                                                "text": "Aye, now get going. Practice on the dummy in the arena and return to me when finished."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "2": {
+                                        "text": "Musketeer",
+                                        "tree": {
+                                            "0": {
+                                                "text": "<c=ooc>The Musketeer is a healing class in game, but can do damage also depending on the orb loadout you choose.</c>"
+                                            },
+                                            "1": {
+                                                "text": "Open your Player Inventory and equip the Beginner Musket into the tool slot on the Left inventory screen."
+                                            },
+                                            "2": {
+                                                "text": "<c=ooc>The turret has two modes, healing and damage, you can toggle between the modes by shaking the turret before deploying. The turret saves the last mode it was used in.</c>"
+                                            },
+                                            "3": {
+                                                "text": "<c=ooc>By firing an Ability Orb at the deployed turret, you can amplify the range of the AOE to poison extra monsters or heal additional players.</c>"
+                                            },
+                                            "4": {
+                                                "allowrepeat": true,
+                                                "text": "Aye, now get going. Practice on the dummy in the arena and return to me when finished."
+                                            }
+                                        }
+                                    },
+                                    "3": {
+                                        "text": "Mage",
+                                        "tree": {
+                                            "0": {
+                                                "text": "If that is the dark path you seek, I will teach no such thing. The Mulbirth witch was the last to teach such pagan ways here."
+                                            },
+                                            "1": {
+                                                "text": "<c=ooc>The Runemage class is an advanced class in game and requires hours of practice to master the basic spells, it is not recommended until you have spent some time in game first.</c>"
+                                            },
+                                            "2": {
+                                                "text": "<c=ooc>Choices that appear</c> <c=lore>Blue</c> <c=ooc>are related to the Lore of the world.</c>",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "<c=lore>Mulbirth Witch?</c>",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "hmph",
+                                                                "text": "We have banished her to a damp cave near Leisa Falls, to the North of Highsteppe. Before her banishment she was teaching magic circles in the middle of Highsteppe."
+                                                            },
+                                                            "1": {
+                                                                "goToJump": "questions",
+                                                                "text": "This was how some of the best mages learned their craft, those were dark times for sure."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "text": "I've learned enough.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "text": "May the Guardian flame continue building inside you. You may always return to me if you are in need of further training. Remember that this is an <c=ooc>Instanced Area</c> where only you can travel."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "airship-bart": {
+        "reqFlags": [
+            "qf_airship_ip"
+        ],
+        "indicator": "objective",
+        "text": "airship-bart",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Word on the wind says you're leaving us $NAME? A journey to the famed Guild City? To be an Enforcer for the Order of Ma’at is a great honor."
+            },
+            "1": {
+                "text": "If this news had come but a few hours later, I would no longer be the head of the Highsteppe Guardians and that responsibility would fall to you. Curse you child, I am too old for this job."
+            },
+            "2": {
+                "jumpPointName": "questions",
+                "emotion": "hmph",
+                "text": "I fear I won’t be able to lead the Guardians for much longer. I can't ask you to stay, but I ask that you return to us someday soon.",
+                "choices": {
+                    "0": {
+                        "text": "<c=pc>Of course, my Mentor.</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "cheer",
+                                "text": "You've spoken what I hoped to hear. Very well, I'll hold down the fort for now, but there is grey in my beard, and my back hurts when I walk."
+                            },
+                            "1": {
+                                "setFlags": [
+                                    "qf_bart-nice"
+                                ],
+                                "text": "If we were to be attacked in your absence, I couldn't lead the defense, at least not for very long. Therefore, I urge you, hurry home $NAME, and stand for your people."
+                            },
+                            "2": {
+                                "setFlags": [
+                                    "qf_airship_step2"
+                                ],
+                                "emotion": "agree",
+                                "text": "So that you do not forget your promise, I pass this gift to you. The Ring of the Guardian, my mentor gave it to me, along with this Guardians Cloak.",
+                                "giveItems": [
+                                    "120@1",
+                                    "219@1"
+                                ]
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=pc>I have a greater calling.</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "You were always proud $NAME, but never this arrogant. So be it, I shall hold down the fort, and one day die in my boots, rather than in my bed."
+                            },
+                            "1": {
+                                "text": "If you consider me your teacher still, then heed this final lesson: Just because you think you’re important, doesn’t mean the rest of world does. Your entitlement will be your undoing."
+                            },
+                            "2": {
+                                "setFlags": [
+                                    "qf_airship_step2"
+                                ],
+                                "emotion": "hmph",
+                                "text": "In hopes that you remember the promise you once made, take this Guardians Cloak. May it return you to us before your conceit demands your life.",
+                                "giveItems": [
+                                    "219@1"
+                                ]
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "<c=lore>Did you  hear?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "About the assassination? I'm truly mortified! To think those filthy knights would try and murder a man of the goddess, and in our own town!"
+                            },
+                            "1": {
+                                "goToJump": "questions",
+                                "text": "I hope they do away with every last one of those rebels, our country will never stand as one while folk like them are walking about."
+                            }
+                        }
+                    },
+                    "3": {
+                        "text": "<c=lore>What of the Order?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "agree",
+                                "text": "The Order brought peace to Patreayl and most of the civilized world. If it weren’t for his holiness the High Pope, we’d still be chaos worshipping savages."
+                            },
+                            "1": {
+                                "goToJump": "questions",
+                                "text": "The Janists were destroying our land. The Order brought them low and liberated the people from their infernal trickery."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "whiskey-trader-cp": {
+        "completeQuest": "whiskey-trader",
+        "text": "whiskey-trader-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Thank you so much for your help, my friend. Here’s a little something for your trouble…"
+            },
+            "1": {
+                "text": "...You know, if you’re wanting to make a bit more Dram on the side, I’m always needing help. I’m a bit busy unpacking my shipment right now, but be sure to check back with me later if you’re interested in more work."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "whiskey-trader-2": {
+        "reqFlags": [
+            "qf_whiskey-trader_cp",
+            "qf_knight-ceremony_cp"
+        ],
+        "text": "whiskey-trader-2",
+        "tree": {
+            "0": {
+                "emotion": "agree",
+                "text": "Oh hello again $NAME, have you returned to help me?",
+                "choices": {
+                    "0": {
+                        "text": "What do you need?",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "I’m always on the road, I hardly get any time to myself. My wife and child live here in Wenderwood and rarely do I ever get to see them."
+                            },
+                            "1": {
+                                "text": "I’m due to deliver shipments of Whiskey across the country over the next few days, but I’d really rather spend time with my boy. If you could make the deliveries for me, I’ll split my pay fifty - fifty with you.",
+                                "choices": {
+                                    "0": {
+                                        "text": "I'm in.",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "You are? Oh thank the goddess! Shipments are required in all the major ports of call and a few smaller places as well. I’ve marked the locations in your journal for you."
+                                            },
+                                            "1": {
+                                                "giveQuest": "delivery-boy",
+                                                "text": "Once you’ve made all your deliveries, come back and see me and we’ll get you paid, my friend!"
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "Maybe later.",
+                                        "tree": {
+                                            "0": {
+                                                "allowrepeat": true,
+                                                "emotion": "hmph",
+                                                "text": "Okay don't take too long, or I'll have to do it myself."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "delivery-boy-cp": {
+        "completeQuest": "delivery-boy",
+        "text": "delivery-boy-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "That was fast! Perhaps you should consider doing this for a living! Well, I’m in your debt $NAME. Thanks to you, I got to be around for my boy’s first word!"
+            },
+            "1": {
+                "text": "Here’s your pay. Please come see me again in the future - I may have more work for you.",
+                "choices": {
+                    "0": {
+                        "text": "Thanks, I'll check in later.",
+                        "tree": {
+                            "0": {
+                                "emotion": "agree",
+                                "text": "Ta ta!"
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>What did your boy say?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "cheer",
+                                "text": "What’s that? Oh, he said… “Orbus.” I’m not sure what it means, but that’s got to be a word, right?"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

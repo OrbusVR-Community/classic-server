@@ -1,0 +1,78 @@
+{
+    "cenns-poetry-ip": {
+        "reqFlags": [
+            "qf_cenns-poetry_ip"
+        ],
+        "indicator": "objective",
+        "text": "cenns-poetry-ip",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Yes what do you need? I'm rather busy.",
+                "choices": {
+                    "0": {
+                        "text": "I Have Marcell's poetry.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "What’s that? I am collecting poetry for the publication? I don’t recall ever having offered anyone named Marcell a place on our prestigious pages. It seems you have been tricked, friend.",
+                                "choices": {
+                                    "0": {
+                                        "text": "I must have this published.",
+                                        "tree": {
+                                            "0": {
+                                                "jumpPointName": "questions",
+                                                "emotion": "hmph",
+                                                "text": "You must? Very well, I’m sure we can come to some kind of agreement, for 30......no 40 dram?",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "I'll get the money...",
+                                                        "tree": {
+                                                            "0": {
+                                                                "giveQuest": "writers-block",
+                                                                "emotion": "explain",
+                                                                "text": "Very well return to me once you have my fee in hand."
+                                                            }
+                                                        }
+                                                    },
+                                                    "1": {
+                                                        "text": "That's robbery!",
+                                                        "tree": {
+                                                            "0": {
+                                                                "goToJump": "questions",
+                                                                "emotion": "hmph",
+                                                                "text": "Suit yourself! I don’t need to publish anything of yours. But, you know where to find me should you change your mind."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "writers-block-cp": {
+        "completeQuest": "writers-block",
+        "text": "writers-block-cp",
+        "tree": {
+            "0": {
+                "emotion": "cheer",
+                "text": "Marvelous! You can tell Marcell that he shall see his poetry in the pages of our publication before the year is out."
+            },
+            "1": {
+                "text": "Word of advice though? Never trust a writer, especially not a Parathimian poet, friend.."
+            },
+            "2": {
+                "emotion": "agree",
+                "text": "Here is an old copy of \"The Last Word\" give it to Marcell so he may view our fine works."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "description": "Horrors upon horrors! Pagans, practicing their pagan ways in the Burning Forest? You have been instructed to clear them out, using any means necessary. You could just destroy the Idols, or perhaps finding those responsible can be the wise decision?",
+    "name": "Pagan Magicks (MSQ)",
+    "completed": "Return to Commander Fassith in Guild City near the fountain to receive your next orders.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "128",
+            "typenum": 6,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 7,
+    "rewards": [
+        "giveitems xp@3000,coin@30"
+    ],
+    "autocomplete": false
+}

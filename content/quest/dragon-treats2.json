@@ -1,0 +1,20 @@
+{
+    "description": "Brew a healing potion in your home and return to the vendor for your treats",
+    "name": "More Treats",
+    "completed": "You've conjured up a healing potion. Return to the vendor to make your trade.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "100",
+            "typenum": 2,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 2,
+    "rewards": [
+        "giveitems 122@10"
+    ],
+    "autocomplete": false
+}

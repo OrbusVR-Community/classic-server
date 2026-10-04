@@ -1,0 +1,26 @@
+{
+    "description": "Wenderwood is under constant attack by Wargs possessed by the spirits of Bezoula’s Rune tribe. Aid Lord Rudolf in his fight against these creatures of darkness. Slay 10  Grund Warg and deliver the ears to  Lord Rudolf as proof.",
+    "name": "Attack of the Wolf (MSQ)",
+    "completed": "The attack has been pushed back for now... Return to Lord Rudolf at his home in Wenderwood to collect your reward.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "demonwolfskull",
+            "typenum": 10,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "158",
+            "typenum": 6,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 8,
+    "rewards": [
+        "giveitems 198@1"
+    ],
+    "autocomplete": false
+}

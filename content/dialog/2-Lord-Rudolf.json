@@ -1,0 +1,182 @@
+{
+    "intro": {
+        "notFlags": [
+            "qf_last-meal_ip",
+            "qf_intro-complete-wender"
+        ],
+        "text": "intro",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Greetings stranger, it’s not often we see fresh faces around these parts. I am Lord Rudolf Wender, of House Wender."
+            },
+            "1": {
+                "jumpPointName": "questions",
+                "text": "It would appear you’ve chosen the most inopportune time to visit our little hamlet. The Pig Men are on the rise, and the wargs are at our very gates. Wenderwood is experiencing dark days indeed.. ",
+                "choices": {
+                    "0": {
+                        "text": "<c=lore>Wenderwood?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "We may look small, but we are quite an important little village. We age whiskey and cultivate the hardest timber in all of Patreayl to sell amongst the markets in Guild City."
+                            },
+                            "1": {
+                                "goToJump": "questions",
+                                "text": "I myself, am the sole surviving Lord of my house, so it falls to me not only to protect this township from darkness, but to also oversee the trade of our most valued resources."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>Pigmen?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "They did not always occupy this land. The forest used to be a place of peacefulness, a safe path to our hamlet from Guild City."
+                            },
+                            "1": {
+                                "goToJump": "questions",
+                                "text": "Now, those trees are worlds of shadow where most men fear to tread. The pigs, came up out of the ground seeking to claim control of the forest, and feast on the flesh of travelers unlucky enough to encounter them in their journeys."
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "<c=lore>Those burning trees?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "The forest that burns is a sacred place. Used to be that the Janist pagans would commit their heretical worship in that glade, though now it is nothing more than a home for Valsunga Wyrm."
+                            },
+                            "1": {
+                                "goToJump": "questions",
+                                "text": "The pagans once kept the flames going as a tribute to the gods of chaos, now, those fire-breathing beasts have taken to the job, though there are some who would rumor pagans are still responsible for the flames."
+                            }
+                        }
+                    },
+                    "3": {
+                        "text": "On second thought...",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "Cowardice does not become you, friend.."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "attack-wolf": {
+        "reqFlags": [
+            "qf_last-meal_ip"
+        ],
+        "indicator": "objective",
+        "text": "attack-wolf",
+        "tree": {
+            "0": {
+                "setFlags": [
+                    "qf_intro-complete-wender"
+                ],
+                "emotion": "greeting",
+                "text": "Now is a time of action! I trust you are here to fight alongside us when the time comes.",
+                "choices": {
+                    "0": {
+                        "text": "I need some whiskey.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Whiskey has been given a name here among the Warg Hunters - we call it, \"Chasing the silver bullet\", as it gives us the nerves we need to face these god-forsaken hordes."
+                            },
+                            "1": {
+                                "text": "Help us now and I will see to it that you receive your fill.",
+                                "choices": {
+                                    "0": {
+                                        "text": "Let’s make haste.",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "attack-wolf",
+                                                "setFlags": [
+                                                    "qf_wolf-hunter-show"
+                                                ],
+                                                "emotion": "hmph",
+                                                "text": "The wargs are attacking from the West, head outside the walls to repel the assault."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "On second thought...",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "Cowardice does not become you, friend."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "attack-wolf-cp": {
+        "completeQuest": "attack-wolf",
+        "text": "attack-wolf-cp",
+        "tree": {
+            "0": {
+                "emotion": "cheer",
+                "text": "Thank you, $NAME. For a moment there, I thought we wouldn’t last! As promised, here’s a flask of our finest whiskey, drink it wisely."
+            },
+            "1": {
+                "removeFlags": [
+                    "qf_wolf-hunter-show"
+                ],
+                "text": "Be sure to return to me from time to time. I doubt we’ve seen the last of Bezoula’s wargs and I am sure I’ll have use of your services again."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "second-trial": {
+        "reqFlags": [
+            "qf_second-trials_ip"
+        ],
+        "indicator": "objective",
+        "text": "second-trial",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Bravery and Boldness to you my friend. I'm glad to see breath still in your lungs. But I trust that this is not a social visit? What is it you seek?",
+                "choices": {
+                    "0": {
+                        "text": "I've heard of a great Wyrm.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Ah yes, that scaled Mother… We call her Völuspá  and she has been pestering our people for years. I believe she makes her nest somewhere West of the burning forest, in a cave called Maeo's Sanctum on the side of Ma'at's Keep."
+                            },
+                            "1": {
+                                "giveQuest": "vibira",
+                                "text": "I wish you luck. Return to me once you relieve the beast of her head. Knowing that wretched creature is dead will be sure to inspire my men, and I’ll pay you for the trophy. "
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "vibria-cp": {
+        "completeQuest": "vibira",
+        "text": "vibria-cp",
+        "tree": {
+            "0": {
+                "emotion": "cheer",
+                "text": "I didn’t doubt you for a second! The men will be glad to see she’s been dispatched. Thank you. Take this Dram for your troubles and Völuspá’s tooth as a trophy to commemorate your service. You’re always welcome at my door $NAME."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

@@ -1,0 +1,415 @@
+{
+    "hunting-log-3-start": {
+        "reqFlags": [
+            "qf_huntinglog-2_cp"
+        ],
+        "notFlags": [
+            "qf_khabors-pass_ip"
+        ],
+        "text": "hunting-log-3-start",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Ahh perfect timing, I just received another report of quite the oddity over near the Corner Path. Can you believe it? The locals are worried what might come from inside the cave. What a terrible thought..."
+            },
+            "1": {
+                "text": "I must see one at once! Do be more careful this time though. The last specimens you brought me were all muddled up. I had to untangle half a metre of lower intestine before I knew what I was dealing with!",
+                "choices": {
+                    "0": {
+                        "text": "Same pay?",
+                        "tree": {
+                            "0": {
+                                "giveQuest": "huntinglog-3",
+                                "emotion": "explain",
+                                "text": "Yes, Yes.. now hurry before it's too late. Oh, and while you’re out there, see if you can find any other bizarre creatures I don't already have out here."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "dragon-quest": {
+        "reqFlags": [
+            "qf_huntinglog-2_cp"
+        ],
+        "notFlags": [
+            "qf_khabors-pass_ip"
+        ],
+        "text": "dragon-quest",
+        "tree": {
+            "0": {
+                "text": "Before you go, though, there is one other thing I need to discuss with you. I recently came into possession of a baby dragon...cute little thing, but I have no time to take care of such a beast. I sold it to the <c=ooc>Dragon Shop</c> that has set up inside these fences."
+            },
+            "1": {
+                "text": "I'm starting to feel guilty about giving the little beast away. Would you buy him back and take care of him for me?",
+                "choices": {
+                    "0": {
+                        "text": "Of Course",
+                        "tree": {
+                            "0": {
+                                "giveQuest": "dragon-pet",
+                                "text": "Great! But I will need a few dram to cover these overpriced treats that I had to buy for it. Let's call it an even twenty dram."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "dragon-quest-cp": {
+        "completeQuest": "dragon-pet",
+        "notFlags": [
+            "qf_khabors-pass_ip"
+        ],
+        "text": "dragon-quest-cp",
+        "tree": {
+            "0": {
+                "text": "Fantastic! Now I wont have to hide all my notebooks anymore...it burnt up years of research just last week. Take this money and purchase the dragon back from the <c=ooc>Dragon Shop</c>."
+            },
+            "1": {
+                "text": "Here are the treats, they are the only way I can get it to listen. I don't know much of these beasts, but if done correctly, they can be mated together to create some of the most fascinating colors."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "huntinglog-3": {
+        "completeQuest": "huntinglog-3",
+        "notFlags": [
+            "qf_khabors-pass_ip"
+        ],
+        "text": "huntinglog-3",
+        "tree": {
+            "0": {
+                "achievement": "elitehunte3",
+                "emotion": "hmph",
+                "text": "Well that took longer than I’d hoped, but never mind! There have been several new sightings while you were off gallivanting around!"
+            },
+            "1": {
+                "text": "Return to me when you’ve time for another of my expeditions!"
+            }
+        },
+        "indicator": "dialog"
+    },
+    "hunting-log-4-start": {
+        "reqFlags": [
+            "qf_huntinglog-3_cp"
+        ],
+        "notFlags": [
+            "qf_khabors-pass_ip"
+        ],
+        "text": "hunting-log-4-start",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "My scouts have just told me of a secluded area of the Rainforest, out past the Cutthroat Forest. Apparently a strange plant grows there."
+            },
+            "1": {
+                "text": "From what I’m told, if it drops seeds from its flower, then they grow and mutate into horrifying beasts!"
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "Could you imagine the possibilities of being able to have our plants grow limbs? Endless! We could have sunflowers pick themselves, trees that could plant their roots closer to water when needed! I must get samples from this peculiar flora."
+            },
+            "3": {
+                "text": "For this kind of research I’ll need a large quantity of specimens. Just simple bits and pieces. Leaves, petals, pollen. That kind of thing.",
+                "choices": {
+                    "0": {
+                        "text": "This will be extra!",
+                        "tree": {
+                            "0": {
+                                "giveQuest": "huntinglog-4",
+                                "emotion": "explain",
+                                "text": "Of course! Return in one piece and I’ll reward you for your travels."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "huntinglog-4": {
+        "completeQuest": "huntinglog-4",
+        "notFlags": [
+            "qf_khabors-pass_ip"
+        ],
+        "text": "huntinglog-4",
+        "tree": {
+            "0": {
+                "achievement": "elitehunte4",
+                "emotion": "greeting",
+                "text": "You did it! Fantastic! These plants could hold the key to solving so many of life’s little problems. Just imagine, if a horse goes lame, why, we could grow it a vegetable-based leg!"
+            }
+        },
+        "indicator": "dialog"
+    },
+    "something-in-water": {
+        "reqFlags": [
+            "qf_huntinglog-4_cp"
+        ],
+        "notFlags": [
+            "qf_khabors-pass_ip"
+        ],
+        "text": "something-in-water",
+        "tree": {
+            "0": {
+                "emotion": "agree",
+                "text": "There you are $NAME! I was hoping you’d stop by soon."
+            },
+            "1": {
+                "text": "Listen, there’s something odd going on with Kingsport Lake. I’ve been taking samples, and the fish, they’re showing up dead at an alarming rate."
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "I think something’s poisoning them...That lake is one of Midland’s main food supplies, so it simply won’t do to have all those fishies dying out!"
+            },
+            "3": {
+                "text": "I’m a bit preoccupied here though… do you think you could rush on over and find out what’s going on for me? Maybe put a stop to whatever’s making the wildlife sick?"
+            },
+            "4": {
+                "jumpPointName": "questions",
+                "emotion": "explain",
+                "text": "I’ll help your pocket out with a few Dram?",
+                "choices": {
+                    "0": {
+                        "text": "Of course.",
+                        "tree": {
+                            "0": {
+                                "giveQuest": "something-fishy",
+                                "emotion": "explain",
+                                "text": "Splendid! Come see me once you resolve this matter and I’ll pay you in full."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>Kingsport Lake?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "It’s quite a fascinating story really. The lake never used to be a lake, it was more of a corrie loch than anything else. If you’ve ever wandered by, you’ll see the ruins of Kingsport in it's midst."
+                            },
+                            "1": {
+                                "text": "That city used to stretch out a lot further, but some sort of disaster sunk most of it beneath the water. Most think it was a landslide that took the city into the lake."
+                            },
+                            "2": {
+                                "goToJump": "questions",
+                                "emotion": "explain",
+                                "text": "My personal theory is underground rivers, some sort of a fissure an earthquake, and… pwoh! Water everywhere."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "sushi-cp": {
+        "completeQuest": "sushi",
+        "notFlags": [
+            "qf_khabors-pass_ip"
+        ],
+        "text": "sushi-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "I knew it! I knew you’d do it! Bravo! Tell me! What was it? What was poisoning the waters?",
+                "choices": {
+                    "0": {
+                        "text": "The defrosted corpse of some monstrous creature!",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "The what? What did it look like?",
+                                "choices": {
+                                    "0": {
+                                        "text": "Like a giant squid. They worshiped it.",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "hmph",
+                                                "text": "They where, were they? Hmm… How peculiar... Oh, please tell me you brought it back for dissection?",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "I burned it.",
+                                                        "tree": {
+                                                            "0": {
+                                                                "achievement": "kingsportcleared",
+                                                                "emotion": "hmph",
+                                                                "text": "Oh. ...Well… I guess that’s for the best... Anyway, here’s the Dram I promised, I hope you can put it to good use."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "hunting-log-5-start": {
+        "reqFlags": [
+            "qf_sushi_cp"
+        ],
+        "notFlags": [
+            "qf_khabors-pass_ip"
+        ],
+        "text": "hunting-log-5-start",
+        "tree": {
+            "0": {
+                "emotion": "agree",
+                "text": "You’ve proven yourself to be the ultimate assistant, but this next task will really put your skills to the test! To the East in the Desert lies the a forgotten hatch, leading down deep inside the Chthonic ruins."
+            },
+            "1": {
+                "text": "If we could sample some of the monsters in those subterranean depths... They might prove useful for our studies."
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "Venture to the ruins and retrieve pound or two of flesh from the creatures hiding in here.",
+                "choices": {
+                    "0": {
+                        "text": "You’re going to be the death of me Sicilus!",
+                        "tree": {
+                            "0": {
+                                "giveQuest": "huntinglog-5",
+                                "emotion": "hmph",
+                                "text": "Come now, you’re an expert hunter! Don’t cower in the face of this challenge! It’s beneath you!"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "huntinglog-5": {
+        "completeQuest": "huntinglog-5",
+        "notFlags": [
+            "qf_khabors-pass_ip"
+        ],
+        "text": "huntinglog-5",
+        "tree": {
+            "0": {
+                "achievement": "elitehunte5",
+                "emotion": "greeting",
+                "text": "Ha! I knew you’d make it! Give me some time to experiment with these new bits and pieces, see what I can make of them."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "huntinglog6-start": {
+        "reqFlags": [
+            "qf_huntinglog-5_cp"
+        ],
+        "notFlags": [
+            "qf_khabors-pass_ip"
+        ],
+        "text": "huntinglog6-start",
+        "tree": {
+            "0": {
+                "emotion": "agree",
+                "text": "These are great times for the advancement of my studies. I’ve never heard of so many wondrous creatures being spotted around the country!"
+            },
+            "1": {
+                "text": "I’ve nearly all I can handle, but I do have one last task for you. There are strange and fiendish creatures wandering around the Wildest areas of our great country."
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "Inside the Greater Lucian Wilds, Greater Obnobi Desert, and Greater Lamavora Frontier, there are many animals worth seeing. Track them down for me and bring me specimens. Once that’s done, my Bestiary will be complete.",
+                "choices": {
+                    "0": {
+                        "text": "I'm on it!",
+                        "tree": {
+                            "0": {
+                                "giveQuest": "huntinglog-6",
+                                "emotion": "explain",
+                                "text": "Very good then, Hurry back!"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "hunting-log-6-cp": {
+        "completeQuest": "huntinglog-6",
+        "notFlags": [
+            "qf_khabors-pass_ip"
+        ],
+        "text": "hunting-log-6-cp",
+        "tree": {
+            "0": {
+                "achievement": "elitehunter8",
+                "emotion": "greeting",
+                "text": "You sure have a full satchel there! I must get to these specimens before they start to spoil. Take your Dram and be on your way. Though don’t forget to visit from time to time!"
+            }
+        },
+        "indicator": "dialog"
+    },
+    "hunting-loc-6-cp1": {
+        "reqFlags": [
+            "qf_huntinglog-6_cp"
+        ],
+        "notFlags": [
+            "qf_khabors-pass_ip"
+        ],
+        "text": "hunting-loc-6-cp1",
+        "tree": {
+            "0": {
+                "allowrepeat": true,
+                "emotion": "hmph",
+                "text": "I’ve nothing new for you now, but check back later, you never know when I might need your help."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "khabors-pass-ip": {
+        "reqFlags": [
+            "qf_khabors-pass_ip"
+        ],
+        "text": "khabors-pass-ip",
+        "tree": {
+            "0": {
+                "text": "$NAME, it’s good to see your face. Yes, your face… face, face… hmm? What? Oh, sorry. I got a bit distracted then.",
+                "choices": {
+                    "0": {
+                        "text": "Markos said you’d found a tunnel?",
+                        "tree": {
+                            "0": {
+                                "text": "Oh, right! Yes, narrow looking thing, but it is indeed a tunnel. It may lead to the Necropolar. It may not. Who knows? Oh! I mean, hopefully it does...",
+                                "choices": {
+                                    "0": {
+                                        "text": "Where is it?",
+                                        "tree": {
+                                            "0": {
+                                                "setFlags": [
+                                                    "qf_sicilus-speak"
+                                                ],
+                                                "text": "It’s just over there, insides the Redtail enclosure. I've disguised the entrance inside that privy shed inside, if you follow along the outside of the fence, look for the Patreyal Knights symbol. There you can enter and use the door."
+                                            },
+                                            "1": {
+                                                "text": "Don't worry about the Redtails, they wont hurt a fly, or haven't since we stuffed them. Keeps the Order guards from poking around."
+                                            },
+                                            "2": {
+                                                "text": "You’ll need the key Markos gave you to get through the door. Be careful in the Necropolar, I've heard rumors that the Order has fortified the area."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "description": "You have found a mysterious key laying on the ground... Where does it go?",
+    "name": "Hidden Treasures",
+    "completed": "Wealth was hidden deep away, what else could be hidden among the world?",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_orbusvr-room",
+            "typenum": 1,
+            "typeextra": "Find the home of the key"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        "giveitems coin@8"
+    ],
+    "autocomplete": false
+}

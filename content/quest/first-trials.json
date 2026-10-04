@@ -1,0 +1,20 @@
+{
+    "description": "Markos wishes to test your wit. Talk to the scholar named Sicilus, she normally resides at University Island near Guild City. She is known to always have her work journal in one hand and her candle never far away.",
+    "name": "The First Trial (MSQ)",
+    "completed": "Return to Markos of Runvale in the secret cave of Ma'at's Throat to deliver Sicilus's recommendation letter.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "162",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 9,
+    "rewards": [
+        "giveitems 162@1"
+    ],
+    "autocomplete": false
+}

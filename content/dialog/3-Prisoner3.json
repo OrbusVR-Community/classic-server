@@ -1,0 +1,34 @@
+{
+    "introd": {
+        "shout": true,
+        "text": "introd",
+        "tree": {
+            "0": {
+                "text": "Please I’m just a boy!"
+            }
+        },
+        "indicator": "dialog"
+    },
+    "intro1d": {
+        "text": "intro1d",
+        "tree": {
+            "0": {
+                "emotion": "afraid",
+                "text": "I haven't the dram to pay you, but please help.",
+                "choices": {
+                    "0": {
+                        "text": "Your name?",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "afraid",
+                                "text": "Are you of the Knights of Patreayl? Why did you kill all those Guards? I thought you were supposed to be the good guys!"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

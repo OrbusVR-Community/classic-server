@@ -1,0 +1,88 @@
+{
+    "house-jungle": {
+        "text": "house-jungle",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "If you're interested in moving to this temperate climate, you can purchase this house behind me.",
+                "choices": {
+                    "0": {
+                        "text": "I'm ready to move",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "I'll need to make sure that all your paperwork is in order do you have a <c=ooc>Housing Deed</c>?",
+                                "choices": {
+                                    "0": {
+                                        "text": "Yes I'm Ready",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "house-jungle",
+                                                "emotion": "explain",
+                                                "text": "Seems everything is in order I'll just need one more signature and we can be finished"
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "No not yet",
+                                        "tree": {
+                                            "0": {
+                                                "allowrepeat": true,
+                                                "emotion": "hmph",
+                                                "text": "You can purchase one from your local NPC vendor in the Highsteppe or Guild City market place, once you have one bring it to me and we can move on."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "Maybe Later",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "Come back and see me soon.... This is a town on the rise!"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "house-jungle-cp": {
+        "completeQuest": "house-jungle",
+        "text": "house-jungle-cp",
+        "tree": {
+            "0": {
+                "emotion": "cheer",
+                "text": "Seems everything is in order. I'd love to give you a tour of the house but I have an another house to move."
+            },
+            "1": {
+                "removeFlags": [
+                    "qf_househighsteppe",
+                    "qf_houseguildcity",
+                    "qf_housedesert",
+                    "qf_houseresort",
+                    "qf_househulthine",
+                    "qf_house-highsteppe_cp",
+                    "qf_house-guildcity_cp",
+                    "qf_house-desert_cp"
+                ],
+                "text": "I have lots of other houses for sale, come visit them if you are in need of another change of scenery."
+            },
+            "2": {
+                "removeFlags": [
+                    "dc_5-RealtorJungle_house-jungle"
+                ],
+                "setFlags": [
+                    "qf_housejungle"
+                ],
+                "text": "..."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

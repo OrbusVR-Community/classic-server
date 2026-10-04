@@ -1,0 +1,67 @@
+{
+    "intro-tourist1": {
+        "notFlags": [
+            "qf_figure-moor_ip"
+        ],
+        "text": "intro-tourist1",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Hello there, this place is wonderful isn't it. Me and my husband have taken a holiday here every year since we were newlyweds. They say the pools have healing properties!"
+            },
+            "1": {
+                "allowrepeat": true,
+                "text": "They certainly don't hurt in making this like a honeymoon every year...."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "figure-moore-ip-tourist": {
+        "reqFlags": [
+            "qf_figure-moor_ip"
+        ],
+        "text": "figure-moore-ip-tourist",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Yeah? What’re you looking at, friend? Can I help you?",
+                "choices": {
+                    "0": {
+                        "text": "I’m investigating the disappearance.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Oh! Well why didn’t you say so? I know all about that. Barnaby was his name. Most annoying man I’ve ever met. Said he was from Parathime, that poncy place across the ocean…"
+                            },
+                            "1": {
+                                "text": "He was here on some kind of an… art tour. Said he had to paint all the natural wonders of Tӓella-Oso before he carked it. Don’t think he’ll be getting around to that anymore…",
+                                "choices": {
+                                    "0": {
+                                        "text": "Where was he last seen?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "Well, I can’t rightly say where he was last seen by anyone. Last seen by me however?"
+                                            },
+                                            "1": {
+                                                "text": "He was prancing around near the Frontier Pools…"
+                                            },
+                                            "2": {
+                                                "setFlags": [
+                                                    "qf_tourist-clue-1"
+                                                ],
+                                                "emotion": "explain",
+                                                "text": "Perhaps if you look around there you might find a clue to his whereabouts, though I don’t know  why anyone would want to."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

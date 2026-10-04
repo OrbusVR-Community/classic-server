@@ -1,0 +1,29 @@
+{
+    "delivery-boy-ip": {
+        "reqFlags": [
+            "qf_delivery-boy_ip"
+        ],
+        "text": "delivery-boy-ip",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Hello stranger what can I do for you?",
+                "choices": {
+                    "0": {
+                        "text": "I’ve a shipment from Bjorth.",
+                        "tree": {
+                            "0": {
+                                "emotion": "cheer",
+                                "text": "Ahh this is a great surprise! Something to fight off the chill of the night. Nothing like a finger or two of whiskey to lift the spirits!",
+                                "giveItems": [
+                                    "299@1"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

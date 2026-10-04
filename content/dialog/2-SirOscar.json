@@ -1,0 +1,80 @@
+{
+    "ambitious-general-ip": {
+        "reqFlags": [
+            "qf_oscar-show-2"
+        ],
+        "notFlags": [
+            "qf_ambitious-general_cp"
+        ],
+        "text": "ambitious-general-ip",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Ha! My little defeater! I didn’t expect to see you in such a place as this… ...Ah, and is that an Enforcer cloak? So now I understand. Ambition was your motivation, and status your reward."
+            },
+            "1": {
+                "text": "How are things? Are you enjoying being an Enforcer lacky? Is it everything you thought it would be? You know, my family - The Hulthines, we’ve produced a long line of Enforcers over the years."
+            },
+            "2": {
+                "emotion": "hmph",
+                "text": "All six of my brothers once wore the crest you wear now... Oh, they’ve long since been promoted and killed on far off battlefields. Even I did a brief stint working the same job as you and them. I always wanted to be an academic, but my father wouldn’t stand for it."
+            },
+            "3": {
+                "text": "He sent me to this city… In a way it was his own undoing. It was through the Order that I discovered the truth, met Markos, and…. Well… a story for another time perhaps."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "green-mile-cp": {
+        "completeQuest": "green-mile",
+        "text": "green-mile-cp",
+        "tree": {
+            "0": {
+                "emotion": "afraid",
+                "text": "They shall murder me soon, do you realize that, Enforcer? Perhaps you’ve heard them whisper as to how they’re going to do it? I wonder, shall it be a hanging? Will they take my head?"
+            },
+            "1": {
+                "text": "Ha, I suppose only time shall tell that story!",
+                "choices": {
+                    "0": {
+                        "text": "Requests for your final meal?",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Then it shall happen soon. My death. If I am to go, then I would ask for a final meal like the ones I used to share with my family before all of this… horror began."
+                            },
+                            "1": {
+                                "giveQuest": "last-meal",
+                                "text": "Roasted King Stag, accompanied by Wenderwood Whiskey. And I would like to end my time on this dirt with a nice Parathime Cigar. The kind that lovely Marcell Cenn produces on his farm."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "last-meal": {
+        "completeQuest": "last-meal",
+        "text": "last-meal",
+        "tree": {
+            "0": {
+                "emotion": "agree",
+                "text": "Ah, you simply can’t beat the cool blue smoke of a Parathime Cigar. I like you, $NAME, so I’ll try to warn you once more. Don’t trust the Order. They’re not who they say they are."
+            },
+            "1": {
+                "achievement": "lastmeal",
+                "text": "If you ever grow tired of following blindly, make a visit to the Library Archives. Before my failed trip to Highsteppe, I managed to take a sneak peek at their files. You would not believe the stuff they have hidden down there!"
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "Those fanatics are great fans of recording absolutely everything.  I hid some of the juicier morsels in an old tome, An Abridged History of Patreayl, I believe it was called."
+            },
+            "3": {
+                "giveQuest": "the-archives",
+                "text": "Take this map leading to the entrance of the library, read what’s inside, and if you wish to leave your shackles, all you need do is follow the signs. I’ll say no more..."
+            }
+        },
+        "indicator": "quest"
+    }
+}

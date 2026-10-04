@@ -1,0 +1,152 @@
+{
+    "report-duty-cp": {
+        "completeQuest": "report-duty",
+        "text": "report-duty-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "You must be the new Enforcer everybody’s talking about. If the tales are true, the way I hear it is the sun shines daily, right out of your arse! Well, let’s see how well you fare now you ain't got them city folk to fawn over you.."
+            },
+            "1": {
+                "text": "There’s a couple of odd jobs I’ve got for you, things I simply don’t have the time for myself. Tell you what, why don’t you climb the tower, get a lay of the land while I tidy up this intel. Once you return, I’ll send you off on your first mission."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "woodland-rebels": {
+        "reqFlags": [
+            "qf_report-duty_cp"
+        ],
+        "indicator": "mainquest",
+        "text": "woodland-rebels",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "There you are. Was beginning to think you'd jumped off! Well, seeing as you’ve proven yourself pretty good at rooting out them damned rebel Knights, this’ll be a good place for you to start."
+            },
+            "1": {
+                "text": "Those pilgrims who’ve survived their journey to Ma’at’s Keep have returned telling stories of a small camp filled with them Knights, hiding out around that area. They need to be taken care of."
+            },
+            "2": {
+                "giveQuest": "woodland-rebels",
+                "emotion": "hmph",
+                "text": "I don’t care how you do it, but find them and get rid of them as quickly and as quietly as possible. The last thing we need is another bloody assassination plot to be hatched…"
+            }
+        }
+    },
+    "woodland-rebels-cp": {
+        "completeQuest": "woodland-rebels",
+        "text": "woodland-rebels-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "I’ll assume by the look on your face, those traitors won’t be bothering us any longer. Good. Well, you’ve done alright I suppose - for a new recruit. Here's an advance on your pay."
+            },
+            "1": {
+                "text": "Report back when you have rested and eaten."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "unruly-outlier": {
+        "reqFlags": [
+            "qf_woodland-rebels_cp"
+        ],
+        "indicator": "mainquest",
+        "text": "unruly-outlier",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "If you ain't heard of him by now, there’s an old man, a witchdoctor of some sort living out by Lake Susannah. He’s been practicing pagan healing spells for some time, but the Order has been too erm… “busy” to pay him much attention."
+            },
+            "1": {
+                "text": "Well, this new Bishop of ours, he’s penned a “cut-the-crap” kind of letter for the old raisin and needs it delivered. This is where you come in. Head South towards Wenderwood, last we knew he was camped near the mountains."
+            },
+            "2": {
+                "jumpPointName": "questions",
+                "emotion": "hmph",
+                "text": "Let that old codger know we won’t be tolerating his tricks for much longer. Get him to pack his bags and head off somewhere else.",
+                "choices": {
+                    "0": {
+                        "text": "I'm on it.",
+                        "tree": {
+                            "0": {
+                                "giveQuest": "unruly-outlier",
+                                "emotion": "hmph",
+                                "text": "Of course you are. I’m not paying you if you just stand around with your thumbs up your arse. Head out now and report back with the Old man's answer.",
+                                "giveItems": [
+                                    "126@1"
+                                ]
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>Lake Susannah?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "They say a lady of the lake dwells beneath those waters. Pagan whisperings. I don’t rightly believe it myself. But still, there’s a hint of truth to the rumors. There was a lady Susannah, back in the old monarchy days of Kingsport. Noble woman. Sister to the queen."
+                            },
+                            "1": {
+                                "text": "Stories go she got her heart strings tied up with someone she shouldn’t have. Ended up casting herself off the Kinyaja foothills, drowned her pretty little head in that lake."
+                            },
+                            "2": {
+                                "goToJump": "questions",
+                                "emotion": "explain",
+                                "text": "Guess that’s why folks around those parts still say the place is haunted. Nothing like a bit of tragedy and love to get the imagination flowing."
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "<c=lore>Pagan Magicks?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Seems like there are cultists, witches, warlocks and wizards everywhere these days. Can’t step out your front door without trodding on the toes of a stray necromancer. They all need to be burned at the stake if you ask me. It’s bordering on some kind of mania. We call them Kindling. Good for nothing but throwing on a fire."
+                            },
+                            "1": {
+                                "text": "I’ve heard them lowly villagers talking in hushed tones. Telling one another of strange signs in the sky, tall pale figures, out on the moors, locals becoming more “attuned” to the demons and powers that flitter and filigree this reality."
+                            },
+                            "2": {
+                                "goToJump": "questions",
+                                "emotion": "explain",
+                                "text": "Folks are just going mad. They need to devote their time to the scriptures if you ask me…"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "unruly-outlier-cp": {
+        "completeQuest": "unruly-outlier",
+        "text": "unruly-outlier-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Let me guess. The blighter ain't budging is he? Pfugh, arrogant bastard. I should’ve known a letter’d have no hope in getting that shrivelled up prune to move on."
+            },
+            "1": {
+                "text": "Well, at least we tried. Next step will be sending someone less polite to go over that way and force him out. But that’s not for us to comment on yet. In the meantime, here’s your pay."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "king-sweetie": {
+        "reqFlags": [
+            "qf_unruly-outlier_cp"
+        ],
+        "indicator": "mainquest",
+        "text": "king-sweetie",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "I just received orders from Commander Fassith, you are to head to Narrow Orchard. There’s an urgent assignment begging for your attention."
+            },
+            "1": {
+                "giveQuest": "king-sweetie",
+                "text": "Best pack your things and head out straight away. Never wise to keep your Commander waiting, especially one with such a temper."
+            }
+        }
+    }
+}

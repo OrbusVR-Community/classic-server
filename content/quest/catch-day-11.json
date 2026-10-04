@@ -1,0 +1,39 @@
+{
+    "description": "Just as you celebrate your latest triumph, Ernest speaks of another rare fish, the Rear Frosted Perch. He claims to have never caught one himself, but believes you to be sharp enough to land one. Search the bodies of water for this elusive fish, and return a legend.",
+    "name": "Catch of the Day XI",
+    "completed": "Return to Ernest on the North side of Kingsport Lake,to deliver your catch.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "75",
+            "typenum": 30,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "210",
+            "typenum": 20,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "211",
+            "typenum": 10,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "215",
+            "typenum": 5,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        "giveitems coin@3500,450@1",
+        "unlockpage 106,119"
+    ],
+    "autocomplete": false
+}

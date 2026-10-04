@@ -1,0 +1,32 @@
+{
+    "description": "The brother of the famed Explorer Helga Sarrow, wants to see what you are made of by going on a big game hunt across the most dangerous hunting track in all of Patreayl, the Heathrun Track. Show him what you’re made of!",
+    "name": "Iron Forged",
+    "completed": "Return to Ludwig Sarrow near the greaveyard in the Fisherman's Crust village.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "heathrunbuck",
+            "typenum": 20,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "albinotiger",
+            "typenum": 25,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "foxsnow",
+            "typenum": 30,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 18,
+    "rewards": [
+        "giveitems xp@60000"
+    ],
+    "autocomplete": false
+}

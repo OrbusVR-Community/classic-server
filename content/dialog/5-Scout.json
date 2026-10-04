@@ -1,0 +1,147 @@
+{
+    "kreyen-cp": {
+        "reqFlags": [
+            "qf_kreyen_cp"
+        ],
+        "text": "kreyen-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Elajha, traveller. I am Gherion, the fastest scout in our Fa Sher. You must be the Ptholo Kreyen has spoken of."
+            },
+            "1": {
+                "text": "I’m greatly honoured to meet you, though I would ask of you a favour, if you should hear me out…",
+                "choices": {
+                    "0": {
+                        "text": "I'm always a friend of your Fa Sher.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "To the South of our camp, lay the sacred Chthonic Ruins. Said to have been built by the ancient race. Their tunnels travel deep underground."
+                            },
+                            "1": {
+                                "text": "The place is a haunt of evil spirits and things best left unspoken - a Chudkatet by our tongue. But this Dathrun has spied troubling activity amongst the rubble as of late - yes, very troubling.",
+                                "choices": {
+                                    "0": {
+                                        "text": "What is it?",
+                                        "tree": {
+                                            "0": {
+                                                "jumpPointName": "questions",
+                                                "emotion": "explain",
+                                                "text": "Ghouls! Var Kha! Those unholy creatures, they’re congregating in that place - more than I have ever seen - moving together, as if under a single purpose.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "<c=lore>Ghouls?</c>",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "explain",
+                                                                "text": "Ptholethu me’fier! Disgusting sub-human beasts. The ghouls are the unnatural union between outcasts of our people and the pyramid headed abominations that stalk the deep sands."
+                                                            },
+                                                            "1": {
+                                                                "text": "Most are nothing more than mindless animals, like their fathers - though some retain their mother’s intellect... They disgrace themselves before gods and men by feasting on the corpses of those Fa Cher whom have recently departed."
+                                                            },
+                                                            "2": {
+                                                                "goToJump": "questions",
+                                                                "emotion": "explain",
+                                                                "text": "Mostly, they dwell in graveyards and ruined ka tet, their presence among the ruins of the ancient race is particularly frightening as there have long been rumors that they are drawn to places of Yun chud - black magick by your tongue."
+                                                            }
+                                                        }
+                                                    },
+                                                    "1": {
+                                                        "text": "I'll look into it",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "explain",
+                                                                "text": "If you would earn the respect of this Fa Cher, please, investigate those ruins, find out what the ghouls dig for, and stop them."
+                                                            },
+                                                            "1": {
+                                                                "giveQuest": "ghouls",
+                                                                "text": "It’s often dark down deep in the ruins, here is something to help light your way.",
+                                                                "giveItems": [
+                                                                    "312@2"
+                                                                ],
+                                                                "unlockPages": [
+                                                                    "312"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "I’ll return later.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "Ptholethu me’fier!"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "ghouls-cp": {
+        "completeQuest": "ghouls",
+        "text": "ghouls-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Var kur liq Yun dathrul’ha! You’ve returned. With good news, I hope?",
+                "choices": {
+                    "0": {
+                        "text": "With this book.",
+                        "tree": {
+                            "0": {
+                                "emotion": "agree",
+                                "text": "Shakhal walkufa! The Black Guide. I have heard tale of this book, though I never thought it to be more than a legend."
+                            },
+                            "1": {
+                                "text": "It is a great thing you have done, my friend, removing this book from their clutches. My Fa Cher thank you. Please, take this as your reward.",
+                                "choices": {
+                                    "0": {
+                                        "text": "The Black Guide?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "My nul told me it's story, and their nul told them before. The Black guide - penned by an ancient practitioner of Yun chud, one who walked the earth in the times of the barbarian Hulthine."
+                                            },
+                                            "1": {
+                                                "text": "It is said to contain incantations and rituals of the darkest kind, as well as the locations of chudkatet throughout the world."
+                                            },
+                                            "2": {
+                                                "emotion": "afraid",
+                                                "text": "Please, take the book with you - I wish not for it to be around my Fa Cher.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "Chudkatet?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "achievement": "obnobifaction",
+                                                                "emotion": "explain",
+                                                                "text": "Black magick... I would warn you, destroy it. Do not seek out the chudkatet, for risk to your own soul."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

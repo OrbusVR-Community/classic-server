@@ -1,0 +1,39 @@
+{
+    "witness": {
+        "completeQuest": "the-archives",
+        "text": "witness",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Why do you trouble an Old woman? Your kind have stolen more than enough from me Enforcer…",
+                "choices": {
+                    "0": {
+                        "text": "I want to help, I now know.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "You want to help? But your crest… Oh, could it be that an end is finally approaching? It was my son, Enforcer. They took my boy."
+                            },
+                            "1": {
+                                "text": "Years have passed now, but it still haunts my dreams. A plague had swept Narrow Orchard, and I was among the sick. My son bought me medicine, instead of paying his tithe to the Order."
+                            },
+                            "2": {
+                                "emotion": "afraid",
+                                "text": "If he hadn’t I would surely have died. And so, as punishment, they accused him of witchcraft...."
+                            },
+                            "3": {
+                                "text": "One night they came and they took him from our home. Abducted my poor boy. A few days later, some men found him floating in Kingsport Lake. He'd been tortured..."
+                            },
+                            "4": {
+                                "giveQuest": "see-fassifth",
+                                "emotion": "afraid",
+                                "text": "My boy… My poor boy… They said tithing was important… What about my son…. You must turn away before it's too late!"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    }
+}

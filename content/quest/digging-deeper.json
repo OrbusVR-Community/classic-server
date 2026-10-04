@@ -1,0 +1,20 @@
+{
+    "description": "The stone tablet speaks of a great \"Lord\", are they speaking of King Wolfgang or some other ruler of Kingsport? Search the ruined city for a stone tablet, simmilar to the large stone shrine, to investigate further.",
+    "name": "Digging Deeper",
+    "completed": "Return to Beslial, he may know what and where the Kingsport townsfolk are worshiping this \"Lord\" and how to stop them.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_truth-revealed",
+            "typenum": 1,
+            "typeextra": "Search for Stone Tablet"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 17,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,308 @@
+{
+    "lamavora-frontier": {
+        "completeQuest": "lamavora-frontier",
+        "text": "lamavora-frontier",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Oh! Hello! I’m sorry but I don’t really have time to talk right, I’m very busy!",
+                "choices": {
+                    "0": {
+                        "text": "Helga Sarrow of the Explorer’s League?",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Why yes, I am! Always nice to meet a fan. What’s your name?",
+                                "choices": {
+                                    "0": {
+                                        "text": "I’m of the Patreayl Knights.",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "Oh, fancy title! I like it! And how can the Explorer’s league be of service to the Knights of Patreayl?",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "I’ve come to ask that the League help us fight.",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "explain",
+                                                                "text": "Listen, $NAME. I’m flattered. I truly am, and I would gladly offer the Explorer’s League’s support. We are no friends of the Order."
+                                                            },
+                                                            "1": {
+                                                                "text": "Those pious priests keep forbidding all the most exciting pagan ruins from being explored - it’s really quite annoying! However, I’m in the middle of something here,and my fellow adventurers and I can’t leave until it's sorted.",
+                                                                "choices": {
+                                                                    "0": {
+                                                                        "text": "Can I help?",
+                                                                        "tree": {
+                                                                            "0": {
+                                                                                "emotion": "explain",
+                                                                                "text": "Why, perhaps you can! My colleagues and I have been exploring the Tradu Ruins for some time now, and just recently, we’ve stumbled upon something amazing - A door from the ancient times!",
+                                                                                "choices": {
+                                                                                    "0": {
+                                                                                        "text": "A door?",
+                                                                                        "tree": {
+                                                                                            "0": {
+                                                                                                "emotion": "explain",
+                                                                                                "text": "Not just any door! This is of Esasa design! Do you know what this means? The ancient race, were here - on the frontier! Perhaps their empire stretched even down into Lamavora itself!"
+                                                                                            },
+                                                                                            "1": {
+                                                                                                "giveQuest": "sarrow",
+                                                                                                "text": "We can only know the truth about the lost race by finding out what’s on the other side of that door. Figure out how to get us inside, then we’re all yours - for a time."
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "sarrow-cp": {
+        "completeQuest": "sarrow",
+        "text": "sarrow-cp",
+        "tree": {
+            "0": {
+                "emotion": "cheer",
+                "text": "I can’t believe it. We can now open a room that hasn’t been entered for thousands of years… Oh, I’ve dreamed about this ever since I was a little girl! Thank you $NAME!"
+            },
+            "1": {
+                "text": "And a promise is a promise! Give me a few days to catalog my findings here, after which, I will journey to the Midlands to prepare for the upcoming battles."
+            },
+            "2": {
+                "text": "Oh, and before I forget, take this - a little something for helping me out."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "forbidden-temple": {
+        "reqFlags": [
+            "qf_sarrow_cp"
+        ],
+        "text": "forbidden-temple",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "I’ve been uncovering some weird stories in these ruins. Tales of a great war between the Esasa and… themselves? Or the… Star Spawn? It’s hard to explain, the words used could mean several different things…"
+            },
+            "1": {
+                "text": "Anyway, the hieroglyphs on the walls suggest something of great importance from that war was hidden in the Forbidden Temple of Mecethu - Kalaam, north from here in the Patreayl Rainforest."
+            },
+            "2": {
+                "giveQuest": "forbidden-temple",
+                "emotion": "explain",
+                "text": "If you want to help, I could use your skills in uncovering whatever it is."
+            }
+        },
+        "indicator": "quest"
+    },
+    "forbiden-temple-cp": {
+        "completeQuest": "forbidden-temple",
+        "text": "forbiden-temple-cp",
+        "tree": {
+            "0": {
+                "emotion": "cheer",
+                "text": "Fascinating! It’s some kind of ancient staff. Belonging to one of the Star Spawn you say? Hmm… I’ll have my people do some tests on it. Could come in useful during this war you keep talking about."
+            },
+            "1": {
+                "text": "Anyway, thanks for your help!",
+                "choices": {
+                    "0": {
+                        "text": "<c=lore>Star Spawn?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Hmm? The Star Spawn? I have no idea who they were. I don’t even know if that’s what they were called. You have to understand, nobody knows anything about the Esasa Civilization - most people don’t think they even existed!"
+                            },
+                            "1": {
+                                "text": "Their language… well, it’s like trying to decipher the verse of a beetle. The words could mean star spawn, they could mean numerous other things as well."
+                            },
+                            "2": {
+                                "emotion": "explain",
+                                "text": "As far as I can tell, the words are an insult, so they could also be symbolic? Perhaps if we do a bit more research, we’ll know for sure."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "Goodbye",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Return to me soon, I am always in need of a stout adventurer."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "drinking-time": {
+        "reqFlags": [
+            "qf_forbidden-temple_cp"
+        ],
+        "text": "drinking-time",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Oh, it's my favorite adventurer! How are you $NAME? Listen, I need a spare set of hands to back me up with a particularly fascinating exploration. Interested?",
+                "choices": {
+                    "0": {
+                        "text": "What is it?",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Have you heard of the drink of Ithecac? Supposedly those who slurp it down claim to see dead ancestors... spirits... All manner of strange phantoms!",
+                                "choices": {
+                                    "0": {
+                                        "text": "I’ve... indulged before...",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "Oh, you have? Fantastic! Well, one of our junior members got into our erm… supply, last weekend and saw a vast array of scrolls, written by past Explorers, dating all the way back to Leisa Varathorn herself!"
+                                            },
+                                            "1": {
+                                                "text": "At first, we didn’t believe him. Then he brought back one of the very scrolls he claimed to have envisioned!"
+                                            },
+                                            "2": {
+                                                "emotion": "explain",
+                                                "text": "I dated it and found it to be roughly from 257 B.E. That’s almost five hundred years old! It contained, among other things, a recipe for a cordial said to make he… or she, who drinks it, stronger! The other scrolls he saw - they may hold more recipes like that, and valuable information of our league. Would you help us find it?",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "Why don't you just drink it?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "explain",
+                                                                "text": "It’s embarrassing, really. I’m not much fun whenever I drink something like this. Seems I can’t keep it down."
+                                                            },
+                                                            "1": {
+                                                                "text": "Here, I’ve two bottles of the stuff left over after that sneaky member got into our stash."
+                                                            },
+                                                            "2": {
+                                                                "giveQuest": "explorers-league",
+                                                                "emotion": "explain",
+                                                                "text": "Drink it and bring me back what you uncover.",
+                                                                "giveItems": [
+                                                                    "192@2"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "I'm busy right now, maybe later.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "Oh, okay… This is important, it could explain the missing pieces of our history, so please come back when you have time."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "explorers-league-cp": {
+        "completeQuest": "explorers-league",
+        "text": "explorers-league-cp",
+        "tree": {
+            "0": {
+                "emotion": "cheer",
+                "text": "You’ve found some very valuable artifacts that will help us learn more about our own history as a League. There’ll be more out there, I'm sure of it! Possibly lying hidden in some  other region of Tӓella-Oso. Keep searching for these artifacts and recipes while on your adventures. There’re many things we can uncover from this mystical drink."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "explorers-league-cp1": {
+        "reqFlags": [
+            "qf_explorers-league_cp",
+            "qf_ghouls_cp"
+        ],
+        "text": "explorers-league-cp1",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "$NAME, in some places of this world, there is strong, dark magick. Places of power, created before mankind even crawled up out of the dirt. Perhaps these places were built by the Esasa, or perhaps they came from the gods of chaos themselves, we might never know."
+            },
+            "1": {
+                "text": "I’ve heard tale of a book called the Black Guide, an almanac, a tour guide of sorts, hinting at the locations of these lost places of darkness. Such a book would be valuable to our league and I also have heard, that you happen to have it...",
+                "choices": {
+                    "0": {
+                        "text": "I do.",
+                        "tree": {
+                            "0": {
+                                "emotion": "afraid",
+                                "text": "It’s not a book to be taken lightly. Oh, I don’t want it. No, I won’t even touch the thing. But as I said, its information is of value to the League. Our cause is to explore and discover."
+                            },
+                            "1": {
+                                "jumpPointName": "questions",
+                                "text": "If you want to  join our ranks, then search out these hot spots of mystic darkness, learn what secrets they hold, and return to me. If you make a historical discovery then the council will have no choice but to accept you into our society.",
+                                "choices": {
+                                    "0": {
+                                        "text": "I’ll explore with caution.",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "black-guide",
+                                                "emotion": "afraid",
+                                                "text": "Make sure that you do. This kind of magick is that of forbidden knowledge. It will drive mortals mad, lest we treat it with the utmost respect.",
+                                                "unlockPages": [
+                                                    "295"
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "black-guide": {
+        "completeQuest": "black-guide",
+        "text": "black-guide",
+        "tree": {
+            "0": {
+                "achievement": "explorersfaction",
+                "emotion": "greeting",
+                "text": "You’re back and you look… haunted. I take it you found the locations in the Black Guide? Well done. A lesser explorer might have cracked under such pressure."
+            },
+            "1": {
+                "text": "I’ll mark these places on my map and send my best explorers out to conduct research on them. In the meantime, you’ve proven that you have what it takes."
+            },
+            "2": {
+                "emotion": "cheer",
+                "text": "We stand on no ceremony here, you are now an explorer of our league. Take this cloak to show off your status throughout the world."
+            },
+            "3": {
+                "text": "Though, it might get you some odd looks from the Order. If you make any new discoveries, be sure to return to me.."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

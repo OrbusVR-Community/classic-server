@@ -1,0 +1,61 @@
+{
+    "whiskey-trader": {
+        "text": "whiskey-trader",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Hello! Excuse me! You there! You’ve the look of a well-traveled adventurer about you! Would you perhaps be interested in a little bit of work?",
+                "choices": {
+                    "0": {
+                        "text": "What is it?",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Oh, fantastic! My name is Bjorth, and well, I’m a trader of malt spirits. Would I be right in assuming you’ve tasted the famed Wenderwood Whiskey before?"
+                            },
+                            "1": {
+                                "text": "Well, that very same spirit, starts out here - in the Twins. It only gets it's name because it’s aged in Wenderwood barrels once it’s transported there.",
+                                "choices": {
+                                    "0": {
+                                        "text": "What did you need?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "Well, whiskey lesson aside, I have to transport a portion of my stock to Wenderwood presently, but I’m a little nervous I might get eaten on the road by some dastardly Warg."
+                                            },
+                                            "1": {
+                                                "giveQuest": "whiskey-trader",
+                                                "text": "Accompany my cart to Wenderwood - and you will be handsomely rewarded."
+                                            },
+                                            "2": {
+                                                "emotion": "explain",
+                                                "text": "My donkey and cart sit outside the stone wall, ensure they get there in one piece, and I will meet you at Wenderwood."
+                                            },
+                                            "3": {
+                                                "setFlags": [
+                                                    "qf_hide-whiskey-trader"
+                                                ],
+                                                "text": "......"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "Maybe later.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "Come see me again, if you are in need of some extra Dram."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "shout-hitme": {
+        "shout": true,
+        "reqFlags": [
+            "qf_foraging-training_ip"
+        ],
+        "text": "shout-hitme",
+        "tree": {
+            "0": {
+                "text": "I'm a Queen's Ear! Grab your Harvester and hit me with it to collect me!"
+            }
+        },
+        "indicator": "dialog"
+    }
+}

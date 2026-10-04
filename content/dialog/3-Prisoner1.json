@@ -1,0 +1,34 @@
+{
+    "introc": {
+        "shout": true,
+        "text": "introc",
+        "tree": {
+            "0": {
+                "text": "Help! Help! I swear I'm innocent!"
+            }
+        },
+        "indicator": "dialog"
+    },
+    "intro1c": {
+        "text": "intro1c",
+        "tree": {
+            "0": {
+                "emotion": "afraid",
+                "text": "I'll get you all the Dram you need once I'm out of here!",
+                "choices": {
+                    "0": {
+                        "text": "Your name?",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "afraid",
+                                "text": "Ludwina. Now hurry the guards will have reinforcements soon!!"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

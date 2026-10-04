@@ -1,0 +1,34 @@
+{
+    "test-vendoring": {
+        "indicator": "repair",
+        "text": "test-vendoring",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Stumble upon something deep in the wilds, nestled in a bed of purple? I'll need the password if we are to do business.",
+                "choices": {
+                    "0": {
+                        "text": "I've been known to be TRICKY at times.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "doVendor": true,
+                                "text": "Yes you have, what can I get for you?"
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "Password? For what?",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "I think you must be mistaken...."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

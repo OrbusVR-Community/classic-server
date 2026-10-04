@@ -1,0 +1,245 @@
+{
+    "brother-pavara-cp": {
+        "reqFlags": [
+            "qf_brother-pavara_cp"
+        ],
+        "indicator": "objective",
+        "text": "brother-pavara-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Well, well… So you’re the stranger the black god of death has blessed so graciously. If you want to join our Brotherhood, if you desire to know the essence of the dark god himself, then take this contract and put an end to the target’s pathetic life."
+            },
+            "1": {
+                "text": "Our intel says you’ll find this lowly cockroach wandering the sunbaked dunes of the Obnobi Desert. He’s on the run from the Rainforest and there’s some important people who want him below ground."
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "You’ll know him by his clothes. Green - they are. Stained that way from years hiding amongst these godforsaken vines."
+            },
+            "3": {
+                "giveQuest": "contractkill-2",
+                "text": "Ask no questions, complete this task, and you’ll be rewarded."
+            }
+        }
+    },
+    "contractkill-2-cp": {
+        "completeQuest": "contractkill-2",
+        "text": "contractkill-2-cp",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "I don’t want to know how death took him. Only that he has been taken.",
+                "choices": {
+                    "0": {
+                        "text": "He has been taken.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Good. Here is your payment. Keep your ear to the ground. I will have more use for you in the future, I’m certain."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "contractkill-cp-cp": {
+        "reqFlags": [
+            "qf_contractkill-2_cp"
+        ],
+        "indicator": "objective",
+        "text": "contractkill-cp-cp",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "It seems all the turmoil within this nation is good for business. Every day, more and more dram is placed on our Altar Tributary. More and more maggoty blood feeding the soil of the earth."
+            },
+            "1": {
+                "text": "There’s a problem I need taking care of, over by the Frosted Spit. A large man, turned blue by some kind of accursed cold blown down from the Necropolar. He’s your next target. His name is Asger."
+            },
+            "2": {
+                "giveQuest": "contractkill-3",
+                "emotion": "hmph",
+                "text": "You don’t need to know why he must die. Now go."
+            }
+        }
+    },
+    "contractkill-3-cp": {
+        "completeQuest": "contractkill-3",
+        "text": "contractkill-3-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Tell me. Does Asger now rot slowly beneath the frigid snow?",
+                "choices": {
+                    "0": {
+                        "text": "It’s taken care of.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Good. Here - payment for a job well done. There will be other targets in the future."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "contractkill4": {
+        "reqFlags": [
+            "qf_contractkill-3_cp"
+        ],
+        "indicator": "objective",
+        "text": "contractkill4",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "How has your thirst for blood been satiated thus far? Most wouldn’t have the stomach for it. Perhaps you’re still yet to fetch up your guts. Perhaps you’ve embraced the black god, the whisper in the night, the nameless dark that is death?"
+            },
+            "1": {
+                "text": "Make your way to the Lucian Plateau and deliver another sacrifice to our lord. Your target walks the path of his ancestors."
+            },
+            "2": {
+                "giveQuest": "contractkill-4",
+                "emotion": "hmph",
+                "text": "He’s followed by his furry friends. Beasts of those godforsaken lands. Kill them. Kill them all. Make worship to death. Then collect your fee."
+            }
+        }
+    },
+    "killquest4-cp": {
+        "completeQuest": "contractkill-4",
+        "text": "killquest4-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Murder is a most holy ritual. You’ll come to know the dark graces of our Lord in time. But for now, tell me, is it done?",
+                "choices": {
+                    "0": {
+                        "text": "It is.",
+                        "tree": {
+                            "0": {
+                                "achievement": "shadowfaction",
+                                "emotion": "hmph",
+                                "text": "Your payment is offered then. Go rest and indulge in whatever pleasure tickles your fancy. I’ll have more work for you in time."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "killquest4-cpa": {
+        "reqFlags": [
+            "qf_contractkill-4_cp",
+            "qf_faction-hero_cp"
+        ],
+        "indicator": "objective",
+        "text": "killquest4-cpa",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "The Tributary is full. Once again, we are in need of blood shed."
+            },
+            "1": {
+                "giveQuest": "contractkill-5",
+                "text": "Make your way to the Frosted Spit and deliver another sacrifice to our lord. Your target is carrying an icicle he claims has magickal powers. He dresses as a true brother, but it is far from the truth."
+            }
+        }
+    },
+    "cotractkill5-cp": {
+        "completeQuest": "contractkill-5",
+        "text": "cotractkill5-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "You return with news of his demise?",
+                "choices": {
+                    "0": {
+                        "text": "I do",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Your payment then, soon your heart will be as black as the cloaks on our shoulders. But the altar still overflows with coin. Head to the desert and track down a woman with red hair."
+                            },
+                            "1": {
+                                "giveQuest": "contractkill-6",
+                                "text": "A client believes she knows too much... or she will by the time you reach her."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "contractkill6-cp": {
+        "completeQuest": "contractkill-6",
+        "text": "contractkill6-cp",
+        "tree": {
+            "0": {
+                "text": "Ah blood and sand. Did it sizzle when it hit the dunes?",
+                "choices": {
+                    "0": {
+                        "text": "Like eggs to a hot pan.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Good. Your payment is offered. Go rest and indulge in pleasures of the flesh for a time. I’ll have more work for you later."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "contractkill6-cp-cp": {
+        "reqFlags": [
+            "qf_contractkill-6_cp"
+        ],
+        "indicator": "objective",
+        "text": "contractkill6-cp-cp",
+        "tree": {
+            "0": {
+                "text": "One final challenge exists before you initiate. One of our Brothers has decided to sell our secrets, bastardizing our fraternity and insulting the god of death."
+            },
+            "1": {
+                "text": "It would appear the Order is also after him as they have posted a wanted flyer in the center of town. There you may gaze upon the face of your next victim. His whereabouts are not known, only that he needs to be killed."
+            },
+            "2": {
+                "giveQuest": "contractkill-7",
+                "text": "Silence him before he reveals our secrets and you will truly become one of us. Be wary though, he was one of our best assassins with a blade and bow."
+            }
+        }
+    },
+    "contractkill-7-cp": {
+        "completeQuest": "contractkill-7",
+        "text": "contractkill-7-cp",
+        "tree": {
+            "0": {
+                "text": "You’ve returned brother. Did the traitor suffer as he fell?"
+            },
+            "1": {
+                "text": "Take this cape, as a sign to all others of your commitment to the Brotherhood and the god of death."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "contractkill-7-cp-cp": {
+        "reqFlags": [
+            "qf_contractkill-7_cp"
+        ],
+        "text": "contractkill-7-cp-cp",
+        "tree": {
+            "0": {
+                "allowrepeat": true,
+                "text": "Hello Brother, I’ve no new contracts for you. Return to me later as that may change."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "description": "The townsfolk of Kingsport seem to still be following an old set of rituals. Beslial seems to think that they are inside the cave to the East of Kingsport Island. Venture into the cave and put a stop to their practices.",
+    "name": "Sushi",
+    "completed": "Meet Beslial at the entrance to the cave to let him know what resides within. Then return to Sicilus at the Zoological Gardens to report to her and collect your fee.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "kingtown",
+            "typenum": 6,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "247",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 17,
+    "rewards": [
+        "giveitems xp@18000,coin@350"
+    ],
+    "autocomplete": false
+}

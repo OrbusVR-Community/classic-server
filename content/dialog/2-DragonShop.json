@@ -1,0 +1,94 @@
+{
+    "dragonshop": {
+        "indicator": "repair",
+        "text": "dragonshop",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "jumpPointName": "continue",
+                "text": "Hello, are you looking for a friendly companion? One to always be by your side, even in the heat of battle?",
+                "choices": {
+                    "0": {
+                        "text": "I am!",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "doVendor": true,
+                                "text": "Excellent, I have a few of my pet dragons for sale today."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>Tell me about the Dragons.</c>",
+                        "tree": {
+                            "0": {
+                                "jumpPointName": "questions",
+                                "text": "What do you want to know?",
+                                "choices": {
+                                    "0": {
+                                        "text": "Where are they from?",
+                                        "tree": {
+                                            "0": {
+                                                "text": "Fascinating creatures aren’t they? Though, not nearly as majestic as the ones used to roam wild. The big ones were brought to extinction by the Order almost a hundred years ago now. Them and their ridiculous distaste for anything come outta Täella-Brüha…"
+                                            },
+                                            "1": {
+                                                "text": "The Order may not like these little ones, but they multiply faster than rabbits. Weren’t a chance the High Pope and his lackeys could’ve taken ‘em on like they did the big daddies. ‘Specially considering the common folk’s love for ‘em."
+                                            },
+                                            "2": {
+                                                "goToJump": "questions",
+                                                "text": "That’s why I breed and sell the beasts. They won’t ever return to their former glory, but they make great pets. Loyal... Follow you anywhere. Also protective as hell. Charge into battles, fight alongside their owners, even if they don't do any real damage."
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "How do I breed them?",
+                                        "tree": {
+                                            "0": {
+                                                "text": "If you’re interested in the mating rituals, you could try breeding ‘em yourself. All you need is a terrarium like the one behind me and two dragons. Be sure to feed ‘em a treat ‘fore you put ‘em in though, or they probably won’t have mating on their mind if they aren't happy."
+                                            },
+                                            "1": {
+                                                "goToJump": "questions",
+                                                "text": "Each dragon is special, and contain dominant and recessive genes. Sometimes you can mate the dragons with the traits you like the best to get your desired results."
+                                            }
+                                        }
+                                    },
+                                    "2": {
+                                        "text": "What traits are there?",
+                                        "tree": {
+                                            "0": {
+                                                "text": "There are lots of traits these little guys have that makes them each special. Their scale color, stripe color, accent color, and size. Along with the three different breeds of dragon: Tiger, Mouse, and Sea."
+                                            },
+                                            "1": {
+                                                "goToJump": "questions",
+                                                "text": "I heard that scientist lady, Sicilus spoke of other breeds out there, but I aint never seen ‘em. Probably just wild fantasies. You know what she’s like."
+                                            }
+                                        }
+                                    },
+                                    "3": {
+                                        "text": "Thanks for the info.",
+                                        "tree": {
+                                            "0": {
+                                                "goToJump": "continue",
+                                                "text": "Anytime, is there anything else?"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "Goodbye",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "Don't forget, they need lots of exercise to keep them happy.."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

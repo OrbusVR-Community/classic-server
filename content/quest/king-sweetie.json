@@ -1,0 +1,20 @@
+{
+    "description": "Narrow Orchard is world famous for their King Sweetie Apples. Unfortunately their Orchard is under attack by monsters! Track down the worker in charge of the Orchard and investigate the problem.",
+    "name": "King Sweeties (MSQ)",
+    "completed": "The orchard seems safe for now, return to Guild City to Commander Fassith and collect your reward.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "spirit1",
+            "typenum": 12,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 8,
+    "rewards": [
+        "giveitems xp@1000,coin@50"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,105 @@
+{
+    "kreyen-cp": {
+        "completeQuest": "tinny-prediction",
+        "text": "kreyen-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "What’s this? A Fa Cher seeks me out? Who are you? What do you want with a wretched Ghoul such as myself?",
+                "choices": {
+                    "0": {
+                        "text": "Are you Iblis?",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "I am. Though, that you know my name, is no great feat. I’m cursed with fame amongst these dunes."
+                            },
+                            "1": {
+                                "text": "“The intelligent ghoul.” they call me, “The walking corpse of the sands.” “The King that will return to us”."
+                            },
+                            "2": {
+                                "emotion": "explain",
+                                "text": "Pffugh! I despise all those titles. I just wish to be left alone.",
+                                "choices": {
+                                    "0": {
+                                        "text": "Join our cause, fight the Order!",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "Why would I fight against darkness? Darkness is soothing. It hides all the ugly things of the light."
+                                            },
+                                            "1": {
+                                                "text": "However, since you have come such a long way, and boast such a noble title, if you complete a riddle for me, I’ll open myself to listen to your request."
+                                            },
+                                            "2": {
+                                                "emotion": "explain",
+                                                "text": "Do we have a deal Fa Cher?",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "What’s the Riddle?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "explain",
+                                                                "text": "Var Kha. Then listen carefully…"
+                                                            },
+                                                            "1": {
+                                                                "text": "You saw me where I never was and where I could never be. And yet within that very place, my face, you often see. What am I?"
+                                                            },
+                                                            "2": {
+                                                                "giveQuest": "ghouls-reflection",
+                                                                "emotion": "explain",
+                                                                "text": "Ah, but it’s not enough to simply say the answer. I require a token that represents it as well. Only when you’ve found such a token, can we talk."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "ghouls-reflection-cp": {
+        "completeQuest": "ghouls-reflection",
+        "text": "ghouls-reflection-cp",
+        "tree": {
+            "0": {
+                "jumpPointName": "questions",
+                "emotion": "greeting",
+                "text": "What’s this? An answer? I must admit Fa Cher, I didn’t expect you to return. Well… I’m sorry, but I can’t join your cause. Even if I might want to. I am in exile.",
+                "choices": {
+                    "0": {
+                        "text": "<c=lore>Why are you in exile?</c>",
+                        "tree": {
+                            "0": {
+                                "text": "For my sins. I once commanded the five Ghoul Armies as grand Ethnarc of my people. That arrogance, that power, caused the death of the only woman I have ever loved."
+                            },
+                            "1": {
+                                "goToJump": "questions",
+                                "text": "A Fa Cher, like yourself - Kali… She is dead now. My life, destroyed. and I’ve nothing to remember the kindness of her heart by. I asked for this mirror, so that I might try see what she saw in me…"
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "Can I change your mind?",
+                        "tree": {
+                            "0": {
+                                "text": "Short of bringing her back from the dead? No. Without her scent against my nose or her warmth against my chest,"
+                            },
+                            "1": {
+                                "text": "I fear, I shall never leave my isolation. Farewell, Fa Cher."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "pilgrim-leader": {
+        "reqFlags": [
+            "qf_pilgrim"
+        ],
+        "indicator": "objective",
+        "text": "pilgrim-leader",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Ah, good Enforcer, have you come to see my people to Ma’at’s keep? You have the look about you of an honorable servant of the goddess, I am happy to see it is you leading our holy charge."
+            },
+            "1": {
+                "text": "The Pilgrim has already set upon the path to her holy altar, hurry now to catch up or wait here for Ma'at's next servant to appear."
+            }
+        }
+    }
+}

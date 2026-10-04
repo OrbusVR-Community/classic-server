@@ -1,0 +1,44 @@
+{
+    "description": "Kill eight of all the creatures on the list to receive your reward.",
+    "name": "Noah's Ark Wenderwood",
+    "completed": "Return to Hunter Dern, he can usually be found hunting along the paths of the Lowland Woods, or selling his furs inside the marketplace of Highsteppe.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "wolf",
+            "typenum": 8,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "wolfskull",
+            "typenum": 8,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "sheep",
+            "typenum": 8,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "wyvern",
+            "typenum": 8,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "pigsmall",
+            "typenum": 8,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 8,
+    "rewards": [
+        "giveitems xp@2500,coin@20"
+    ],
+    "autocomplete": false
+}

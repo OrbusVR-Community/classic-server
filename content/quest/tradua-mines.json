@@ -1,0 +1,62 @@
+{
+    "description": "Helga has finally discovered the entrance to the ancient Esasa city below the Tradu Mines! She has asked that you help her explore and discover the truth behind the enigmatic race.",
+    "name": "Trail of the Ancients",
+    "completed": "Return to the Explorer Guild Member waiting in the mine entrance for a report of the mine safety.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "essaboss1",
+            "typenum": 15,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "essaboss2",
+            "typenum": 15,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "essaboss4",
+            "typenum": 15,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "essaboss8",
+            "typenum": 15,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "essaboss5",
+            "typenum": 30,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "essaboss6",
+            "typenum": 30,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "essaboss7",
+            "typenum": 30,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "essaboss3",
+            "typenum": 30,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 20,
+    "rewards": [
+        "giveitems coin@400,433@1"
+    ],
+    "autocomplete": false
+}

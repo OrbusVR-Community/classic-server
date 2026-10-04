@@ -1,0 +1,26 @@
+{
+    "description": "Ernest has sent you to the Rainforest to catch some bait,the Large Minnow, along with some Eel. The minnow is an important lure part and needed to catch Legendary fish.",
+    "name": "Catch of the Day V",
+    "completed": "Return to Ernest on the North side of Kingsport Lake,to deliver your catch.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "305",
+            "typenum": 20,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "76",
+            "typenum": 6,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        "giveitems coin@250"
+    ],
+    "autocomplete": false
+}

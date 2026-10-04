@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "Third Trial (MSQ)",
+    "completed": "Speak with the Master Wise One to the south of Wenderwood. His camp is in the mountainside near Lake Susannah. He will deliver the Final Trial",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 9,
+    "rewards": [
+        "unlockpage 168"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,55 @@
+{
+    "brotherhood-clue2": {
+        "reqFlags": [
+            "qf_patreayl-rainforest_ip"
+        ],
+        "text": "brotherhood-clue2",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "Those with dark hearts offer more than flesh and bone at the Tributary if they wish to gain attention from the god of death.",
+                "choices": {
+                    "0": {
+                        "text": "What are you talking about?",
+                        "tree": {
+                            "0": {
+                                "emotion": "afraid",
+                                "text": "The Altar. Sometimes folk sneak with purpose into the depths of the Cutthroat forest to the East of here. They pay tribute at the Brotherhood’s altar with Dram, according to the weight of a man’s soul… or so I’ve heard."
+                            },
+                            "1": {
+                                "text": "Best be careful stranger if you plan to head that way... I've seen many return, mumbling erratically, having lost all of their wealth, or worse, their minds.",
+                                "choices": {
+                                    "0": {
+                                        "text": "What are they mumbling?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "afraid",
+                                                "text": "Gibberish mainly... I heard tale of a scientist over in the Zoological Gardens that claimed to know a man who once weighed our ethereal parts…",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "How much did it weigh?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "explain",
+                                                                "text": "Come to think of it, I believe it was twenty one grams. I’m not sure how grams translates to drams though…."
+                                                            },
+                                                            "1": {
+                                                                "allowrepeat": true,
+                                                                "text": "If you do mean to pay that accursed altar, make sure you know what you’re getting yourself into."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

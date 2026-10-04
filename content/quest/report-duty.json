@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "Report for Duty (MSQ)",
+    "completed": "Follow the path out of Guild City, turning right passing through Narrow Orchard. Keep going along the path towards Wenderwood, there you will see the tower near Hulthine's Gate. The Sergeant of the Guard, Sergeant Siegfried, is expecting you. Rumor is that he was once part of the Order's elite force....",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 7,
+    "rewards": [
+        "giveitems xp@1000"
+    ],
+    "autocomplete": false
+}

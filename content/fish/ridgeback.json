@@ -1,0 +1,23 @@
+{
+    "rewarditemid": "216",
+    "minWeight": 1,
+    "maxWeight": 9,
+    "strength": 5,
+    "attractants": [
+        {
+            "itemid": 305,
+            "percent": 10
+        },
+        {
+            "itemid": 72,
+            "percent": 10
+        },
+        {
+            "itemid": 304,
+            "percent": 5
+        }
+    ],
+    "required": [
+        305
+    ]
+}

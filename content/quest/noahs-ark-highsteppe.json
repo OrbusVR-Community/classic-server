@@ -1,0 +1,56 @@
+{
+    "description": "Kill four of all the creatures on the list to receive your reward. These creatures are known to be roaming around the area",
+    "name": "Noah's Ark Kingsport Lake",
+    "completed": "Return to Hunter Dern, he can usually be found hunting along the paths of the Lowland Woods, or selling his furs inside the marketplace of Highsteppe.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "redtail",
+            "typenum": 4,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "spirit",
+            "typenum": 4,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "spider",
+            "typenum": 4,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "forestgolem",
+            "typenum": 4,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "crab",
+            "typenum": 4,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "deer",
+            "typenum": 4,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "foxorange",
+            "typenum": 4,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 5,
+    "rewards": [
+        "giveitems xp@2800,coin@25"
+    ],
+    "autocomplete": false
+}

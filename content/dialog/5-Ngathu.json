@@ -1,0 +1,189 @@
+{
+    "associates-cp": {
+        "completeQuest": "associates",
+        "text": "associates-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "What’s this? We’ve a little spy watching us complete our work. Who are you stranger? I’m impressed."
+            },
+            "1": {
+                "text": "Most would hide in the shadows, but you stride right up to me, as if fearless. How peculiar....",
+                "choices": {
+                    "0": {
+                        "text": "Who are you?",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Oh, you’re truly a foolish traveler, aren’t you? Have you not heard of me before? I’m Boss Ngathu, of the Ngathu Crime Family."
+                            },
+                            "1": {
+                                "text": "Had this been Reyu Fa Ceron I would’ve killed you for your ignorance, but you are a soft Midlander, I can’t expect you to quake in fear before a Crime Lord you know only from stories.",
+                                "choices": {
+                                    "0": {
+                                        "text": "Is that Dosa? Everyone thinks he’s dead!",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "hmph",
+                                                "text": "Who? The Tavern owner? This useless pig owes me a lot of money. Decided we weren’t going to pay up, didn’t we Dosa?"
+                                            },
+                                            "1": {
+                                                "text": "Thought we could just send my debt collectors away with nothing in their pockets… No. I won’t stand for it."
+                                            },
+                                            "2": {
+                                                "emotion": "hmph",
+                                                "text": "Dosa will be dragged across the the desert back to my city, where I’ll watch him suffer and die at the claws and teeth of my pets in my personal arena.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "What if I pay his debt for him?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "hmph",
+                                                                "text": "I beg your pardon? You would risk your pocket for this oaf?"
+                                                            },
+                                                            "1": {
+                                                                "text": "No. A bail out is too good for this bastard. I’ll free him however, if you help me tie up a few loose ends."
+                                                            },
+                                                            "2": {
+                                                                "emotion": "explain",
+                                                                "text": "Think of it as “working off” his debt… and his debt is substantial.",
+                                                                "choices": {
+                                                                    "0": {
+                                                                        "text": "I’ll do it.",
+                                                                        "tree": {
+                                                                            "0": {
+                                                                                "emotion": "explain",
+                                                                                "text": "Very well. The Order General stationed in the Patreayl Rainforest, like your friend here, owes me a considerable amount of Dram."
+                                                                            },
+                                                                            "1": {
+                                                                                "giveQuest": "blood-debt",
+                                                                                "text": "The only difference is, I KNOW he can pay it back. He comes from a rich family. Secure the Dram he owes me and bring it back here."
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "1": {
+                                                        "text": "Okay, good luck Dosa...",
+                                                        "tree": {
+                                                            "0": {
+                                                                "allowrepeat": true,
+                                                                "emotion": "hmph",
+                                                                "text": "You walk on a dagger’s edge. I respect that."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "blood-debt-cp": {
+        "completeQuest": "blood-debt",
+        "text": "blood-debt-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Well I’ll be! Paid in full. I hope you had to break that fat General’s knee caps to get this from him!  I never thought that fat bastard would pay at all, let alone in full."
+            },
+            "1": {
+                "text": "Let me know when you’re ready for your next task."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "blood-debt-cp2": {
+        "reqFlags": [
+            "qf_blood-debt_cp"
+        ],
+        "text": "blood-debt-cp2",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "Your next job. I don’t suppose you’ve heard of “The drink of Ithecac”?"
+            },
+            "1": {
+                "text": "A hallucinatory substance, quite highly sought after amongst the scum of Guild City. There’s a bootlegger of the magic cordial hiding out amongst the Rune Wargs in the Lucian Plateau."
+            },
+            "2": {
+                "giveQuest": "ithecac",
+                "emotion": "explain",
+                "text": "If you can find a way to get into their midst, pick up his stash and deliver it to my contact in Guild City - he’s the seedy looking bugger who hangs out mostly by the Guild City docks."
+            }
+        },
+        "indicator": "quest"
+    },
+    "return-boss-cp": {
+        "completeQuest": "return-boss",
+        "text": "return-boss-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Ah, $NAME - you’ve returned. Poor Dosa here, was starting to get worried. You’re becoming a valuable asset to me, I'm not sure I ever want to let Dosa go now!"
+            }
+        },
+        "indicator": "dialog"
+    },
+    "toruism-ministry": {
+        "reqFlags": [
+            "qf_return-boss_cp"
+        ],
+        "text": "toruism-ministry",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "Well, I’ve got another job for you."
+            },
+            "1": {
+                "text": "The Resort Owner over at the Frontier Pools Resort agreed a while back to store a shipment of weapons for me. Now he thinks he can slip out of that promise."
+            },
+            "2": {
+                "giveQuest": "hot-springs",
+                "emotion": "explain",
+                "text": "Go see him and make sure he has a storage room ready for my men when they arrive from the Desert."
+            }
+        },
+        "indicator": "quest"
+    },
+    "hot-springs-cp": {
+        "completeQuest": "hot-springs",
+        "text": "hot-springs-cp",
+        "tree": {
+            "0": {
+                "emotion": "cheer",
+                "text": "You did a good job, so I hear. You’re basically an honorary mobster at this point!"
+            },
+            "1": {
+                "text": "I’m nothing if not a shrewd business man, $NAME. You’ll be my puppet one final time. I need to prepare a few things first. Come see me in a little while."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "hotsprings-cp": {
+        "reqFlags": [
+            "qf_hot-springs_cp"
+        ],
+        "text": "hotsprings-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "I said give me some time to prepare!"
+            },
+            "1": {
+                "allowrepeat": true,
+                "text": "Var kur chud Yun dathrul’ha."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

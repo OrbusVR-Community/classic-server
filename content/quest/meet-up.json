@@ -1,0 +1,20 @@
+{
+    "description": "",
+    "name": "The Meetup (MSQ)",
+    "completed": "Travel to the graveyard near New Kingsport to meet Adela, a member of the Patreayl Knights.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 11,
+    "rewards": [
+        "giveitems 311@2",
+        "unlockpage 311"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,35 @@
+{
+    "intro-ethan": {
+        "reqFlags": [
+            "qf_seek-petyr_cp"
+        ],
+        "notFlags": [
+            "qf_just-rewards"
+        ],
+        "indicator": "objective",
+        "text": "intro-ethan",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Oh! $NAME! I was beginning to think you’d gotten yourself caught while escaping! I’m glad you let me get out on my own."
+            },
+            "1": {
+                "text": "My brother Markos is so brave and I hope I can be like him one day, but he always worries too much about me. He would never had let me find my own way out."
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "I told him, I’m as good a Knight as anyone else here. He made me an honorary squire… But I think he’s coddling me. Hey,  at least I get to say I’m part of the rebel army!"
+            },
+            "3": {
+                "text": "Oh Father! This is the *cough* “Enforcer” I told you about! The one who helped me find my way home!"
+            },
+            "4": {
+                "setFlags": [
+                    "qf_just-rewards"
+                ],
+                "emotion": "explain",
+                "text": "Say hi to my Father, I’m sure he will be very charitable, if you get my drift."
+            }
+        }
+    }
+}

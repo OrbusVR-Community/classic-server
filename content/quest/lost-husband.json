@@ -1,0 +1,17 @@
+{
+    "description": "",
+    "name": "",
+    "completed": "Return to Brother Pavara with news of Claudies demise for reward, and loyalty.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [],
+    "autocomplete": false
+}

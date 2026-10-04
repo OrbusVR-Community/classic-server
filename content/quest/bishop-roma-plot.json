@@ -1,0 +1,20 @@
+{
+    "description": "The festival will begin shortly and folks are gathering to partake in the festivities. Go speak with the town Mayor, LordLenneth, to see if you can be of any help. He was last seen near the graveyard in Highsteppe.",
+    "name": "Festival Celebration (MSQ)",
+    "completed": "Now that the Bishop has thwarted the assassination attempt he wishes to speak with you. Go back and speak with Bishop Roma at his house in Highsteppe.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_speak-mayor-highsteppe",
+            "typenum": 1,
+            "typeextra": "Prepare for Festival"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 4,
+    "rewards": [
+        "giveitems 115@1,coin@30"
+    ],
+    "autocomplete": false
+}

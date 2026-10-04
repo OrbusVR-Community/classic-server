@@ -1,0 +1,16 @@
+{
+    "lakewoodinn": {
+        "text": "lakewoodinn",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "People have been celebrating all through the night...."
+            },
+            "1": {
+                "allowrepeat": true,
+                "text": "<c=ooc>If you want to join in, just grab the knob with the grip button and pull towards you.</c>"
+            }
+        },
+        "indicator": "dialog"
+    }
+}

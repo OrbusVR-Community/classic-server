@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "The Lucian Plateau (MSQ)",
+    "completed": "Speak with the Rune Warg Bezoula, in the Lucian Plateau East of Narrow Orchard, at the top of the high steps of Ithecac, to try and convince them to join your cause.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 15,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,128 @@
+{
+    "guardianbart-interior": {
+        "reqFlags": [
+            "qf_guardianbart-interior"
+        ],
+        "text": "guardianbart-interior",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Welcome to your home $NAME, this is your own personal space that only you may enter. Here you will find all the necessary items to conquer any adventure put before you."
+            },
+            "1": {
+                "text": "I can give you a short tour of the house, or if you don't need the tour just select the \"I've got it\" option and I will leave you be.",
+                "choices": {
+                    "0": {
+                        "text": "Tour please.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "On my left is your personal <c=ooc>Player Chest</c> think of it as your own vault. You can store items that you don't want to carry on your person to reduce weight."
+                            },
+                            "1": {
+                                "text": "You would also be wise to remember to leave some items here, as the extra weight can cause you to be <ooc>Over-encumbered</c> and not be able to move."
+                            },
+                            "2": {
+                                "text": "<c=ooc>To open the chest use hold the Grip button on the white ring (long range grabber) and make an opening gesture.</c>"
+                            },
+                            "3": {
+                                "text": "<c=ooc>You will see two Inventory screens appear, the one on your right is your Player Inventory, the left screen is the Player Chest inventory</c>"
+                            },
+                            "4": {
+                                "text": "<c=ooc>To deposit items into your player chest, select the item from the right screen, and place it into an empty slot on the left, or vice versa. If your chest becomes full you can upgrade the chest with more slots by selecting the 6 &amp; 7 tabs at the top and purchasing the upgrades.</c>"
+                            },
+                            "5": {
+                                "emotion": "explain",
+                                "text": "To the far left is your <c=ooc>Lure Crafting</c> table. The best fisherman, Ernest Trimm, can teach you more about it when the time comes. He is located on the lower plateau near Kingsport Lake, just to the East of Highsteppe. His house is located on your compass for future reference."
+                            },
+                            "6": {
+                                "text": "There is also a place where you can store and breed your favorite pets, by placing them in the first two slots of the terrarium, waiting 24 hours, and a new bundle of fire and joy will be there to welcome you. There is a <c=ooc>Lore Book</c> on the table that may help."
+                            },
+                            "7": {
+                                "setFlags": [
+                                    "qf_bart-potion-crafting"
+                                ],
+                                "emotion": "explain",
+                                "text": "Now lets talk about your <c=ooc>Potion Crafting</c> table, it is located next to your basement door. Meet me over there and well continue your training."
+                            },
+                            "8": {
+                                "removeFlags": [
+                                    "qf_guardianbart-interior"
+                                ],
+                                "text": "."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "I've got it.",
+                        "tree": {
+                            "0": {
+                                "text": "Alright, remember if you need any additional weapons training meet me back at the Training area."
+                            },
+                            "1": {
+                                "removeFlags": [
+                                    "qf_guardianbart-interior"
+                                ],
+                                "text": "."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "bart-potion-crafting": {
+        "reqFlags": [
+            "qf_bart-potion-crafting"
+        ],
+        "text": "bart-potion-crafting",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "Here you have your <c=ooc>Alchemy</c> table on my left. This is where you will learn the art of Alchemy, and the taste of ruined potions."
+            },
+            "1": {
+                "text": "You place the items in the chest beside the table the same as your Player Chest, then a 3D representation will then appear on the table."
+            },
+            "2": {
+                "text": "You can re-arrange the order of the items on the table by adjusting the item location in the inventory slots."
+            },
+            "3": {
+                "emotion": "explain",
+                "text": "You discover potion recipes throughout the Main Story Quests, along with discovering them through your travels throughout the world."
+            },
+            "4": {
+                "text": "<c=ooc>To brew a potion use the Grip button to grab the item off the table, then release the button to drop it into the cauldron.</c>"
+            },
+            "5": {
+                "text": "<c=ooc>When the recipe is finished, grip the bottle next to the cauldron and dip it into the water to collect the finished potion. It will then be added to your Player Inventory.</c>"
+            },
+            "6": {
+                "emotion": "explain",
+                "text": "There is an Ingredient chart on the wall along with a Temperature chart for later reference."
+            },
+            "7": {
+                "text": "The door beside the table leads to your basement, there you will find the <c=ooc>Artificing Table</c>, used to create Tile Sets that deliver additional boosts to your skills, though the methods are highly secretive."
+            },
+            "8": {
+                "emotion": "explain",
+                "text": "In the back of the basement, hidden away in a cramped corner, you will find your <c=ooc>Potion Aging Rack.</c> where the astute Alchemy professionals will wait the countless hours, days, or weeks until their potions age."
+            },
+            "9": {
+                "text": "Possibly a more potent form of the potion, or a new potion completely, though be warned. Leaving a potion on the rack too long can cause it to spoil creating a ruined potion."
+            },
+            "10": {
+                "emotion": "explain",
+                "text": "I will leave you now to get acquainted to your new home, remember if you need additional training you can always visit me at the Training area at the top of the stairs."
+            },
+            "11": {
+                "removeFlags": [
+                    "qf_bart-potion-crafting"
+                ],
+                "text": "."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

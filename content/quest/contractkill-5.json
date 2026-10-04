@@ -1,0 +1,20 @@
+{
+    "description": "The Brotherhood wants you to carry out one of their contracts, possibly killing an innocent person. Hunt down the innocent inside the Frosted Spit. He is wearing the garb of the Brotherhood, even though he is not one. He also carries around an icicle he claims has magical powers.",
+    "name": "The Grimm Reaper IV",
+    "completed": "Return to Brotherhood with news for reward, but at what cost to your Soul?",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "contractkill5",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 18,
+    "rewards": [
+        "giveitems xp@40000,coin@21"
+    ],
+    "autocomplete": false
+}

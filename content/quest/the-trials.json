@@ -1,0 +1,32 @@
+{
+    "description": "To prove yourself worthy of the Patreayl Knights, Markos, their leader has asked you to complete three trials, one to prove your wits, one to prove your brawn and the last to prove your honor.",
+    "name": "The Trials (MSQ)",
+    "completed": "Now that you have completed all the Trials placed before you, return to Markos at their secret cave location inside Ma'at's Throat, and present him with the Sword of Lady Susannah.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "160",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "162",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "165",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 9,
+    "rewards": [
+        "giveitems xp@8500,coin@120"
+    ],
+    "autocomplete": false
+}

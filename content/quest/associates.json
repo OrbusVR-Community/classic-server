@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "Associates",
+    "completed": "Fearing that the Order guards will suspect her in the death of her husband Dosa, Jasan wants to find out the truth of his disappearance and clear her name. She thinks the Ngathu Crime family may have their hand in it. Search the town of Tarth Fa Dathrun in the Obnobi Desert to find a clue about Dosa's whereabouts.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 16,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

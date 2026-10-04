@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "Sicilus Riddle (MSQ)",
+    "completed": "Think on what Scholar Sicilus has set before you. Make a wise decision and prove to her you wit. Return to her once you have deciphered the Riddle, but best be careful, choosing the wrong answer could have dire consequences.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 9,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

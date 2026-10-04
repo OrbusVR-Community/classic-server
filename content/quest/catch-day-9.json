@@ -1,0 +1,26 @@
+{
+    "description": "Ernest is worried a competing fish stand will take over the Guild City marketplace. His plan seems to be to flood the market with cheap fish to cut out his competitor. Fill your bag with these lower fish to help Ernest out.",
+    "name": "Catch of the Day IX",
+    "completed": "Return to Ernest on the North side of Kingsport Lake,to deliver your catch.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "305",
+            "typenum": 75,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "73",
+            "typenum": 75,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        "giveitems coin@1000,448@1,451@1,313@2"
+    ],
+    "autocomplete": false
+}

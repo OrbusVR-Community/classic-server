@@ -1,0 +1,44 @@
+{
+    "description": "Bjorth needs your help delivering the whiskey to the rest of the major ports around Patreayl and some of the smaller towns also. Deliver all of the shipments and then return for your payment. Be wary of the thieves on the road though, there is a large black market for the Whiskey and many looking to make an easy dram.",
+    "name": "The Deliveries",
+    "completed": "Return to Bjorth, outside of Wenderwood, to deliver the shipment payments and receive your own payment.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "298",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "300",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "301",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "299",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "302",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 17,
+    "rewards": [
+        "giveitems xp@18000,coin@250"
+    ],
+    "autocomplete": false
+}

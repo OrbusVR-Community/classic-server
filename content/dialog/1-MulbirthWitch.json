@@ -1,0 +1,290 @@
+{
+    "witch-brew": {
+        "text": "witch-brew",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Well, don’t just stand there, say something. Another shell-shocked villager are you? Gee, what’ve they told you about me? That I’m a witch?"
+            },
+            "1": {
+                "text": "Well, that part is true… That I eat small children? Boil babies? Ha! I can tell by the look on your face, the stories are still going strong. Well, I hate to disappoint you, but I am for the most part just an old woman dreaming of her youth."
+            },
+            "2": {
+                "emotion": "hmph",
+                "text": "Ahem, I mean… “Behold, and cower before the mighty Witch of Mulbirth!\" Although you can call me Tinnethara, or Tinny for short. Ha Ha Ha."
+            },
+            "3": {
+                "text": "I suppose you’ll be wanting to hear about all the spells  I can perform? Why else would you be here? You must be of the inquisitive type. But shall I show you my powers?"
+            },
+            "4": {
+                "emotion": "afraid",
+                "text": "How do I know you won’t just run away and bring the Order crashing down upon my head? It is after all, illegal, punishable by death, to practice pagan magicks...",
+                "choices": {
+                    "0": {
+                        "text": "I came to learn.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Oh, very well. You remind me of the grandchild I never had, how could I ever say no to that face?"
+                            },
+                            "1": {
+                                "text": "First things first however... I’ll need you to help me out before I show you anything. Gather for me some ingredients for my witch’s brew: Four Queens Ear and three Reedflutes should do it."
+                            },
+                            "2": {
+                                "emotion": "explain",
+                                "text": "We’ll also need a bag of sunflower seeds, but they are hard to come by. I will give you the bag of seeds when you return, much too valuable to give to just anyone.."
+                            },
+                            "3": {
+                                "giveQuest": "witch-brew",
+                                "text": "Got that? Well, tick tock! Skedaddle already!"
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "On second thought..",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "explain",
+                                "text": "Safe travels, my dear."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "witch-brew-cp": {
+        "completeQuest": "witch-brew",
+        "text": "witch-brew-cp",
+        "tree": {
+            "0": {
+                "emotion": "agree",
+                "text": "I’m glad you’re back, and with the good stuff as well! I’m afraid I have bad news though. My bloody Cauldron is out of sorts right now, coughing up frogs and rabbits instead of potions."
+            },
+            "1": {
+                "giveQuest": "witch-brew-2",
+                "text": "So here, take the recipe, brew it at home, in secret and bring it back to me. Don’t think I won't notice if you skimp out on those sunflower seeds either, they’re what gives it an extra kick! "
+            }
+        },
+        "indicator": "quest"
+    },
+    "witch-brew-2-cp": {
+        "completeQuest": "witch-brew-2",
+        "text": "witch-brew-2-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Ah marvelous, look at the coloration, it’s exactly how I remember it. Oh, it has been so long my fiery friend! Now, now, no need to panic, just a little tip... and down the hatch! *Gulp* "
+            },
+            "1": {
+                "text": "Ah, now that’ll put hair on your chest! Yes, of course, you helped me *hic*, so now it’s my turn *hic* to help you. I’ll teach you the signs of the central runes, from which all runespeak is derived. *hic*"
+            },
+            "2": {
+                "jumpPointName": "questions",
+                "emotion": "explain",
+                "text": "Think of it as a *hic* basic vocabulary. Eventually you’ll be able to speak whole sentences! Oh, but you've no wand to cast with! *hic* Such a shame my dear, such a shame.",
+                "choices": {
+                    "0": {
+                        "text": "What is a wand?",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Why I’ve never thought *hic* about it before. Wands are tools that can channel the *hic* power of the runes and convert them into magicks. How they *hic* do such a thing ...well, how odd is that?"
+                            },
+                            "1": {
+                                "text": "I know of nobody who’s *hic* ever discussed such a thing. Go, find yourself the branch of a Black Yuckaw tree. They tend to grow along the banks of Kingsport Lake near Lakewood Inn."
+                            },
+                            "2": {
+                                "giveQuest": "witch-apprentice",
+                                "emotion": "explain",
+                                "text": "Bring it *hic* back and I shall bless it for you. Then, you should be able to learn all my secrets. *hic*"
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>Are you drunk?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Drunk? Me? Never! Say, how fares poor old Bartholomeu? Oh, sorry- Guardian Bart. Told you about me did he? Bet he had some lovely words to say."
+                            },
+                            "1": {
+                                "text": "Back when he was a young man, he quite fancied me and my… ravishing figure! I was old enough to be his mother at the time, but he chased me around all the same."
+                            },
+                            "2": {
+                                "goToJump": "questions",
+                                "emotion": "hmph",
+                                "text": "Stupid oaf must’ve felt spurned because he was one of the first to cast the vote to exile me from the village way back then during them Dandelion Wars."
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "On second thought..",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "Safe travels, my dear."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "witch-apprentice-cp": {
+        "completeQuest": "witch-apprentice",
+        "text": "witch-apprentice-cp",
+        "tree": {
+            "0": {
+                "emotion": "agree",
+                "text": "Very nice choice… lovely grain… the heartwood is a deep red in this one....here you go my dear, a beautiful wand if ever I've seen one. "
+            },
+            "1": {
+                "text": "Now, let’s teach you a spell or two? Are you certain you want to learn? If anyone ever sees you practicing magic in public, you’ll wind up just like me, or worse!",
+                "choices": {
+                    "0": {
+                        "text": "I'm sure",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Very well then. Let's begin. Walk over to the <c=lore>Runic pillars</c> on the far side of the cave and trace the Runes to your journal. <c=ooc>Press the journal page to the stone near the Rune to create a rubbing.</c>"
+                            },
+                            "1": {
+                                "text": "<c=ooc>Only Runic pillars with the yellow sparkle effects will be copied into your journal, teleport pillars are not copied to the journal</c>"
+                            },
+                            "2": {
+                                "text": "<c=ooc>To cast a spell, use the Trigger button to trace the outline of the Rune, then press the Trackpad (A/X on Rift) to submit the spell</c>"
+                            },
+                            "3": {
+                                "text": "<c=ooc>Pay close attention to line intersections as variations can cause a failure.</c>"
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "On second thought..",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "Safe travels, my dear."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "witch-runes-cp": {
+        "reqFlags": [
+            "qf_witch-apprentice"
+        ],
+        "text": "witch-runes-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "At risk of sounding like a bloody worry wart, be careful where you practice your runespeak. For decades now, that blasted Order has been hunting down those of us who choose to learn the language of the old gods. They’ve gotten quite good at it too."
+            },
+            "1": {
+                "text": "Practicing your Runespeak is an honorable thing, but utter the language in front of the wrong person and you’ll find yourself sleeping in the darkest dungeon of the Order’s jails."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "tinny-prediction": {
+        "reqFlags": [
+            "qf_highsteppe1_cp"
+        ],
+        "text": "tinny-prediction",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Thank the gods you're here!",
+                "choices": {
+                    "0": {
+                        "text": "What's wrong?",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "It all began a few nights ago. I was brewing myself a pot of tea, when foolish old bat that I am, I knocked the kettle across my cave floor!"
+                            },
+                            "1": {
+                                "text": "Tea leaves everywhere! But, wooo…. Within those *hic* tea leaves…. A prophecy!",
+                                "choices": {
+                                    "0": {
+                                        "text": "A Prophecy?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "agree",
+                                                "text": "A Prophecy!!!"
+                                            },
+                                            "1": {
+                                                "text": "You fight for the Knights of Patreayl now don’t you? Don’t lie, I’ve seen it in the stars! Well… the tea leaves at least. They spoke of the coming war between the Order and your Knights."
+                                            },
+                                            "2": {
+                                                "emotion": "explain",
+                                                "text": "But… there was something else. A greater war. Something far older, ancient and evil…",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "What was it?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "explain",
+                                                                "text": "Who can know? *hic* I’m a hedgewitch, not a prophet! Whatever it was, you'll need more help than just the human race…"
+                                                            },
+                                                            "1": {
+                                                                "text": "Hence why I’ve called on you here. Iblis, the leader of the Obnobi Ghouls wanders the time worn desert. If you can rally him and his species to your cause,  then perhaps the tide can be turned against this unknown *hic* evil."
+                                                            },
+                                                            "2": {
+                                                                "emotion": "explain",
+                                                                "text": "Find him, do as he asks, and bring him to your side, lest we all sink into the mire of destruction! *hic*"
+                                                            },
+                                                            "3": {
+                                                                "jumpPointName": "questions",
+                                                                "text": "Sorry, *hic* I tend to get dramatic after a *hic* few…",
+                                                                "choices": {
+                                                                    "0": {
+                                                                        "text": "<c=lore>Iblis?</c>",
+                                                                        "tree": {
+                                                                            "0": {
+                                                                                "goToJump": "questions",
+                                                                                "emotion": "explain",
+                                                                                "text": "Iblis? He’s a *hic* crafty bugger. Most intelligent Ghoul I’ve ever met. Probably why he likes to spend his *hic* time alone. He will *hic* join you, but only if you prove to him that you can think *hic* on his level. Be prepared for brain teasers!"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "1": {
+                                                                        "text": "Where do I search?",
+                                                                        "tree": {
+                                                                            "0": {
+                                                                                "emotion": "explain",
+                                                                                "text": "In the leaves I saw him, dipping his feet in the cool blue waters of a precious Oasis. I saw small pyramids moving about in the breeze, along with cacti that seemed to dance delightfully in the baking sun."
+                                                                            },
+                                                                            "1": {
+                                                                                "giveQuest": "tinny-prediction",
+                                                                                "text": "What all that means is up to you, now begone, *hic* I'm starting to run dry and need to make a new brew*hic*."
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    }
+}

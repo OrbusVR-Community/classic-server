@@ -1,0 +1,38 @@
+{
+    "narwhal-bay-cp": {
+        "completeQuest": "narwhal-bay",
+        "text": "narwhal-bay-cp",
+        "tree": {
+            "0": {
+                "text": "<c=pc>Tinny:</c> You’ve returned! And with the horn I see!"
+            },
+            "1": {
+                "text": "<c=pc>Sicilus:</c> Now comes the hard part. See that device over there? An invention of my own design… The Transdimensional Piercer…"
+            },
+            "2": {
+                "text": "<c=pc>Tinny:</c> The horn will only become potent with the proper blessing, you see…"
+            },
+            "3": {
+                "text": "<c=pc>Sicilus:</c> Power from the other realm…"
+            },
+            "4": {
+                "text": "<c=pc>Tinny:</c> A blessing from the great god Ba’al!",
+                "choices": {
+                    "0": {
+                        "text": "How does it work?",
+                        "tree": {
+                            "0": {
+                                "text": "<c=pc>Tinny:</c> The machine will puncture a hole in reality, creating a pocket dimension. A place, neither here, nor there, but close enough to both worlds to suit our purpose."
+                            },
+                            "1": {
+                                "giveQuest": "narwhal-wizard",
+                                "text": "<c=pc>Sicilus:</c> Täella-Brüha awaits! Carry the horn through the portal and seek the blessing!"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    }
+}

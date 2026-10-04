@@ -1,0 +1,20 @@
+{
+    "description": "Failing to derive the right answer from Sicilus riddle, she has sent you off to walk a mile in farmer’s shoes. Go harvest 15 Queens Ear, perhaps that will teach you the importance of working the land.",
+    "name": "Sicilus Punishments (MSQ)",
+    "completed": "Return to Sicilus at University Island now that you have completed your punishment. Try again at deciphering the riddle, but best be careful, choosing the wrong answer could have dire consequences.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "46",
+            "typenum": 15,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 8,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

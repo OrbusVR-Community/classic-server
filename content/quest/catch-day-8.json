@@ -1,0 +1,44 @@
+{
+    "description": "Ernest has tasked you with the almost impossible task, filing your basket to the point of almost breaking. Head to the Frosted Spit and bring lots of lures, you will be there a while. Be sure to watch your weight, or it may be a slow walk back home.",
+    "name": "Catch of the Day VIII",
+    "completed": "Return to Ernest on the North side of Kingsport Lake,to deliver your catch.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "305",
+            "typenum": 40,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "74",
+            "typenum": 35,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "75",
+            "typenum": 30,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "210",
+            "typenum": 25,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "216",
+            "typenum": 20,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        "giveitems coin@1800,366@1,367@1"
+    ],
+    "autocomplete": false
+}

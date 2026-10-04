@@ -1,0 +1,32 @@
+{
+    "description": "The mayor, Lord Lenneth, needs your help finding the missing tent pieces. Search around Cenn's farm and the town of Highsteppe to collect the missing pieces.",
+    "name": "Prepare for the Festival (MSQ)",
+    "completed": "Return to the Mayor, near the Cemetery, to deliver the items he needs.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "331",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "332",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "333",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 4,
+    "rewards": [
+        "giveitems xp@600,coin@10"
+    ],
+    "autocomplete": false
+}

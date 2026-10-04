@@ -1,0 +1,32 @@
+{
+    "description": "Helga Sarrow has given you the \"Drink of Ithecac\". She thinks that when you are under it's influence you can see remnants of the past, left over by some form of magick. Drink the potion and search the land to find some of these lost remnants. Helga believes they will all be in the Lamarova Frontier, lost from ancient times.",
+    "name": "The Explorer's League (MSQ)",
+    "completed": "Return to Helga Sarrow at her camp in the Lamavora Frontier.and show her the relics that you have gathered while under the drink's influence.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "339",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "342",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "343",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 18,
+    "rewards": [
+        "giveitems xp@12500"
+    ],
+    "autocomplete": false
+}

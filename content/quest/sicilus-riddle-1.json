@@ -1,0 +1,20 @@
+{
+    "description": "Failing to derive the right answer from Sicilus riddle, she has sent you off to chase down an elusive creature that is trampling along the path to Wenderwood as of late. Go hunt it down. Learn what it’s like to be Nitho, searching for food for his starving pack.",
+    "name": "Sicilus Punishments (MSQ)",
+    "completed": "Return to Sicilus at University Island now that you have completed your punishment. Try again at deciphering the riddle, but best be careful, choosing the wrong answer could have dire consequences.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "deerguardian",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 9,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

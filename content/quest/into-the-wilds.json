@@ -1,0 +1,44 @@
+{
+    "description": "War will break out soon! You will need to journey all of Patreayl, rallying support among the different factions if the Knights ever hope to defeat Roma and his Order.",
+    "name": "Into The Wilds (MSQ)",
+    "completed": "With a strong alliance across all of Patreayl, it’s time to return to Markos, atop Ma'at's Keep, and see what his next move is.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "185",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "184",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "188",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "203",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "186",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 16,
+    "rewards": [
+        "giveitems xp@5000,coin@400"
+    ],
+    "autocomplete": false
+}

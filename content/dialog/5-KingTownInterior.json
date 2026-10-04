@@ -1,0 +1,27 @@
+{
+    "interior-intro-something": {
+        "text": "interior-intro-something",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Leave. Now.",
+                "choices": {
+                    "0": {
+                        "text": "What are you doing here?",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "I SAID LEAVE!!!"
+                            },
+                            "1": {
+                                "addAggro": true,
+                                "text": "..."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

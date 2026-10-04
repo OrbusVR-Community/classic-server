@@ -1,0 +1,96 @@
+{
+    "dragon-treats": {
+        "reqFlags": [
+            "qf_time-to-eat_cp"
+        ],
+        "text": "dragon-treats",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "I am in need of healing potion to cure my sick mother. Make me one and bring it to me and I'll trade you ten treats for your pet!",
+                "choices": {
+                    "0": {
+                        "text": "Sorry, I don't have time.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "text": "Very well keep me in mind."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "I'll try my best!",
+                        "tree": {
+                            "0": {
+                                "giveQuest": "dragon-treats",
+                                "emotion": "explain",
+                                "text": "Great! Return to me once you've brewed the health potion."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "dragon-treats-cp": {
+        "completeQuest": "dragon-treats",
+        "text": "dragon-treats-cp",
+        "tree": {
+            "0": {
+                "emotion": "agree",
+                "text": "Oh, thank you! This will go a long way in helping me... I mean my mother along. Here’s the treats as promised."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "dragon-treats-cp-repeat": {
+        "reqFlags": [
+            "qf_dragon-treats_cp"
+        ],
+        "text": "dragon-treats-cp-repeat",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Again… You must LOVE that pet… Well, sure I’ll give you more treats, but this time I’ll need TWO healing potions.",
+                "choices": {
+                    "0": {
+                        "text": "I'm far too busy.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "Very well keep me in mind."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "You've got a deal!",
+                        "tree": {
+                            "0": {
+                                "giveQuest": "dragon-treats2",
+                                "emotion": "explain",
+                                "text": "Great! Return to me once you've brewed the potion."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "dragon-treats-cp-repeat-cp": {
+        "completeQuest": "dragon-treats2",
+        "text": "dragon-treats-cp-repeat-cp",
+        "tree": {
+            "0": {
+                "emotion": "agree",
+                "text": "You’re a lifesaver! This will go a long way in helping me...here are your treats."
+            },
+            "1": {
+                "text": "I have no more to trade, If you are looking for more maybe that scientist might have some, Sicilus is her name I think, always mucking around with different critters."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

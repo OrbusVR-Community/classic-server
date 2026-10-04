@@ -1,0 +1,56 @@
+{
+    "description": "Bishop Roma desperately sought to discover the mysteries of this ancient Janist artifact. Can you solve it's puzzle and find the final resting place of Khabor Jan? Markos spoke of great temples scattered throughout the lands, old worship sites of Janists. Search the Temples and Ruins around all of Patreayl to find the lost cubes.",
+    "name": "A Diluvian Puzzle (MSQ)",
+    "completed": "You have gathered all the cubes from the lands, but it still seems there are some out of reach to you yet.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "175",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "180",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "176",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "177",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "178",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "179",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "181",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 17,
+    "rewards": [
+        "giveitems coin@200,xp@15000"
+    ],
+    "autocomplete": true
+}

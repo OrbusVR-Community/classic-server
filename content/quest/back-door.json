@@ -1,0 +1,18 @@
+{
+    "description": "Speak with the Master Smith along at the top of Khabor's Pass. He has lived in these mountains his entire life and may know of a way to enter the Order Camp without having to knock on the gate.",
+    "name": "Back Door (MSQ)",
+    "completed": "The Master Smith has told you of a secret passage located inside a cave near Leisa Falls. Go to the cave that the hedge witch Tinny has taken over and find the passage.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "242",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 14,
+    "rewards": [],
+    "autocomplete": false
+}

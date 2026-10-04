@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "Seeking Petyr (MSQ)",
+    "completed": "Seek out and speak with Sir Petyr, Markos contact, at The Twins. He will give you further instructions on how you can best help the cause.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 10,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

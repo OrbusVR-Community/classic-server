@@ -1,0 +1,80 @@
+{
+    "anthro-intro": {
+        "reqFlags": [
+            "qf_lucianwilds_cp"
+        ],
+        "text": "anthro-intro",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "You must be $NAME. Your reputation travels before you, friend."
+            },
+            "1": {
+                "text": "Welcome to our little town of New Kingsport, the last remaining vestibule of the Kingsport Monarchs of old.",
+                "choices": {
+                    "0": {
+                        "text": "Hello anything I can do?",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "As I said, your reputation precedes you, and I must admit I’m grateful that you have shown yourself to be so willing to help those in need… because… I and my town? We are in need."
+                            },
+                            "1": {
+                                "setFlags": [
+                                    "qf_show-anthro"
+                                ],
+                                "text": "An anthropologist from the Traveling Brothers of Science has been spending her past year researching those horrific reptilian tribes hidden in the bush. Problem is, she’s recently gone missing."
+                            },
+                            "2": {
+                                "emotion": "explain",
+                                "text": "If you have time, I would greatly appreciate it if you could find her. Missing folk from the big city doesn’t look too good when attracting new citizens, and it’s hard enough as it is...",
+                                "choices": {
+                                    "0": {
+                                        "text": "Where was she last?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "She has a house near the water's edge on the West side of town. It's a brown two story with stairs around the back."
+                                            },
+                                            "1": {
+                                                "giveQuest": "search-room",
+                                                "text": "She often locked herself away in the top floor, scribbling away on a parchment and mumbling to herself. That might be the best place to start."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "Thanks I'll be on my way.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "explain",
+                                "text": "Come see us again, theres something I need..."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "lizard-codex-cp": {
+        "reqFlags": [
+            "qf_lizard-codex_cp"
+        ],
+        "text": "lizard-codex-cp",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "Good to see you again $NAME. Thanks for finding that nosey woman for me. I don’t think she’ll be venturing out alone for a while."
+            },
+            "1": {
+                "text": "Now she’s far too busy, trying to translate that damn codex. Enjoy the rest of your stay in our village."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

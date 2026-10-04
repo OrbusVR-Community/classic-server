@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "Time to Eat II (MSQ)",
+    "completed": "Speak with Chef Lethrow  at his kitchen to see if he needs help with the festival preparations. Approach Chef Lethrow and wave at him to speak with him.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 2,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

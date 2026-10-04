@@ -1,0 +1,38 @@
+{
+    "description": "Kill nineteen of all the creatures on the list to receive your reward.",
+    "name": "Noah's Ark Lamavora Frontier",
+    "completed": "Return to Hunter Dern, he can usually be found hunting along the paths of the Lowland Woods, or selling his furs inside the marketplace of Highsteppe.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "spiderling",
+            "typenum": 19,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "boarblack",
+            "typenum": 19,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "firebug",
+            "typenum": 19,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "redtail1",
+            "typenum": 19,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 19,
+    "rewards": [
+        "giveitems xp@40000,coin@200"
+    ],
+    "autocomplete": false
+}

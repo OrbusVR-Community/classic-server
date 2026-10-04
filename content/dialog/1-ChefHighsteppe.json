@@ -1,0 +1,222 @@
+{
+    "chefs-order": {
+        "completeQuest": "time-to-eat2",
+        "indicator": "mainquest",
+        "text": "chefs-order",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Highsteppe ain't seen a thing like this in a hundred years. It’s not every day a new High Bishop takes a seat at my table. We’re the last stop on his tour of the Midlands."
+            },
+            "1": {
+                "text": "He’s no doubt eaten delicacies from all across the country. But he’s yet to indulge in Highsteppe cuisine."
+            },
+            "2": {
+                "jumpPointName": "questions",
+                "emotion": "agree",
+                "text": "We must make the festival one for the history books!",
+                "choices": {
+                    "0": {
+                        "text": "Can I do anything?",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "If you want to help, I could do with your services. Tonight’s food has to be the best. I’m drawing on all my studies at La’fure for this meal."
+                            },
+                            "1": {
+                                "text": "My Entrees call for several ingredients that grow outside the confines of our little village. Bring me back the herbs needed and there will be a Dram or two in it for you. Head down towards Cenn's farm to the South of town, or look towards the Lowland Woods for the herbs."
+                            },
+                            "2": {
+                                "text": "What little herbs I have left are sitting on the table beside you if you need to get familiar with them before heading out."
+                            },
+                            "3": {
+                                "giveQuest": "chefs-order",
+                                "emotion": "explain",
+                                "text": "<c=ooc>Check your Journal for quest objectives when accepting new quests</c>"
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>Have you heard?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "agree",
+                                "text": "Yes $NAME, you’re to be a Guardian soon aren’t you? How did your final exam treat you? The Highsteppe Guardians are a long and noble tradition."
+                            },
+                            "1": {
+                                "goToJump": "questions",
+                                "text": "Both Warrior and Academic, with just the right amount of charisma to command our little army of villagers should the need approach."
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "I see you're busy...",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "Very well come back when you're feeling useful."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "chefs-order-cp": {
+        "completeQuest": "chefs-order",
+        "indicator": "mainquest",
+        "text": "chefs-order-cp",
+        "tree": {
+            "0": {
+                "emotion": "agree",
+                "text": "$NAME, you're a lifesaver! Ah, such a delicious smell! Oh, I almost forgot, here's a little something extra for your efforts - a page out of my own recipe book."
+            },
+            "1": {
+                "text": "This recipe will renew your fervor when battling beasts out in the wilderness. I wrote it inside your journal for you. Go home and follow my directions closely, as even the smallest deviation can be deadly..."
+            },
+            "2": {
+                "text": "You will fish to complete the recipe, you can visit Ernest at the bottom of the stairs by Kingsport Lake, he can teach you everything you need to know."
+            }
+        }
+    },
+    "chefs-order-2": {
+        "reqFlags": [
+            "qf_chefs-order_cp"
+        ],
+        "indicator": "mainquest",
+        "text": "chefs-order-2",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Back for more are yer? I knew you couldn’t stay away! Well, it just so happens I have another shopping list for you, though, this one is little more difficult to complete than the last. ",
+                "choices": {
+                    "0": {
+                        "text": "At your service.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "I only need one ingredient, it's notoriously difficult to find. The legendary Red Truffle will be the perfect treat to garnish Bishop Roma’s main course."
+                            },
+                            "1": {
+                                "jumpPointName": "questions",
+                                "text": "It only grows in one clearing hidden deep within the Forest of the Green Lady. If you could find even one of those fungal delights for me, I’d be a happy man.",
+                                "choices": {
+                                    "0": {
+                                        "text": "<c=lore>Green Lady Forest?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "afraid",
+                                                "text": "I’m sure you’ve heard the ghost stories. The Witch of Mulbirth dwells near the forest."
+                                            },
+                                            "1": {
+                                                "goToJump": "questions",
+                                                "text": "Rumor has it that the old hag lives in a cave near Leisa Falls, guarding the forest. Best be careful when heading out that way."
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "I'm on it.",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "chefs-order-2",
+                                                "setFlags": [
+                                                    "qf_show-knights"
+                                                ],
+                                                "emotion": "hmph",
+                                                "text": "Hurry the Festival starts soon!"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "I'm busy, maybe later.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "text": "See you around."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "chefs-order-2-ip": {
+        "reqFlags": [
+            "qf_chefs-order-2_ip"
+        ],
+        "notFlags": [
+            "qf_forest-secrets_ip"
+        ],
+        "text": "chefs-order-2-ip",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Well, they are famously difficult to find I suppose. Time is running short  you best hurry  the festival is starting soon."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "chefs-order-2-cp": {
+        "completeQuest": "chefs-order-2",
+        "text": "chefs-order-2-cp",
+        "tree": {
+            "0": {
+                "emotion": "agree",
+                "text": "Marvelous! Oh yes, for your efforts..."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "last-meal-3": {
+        "reqFlags": [
+            "qf_last-meal_ip"
+        ],
+        "indicator": "objective",
+        "text": "last-meal-3",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "$NAME! What brings you back home?",
+                "choices": {
+                    "0": {
+                        "text": "I'm in need of Kingstag Meal.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Hmm, well I might have some left over from the festival, but my stock of Bass is running low, perhaps we can work out a trade?",
+                                "choices": {
+                                    "0": {
+                                        "text": "Sounds fair.",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "letharow-meal",
+                                                "emotion": "explain",
+                                                "text": "Great, give me some time to prepare the meat. Meanwhile, you go catch some Bass from Kingsport Lake. I’d prefer fresh, but there may also be some vendors selling them in the marketplace if you’re inclined."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "letharow-meal": {
+        "completeQuest": "letharow-meal",
+        "text": "letharow-meal",
+        "tree": {
+            "0": {
+                "emotion": "afraid",
+                "text": "It's a shame what happened during the festival, I hope that rebel loses his head soon so we can go back to normal. Things around town haven't been the same since that whole affair."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

@@ -1,0 +1,316 @@
+{
+    "noahs-ark-highsteppe": {
+        "reqFlags": [
+            "qf_time-to-eat_cp"
+        ],
+        "text": "noahs-ark-highsteppe",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "What do you want? I have work to do.",
+                "choices": {
+                    "0": {
+                        "text": "What work?",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "My name is Dern, and I’m the Senior Hunter for Highsteppe. I track down the beasts no one else will tackle. I provide meat for our bellies and fur for our cloaks."
+                            },
+                            "1": {
+                                "text": "It's no easy task set before me, but for the glory of Ma'at I will hunt until I can hunt no more."
+                            },
+                            "2": {
+                                "emotion": "explain",
+                                "text": "If you're looking to make some extra Dram I'm hiring some special underlings to help me meet my quota.",
+                                "choices": {
+                                    "0": {
+                                        "text": "I’m listening...",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "hmph",
+                                                "text": "Great. Even this close to home, many beasts wander and prowl the wilderness. Head towards Kingsport Lake, to the East of Highsteppe. Kill four of each species on this list and bring back their trophies to be paid."
+                                            },
+                                            "1": {
+                                                "giveQuest": "noahs-ark-highsteppe",
+                                                "text": "Keep your wits about you and don’t grow cocky. Even the smallest creature can mean death if you aren’t paying attention. Don't forget, you can also track your progress using your journal."
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "I'm busy..",
+                                        "tree": {
+                                            "0": {
+                                                "allowrepeat": true,
+                                                "emotion": "hmph",
+                                                "text": "Why’re you talking to me then?"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "On second thought...",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "I suppose everyone is scared of something."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "noahs-ark-highsteppe-cp": {
+        "completeQuest": "noahs-ark-highsteppe",
+        "text": "noahs-ark-highsteppe-cp",
+        "tree": {
+            "0": {
+                "achievement": "hunter1",
+                "emotion": "greeting",
+                "text": "You’ve proven yourself to be a strong and capable hunter, underling. Here’s the Dram I promised you. If your thirst for the chase is yet to be satisfied, then I've further use for you, should you wish to continue.",
+                "choices": {
+                    "0": {
+                        "text": "I'm ready.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Be wary of this next prey you are to hunt, it is easy for the tables to be turned. Venture toward the towns of Narrow Orchard and Wenderwood to the South of Highsteppe."
+                            },
+                            "1": {
+                                "giveQuest": "noahs-ark-wenderwood",
+                                "text": "Track what's on this list, and bag me eight of each."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "noahs-ark-wenderwood-cp": {
+        "completeQuest": "noahs-ark-wenderwood",
+        "text": "noahs-ark-wenderwood-cp",
+        "tree": {
+            "0": {
+                "achievement": "hunter2",
+                "emotion": "explain",
+                "text": "Only by Ma'ats grace have you returned unharmed! You prove yourself an avid hunter, rivaling even my own skills… almost."
+            },
+            "1": {
+                "text": "The greatest challenge, I've left till last. Should you complete this final list, I will be prepared to call you my equal.  Are you up to the challenge?",
+                "choices": {
+                    "0": {
+                        "text": "I laugh in the face of danger!!",
+                        "tree": {
+                            "0": {
+                                "giveQuest": "noahs-ark-rainforest",
+                                "emotion": "explain",
+                                "text": "Now that’s dedication! We’ll see this thing through then. Follow the North-Western path into the Rainforest. Approach with caution and kill twelve of each creature on this list."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "noahs-ark-rainforest-cp": {
+        "completeQuest": "noahs-ark-rainforest",
+        "text": "noahs-ark-rainforest-cp",
+        "tree": {
+            "0": {
+                "achievement": "hunter3",
+                "emotion": "greeting",
+                "text": "You are a true hunter now. I am proud to call you my equal. Here’s the Dram as promised, along with a hot tip, should you wish to further your hunting career."
+            },
+            "1": {
+                "text": "Return to the Rainforest, to the village of New Kingsport. My sister Alicia Dern lives there near the water's edge. She's lost her dog Belle and could use a warrior like yourself. She’s plenty of Dram and willing to pay should you ask."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "noahs-ark-desert": {
+        "reqFlags": [
+            "qf_noahs-ark-rainforest_cp"
+        ],
+        "text": "noahs-ark-desert",
+        "tree": {
+            "0": {
+                "emotion": "agree",
+                "text": "Ah, $NAME! How goes the hunt? If you’re looking for some directive in your conquests, I’ve more work for a hunter of your caliber."
+            },
+            "1": {
+                "giveQuest": "noahs-ark-desert",
+                "text": "Head east, to the arid Obnobi Desert. Kill sixteen of each creature I’ve marked and return to me, I will, of course, make it worth your time."
+            }
+        },
+        "indicator": "quest"
+    },
+    "noahs-ark-desert-cp": {
+        "completeQuest": "noahs-ark-desert",
+        "text": "noahs-ark-desert-cp",
+        "tree": {
+            "0": {
+                "achievement": "hunter4",
+                "emotion": "agree",
+                "text": "May the spirits of the hunt continue to guide you. Here is your reward."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "noahs-ark-lucian-wilds": {
+        "reqFlags": [
+            "qf_noahs-ark-desert_cp"
+        ],
+        "text": "noahs-ark-lucian-wilds",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "If you are looking for more to whet your appetite, make the journey to the Lordly estate of Hulthine’s Vale and pass through the mountains into the Lucian Plateau."
+            },
+            "1": {
+                "giveQuest": "noahs-ark-lucian-wilds",
+                "text": "Take this list and kill seventeen of each to earn your next pay purse."
+            }
+        },
+        "indicator": "quest"
+    },
+    "noahs-ark-lucian-wilds-cp": {
+        "completeQuest": "noahs-ark-lucian-wilds",
+        "text": "noahs-ark-lucian-wilds-cp",
+        "tree": {
+            "0": {
+                "achievement": "hunter5",
+                "emotion": "greeting",
+                "text": "The hunt is your friend, and blood - your lover. Here's your pay."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "noahs-ark-lucians-cp": {
+        "reqFlags": [
+            "qf_noahs-ark-lucian-wilds_cp"
+        ],
+        "text": "noahs-ark-lucians-cp",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "You’re due to run me out of the job! Though I could use a holiday. Here’s the next list."
+            },
+            "1": {
+                "text": "Dress warm for this expedition will take you deep into the North-West of our lands. To the brood of icy hamlets known as the Frosted Spit."
+            },
+            "2": {
+                "giveQuest": "noahs-ark-frosted-sprit",
+                "emotion": "hmph",
+                "text": "There in the shadow of the Necropolar islets, kill eighteen of each foul beast. Be on your guard however. There are men and women who inhabit those snowy forests, far stranger than any beast I've yet to cross paths with."
+            }
+        },
+        "indicator": "quest"
+    },
+    "noahs-ark-frosted-cp": {
+        "completeQuest": "noahs-ark-frosted-sprit",
+        "text": "noahs-ark-frosted-cp",
+        "tree": {
+            "0": {
+                "achievement": "hunter6",
+                "emotion": "greeting",
+                "text": "You’ve returned. Here’s your pay, use it to buy yourself a hot drink or two, you look as if you could use some defrosting."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "noahs-ark-frosted-sprit-cp": {
+        "reqFlags": [
+            "qf_noahs-ark-frosted-sprit_cp"
+        ],
+        "text": "noahs-ark-frosted-sprit-cp",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "As new days dawn, each hunt must come to its end. I have only one final list for you. After this point, you must peg your prey yourself."
+            },
+            "1": {
+                "text": "To the West lies the dazzling meadows and woodlands of the Lamavora Frontier, a belt of true wilderness."
+            },
+            "2": {
+                "giveQuest": "noahs-ark-lamavoria-frontier",
+                "emotion": "explain",
+                "text": "Travel to those purple splotched forest floors, and track nineteen of each prey inked in my handwriting."
+            }
+        },
+        "indicator": "quest"
+    },
+    "noahs-ark-lamavoria-frontier-cp": {
+        "completeQuest": "noahs-ark-lamavoria-frontier",
+        "text": "noahs-ark-lamavoria-frontier-cp",
+        "tree": {
+            "0": {
+                "achievement": "hunter7",
+                "emotion": "greeting",
+                "text": "I'm humbled by your presence. You truly are, the lord of the hunt, manifest in human form."
+            },
+            "1": {
+                "text": "I can do nothing but offer you this Dram and my service should a time come that you are ever in need."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "noahs-ark-lamavoria-frontier-cp2": {
+        "reqFlags": [
+            "qf_noahs-ark-lamavoria-frontier_cp"
+        ],
+        "text": "noahs-ark-lamavoria-frontier-cp2",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "Lord of the hunt, I fear that any quest I offer you will be inadequate, but if I must, perhaps you should hone your skills in the untamed wilds?"
+            },
+            "1": {
+                "text": "The Greater Lucian Wilds out past the Plateau, perhaps. Or the furthest reaches of the Greater Lamavora Frontier?"
+            },
+            "2": {
+                "giveQuest": "noahs-ark-greaters",
+                "emotion": "explain",
+                "text": "There is also, the Greater Obnobi Desert, should you wish for a dryer climate. I’ve scrawled this list, humble as it may be, if you were to kill forty of each, then I will honor you with all the Dram I have."
+            }
+        },
+        "indicator": "quest"
+    },
+    "noahs-ark-greaters-cp": {
+        "completeQuest": "noahs-ark-greaters",
+        "text": "noahs-ark-greaters-cp",
+        "tree": {
+            "0": {
+                "achievement": "hunter8",
+                "emotion": "greeting",
+                "text": "A hunter is not worthy to stand in your presence. You have my life and my dram, my lord."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "noahs-ark-greater-desert-cp1": {
+        "reqFlags": [
+            "qf_noahs-ark-greaters_cp"
+        ],
+        "text": "noahs-ark-greater-desert-cp1",
+        "tree": {
+            "0": {
+                "emotion": "agree",
+                "text": "I have nothing else I can give you, save for my life, if that moment ever comes."
+            },
+            "1": {
+                "text": "But I'll keep an ear to the ground my Lord, and let you know of any new beasts that enter this realm.",
+                "giveItems": [
+                    "364@1"
+                ]
+            }
+        },
+        "indicator": "dialog"
+    }
+}

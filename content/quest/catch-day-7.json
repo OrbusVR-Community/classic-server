@@ -1,0 +1,26 @@
+{
+    "description": "Another strange request from Mr. Von Leustron, needing more inspiration for another article hes writing. Pull his muse from the depths of the dark blue to fill this quota and receive your reward.",
+    "name": "Catch of the Day VII",
+    "completed": "Return to Ernest on the North side of Kingsport Lake to deliver your catch.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "305",
+            "typenum": 40,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "212",
+            "typenum": 20,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        "giveitems coin@1400,365@1"
+    ],
+    "autocomplete": false
+}

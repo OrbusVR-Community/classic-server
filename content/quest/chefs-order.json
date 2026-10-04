@@ -1,0 +1,27 @@
+{
+    "description": "Chef Lethrow has asked for help in picking up a few ingredients for the village feast. He suggested that you search to the South near Cenn's Farm.",
+    "name": "A Demanding Chef (MSQ)",
+    "completed": "You've gathered what you need, now hurry back to Chef Lethrow, at his kitchen in Highsteppe, to make sure there is time to cook before the festival.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "46",
+            "typenum": 3,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "114",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 3,
+    "rewards": [
+        "giveitems xp@900,coin@10",
+        "unlockpage 100"
+    ],
+    "autocomplete": false
+}

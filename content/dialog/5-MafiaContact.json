@@ -1,0 +1,28 @@
+{
+    "ithecac-cp": {
+        "completeQuest": "ithecac",
+        "text": "ithecac-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Yes what do you want? I'm busy.",
+                "choices": {
+                    "0": {
+                        "text": "I have a shipment.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Shh.. Don't you see all the Order guards around? You’ll get me killed!"
+                            },
+                            "1": {
+                                "giveQuest": "return-boss",
+                                "text": "Thank you. Now get away from me before somebody notices..."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    }
+}

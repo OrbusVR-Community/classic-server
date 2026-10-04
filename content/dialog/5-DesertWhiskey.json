@@ -1,0 +1,29 @@
+{
+    "delivery-boy-ip": {
+        "reqFlags": [
+            "qf_delivery-boy_ip"
+        ],
+        "text": "delivery-boy-ip",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Hello stranger what can I do for you?",
+                "choices": {
+                    "0": {
+                        "text": "I have a shipment from Bjorth.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "This is all he sent? I ordered twice this! You tell that oaf that the next shipment better be free!",
+                                "giveItems": [
+                                    "300@1"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

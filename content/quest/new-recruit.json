@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "New Recruit (MSQ)",
+    "completed": "Find High Commander Fassith inside Guild City near the fountain. She will teach you what you need to know to become an Enforcer for the Order of Ma'at.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 4,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

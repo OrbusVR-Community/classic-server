@@ -1,0 +1,21 @@
+{
+    "description": "Erin Von Leustron has demanded a \"Fee\" for publishing Cenn's poems of 40 dram.",
+    "name": "Writers Block (MSQ)",
+    "completed": "Return to Erin Von Leustron, in New Kingsport near the waters edge, to deliver his \"Fee\".",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "coin",
+            "typenum": 40,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 8,
+    "rewards": [
+        "giveitems 157@1",
+        "unlockpage 157"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,20 @@
+{
+    "description": "Failing to derive the right answer from Sicilus riddle, shes charging you 60 dram for your silliness. Perhaps now you will know what it’s truly like to have been taken advantage of.",
+    "name": "Sicilus Punishments (MSQ)",
+    "completed": "Return to Sicilus at University Island now that you have completed your punishment. Try again at deciphering the riddle, but best be careful, choosing the wrong answer could have dire consequences.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "coin",
+            "typenum": 60,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 8,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

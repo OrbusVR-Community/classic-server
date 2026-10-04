@@ -1,0 +1,44 @@
+{
+    "greeting-chef": {
+        "completeQuest": "time-to-eat",
+        "indicator": "mainquest",
+        "text": "greeting-chef",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Hello there, it's $NAME right? The whole town's talking about the new Guardian. What can I help you with?",
+                "choices": {
+                    "0": {
+                        "text": "I'm looking for Chef Lethrow.",
+                        "tree": {
+                            "0": {
+                                "emotion": "agree",
+                                "giveQuest": "time-to-eat2",
+                                "text": "You're in luck! I'm his apprentice. He's right over there, in the kitchen."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "greeting-chef-2": {
+        "notFlags": [
+            "qf_kill-monster_cp",
+            "qf_kill-monster_ip"
+        ],
+        "text": "greeting-chef-2",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Hello there, it's $NAME right? I heard Chef Lethrow and Guardian Bart talking about needing you. You might want to go back up the stairs to the training grounds to speak with Guardian Bart. "
+            },
+            "1": {
+                "emotion": "explain",
+                "allowrepeat": true,
+                "text": "I think he can help get you started on the quests you may be seeking."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

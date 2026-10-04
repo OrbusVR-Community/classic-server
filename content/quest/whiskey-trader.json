@@ -1,0 +1,20 @@
+{
+    "description": "A trader in Whiskey needs help delivering the aforementioned spirit to Wenderwood so that it can become the famed Wenderwood Whiskey. He’s promised to pay you handsomely if you protect his cart on the road. He will meet you in Wenderwood and pay you once his cart arrives safely.",
+    "name": "Whiskey Trader",
+    "completed": "Speak with Bjorth outside of Wenderwood to receive your payment.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_whiskey-delivered2",
+            "typenum": 1,
+            "typeextra": "Escort Whiskey Cart"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 8,
+    "rewards": [
+        "giveitems xp@2000,coin@60"
+    ],
+    "autocomplete": false
+}

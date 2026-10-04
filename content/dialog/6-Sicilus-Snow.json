@@ -1,0 +1,134 @@
+{
+    "frozen-river-cp": {
+        "completeQuest": "frozen-river",
+        "text": "frozen-river-cp",
+        "tree": {
+            "0": {
+                "text": "<c=pc>Sicilus:</c> $NAME! I suppose you’re wondering what Tinny and I are doing here, out in the cold."
+            },
+            "1": {
+                "text": "<c=pc>Tinny:</c> Freezing our backsides off that’s what! *hic*",
+                "choices": {
+                    "0": {
+                        "text": "Why are you here?!?",
+                        "tree": {
+                            "0": {
+                                "text": "<c=pc>Sicilus:</c> Markos sent us to find you. Figured we might be of some use."
+                            },
+                            "1": {
+                                "text": "<c=pc>Tinny:</c> Chances are that bastard Roma is dabbling in dark magicks. Magicks that’ll take our combined efforts to vanquish, deary!"
+                            },
+                            "2": {
+                                "text": "<c=pc>Sicilus:</c> Those blasted Order forbid runespeak for the rest of us. Meanwhile they dabble and call it “divine intervention”.",
+                                "choices": {
+                                    "0": {
+                                        "text": "Roma cast a barrier around the ruins.",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "cradle-coffin",
+                                                "text": "<c=pc>Tinny:</c> *hic* Those aren’t just any ruins! They’re the remains of Khabor’s Waystation, where the portal between worlds once hummed!"
+                                            },
+                                            "1": {
+                                                "text": "<c=pc>Sicilus:</c>  If I can interject - A magick barrier is more than just mysticism. They were invented by the Janists, a combination of runespeak and science. They’re nigh impenetrable!"
+                                            },
+                                            "2": {
+                                                "text": "<c=pc>Tinny:</c> Now, now, settle down Sicilus. There may still be a way.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "Whatever it is, I’ll do it.",
+                                                        "tree": {
+                                                            "0": {
+                                                                "text": "<c=pc>Tinny:</c> Not far from here lies the chilly *hic* waters of Narwhal Bay…"
+                                                            },
+                                                            "1": {
+                                                                "text": "<c=pc>Tinny:</c> The horn of a Narwhal is powerful $NAME, like nothing you’ve ever seen before. With the right ritual, it can become an explosive weapon of great force."
+                                                            },
+                                                            "2": {
+                                                                "giveQuest": "narwhal-bay",
+                                                                "text": "<c=pc>Sicilus:</c> Head to the bay, find one of these beasts, kill it and bring its horn back to us. We will conquer this barrier yet!"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "narwhal-wizard-cp": {
+        "completeQuest": "narwhal-wizard",
+        "text": "narwhal-wizard-cp",
+        "tree": {
+            "0": {
+                "text": "<c=pc>Sicilus:</c> Thank the gods you’re back. Tinny here is driving me mad!"
+            },
+            "1": {
+                "text": "<c=pc>Tinny:</c> You’re not so fun yourself Sicilus."
+            },
+            "2": {
+                "jumpPointName": "questions",
+                "text": "<c=pc>Sicilus:</c> *sigh* Enough about us. What happened in there? Is the horn blessed?",
+                "choices": {
+                    "0": {
+                        "text": "<c=lore>Yes, but there was something there...</c>",
+                        "tree": {
+                            "0": {
+                                "text": "<c=pc>Tinny:</c>  What? What happened? What did you see?",
+                                "choices": {
+                                    "0": {
+                                        "text": "A man. Sephotep he was called.",
+                                        "tree": {
+                                            "0": {
+                                                "text": "<c=pc>Tinny:</c> Oh no..."
+                                            },
+                                            "1": {
+                                                "text": "<c=pc>Sicilus:</c> What? Who is he? Tinny?"
+                                            },
+                                            "2": {
+                                                "text": "<c=pc>Tinny:</c> ….an agent of supreme darkness…. *hic* What was he doing so close to our realm?",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "Who is he?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "text": "<c=pc>Tinny:</c> He’s a boogeyman to all witches and warlocks. A man once… *hic* He made a deal with something *hic* otherworldly. Now, his mind has been opened too far. He travels the astral planes, causing chaos and horror wherever he goes..."
+                                                            },
+                                                            "1": {
+                                                                "goToJump": "questions",
+                                                                "text": "<c=pc>Tinny:</c> We’ll deal with this later. Right now *hic* you need to stop Roma, dearie. Return to the Waystation and find out what he’s doing before it’s too late!"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "No time, what's next?",
+                        "tree": {
+                            "0": {
+                                "text": "<c=pc>Sicilus:</c> You need to use the horn to destroy the barrier. Stab the horn deep into the barrier crystals the Order is using to keep their barrier stable."
+                            },
+                            "1": {
+                                "giveQuest": "break-barrier",
+                                "text": "<c=pc>Tinny:</c> You must hurry *hic* before the blessing is gone!"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    }
+}

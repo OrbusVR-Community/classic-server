@@ -1,0 +1,37 @@
+{
+    "kingintro3": {
+        "reqFlags": [
+            "qf_digging-deeper_ip"
+        ],
+        "text": "kingintro3",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "It’s nearly time. Almost time. About time. You’ve heard his call haven’t you? The call of… wait, I don’t know you."
+            },
+            "1": {
+                "text": "Why, you’re not from around here are you? An outsider? By the dead lord! You best not start messing around in our affairs."
+            },
+            "2": {
+                "emotion": "hmph",
+                "text": "We’ve already got one of you foreign busybodies hangin’ ‘round like a bad smell...",
+                "choices": {
+                    "0": {
+                        "text": "What busybody?",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "That prying good-fer-nothing Archaeologist. We’ve chased him off a few times now, but the bastard keeps coming back."
+                            },
+                            "1": {
+                                "allowrepeat": true,
+                                "text": "Pokes around in our ruins, plays with our religious artifacts. He’s engaging in things he can’t possibly comprehend. You best not be like him…"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

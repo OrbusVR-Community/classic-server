@@ -1,0 +1,67 @@
+{
+    "ithecac-ip": {
+        "reqFlags": [
+            "qf_ithecac_ip"
+        ],
+        "text": "ithecac-ip",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Pstt! You there! Get over here before somebody sees!"
+            },
+            "1": {
+                "text": "You’re not from around here are you. Though, I suppose, neither am I… but my disguise far surpasses whatever it is you’re wearing…"
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "Anyway, would I be right in assuming that you’re working for Boss Ngathu?",
+                "choices": {
+                    "0": {
+                        "text": "I'm here for a shipment",
+                        "tree": {
+                            "0": {
+                                "emotion": "cheer",
+                                "text": "Ah! Fantastic! Then I can rid myself of this Ithecac shipment. I don’t belong here. I only agreed to bootleg for him because he threatened my family."
+                            },
+                            "1": {
+                                "text": "From the looks of your face, he’s done something similar to you too."
+                            },
+                            "2": {
+                                "emotion": "explain",
+                                "text": "Damn crime lords - no one works for them willingly. I guess that’s how they like it - power trip or something…",
+                                "choices": {
+                                    "0": {
+                                        "text": "Do you have it?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "Anyway, here’s the Ithecac shipment. Take it and go. Make sure you deliver it to the right bloke in Guild City, else Ngathu will string you up by your ankles."
+                                            },
+                                            "1": {
+                                                "text": "...Oh, and if you want my advice? Whatever business you have with that bastard, end it before you find yourself weighed down at the bottom of Loch Laroo.",
+                                                "giveItems": [
+                                                    "295@1"
+                                                ]
+                                            },
+                                            "2": {
+                                                "emotion": "explain",
+                                                "text": "One last thing, there have been attacks on our shipments as of late. Fiends trying to get a ride on the psychedelic wave. Keep an eye out for them."
+                                            },
+                                            "3": {
+                                                "setFlags": [
+                                                    "qf_wave"
+                                                ],
+                                                "text": "I shouldn’t need to tell you what Ngathu will do to both of us  if you were to lose even a single drop..."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

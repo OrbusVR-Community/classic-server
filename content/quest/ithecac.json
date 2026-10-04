@@ -1,0 +1,20 @@
+{
+    "description": "Now Boss Ngathu wants you to acquire the \"Drink of Ithecac\". A bootlegger is making batches of it on the hillside near the Rune Warg Bezoula. Find and speak with the bootlegger.",
+    "name": "Riding the Wave",
+    "completed": "Deliver the the crate to the Boss Ngathu's contact in Guild City. The bootlegger seemed worried that there may be thieves after the shipment, hoping to ride the wave one final time.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "295",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 16,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

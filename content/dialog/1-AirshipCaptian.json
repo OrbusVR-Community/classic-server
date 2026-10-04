@@ -1,0 +1,53 @@
+{
+    "guild-city-ride": {
+        "reqFlags": [
+            "qf_airship_ip"
+        ],
+        "notFlags": [
+            "qf_airship_step2"
+        ],
+        "text": "guild-city-ride",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Well ain't you a lucky one! Them tickets go for quite the royal number. Not every day I see a Highsteppe Villager walking ‘round with one."
+            },
+            "1": {
+                "text": "You must’ve done something very important… or… well, yeah I guess you could’ve stolen it. Makes no never mind to me though, I just fly the damn thing.",
+                "choices": {
+                    "0": {
+                        "text": "Bishop Roma paid for it.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Oh then you must be the villager that saved his life. Well I'll be! In that case, before you leave, you best speak to that Guardian Bart fella, he’s been asking around about you."
+                            },
+                            "1": {
+                                "text": "I think he’s caught a whiff that you’re leaving and wants to say his farewells."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "airship-cp": {
+        "reqFlags": [
+            "qf_airship_step2",
+            "qf_airship_ip"
+        ],
+        "indicator": "objective",
+        "text": "airship-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Ready to take off are yer? The ship will be here shortly, but if you haven't the time to wait you can always walk."
+            },
+            "1": {
+                "emotion": "explain",
+                "text": "If you mean to walk, use your compass and head towards the town of Narrow Orchard. As you near the apple groves, follow the path on the right towards Guild City. I believe that Bishop Roma has set his residence in University Island next to Guild City. It's a bustling place, best be careful of pickpockets."
+            }
+        }
+    }
+}

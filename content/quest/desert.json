@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "Journey to Obnobi Desert (MSQ)",
+    "completed": "Go to Obnobi Desert and speak with Kreyen, leader of the Obnobi Bedouin, living in the cliff sides of  Balaam Fa Cheh. Their brown doors have graced the cliff sides in the Obnobi Desert for centuries, though few have ever found the one that leads to where they want to go.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 13,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

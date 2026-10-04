@@ -1,0 +1,401 @@
+{
+    "ceremony": {
+        "completeQuest": "knight-ceremony",
+        "notFlags": [
+            "qf_not-in-game-yet"
+        ],
+        "text": "ceremony",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Bend the knee and place your hand across your heart..."
+            },
+            "1": {
+                "text": "..",
+                "choices": {
+                    "0": {
+                        "text": "@movie@3"
+                    }
+                }
+            },
+            "2": {
+                "achievement": "becomeknight",
+                "emotion": "cheer",
+                "text": "Arise, Sir $NAME. Knight of Patreayl! Congratulations, my new friend though our celebrations will have to wait. We must get to work."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "kid-brother": {
+        "reqFlags": [
+            "qf_knight-ceremony_cp"
+        ],
+        "indicator": "mainquest",
+        "notFlags": [
+            "qf_not-in-game-yet"
+        ],
+        "text": "kid-brother",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "Though we have spies throughout Guild City, none can boast the title of Order Enforcer, like you. I ask that you continue to work under Fassith and Roma. Sabotage what you can, and gather information on what the Order is planning next. Will you do this for me?",
+                "choices": {
+                    "0": {
+                        "text": "As you wish.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Good. But first, I have a task for you, I’ve received word that my brother Ethan was picked up by an Order guard, after raiding a weapons shipment."
+                            },
+                            "1": {
+                                "text": "Those stupid guards won’t know who they have just yet, and I aim to keep it that way. Ethan lies under lock and key in the Order Prison near Lakewood."
+                            },
+                            "2": {
+                                "jumpPointName": "questions",
+                                "emotion": "explain",
+                                "text": "Find a way into the cell block and free him, before he gets himself killed.",
+                                "choices": {
+                                    "0": {
+                                        "text": "<c=lore>Your Brother?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "I was once adopted as the eldest son of the Runvale Nobles in Narrow Orchard. I’ve since been disowned by my parents."
+                                            },
+                                            "1": {
+                                                "goToJump": "questions",
+                                                "text": "My little brother - Ethan idolizes me. That clumsy kid is going to get himself killed if he doesn’t stop pretending to be a Knight of Patreayl…"
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "At once.",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "kid-brother",
+                                                "setFlags": [
+                                                    "qf_ethan-move"
+                                                ],
+                                                "emotion": "explain",
+                                                "text": "Thank you..."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "kid-brother-cp": {
+        "completeQuest": "kid-brother",
+        "notFlags": [
+            "qf_not-in-game-yet"
+        ],
+        "text": "kid-brother-cp",
+        "tree": {
+            "0": {
+                "achievement": "jailbird",
+                "emotion": "cheer",
+                "text": "Thank the gods he’s safe. Ethan’s a good kid, though he lacks the strategy to know when to leave well enough alone. I suppose that’ll come with age."
+            },
+            "1": {
+                "text": "But what’s this that he stole? Wait, surely it can’t be? Why Ethan, you little devil! $NAME, this is a rare concoction indeed! Potions like these  were thought to be lost to the fog of time. There hasn’t been mention of one existing since the Ryll Inquisition of 53 E.A."
+            },
+            "2": {
+                "setFlags": [
+                    "qf_ethan-home"
+                ],
+                "emotion": "explain",
+                "text": "What is it you ask? Why, this is a Runic Sight Potion! It offers us the chance to greatly improve our weapons and armor in the fight to come! Best be careful when drinking it however, there’s no telling how long it’s been stewing away somewhere in the dark."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "bandits": {
+        "reqFlags": [
+            "qf_kid-brother_cp"
+        ],
+        "indicator": "mainquest",
+        "notFlags": [
+            "qf_not-in-game-yet"
+        ],
+        "text": "bandits",
+        "tree": {
+            "0": {
+                "giveQuest": "seek-petyr",
+                "emotion": "hmph",
+                "text": "I’ve nothing more for you at the moment. I must grieve my friend and devote my time to strategy. See Sir Petyr in the Twins, if you’re eager for more work."
+            }
+        }
+    },
+    "defeat-roma-cp": {
+        "completeQuest": "defeat-roma",
+        "notFlags": [
+            "qf_not-in-game-yet"
+        ],
+        "text": "defeat-roma-cp",
+        "tree": {
+            "0": {
+                "achievement": "defeatroma",
+                "emotion": "hmph",
+                "text": "You’re alive? Just moments ago, I heard the news - an attempted assassination on Roma by an unnamed Highsteppe traitor!"
+            },
+            "1": {
+                "text": "The rumor is Petra Fassith, was murdered, while trying to protect him! The assassin was… allegedly, neutralized. Tell me that it’s all a spin, I didn’t authorize another attempt on that man’s life, nor the ex-Commander."
+            },
+            "2": {
+                "emotion": "hmph",
+                "text": "You didn’t attempt this in your own volition did you?",
+                "choices": {
+                    "0": {
+                        "text": "Roma caught me stealing this...",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "I see… Then your cover’s been blown, but for good reason! What a peculiar puzzle box. And a Janist artifact, no less! What’s this? An inscription? Written in the old dialect..."
+                            },
+                            "1": {
+                                "text": "Hmm… “As Ma’at’s… truth... flooded… the realm… The tomb of…the first Janist… was hidden… Kept safe.” Surely not! $NAME, If we find the missing pieces of this box, perhaps the final resting place of Khabor Jan will be revealed!"
+                            },
+                            "2": {
+                                "emotion": "explain",
+                                "text": "There will be great power residing in his tomb. He was, after all, the first Kindling! $NAME, your services as a spy are no longer required."
+                            },
+                            "3": {
+                                "text": "Instead, I want you to travel our country. Find the missing pieces and solve this… diluvian puzzle. Perhaps with the power of the first Kindling by our side, we’ll win this war."
+                            },
+                            "4": {
+                                "emotion": "explain",
+                                "text": "The pieces may be buried deep under old Janist ruins, or in the highest temple peaks, some pieces may even be lost to us for now. And one more thing, $NAME?",
+                                "choices": {
+                                    "0": {
+                                        "text": "Yes, M’Lord?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "You have been a loyal Knight and servant to our cause thus far, but your actions have now marked a shift in this war."
+                                            },
+                                            "1": {
+                                                "text": "The High Pope will not take being robbed, lying down. The days of Guerilla warfare are over."
+                                            },
+                                            "2": {
+                                                "emotion": "explain",
+                                                "text": "Soon we will have to face the Order forces in open battle. But right now, we are too small. We don’t have nearly enough soldiers….",
+                                                "takeItems": [
+                                                    "197@1"
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "into-the-wilds": {
+        "reqFlags": [
+            "qf_defeat-roma_cp"
+        ],
+        "indicator": "mainquest",
+        "notFlags": [
+            "qf_not-in-game-yet"
+        ],
+        "text": "into-the-wilds",
+        "tree": {
+            "0": {
+                "giveQuest": "into-the-wilds",
+                "emotion": "explain",
+                "text": "We need allies. The Obnobi Bedouin. The Rune Wargs of Lucian Plateau. The Explorer’s League on the Lamavora Frontier, The Brotherhood of the Rainforest. And of course, your very own Highsteppe Guardians…"
+            },
+            "1": {
+                "text": "All these factions, while not sympathetic to our cause, may very well listen to our brand of reason..."
+            },
+            "2": {
+                "jumpPointName": "questions",
+                "emotion": "explain",
+                "text": "Travel our lands and speak to those who control these groups. Appeal to their better natures. Convince them to speak with me, so that I might rally them to our cause. Send them here, to the Midlands. In the meantime, my men and I will prepare for battle.",
+                "choices": {
+                    "0": {
+                        "text": "As you order.",
+                        "tree": {
+                            "0": {
+                                "text": "I've drawn a map of the Desert for you to aide in your travels, be wary of the Chthonic Ruins, there is something evil deep within."
+                            },
+                            "1": {
+                                "giveQuest": "patreayl-rainforest",
+                                "emotion": "hmph",
+                                "text": "Time is wasting, now go!",
+                                "unlockPages": [
+                                    "245"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "the-wilds-cp": {
+        "completeQuest": "into-the-wilds",
+        "notFlags": [
+            "qf_not-in-game-yet"
+        ],
+        "text": "the-wilds-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "You’ve returned my friend! $NAME, I am in awe of you. I curse the day that I ever doubted your loyalty. Oscar knew what he was doing. Perhaps his spirit still does… Our allies have all agreed to stand beside us. They prepare their people for war."
+            },
+            "1": {
+                "giveQuest": "diluvian-puzzle",
+                "text": "Though our armies grow and our strength increases, I fear it will not be enough, lest we solve the diluvian puzzle. Search for the cubes, no matter how long it takes."
+            },
+            "2": {
+                "giveQuest": "faction-hero",
+                "emotion": "explain",
+                "text": "While you are scouring our lands, check in on our new friends, if they have any tasks for you, be sure to keep them happy. I’ve nothing more for you now..."
+            }
+        },
+        "indicator": "quest"
+    },
+    "faction-hero-cp": {
+        "completeQuest": "faction-hero",
+        "text": "faction-hero-cp",
+        "tree": {
+            "0": {
+                "emotion": "cheer",
+                "text": "As you once swore loyalty to me, I now swear it in return. My life is yours. Consider it payment for the good work you’ve done."
+            },
+            "1": {
+                "text": "But the battle rages on and we must continue our fight against the Order, bringing them to justice for all that they have done, and our loved ones they have done it to."
+            },
+            "2": {
+                "text": "...",
+                "choices": {
+                    "0": {
+                        "text": "@movie@5"
+                    }
+                }
+            },
+            "3": {
+                "achievement": "onthetrail",
+                "text": "You will be gone many nights $NAME, ready yourself for the travels and stock up on any supplies you will need. Return to me once you have your mind right."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "faction-hero-cp2": {
+        "reqFlags": [
+            "qf_faction-hero_cp"
+        ],
+        "text": "faction-hero-cp2",
+        "tree": {
+            "0": {
+                "text": "Make your way to Sicilus’ Zoological Gardens. Khabor’s Pass has been blocked by the Order for years, but legend tells of a secret passage through the mountains that may work to your advantage."
+            },
+            "1": {
+                "text": "Sicilus believes she may have found such a tunnel. Speak with her and she will guide you the rest of the way.",
+                "choices": {
+                    "0": {
+                        "text": "Must I travel to this place?",
+                        "tree": {
+                            "0": {
+                                "text": "The Necropolar is not something I would wish on anyone, but it’s our only hope. I know Patreayl. I know of its superstitions.",
+                                "giveItems": [
+                                    "193@1"
+                                ],
+                                "unlockPages": [
+                                    "246"
+                                ]
+                            },
+                            "1": {
+                                "giveQuest": "khabors-pass",
+                                "text": "I too refused to drink from the Arctic Channel as a child for fear of turning into a Draugr… But you must go. Roma is up there somewhere, doing gods know what. Stop him!"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "into-depths-cp": {
+        "completeQuest": "into-depths",
+        "text": "into-depths-cp",
+        "tree": {
+            "0": {
+                "text": "$NAME! Thank the gods you’ve returned! My spies informed me of an explosion somewhere in the Necropolar. And of strange signs in the sky! What happened? Is Roma defeated?",
+                "choices": {
+                    "0": {
+                        "text": "Roma is dead. But…",
+                        "tree": {
+                            "0": {
+                                "text": "He’s dead? And the Tomb of Khabor Jan, had he found it?",
+                                "choices": {
+                                    "0": {
+                                        "text": "No. It was the Janist Waystation. Listen…",
+                                        "tree": {
+                                            "0": {
+                                                "text": "The Waystation… Why we must go there! To reopen the gateway between our realm and Tӓella-Bruha… That would disrupt the power of the Order like nothing else!",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "LISTEN TO ME!",
+                                                        "tree": {
+                                                            "0": {
+                                                                "text": "$NAME, calm down. What’s gotten into you? What is it? What do you have to say?",
+                                                                "choices": {
+                                                                    "0": {
+                                                                        "text": "Roma unleashed something…The Necropolar Lords…",
+                                                                        "tree": {
+                                                                            "0": {
+                                                                                "text": "...As in the demons of the Esasa? But that’s a myth. There’s no such thing! Come now $NAME, surely you’re mistaken."
+                                                                            },
+                                                                            "1": {
+                                                                                "text": "I must think on this. Go, my friend. Visit the others, see if you can help them, as in your absence, we have received word that your old friends General Clavacius and Petra Fassith are rallying their armies…"
+                                                                            },
+                                                                            "2": {
+                                                                                "text": "We must be ready if they attack. In the meantime, I will consult with Tinny and Sicilus about these Necropolar Lords. Perhaps such things do exist. If so, what does that mean for us? For the world?"
+                                                                            },
+                                                                            "3": {
+                                                                                "text": "We shall rally an army to meet these dangers in the world, perhaps 10.. maybe 15 fellow knights, steadfast in their resolve will be enough to defeat this dark force upon our world."
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "into-depths-cp-cp": {
+        "reqFlags": [
+            "qf_into-depths_cp"
+        ],
+        "text": "into-depths-cp-cp",
+        "tree": {
+            "0": {
+                "allowrepeat": true,
+                "text": "We must prepare for the coming battle, ready yourself and find fellow adventurers, we will take the fight to them soon."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

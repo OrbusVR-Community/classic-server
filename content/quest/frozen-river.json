@@ -1,0 +1,20 @@
+{
+    "description": "Khabor’s Waystation lies ahead, somewhere deep in the wastelands. Travel along the frozen river in search of the Order’s encampment, but be sure to take shelter from the freezing winds.",
+    "name": "The Frozen River",
+    "completed": "Bishop Roma has setup some kind of magical barrier around the Waystation to prevent others from following him. There must be a way to disable it, since your normal weapons don't even dent it. Follow the frozen river back towards the fork, maybe there will be something or someone along the path to take it down.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_order-found",
+            "typenum": 1,
+            "typeextra": "Discover the Order Encampment."
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 17,
+    "rewards": [
+        "giveitems xp@40000,100@4"
+    ],
+    "autocomplete": false
+}

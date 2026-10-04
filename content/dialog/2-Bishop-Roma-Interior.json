@@ -1,0 +1,35 @@
+{
+    "promotion-cp": {
+        "completeQuest": "promotion",
+        "text": "promotion-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Ahh yes, welcome my new “High Commander,” I hope the title suites you well. Now, I have something of grave importance I must speak to you about. Ridding these lands of those so called \"Knights\" for good…"
+            },
+            "1": {
+                "text": "..",
+                "choices": {
+                    "0": {
+                        "text": "@movie@4"
+                    }
+                }
+            },
+            "2": {
+                "emotion": "hmph",
+                "text": "Guards!"
+            },
+            "3": {
+                "text": "You traitor! You will not stop my legacy!"
+            },
+            "4": {
+                "setFlags": [
+                    "qf_hide-roma-interior"
+                ],
+                "giveQuest": "defeat-roma",
+                "text": ".."
+            }
+        },
+        "indicator": "quest"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "missing-kids-2": {
+        "text": "missing-kids-2",
+        "tree": {
+            "0": {
+                "setFlags": [
+                    "qf_thirdchild"
+                ],
+                "emotion": "afraid",
+                "text": "I want my Mummy! The big one came, and took the other boy to his cave. I don’t want to be eaten next!",
+                "choices": {
+                    "0": {
+                        "text": "Where are the others?",
+                        "tree": {
+                            "0": {
+                                "setFlags": [
+                                    "qf_missing-child2"
+                                ],
+                                "emotion": "afraid",
+                                "text": "That big stick took them further into the forest to the North East, near the water..."
+                            },
+                            "1": {
+                                "removeFlags": [
+                                    "qf_secondchild"
+                                ],
+                                "text": ".."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "description": "The Order have revived their oldest and most terrifying warriors - The Inquisition! Save your home from destruction at their hands!",
+    "name": "Highsteppe Under Siege",
+    "completed": "Return to Guardian Bart now that the Inquisitors have been defeated.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "inquisitor",
+            "typenum": 10,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 17,
+    "rewards": [],
+    "autocomplete": false
+}

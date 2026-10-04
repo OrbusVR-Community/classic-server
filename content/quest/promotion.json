@@ -1,0 +1,19 @@
+{
+    "description": "Bishop Roma has removed Commander Fassith, where has she been and why was she removed? He has taken over University Island as his main residence. Meet with Bishop Roma inside his chambers, the door to his chambers are on the East side of the interior courtyard. Look for the Order Flags hanging outside his room.",
+    "name": "A Promotion (MSQ)",
+    "completed": "Meet Bishop Roma in his private chambers. The door to his chambers is located at University Island, on the wall with the Order Banners lining the path.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 11,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

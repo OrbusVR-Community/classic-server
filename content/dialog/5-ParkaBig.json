@@ -1,0 +1,13 @@
+{
+    "intro": {
+        "text": "intro",
+        "tree": {
+            "0": {
+                "allowrepeat": true,
+                "emotion": "hmph",
+                "text": "Leave us be, we want no more trouble."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

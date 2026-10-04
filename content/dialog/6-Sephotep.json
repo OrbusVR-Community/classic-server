@@ -1,0 +1,63 @@
+{
+    "narwhal-wizard-ip": {
+        "reqFlags": [
+            "qf_narwhal-wizard_ip"
+        ],
+        "text": "narwhal-wizard-ip",
+        "tree": {
+            "0": {
+                "text": "Curious. What manner of creature are you?",
+                "choices": {
+                    "0": {
+                        "text": "You are?",
+                        "tree": {
+                            "0": {
+                                "text": "Hmm, curious indeed… You should not be here, human. The astral planes are not meant for your kind.",
+                                "choices": {
+                                    "0": {
+                                        "text": "Who are you?!",
+                                        "tree": {
+                                            "0": {
+                                                "text": "Ha… what a question. Why must we be someone? Why can’t we be everyone? Or no one at all? Does it make a difference in the grand scheme of the cosmos as it unfurls? There are some that call us Sephotep, but we are known by many names…"
+                                            },
+                                            "1": {
+                                                "text": "Now, tell me creature. Why are you here, at the altar of this insignificant being? This… Ba’al?",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "I need him to bless this horn…",
+                                                        "tree": {
+                                                            "0": {
+                                                                "text": "The horn of a Narwhal. I remember such a creature from my time on your world. But why? Your efforts are like that of an ant, casting a prayer over the nose of a gnat…"
+                                                            },
+                                                            "1": {
+                                                                "text": "No. I don’t care. But still… curious indeed… Go ahead. <c=pc>Place the horn upon the glowing altar and receive a blessing.</c> This blind, idiot god will not withhold it from you…",
+                                                                "choices": {
+                                                                    "0": {
+                                                                        "text": "Thank you?",
+                                                                        "tree": {
+                                                                            "0": {
+                                                                                "setFlags": [
+                                                                                    "qf_horn-blessed"
+                                                                                ],
+                                                                                "text": "Interesting things are happening in your realm. Interesting things indeed. Perhaps we need to visit again sometime. Perhaps we already have..."
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

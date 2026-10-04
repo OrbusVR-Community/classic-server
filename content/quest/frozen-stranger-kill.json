@@ -1,0 +1,20 @@
+{
+    "description": "The one who calls himself Mikka has yet to return home because of the Orders occupation of his sacred hunting grounds. Clear a path for him along the frozen river and rid his hunting grounds of the Corrupted so he may return home.",
+    "name": "Returning Home",
+    "completed": "Return to Mikka near the mouth of the frozen river to receive your reward.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "corrupt",
+            "typenum": 25,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 18,
+    "rewards": [
+        "giveitems xp@40000"
+    ],
+    "autocomplete": false
+}

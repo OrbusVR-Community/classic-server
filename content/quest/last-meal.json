@@ -1,0 +1,33 @@
+{
+    "description": "Oscar has requested some curious meals. Speak with Chef Letharow of Highsteppe for the Stag Meat. Lord Rudolf of Wenderwood for the Whiskey, and Marcell Cenn of Highsteppe for one of his famous cigars.",
+    "name": "The Last Meal (MSQ)",
+    "completed": "Return to Sir Oscar at General Clavacius' Fort to the South of Guild City to deliver his final meal.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "161",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "156",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "198",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 8,
+    "rewards": [
+        "giveitems 199@1,xp@3500",
+        "unlockpage 154"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,20 @@
+{
+    "description": "General Jethin claims a thief has stolen the key to his chest. Hunt down the theif in the West part of the Rainforest. General Jethin seems to think they have a camp somewhere near the Temple of Blue Worm Fa'shet.",
+    "name": "Jethin's Key",
+    "completed": "Return to General Jethin with the key to his locked chest and gain Boss Ngathu's payment.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "294",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 16,
+    "rewards": [
+        "giveitems 293@1"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "Old Kings Bones (MSQ)",
+    "completed": "Seek out the old King of Kingsport, King Wolfgang, bones near the ruins of the ancient city nestled in the middle of Kingsport Lake, just to the East of your hometown Highsteppe. There is an Order archaeologist dig site there. Speak with the Lead archaeologist Beslial to try and uncover the truth.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 9,
+    "rewards": [
+        "unlockpage 169,244"
+    ],
+    "autocomplete": false
+}

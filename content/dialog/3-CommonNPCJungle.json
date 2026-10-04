@@ -1,0 +1,79 @@
+{
+    "belle": {
+        "reqFlags": [
+            "qf_noahs-ark-rainforest_cp"
+        ],
+        "text": "belle",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Has my brother Dern sent you? Thank the goddess! My poor little Belle has gone missing and I’m worried something terrible has happened.",
+                "choices": {
+                    "0": {
+                        "text": "Belle?",
+                        "tree": {
+                            "0": {
+                                "emotion": "afraid",
+                                "text": "My pet dog! She’s a tiny little thing. Always liked to take swims in the Fa'Shet Marsh no matter what I tried to get her to stop."
+                            },
+                            "1": {
+                                "text": "I’ve not seen her since yesterday morning, and I'm worried something big might have swallowed her up! I hear the fisherman say there’s a creature in the water that will pull a man under!"
+                            },
+                            "2": {
+                                "emotion": "afraid",
+                                "text": "Will you catch this gilled monstrosity for me? I must see if my poor Belle has wound up in its gut!",
+                                "choices": {
+                                    "0": {
+                                        "text": "I'm in.",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "belle",
+                                                "emotion": "afraid",
+                                                "text": "Thank you, here’s a few Blue Scales, I've heard you will have luck if you go fishing with them.",
+                                                "giveItems": [
+                                                    "71@2"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "On second thought..",
+                                        "tree": {
+                                            "0": {
+                                                "allowrepeat": true,
+                                                "emotion": "afraid",
+                                                "text": "One day you will have a pet of your own and I hope you feel the way I do now!"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "Maybe later.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "afraid",
+                                "text": "Please reconsider! Have you no pets of your own?"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "belle-cp": {
+        "completeQuest": "belle",
+        "text": "belle-cp",
+        "tree": {
+            "0": {
+                "emotion": "cheer",
+                "text": "Thank you, I’ll hurry this beast to my butcher to see if my Belle is still inside. Here’s your reward, but I haven't a moment to lose. Goodbye!"
+            }
+        },
+        "indicator": "dialog"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "kid-knight-1": {
+        "text": "kid-knight-1",
+        "tree": {
+            "0": {
+                "text": "What’s this? An Enforcer all by their lonesome? You’re brave.",
+                "choices": {
+                    "0": {
+                        "text": "You stole something I need.",
+                        "tree": {
+                            "0": {
+                                "text": "That fat General had too much.. I just took a little."
+                            },
+                            "1": {
+                                "text": "Leave us be..."
+                            },
+                            "2": {
+                                "addAggro": true,
+                                "text": "......"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

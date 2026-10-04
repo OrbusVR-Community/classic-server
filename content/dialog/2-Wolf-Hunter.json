@@ -1,0 +1,28 @@
+{
+    "wolf-hunter": {
+        "reqFlags": [
+            "qf_attack-wolf_ip"
+        ],
+        "shout": true,
+        "indicator": "objective",
+        "text": "wolf-hunter",
+        "tree": {
+            "0": {
+                "text": "Keep up, I don't have time to babysit."
+            }
+        }
+    },
+    "wolf-hunter-2": {
+        "reqFlags": [
+            "qf_attack-wolf-2_ip"
+        ],
+        "shout": true,
+        "indicator": "objective",
+        "text": "wolf-hunter-2",
+        "tree": {
+            "0": {
+                "text": "Keep up, I don't have time to babysit."
+            }
+        }
+    }
+}

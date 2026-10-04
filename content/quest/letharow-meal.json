@@ -1,0 +1,20 @@
+{
+    "description": "Chef Lethrow is preparing your meal, but for payment needs five Green Bellied Bass as payment for the meal.",
+    "name": "The Other White Meat (MSQ)",
+    "completed": "Return to Chef Lethrow of Highsteppe with your catch.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "74",
+            "typenum": 5,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 8,
+    "rewards": [
+        "giveitems 161@1"
+    ],
+    "autocomplete": false
+}

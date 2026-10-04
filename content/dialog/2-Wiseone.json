@@ -1,0 +1,128 @@
+{
+    "intro": {
+        "notFlags": [
+            "qf_unruly-outlier_ip",
+            "qf_unruly-outlier_cp"
+        ],
+        "indicator": "objective",
+        "text": "intro",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Welcome my young friend, You look exactly as I imagined! And trust me, that’s a compliment... Tea? Something to eat perhaps? No? Ah, down to business then aren’t we? Such a wee serious faced traveler you are!"
+            },
+            "1": {
+                "text": "I am the Master Wise One - no, I will not give you my true name, so don’t even ask - life’s far more fun outside of that box don’t you think? But, I am certain you’ve heard of me before!"
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "Though one must ask, what even is “before”? What is time, for that matter? I’ll tell you. Time is nothing but a puddle of water on a muddy road, trampled underfoot by both man and beast. No, time means naught to the elder gods, nor the Esasa, nor any other enlightened beast."
+            },
+            "3": {
+                "allowrepeat": true,
+                "text": "You may have heard of me before, you may be hearing of me just now. You may even hear of me afterwards! Or perhaps between, or beneath. Even… dare I say it… Outside?"
+            }
+        }
+    },
+    "unruly-outsider": {
+        "reqFlags": [
+            "qf_unruly-outlier_ip"
+        ],
+        "indicator": "objective",
+        "text": "unruly-outsider",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "Hmm I suspect you’ve never met anyone like me before, so I’m curious to see how you handle this task you’ve been given... Will you perhaps, be the kind to demand of me? No, no, no that’s not it…"
+            },
+            "1": {
+                "text": "Hmmm… Perchance, you’ll try a more subtle approach? Pleading? No, that would be beneath you... Egads! Seduction? Ha Ha."
+            },
+            "2": {
+                "jumpPointName": "questions",
+                "emotion": "explain",
+                "text": "Well, whatever the case, Bishop Roma and his ridiculous Order can continue in their wishing that I’d simply… how did they say it? Fall off the map! I doubt it will happen any time soon, haha!",
+                "choices": {
+                    "0": {
+                        "text": "A response?",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Oh, alright, I’ll read the letter if it pleases you and your pocket… Hmm… To the pagan of Lake Susannah… Well, that’s not very polite is it? Blah blah blah…"
+                            },
+                            "1": {
+                                "text": "Cease and desist… forced to commit grievous bodily harm… Yes, yes, yes. No, no, no… There. Letter read. Oh, don’t worry, I’m not the kind to shoot the messenger, however, I’m sure you know where you can tell that silly little Bishop to shove his hollow threats."
+                            },
+                            "2": {
+                                "emotion": "hmph",
+                                "text": "Go on, go tell him that for me will you? Oh, how I’d love to see his face when he hears those words!",
+                                "giveItems": [
+                                    "127@1"
+                                ],
+                                "takeItems": [
+                                    "126@1"
+                                ]
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>You do what?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Why, I’m the evil Wizard! Don’t they tell you anything in that Order these days? I’m the occult wielding, blind pagan, performer of the darkest arts known to mankind! Or at least that’s what those pious morons would have you believe…"
+                            },
+                            "1": {
+                                "text": "In all honesty, my days of conjuring up demons and speaking with the dead have long passed… Ah, youth…No, I mostly offer healing to folks who can’t find it anywhere else."
+                            },
+                            "2": {
+                                "emotion": "explain",
+                                "text": "Take the Runvale family for example! You’ve heard of the Runvales right? The nobles of Narrow Orchard? Yes, well, Lady Runvale couldn’t hold onto a child to save her life. “Barren” I believe were the words the medics told her."
+                            },
+                            "3": {
+                                "text": "Well, she and Lord Runvale paid me a visit - oh… twelve or thirteen years ago, shortly after they grew bored of their adopted child, Markos. Alas, who am I to judge? Anyhow, thanks to my “wicked ways” they have a young Lord Ethan running around their orchards causing all sorts of mischief…",
+                                "choices": {
+                                    "0": {
+                                        "text": "<c=lore>Healing?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "goToJump": "questions",
+                                                "emotion": "explain",
+                                                "text": "Ooh, an Enforcer with an open mind! Very well, should you ever need my devilish Runespeak to provide you with restoration, come see me, and I'll gladly offer what I can."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "third-quest-cp": {
+        "completeQuest": "third-trails",
+        "notFlags": [
+            "qf_summoning-potion_cp",
+            "qf_kings-bones_ip"
+        ],
+        "text": "third-quest-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Ahh, good to see you’re playing for the other side now! Markos is a fine young man. It’s a shame he has such lousy parents. Well, I’d be glad to help. Lady Susannah, however won’t appear for just anyone. We must summon her from her watery grave first."
+            },
+            "1": {
+                "text": "Find the ingredients for a Summoning Potion , and bring it  to me at the shore of the lake where we’ll knock on Susannah’s door, see if anyone is at home."
+            },
+            "2": {
+                "giveQuest": "summoning-potion",
+                "setFlags": [
+                    "qf_move-wiseone"
+                ],
+                "text": "..."
+            }
+        },
+        "indicator": "quest"
+    }
+}

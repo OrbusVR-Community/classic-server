@@ -1,0 +1,123 @@
+{
+    "figure-moors-ip": {
+        "reqFlags": [
+            "qf_defeat-mushroom_ip"
+        ],
+        "text": "figure-moors-ip",
+        "tree": {
+            "0": {
+                "emotion": "afraid",
+                "text": "*crying* Nooo! No, no no! My fwiend, my fwiend is gone!"
+            },
+            "1": {
+                "text": "Cweature, have you seen my fwiend? He were here and now he gone. Oh, no, no, no!",
+                "choices": {
+                    "0": {
+                        "text": "What Friend?",
+                        "tree": {
+                            "0": {
+                                "jumpPointName": "questions",
+                                "emotion": "afraid?",
+                                "text": "Me… me… me don’t remember! Owwwh! No, no, no... my fwiend is gone.",
+                                "choices": {
+                                    "0": {
+                                        "text": "<c=pc>I’m looking for Barnaby</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "afraid",
+                                                "text": "B...b...Barnaby? That my fwiend. That his name. We look for same fwiend! He were with me, poor barnaby…"
+                                            },
+                                            "1": {
+                                                "text": "Me twied to show him that keep him safe.. Twied to hide him from the nightmares, twied to put him in my mouth… keep him safe.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "Is there any of him left?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "afraid",
+                                                                "text": "Me eat Barnaby? No.. no… no… me wouldn’t… me couldn’t…."
+                                                            },
+                                                            "1": {
+                                                                "text": "...ME DID!!! Owhhhh no, no no no!"
+                                                            },
+                                                            "2": {
+                                                                "addAggro": true,
+                                                                "text": "."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "<c=pc>You’re too dangerous to live.</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "afraid",
+                                                "text": "Me not dangwus… What do you mean? Me good boy!"
+                                            },
+                                            "1": {
+                                                "text": "Me promise not to eat Barnaby again…",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "Is there any of him left?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "afraid",
+                                                                "text": "Me eat Barnaby? No.. no… no… me wouldn’t… me couldn’t…."
+                                                            },
+                                                            "1": {
+                                                                "text": "...ME DID!!! Owhhhh no, no no no!"
+                                                            },
+                                                            "2": {
+                                                                "addAggro": true,
+                                                                "text": "."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "2": {
+                                        "text": "<c=lore>What are you?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "afraid",
+                                                "text": "Me… me come from the the dark tunnels beneath dirt, where nightmare flowers grow - even more than grow here…"
+                                            },
+                                            "1": {
+                                                "text": "Es… Es… Es… Me can’t remember! Owhhhhh no, no no! Stoopid! Stoopid! Stoopid!",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "Are there more like you?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "afraid",
+                                                                "text": "Me had a mommy and pa once… Me remember that. But, we were spaposed to go to sleep."
+                                                            },
+                                                            "1": {
+                                                                "text": "Mommy said it was nap time, that all our city must sleep, but me don’t want to travel land of nightmare! Me too scared, me hungry, me thirsty!"
+                                                            },
+                                                            "2": {
+                                                                "goToJump": "questions",
+                                                                "emotion": "afraid",
+                                                                "text": "Me need to run and jump and play!"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

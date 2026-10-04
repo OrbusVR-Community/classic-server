@@ -1,0 +1,20 @@
+{
+    "description": "Brew the potion the Wise One needs to summon the Lady of the Lake from her watery grave. Use the potion recipe the Wise one has given you, to create the needed potion.",
+    "name": "Summoning Potion (MSQ)",
+    "completed": "Return to the Wise One, on the Island point of the Corner Path, with the Summoning Potion. He alone knows the way to bring the Lady of the Lake from her watery grave.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "167",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 9,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

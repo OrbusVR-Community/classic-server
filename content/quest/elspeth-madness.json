@@ -1,0 +1,26 @@
+{
+    "description": "Devastated by the deaths of her husband and now all her sons, Lady Elspeth Hulthine gibbers with madness while her family estate crumbles down around her. Perhaps her grief can be cured? Travel to the Cloud Resort and speak with the Resort Owner to secure the healing waters from the pools.",
+    "name": "Elspeth’s Madness",
+    "completed": "Return to Lady Elspeth in Hulthine's Vale to deliver the magical water. Hopefully you will return in time to save her from her madness.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_resort-owner",
+            "typenum": 1,
+            "typeextra": "Speak with Resort Owner"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_magical-vial",
+            "typenum": 1,
+            "typeextra": "Secure healing water vial"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 19,
+    "rewards": [
+        "giveitems xp@50000"
+    ],
+    "autocomplete": false
+}

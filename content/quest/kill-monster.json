@@ -1,0 +1,26 @@
+{
+    "description": "Hunt the stag through the brush to the West of Highsteppe, in the trees along the village. If you follow the path down the stairs to the Market, head Northwest through the town's central square to the forest that lays beyond. There you will find the stag.",
+    "name": "Final Challenge",
+    "completed": "Head back to Guardian Bart to show off your trophy.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "kingstag",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "114",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        "giveitems xp@540,114@1"
+    ],
+    "autocomplete": false
+}

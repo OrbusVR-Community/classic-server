@@ -1,0 +1,120 @@
+{
+    "hulthine-servant-intro": {
+        "notFlags": [
+            "qf_defeat-mushroom_cp"
+        ],
+        "text": "hulthine-servant-intro",
+        "tree": {
+            "0": {
+                "allowrepeat": true,
+                "text": "Hello stranger, I haven't the time to speak now, my Lady Elspeth Hulthine is sick with madness. I must tend to her needs. Good day."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "hulthines-servant": {
+        "reqFlags": [
+            "qf_defeat-mushroom_cp"
+        ],
+        "indicator": "objective",
+        "text": "hulthines-servant",
+        "tree": {
+            "0": {
+                "text": "Oh, a traveler to our estate? Time was, we’d welcome you with open arms. Throw a feast, give you a bed to rest your head upon. Sadly our home is now in shambles, our Lord has been murdered, and our lady, driven mad.",
+                "choices": {
+                    "0": {
+                        "text": "What happened here?",
+                        "tree": {
+                            "0": {
+                                "text": "Surely you’ve heard? This is the renowned Hulthine Vale - home to the noble house of Hulthine. We trace our ancestry back to the barbarian hero, himself! But we have fallen on dark times. Little Lord Oscar… I remember him when he was no more than a babe, put his hands to his father’s throat and…"
+                            },
+                            "1": {
+                                "text": "With her husband slaughtered and her sons now all deceased, my poor Lady Hulthine has been driven mad with grief, and thus, our great house is set to fall into the black abyss of dead history…",
+                                "choices": {
+                                    "0": {
+                                        "text": "Can I help somehow?",
+                                        "tree": {
+                                            "0": {
+                                                "text": "I have often thought about the mysterious healing waters enjoyed by that resort on the Lamavora Frontier, wondered if somehow, they would satiate my Lady’s lunacy, and allow her enough fervor to begin restoring our house and home…"
+                                            },
+                                            "1": {
+                                                "jumpPointName": "questions",
+                                                "text": "I could never leave her side however, for fear that she might be overcome and leap off a high cliff around these parts…",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "<c=lore>Lady Elspeth?</c>",
+                                                        "tree": {
+                                                            "0": {
+                                                                "text": "She was once one of the most sought after women of democracy in our lands. If there was a dispute, our Lady would find a way to resolve the issue and leave both parties happy. The only disputes she could not solve, were the ones that took place within her own home…"
+                                                            },
+                                                            "1": {
+                                                                "goToJump": "questions",
+                                                                "text": "Oscar’s betrayal hit her harder than anything else to have ever happened in her life. She loved that boy. He was her youngest, her baby, her favorite.."
+                                                            }
+                                                        }
+                                                    },
+                                                    "1": {
+                                                        "text": "<c=lore>Lord Derreth?</c>",
+                                                        "tree": {
+                                                            "0": {
+                                                                "text": "Lord Derreth was… Well, I do not wish to speak ill of the dead… he was a good man, though he had his prejudices. He loved all his sons, even if he had odd ways of showing it."
+                                                            },
+                                                            "1": {
+                                                                "goToJump": "questions",
+                                                                "text": "Whatever kind of man, he was, he did not deserve to be forced from this world the way it occured…"
+                                                            }
+                                                        }
+                                                    },
+                                                    "2": {
+                                                        "text": "<c=lore>Sir Oscar?</c>",
+                                                        "tree": {
+                                                            "0": {
+                                                                "text": "Oscar was a sweet boy… Either had his nose in a book, or his lute in his hands. He played such lovely melodies…"
+                                                            },
+                                                            "1": {
+                                                                "text": "Lord Derreth wanted him to be a fighter like his brothers, but that was never Oscar’s foray. He could handle himself, yes, but his passion for war was lacking. At least, until he met those traitorous knights…"
+                                                            },
+                                                            "2": {
+                                                                "text": "And, I know it’s not proper to speak of, but I think he resented his father’s values when it came to those whom he chose to give his heart."
+                                                            },
+                                                            "3": {
+                                                                "goToJump": "questions",
+                                                                "text": "Such a shame. A true tragedy..."
+                                                            }
+                                                        }
+                                                    },
+                                                    "3": {
+                                                        "text": "I'll do what I can.",
+                                                        "tree": {
+                                                            "0": {
+                                                                "giveQuest": "elspeth-madness",
+                                                                "text": "If you are ever passing by that way and wished to help our house reclaim its stature, a vial of that sacred liquid should do the trick."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "hulthines-servant-cp": {
+        "completeQuest": "elspeth-madness",
+        "text": "hulthines-servant-cp",
+        "tree": {
+            "0": {
+                "text": "What’s this? You… you got the water for me? Oh, may the goddess bless you! You don’t know the good that you’ve done…"
+            },
+            "1": {
+                "text": "$NAME, I thank you, and so does my Lady. You’ve shown true kindness, please take this Dram as a token of our thanks. I am preparing the waters for my Lady now. Come and visit again soon I’m sure Lady Hulthine will want to thank you personally - once her senses are restored."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

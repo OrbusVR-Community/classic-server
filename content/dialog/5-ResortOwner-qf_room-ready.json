@@ -1,0 +1,214 @@
+{
+    "resort-owner-intro": {
+        "notFlags": [
+            "qf_delivery-boy_ip"
+        ],
+        "text": "resort-owner-intro",
+        "tree": {
+            "0": {
+                "text": "Hello! Welcome, welcome to the Frontier Pools Resort - the finest holiday destination in all of Patreayl!"
+            },
+            "1": {
+                "text": "Can I interest you in our luxury day spa package? How about a three night stay in one of our famous balloon hotels?",
+                "choices": {
+                    "0": {
+                        "text": "No thanks.",
+                        "tree": {
+                            "0": {
+                                "jumpPointName": "questions",
+                                "text": "Not your thing aye? Well, then, how can I help you stranger?",
+                                "choices": {
+                                    "0": {
+                                        "text": "<c=lore>Tell me about the pools?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "text": "The Frontier Pools Resort is famous throughout the whole of Taella-Oso! It has existed here for a hundred years, and hopefully will continue to stand for a hundred more…"
+                                            },
+                                            "1": {
+                                                "goToJump": "questions",
+                                                "text": "What makes us so popular of course, is our exclusive access to the Lamavora Hot Springs. The water from those underground pockets, bubbles up to the surface and is the perfect temperature for bathing in…"
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "<c=lore>Hot springs?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "text": "Those rock barriers you see surrounding the water? They’re actually man-made. The pools, you see, are owned in alliance by both your Patreaylian government and my own people in the country of Lamavora."
+                                            },
+                                            "1": {
+                                                "text": "The rock barriers are to protect the water and stop those outside of the alliance from stealing the sacred water."
+                                            },
+                                            "2": {
+                                                "goToJump": "questions",
+                                                "text": "Through the use of underground pipes, we funnel the water, which has miraculous healing properties, into the many baths within our resort."
+                                            }
+                                        }
+                                    },
+                                    "2": {
+                                        "text": "<c=lore>Lamavora Frontier</c>",
+                                        "tree": {
+                                            "0": {
+                                                "text": "It’s a beautiful piece of land, though hotly contested by our two countries. Many of the gypsy tribes in Lamavora have tried to maintain control over the area.."
+                                            },
+                                            "1": {
+                                                "text": "but they have always been thwarted by the governments of our great nations. Though, I would still be careful when wandering the wilderness…",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "Gypsies want the land?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "text": "The Hot Pools, of course… The Tradu Ruins as well… But mainly because, the uncomfortable truth is, that this land used to be part of Lamavora for thousands of years."
+                                                            },
+                                                            "1": {
+                                                                "text": "In the grand scheme of things, it has only been considered a part of modern day Patreayl for the smallest of time. There are many in my country who would like to see the land returned to its rightful owners."
+                                                            },
+                                                            "2": {
+                                                                "text": "Not me of course! Not me...#goto-questions"
+                                                            }
+                                                        }
+                                                    },
+                                                    "1": {
+                                                        "text": "Hmm..",
+                                                        "tree": {
+                                                            "0": {
+                                                                "goToJump": "questions",
+                                                                "text": "Anything else?"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "3": {
+                                        "text": "Nothing now thanks.",
+                                        "tree": {
+                                            "0": {
+                                                "allowrepeat": true,
+                                                "text": "Come back I had a room just open up... Seems the guest just left in the middle of the night."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "delivery-boy-ip": {
+        "reqFlags": [
+            "qf_delivery-boy_ip"
+        ],
+        "text": "delivery-boy-ip",
+        "tree": {
+            "0": {
+                "text": "Hello stranger what can I do for you?",
+                "choices": {
+                    "0": {
+                        "text": "I have a shipment from Bjorth.",
+                        "tree": {
+                            "0": {
+                                "text": "Good, the guests have been drinking it down faster then ever. They seem worried now that the one guest went missing."
+                            },
+                            "1": {
+                                "text": "Best just to keep them slightly *Cough* slightly foggy so they don't start leaving their rooms in fear.",
+                                "giveItems": [
+                                    "302@1"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "hot-springs-ip ": {
+        "reqFlags": [
+            "qf_hot-springs_ip"
+        ],
+        "notFlags": [
+            "qf_delivery-boy_ip"
+        ],
+        "text": "hot-springs-ip ",
+        "tree": {
+            "0": {
+                "text": "Hello! Welcome, welcome to the Frontier Pools Resort - the finest holiday destination in all of Patreayl!"
+            },
+            "1": {
+                "text": "Can I interest you in our luxury day spa package? How about a three night stay in one of our famous balloon hotels?",
+                "choices": {
+                    "0": {
+                        "text": "Boss Ngathu sent me.",
+                        "tree": {
+                            "0": {
+                                "text": "Oh! Erm… and what can I do for Mr Ngathu?",
+                                "choices": {
+                                    "0": {
+                                        "text": "You promised him storage…",
+                                        "tree": {
+                                            "0": {
+                                                "text": "Oh did I? I… I don’t recall that. No, sorry, we’re all booked up, there’s no room, I’m afraid. Has he perhaps tried one of the Taverns in the Midlands?",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "Can we come to an arrangement?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "text": "An arrangement? Hmm… Well, I suppose one of our rooms could be freed up… If you could do me this one favor.",
+                                                                "choices": {
+                                                                    "0": {
+                                                                        "text": "What is it?",
+                                                                        "tree": {
+                                                                            "0": {
+                                                                                "text": "Why? Surely you’ve heard of our resident boogey man? “The Figure on the Moors” they call it, though I have never seen such a thing myself."
+                                                                            },
+                                                                            "1": {
+                                                                                "text": "Still, what with the missing tourist, our guests are suitably terrified. They fear the creature will prey on them next!"
+                                                                            },
+                                                                            "2": {
+                                                                                "text": "You solve this mystery for me and I will ensure that Boss Ngathu has a room whenever needed.",
+                                                                                "choices": {
+                                                                                    "0": {
+                                                                                        "text": "Where should I look?",
+                                                                                        "tree": {
+                                                                                            "0": {
+                                                                                                "text": "A few of the other visitants have reported seeing something staring out across the moors in the early evening."
+                                                                                            },
+                                                                                            "1": {
+                                                                                                "giveQuest": "figure-moor",
+                                                                                                "text": "Perhaps speak with them first and see if they can offer any clues as to where to look next…"
+                                                                                            }
+                                                                                        }
+                                                                                    },
+                                                                                    "1": {
+                                                                                        "text": "Will do",
+                                                                                        "tree": {
+                                                                                            "0": {
+                                                                                                "giveQuest": "figure-moor",
+                                                                                                "text": "Fantastic! Check back in with me once you have solved this dreadful mystery."
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

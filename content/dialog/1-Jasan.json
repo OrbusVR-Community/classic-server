@@ -1,0 +1,176 @@
+{
+    "barmaid": {
+        "notFlags": [
+            "qf_pilgrim-journey_cp",
+            "qf_delivery-boy_ip"
+        ],
+        "text": "barmaid",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Elajha, greetings and welcome to Lakewood Inn- chamber pot of the goddess herself. It may be a bit of a dump, but it’s home."
+            },
+            "1": {
+                "jumpPointName": "questions",
+                "text": "I’m Jasan, barmaid, and co-owner of this establishment. How may I be of service to you?",
+                "choices": {
+                    "0": {
+                        "text": "Ale?",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "I'd love some! Sorry, a bit of “barmaid humor.” Unfortunately, ever  since the Order added the new taxes to my ale, my husband and I have been unable to keep up with the demand."
+                            },
+                            "1": {
+                                "allowrepeat": true,
+                                "text": "We’ve a little left but… well, you’re an Enforcer aren’t you? You’re not supposed to drink. I best say no, for now, in case this gets back to the Bishop and I get blamed."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>Lakewood Inn?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Why, Lakewood Inn is  soon to be the largest drinking establishment in all the Midlands."
+                            },
+                            "1": {
+                                "text": "Owned and run by my fat pig of a husband… and my lovely self.",
+                                "choices": {
+                                    "0": {
+                                        "text": "Pig of a husband?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "hmph",
+                                                "text": "Oh, don’t get me started on boarish old Dosa… Let’s just say, our marriage was one of naivety, or necessity… I forget which..."
+                                            },
+                                            "1": {
+                                                "goToJump": "questions",
+                                                "text": "Ugh, honestly, does it even matter anymore? I’m stuck with him. Stuck with him till the day he dies - hopefully sooner rather than later..."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "<c=lore>Where you from?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "You noticed my foreign greeting before did you? I grew up among the Bedouin tribes of the Obnobi Desert - have you been?"
+                            },
+                            "1": {
+                                "text": "My people, or fa cher as they call it - don’t really recognize genders, but ever since I saw a beautiful Lamavora gypsy as a child, I’ve wanted to leave the desert, put on a dress and wear pretty things."
+                            },
+                            "2": {
+                                "goToJump": "questions",
+                                "emotion": "explain",
+                                "text": "Once I came of age, I figured I may as well migrate to the midlands and do just that - look how well it turned out for me. Not a pretty dress in sight."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "delivery-boy-ip": {
+        "reqFlags": [
+            "qf_delivery-boy_ip"
+        ],
+        "indicator": "objective",
+        "text": "delivery-boy-ip",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Hello $NAME what can I do for you?",
+                "choices": {
+                    "0": {
+                        "text": "I have a shipment from Bjorth.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Good, the guards have been drinking more than ever, lately."
+                            },
+                            "1": {
+                                "text": "Best just to keep these Order guards slightly foggy lest they grow bored and start poking things with their swords.",
+                                "giveItems": [
+                                    "302@1"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "associates": {
+        "reqFlags": [
+            "qf_pilgrim-journey_cp"
+        ],
+        "indicator": "objective",
+        "text": "associates",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Oh, it’s you $NAME. I know it looks even emptier since last you visited! I’m afraid  I’ve gone and gotten myself in a spot of trouble and because of that, business has gone bad. Oh, stupid, stupid Dosa…"
+            },
+            "1": {
+                "text": "I know we talk a nasty game, my husband and I, but it’s not just clever quips and playful assassination attempts… I really do love that fat bastard."
+            },
+            "2": {
+                "emotion": "afraid",
+                "text": "And now… now he’s gone and gotten himself missing. The Order think it was me that disappeared him."
+            },
+            "3": {
+                "text": "I know, I know, can’t really blame them, all things considered - but it isn’t true! I have no idea where he went! Any day now they’ll be arresting me for murder."
+            },
+            "4": {
+                "emotion": "explain",
+                "text": "Please, I’ve heard stories about you - you’re good at solving these sorts of things, aren’t you? Find my husband for me? Clear my name!",
+                "choices": {
+                    "0": {
+                        "text": "Where do I start?",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Dosa was never a bright man, though I thought him smarter than to get  tangled up with Boss Ngathu.",
+                                "choices": {
+                                    "0": {
+                                        "text": "Ngathu?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "afraid",
+                                                "text": "I don't know much about him, though I do hear whispers of tales in the Inn. He is not a man to be crossed and I fear that Dosa might have done just that."
+                                            },
+                                            "1": {
+                                                "text": "He is the head of the Ngathu Crime family, although their power reaches far outside of the Obnobi Desert."
+                                            },
+                                            "2": {
+                                                "giveQuest": "associates",
+                                                "emotion": "afraid",
+                                                "text": "I've heard merchants say his goons have been causing all sorts of trouble in the desert town of Tarth Fa Dathrun as of late. That may be the best place to start."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "I'm pretty busy....",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "afraid",
+                                "text": "Please help, I'm afraid the Order will arrest me at any moment, I'm innocent!."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "description": "High Commander Fassith seemed particularly concerned about her NOT having to see General Clavacius. What is it about him that could be so excruciating? Deliver the crate to General Clavacius' Fort to the South of Guild City.",
+    "name": "The Ambitious General (MSQ)",
+    "completed": "You have the letter, return to Commander Fassith in Guild City near the fountain, to deliver the General's words.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "131",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 8,
+    "rewards": [
+        "giveitems xp@1000,coin@30"
+    ],
+    "autocomplete": false
+}

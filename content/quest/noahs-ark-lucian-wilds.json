@@ -1,0 +1,50 @@
+{
+    "description": "Kill seventeen of all the creatures on the list to receive your reward.",
+    "name": "Noah's Ark Lucian Plateau",
+    "completed": "Return to Hunter Dern, he can usually be found hunting along the paths of the Lowland Woods, or selling his furs inside the marketplace of Highsteppe.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "wolfskull",
+            "typenum": 17,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "wolf",
+            "typenum": 17,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "wolfmage",
+            "typenum": 17,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "foxgrey",
+            "typenum": 17,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "elk",
+            "typenum": 17,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "deer",
+            "typenum": 17,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 17,
+    "rewards": [
+        "giveitems xp@15000,coin@125"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,50 @@
+{
+    "description": "Track down the specimens Sicilus wishes to study. The list she has given you seems to range all over Patreyal. Some may be more elusive than others, hiding in the shadows of the Greater Lucian Wilds, Greater Lamavora Frontier, and the Greater Obnobi Desert. It would be wise to bring others with you on this journey.",
+    "name": "Sicilus Beastiary VI",
+    "completed": "Return to Sicilus at the Zoological Gardens, to the North West of Loch Caplargh, to deliver the specimens to her.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "elitecactus",
+            "typenum": 20,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "elitecrabface",
+            "typenum": 20,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "elitegoat",
+            "typenum": 20,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "elitestick",
+            "typenum": 20,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "elitetentacle",
+            "typenum": 20,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "elitevulture",
+            "typenum": 20,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 20,
+    "rewards": [
+        "giveitems coin@5000"
+    ],
+    "autocomplete": false
+}

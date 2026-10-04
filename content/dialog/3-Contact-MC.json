@@ -1,0 +1,32 @@
+{
+    "invisible-ink-contact": {
+        "reqFlags": [
+            "qf_invisible-ink_ip"
+        ],
+        "indicator": "objective",
+        "text": "invisible-ink-contact",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Oh, are you Fassith’s messenger? You… er… You have the letter?",
+                "choices": {
+                    "0": {
+                        "text": "Here..",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Oh, good, May the light shine upon you! Now hurry back and deliver my response.",
+                                "giveItems": [
+                                    "171@1"
+                                ],
+                                "takeItems": [
+                                    "170@1"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

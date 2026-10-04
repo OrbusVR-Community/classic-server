@@ -1,0 +1,131 @@
+{
+    "missingchildren1": {
+        "reqFlags": [
+            "qf_first-parent"
+        ],
+        "text": "missingchildren1",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "You monster! I bet you’re in with Bezoula! You stole my baby girl. She was only eight!",
+                "choices": {
+                    "0": {
+                        "text": "Calm down! I didn’t steal your child!",
+                        "tree": {
+                            "0": {
+                                "setFlags": [
+                                    "qf_second-parent"
+                                ],
+                                "emotion": "afraid",
+                                "text": "Well, you’re a stranger! If not you, then who? Oh, my poor little girl…."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "lucian-manor-quest": {
+        "reqFlags": [
+            "missing-children_cp"
+        ],
+        "text": "lucian-manor-quest",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Well, $NAME, are you the kind of traveller who fancies adventure? The kind that relishes a challenge? That finds their thrills exploring ancient ruins for lost treasures? If so, I’ve got a job for you - and I’ll pay you as well!",
+                "choices": {
+                    "0": {
+                        "text": "Go on...",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Not far from here lies the ruins of a great manor. Stories go the house is over five hundred years old!"
+                            },
+                            "1": {
+                                "text": "Supposed to have belonged to the legendary scholar Sara Lucian, who’s botanical exploration lead to the colonization of this here wilderness."
+                            },
+                            "2": {
+                                "jumpPointName": "questions",
+                                "emotion": "explain",
+                                "text": "I’m a historian by trade, and I’m busy trying to compile a book on the ancient scholar. If you could have a bit of an exploration of his ruined estate and bring back some evidence of his being there, I’d pay you a princely sum!",
+                                "choices": {
+                                    "0": {
+                                        "text": "Okay I'm in.",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "lucian-manor",
+                                                "emotion": "explain",
+                                                "text": "Great, you looked like the sort of traveller I can trust. Head to the North East of Hulthine’s Vale, there sits the abandoned estate, find me some evidence he once lived there."
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "<c=lore>Hulthine Vale?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "This is the estate of the famed Hulthine nobility. Though, it’s definitely seen better days. Once the most important noble family in all Patreayl, they’re now all but a memory on the pages of history."
+                                            },
+                                            "1": {
+                                                "goToJump": "questions",
+                                                "text": "Ever since young Oscar killed his father, Lady Hulthine’s been a state. If you don’t believe me, go see her for yourself. Such a shame. Yet another noble house destroyed by infighting and bigotry..."
+                                            }
+                                        }
+                                    },
+                                    "2": {
+                                        "text": "Not now.",
+                                        "tree": {
+                                            "0": {
+                                                "allowrepeat": true,
+                                                "emotion": "hmph",
+                                                "text": "You did me a great favor bringing my daughter back to me, but don't let this opportunity pass you by."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "Not now.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "You did me a great favor bringing my daughter back to me, but don't let this opportunity pass you by."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "lucian-manor-cp": {
+        "completeQuest": "lucian-manor",
+        "text": "lucian-manor-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "What did you find for me?",
+                "choices": {
+                    "0": {
+                        "text": "I found this diary.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "Hmm, yes. It’s as I thought. Sara was assassinated by none other than the first Pope of the Order of Ma’at."
+                            },
+                            "1": {
+                                "text": "That is some provocative information indeed. It’ll make a fantastic book! l’ll call it “The Lucian Code” hmm… no, that’s not right. I may have to think this over a bit longer… but here’s the Dram I promised."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

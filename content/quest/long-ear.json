@@ -1,0 +1,20 @@
+{
+    "description": "The Parathime debonair, Marcell Cenn, is finding it difficult to clear out his Sunflower fields as of late. His farm is the largest in Highsteppe, follow the path South from the marketplace and you will find it. Do not go down the stairs or you will have gone too far. Clear the fields of Redtails to collect your fee.",
+    "name": "Long Ear Freaks",
+    "completed": "Return to Marcell Cenn, near the Highsteppe marketplace, to collect your fee.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "redtail",
+            "typenum": 10,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 2,
+    "rewards": [
+        "giveitems xp@300,coin@10"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,20 @@
+{
+    "description": "Search the missing Anthropologist room in New Kingsport to re-trace her steps. She has been researching different cultures in the Rainforest.",
+    "name": "Missing Person",
+    "completed": "",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "308",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 18,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,80 @@
+{
+    "tradua-mines": {
+        "indicator": "objective",
+        "text": "tradua-mines",
+        "tree": {
+            "0": {
+                "jumpPointName": "questions",
+                "text": "Oh good! Helga said you’d be stopping by. Just in time as well! She’s worried the Order’s growing curious about what we’ve discovered here so she’s gone on ahead. It’s only a matter of time before they shut us down and label these mines off-limits.",
+                "choices": {
+                    "0": {
+                        "text": "<c=lore>How can I help?</c>",
+                        "tree": {
+                            "0": {
+                                "goToJump": "questions",
+                                "text": "Simple. These mines, they aren’t really mines at all. The signs of the Esasa that we were seeing below, they pointed to a vast, subterranean city built by the ancient race! But the city is dangerous, it’s almost as if they locked themselves off from the rest of the world in a way that meant they could never return."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>Is it dangerous?</c>",
+                        "tree": {
+                            "0": {
+                                "goToJump": "questions",
+                                "text": "Very! we’ve already lost several explorers to its depths. There are traps, cave-ins and creatures we’ve never seen the likes of, lying in wait down there. But the League must discover what we can about the Esasa! Please, Helga has asked that you help us in our excavation of the city. Bring me any relics or information you can find on our lost race and I will pay you for it."
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "Consider it done.",
+                        "tree": {
+                            "0": {
+                                "text": "Helga said you wouldn’t disappoint us $NAME and I’m glad to see her assumption held true. If you can clear the interior of all these monsters they seem to have left behind, we will be able to continue our research deeper into the mines."
+                            },
+                            "1": {
+                                "giveQuest": "tradua-mines",
+                                "text": "The entrance to the city is behind the waterfall. Good luck!"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "tradua-mines-cp": {
+        "completeQuest": "tradua-mines",
+        "text": "tradua-mines-cp",
+        "tree": {
+            "0": {
+                "text": "$NAME, thank you for clearing the mines, we will begin our research. I'll inform Helga and let her know of your deeds here."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "tradua-mines-2": {
+        "reqFlags": [
+            "qf_tradua-mines_cp"
+        ],
+        "indicator": "objective",
+        "text": "tradua-mines-2",
+        "tree": {
+            "0": {
+                "text": "There must of been some confusion, we needed ALL the mines cleared of these creatures of old. I received word not moments after speaking with you last that they have returned, and proceeded to halt our research again."
+            },
+            "1": {
+                "giveQuest": "tradua-mines-2",
+                "text": "Return to the city below and ensure they are all clear.... Please ensure they are empty when you return to me."
+            }
+        }
+    },
+    "tradua-mines-2-cp": {
+        "completeQuest": "tradua-mines-2",
+        "text": "tradua-mines-2-cp",
+        "tree": {
+            "0": {
+                "text": "I'm hesitant to give your reward after our last research was so short lived, but here is another cloak, wear it with pride."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

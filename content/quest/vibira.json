@@ -1,0 +1,20 @@
+{
+    "description": "Lord Rudolf seems to think that her lair is to the West of the burning forest. Search along the mountainside of Ma'at's Keep near the River. These beasts will make homes in any abandoned caves or mines they can find. Be warned though, this journey may require the assistance of few strong companions. (Suggested dungeon party of 5 players)",
+    "name": "Mother Völuspá (MSQ)",
+    "completed": "Return to Lord Rudolf at his residence in Wenderwood. He will pay greatly for slaying the great beast.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "vibria",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 9,
+    "rewards": [
+        "giveitems coin@60,160@1"
+    ],
+    "autocomplete": false
+}

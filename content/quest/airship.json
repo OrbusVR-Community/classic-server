@@ -1,0 +1,26 @@
+{
+    "description": "Bishop Roma has offered you a job in his elite Guild City Guard - The Enforcers. Take the Airship to University Isle and begin your new life. Though you should perhaps seek out Guardian Bart in the training area before departing…",
+    "name": "Airship to University Isle (MSQ)",
+    "completed": "Bishop Roma awaits you at University Isle, take the airship to the first stop, or if you choose to walk, take the stairs closest to Cenns farm and head to the right at the fork.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "115",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "219",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 4,
+    "rewards": [
+        "giveitems xp@1000,coin@30"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,62 @@
+{
+    "description": "After clearing what you thought was the entire city, there are reports that the monsters have somehow returned. Venture back into the mines and ensure that they will not return again.",
+    "name": "Return of the Ancients",
+    "completed": "Return to the Explorer Guild Member waiting in the mine entrance for a report of the mine safety.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "essaboss1",
+            "typenum": 3,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "essaboss2",
+            "typenum": 3,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "essaboss4",
+            "typenum": 3,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "essaboss8",
+            "typenum": 3,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "essaboss5",
+            "typenum": 6,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "essaboss6",
+            "typenum": 6,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "essaboss7",
+            "typenum": 6,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "essaboss3",
+            "typenum": 6,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 20,
+    "rewards": [
+        "giveitems coin@2000,434@1"
+    ],
+    "autocomplete": false
+}

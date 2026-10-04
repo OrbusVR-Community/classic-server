@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "Time off (MSQ)",
+    "completed": "Return to Commander Fassith at Sir Oscars execution site in Guild City to see what \"Shakeup\"  Sir Petyr is speaking of.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 11,
+    "rewards": [
+        "giveitems 197@1"
+    ],
+    "autocomplete": false
+}

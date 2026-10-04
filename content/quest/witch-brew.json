@@ -1,0 +1,27 @@
+{
+    "description": "Tinny has agreed to teach you about trickery, but first she requires ingredients for a Witch’s Brew, in exchange for an apprenticeship. Be wary of immature Reedflute as Tinny demands only the mature spiked Reedflute for her brew.",
+    "name": "An Intoxicating Brew",
+    "completed": "You've gathered all of Tinny's ingredients , take the ingredients back to continue your training.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "46",
+            "typenum": 4,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "47",
+            "typenum": 3,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 3,
+    "rewards": [
+        "giveitems 118@1,47@2,46@2",
+        "unlockpage 117"
+    ],
+    "autocomplete": false
+}

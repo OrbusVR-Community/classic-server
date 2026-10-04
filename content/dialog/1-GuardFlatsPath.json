@@ -1,0 +1,14 @@
+{
+    "flatspath": {
+        "text": "flatspath",
+        "tree": {
+            "0": {
+                "text": "Be wary adventurer, Bezoula's Warg army has been attacking the villages daily."
+            },
+            "1": {
+                "text": "<c=ooc>You are entering a Lvl 8 zone, take the path to the left instead if you are a new adventurer</c>"
+            }
+        },
+        "indicator": "dialog"
+    }
+}

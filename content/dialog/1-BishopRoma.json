@@ -1,0 +1,186 @@
+{
+    "bishop-roma-plot": {
+        "completeQuest": "forest-secrets",
+        "reqFlags": [
+            "qf_guard-bribe_cp"
+        ],
+        "text": "bishop-roma-plot",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "What’s this? Why that’s the mark of the Patreayl Knights. Where did you get this?",
+                "choices": {
+                    "0": {
+                        "text": "Rebels! In the Forest!",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Then they mean to assassinate me before I've even taken office. Well, the joke's on them. I shall ready my guard, and we'll catch those damn Knights, along with whoever their ringleader is, red-handed!"
+                            },
+                            "1": {
+                                "achievement": "saveroma",
+                                "text": "Thank you for bringing this to me, my young friend. Now go, ready yourself for the festival, I’m sure you've lots to do."
+                            },
+                            "2": {
+                                "giveQuest": "bishop-roma-plot",
+                                "emotion": "explain",
+                                "text": "Come find me after the celebration's over and I'll properly reward you."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "bishop-roma-job-offer": {
+        "completeQuest": "bishop-roma-plot",
+        "text": "bishop-roma-job-offer",
+        "tree": {
+            "0": {
+                "setFlags": [
+                    "qf_show-oscar"
+                ],
+                "emotion": "greeting",
+                "text": "Ah, there you are! The young hero! I must thank you my friend. If it were not for your quick thinking, I fear I may have spent my day stuffed inside a coffin, rather than enjoying your company!"
+            },
+            "1": {
+                "setFlags": [
+                    "qf_roma-universe"
+                ],
+                "text": "Tell me, have you ever considered leaving this village? We have need of soldiers like you in the Order… Here, take this ticket in lieu of a reward. The Airship leaves for Guild City quite regularly."
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "I must prepare for my journey home now, but if you find yourself using my gift, come visit me at University Isle near Guild City. If you take the airship it is the first stop from here."
+            },
+            "3": {
+                "jumpPointName": "questions",
+                "text": "A job awaits you amongst my holy Enforcers, should you wish to elevate yourself to a higher station than this.",
+                "choices": {
+                    "0": {
+                        "text": "Thank you for the ticket.",
+                        "tree": {
+                            "0": {
+                                "giveQuest": "airship",
+                                "emotion": "agree",
+                                "text": "You're welcome. Carry your light."
+                            },
+                            "1": {
+                                "setFlags": [
+                                    "qf_roma-universe"
+                                ],
+                                "text": "Go now and find the Airship to secure your ride."
+                            },
+                            "2": {
+                                "setFlags": [
+                                    "qf_roma-highsteppe"
+                                ],
+                                "text": ".. "
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>Enforcers?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "The Enforcers are my elite in Guild City. A proud faction of the Order, they have existed for the better part of a hundred years. They are a rank reserved for only the best."
+                            },
+                            "1": {
+                                "text": "Hand picked because of their honor, loyalty and bravery in the face of danger.You should consider yourself blessed that I see your potential, my friend. Better to be an Enforcer than a nameless guardian in a tiny village.",
+                                "choices": {
+                                    "0": {
+                                        "text": "<c=lore>The Order?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "hmph",
+                                                "text": "Surely you've heard this story before? How in a time of great darkness, our noble founder Toras Ryll stood strong in the face of the Janist threat and defeated their devilish leader Khabor Jan?"
+                                            },
+                                            "1": {
+                                                "text": "Like a fallen spirit, he taught his followers the wicked ways of magick. In so doing, he willingly damned Täella-Oso to the gods of chaos."
+                                            },
+                                            "2": {
+                                                "goToJump": "questions",
+                                                "emotion": "agree",
+                                                "text": "If it weren’t for Saint Toras forming the Order of Ma’at, our world wouldn't exist right now. We'd be as slaughtered livestock, cast adrift amidst the swirling chaos of a churning sea."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "<c=lore>Who are these Knights?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "The Knights are terrorists and nothing more. Led by the famed outlaw, Markos of Runvale - an orphan once adopted into royal stock, now nothing more than common scum."
+                            },
+                            "1": {
+                                "text": "They may claim to be patriots- to value the people of Patreayl- but there is nothing about their actions that would confirm this to me."
+                            },
+                            "2": {
+                                "emotion": "hmph",
+                                "text": "They have stolen, murdered, and betrayed their goddess through the blackest of magicks."
+                            },
+                            "3": {
+                                "text": "And now not even cold-blooded assassination is beneath them! These Knights, are no knights at all. Pffugh! Nothing chivalrous about them!",
+                                "choices": {
+                                    "0": {
+                                        "text": "<c=lore>And what of Oscar?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "Ah, little Lord Oscar. Don’t let his size fool you, he’s as twisted as they come. A fugitive for some time now..."
+                                            },
+                                            "1": {
+                                                "text": "Oh, there are plenty of crimes we could execute him for - Thieving, sorcery, war crimes and the like, but what he really deserves is punishment for what he did to his father… Poor Lord Derreth."
+                                            },
+                                            "2": {
+                                                "goToJump": "questions",
+                                                "emotion": "explain",
+                                                "text": "Should you desire to gaze upon the pure evil that he is, we have him caged like a bird down by Marcell Cenn's farm. He won't be there for long however; he must shortly face trial in Guild City."
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "Forget I asked.",
+                                        "tree": {
+                                            "0": {
+                                                "goToJump": "questions",
+                                                "text": "Of course..."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "text": "<c=lore>Guild City?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "One of the many marvels of our modern world. Founded upon the backs of the surviving monarchs of Kingsport, the city offers many wonders, none the least is University Isle, upon which the Traveling Brothers of Science have researched our world for centuries."
+                            },
+                            "1": {
+                                "text": "Alas, one should never look too closely. For a wretched and corrupt sinfulness runs through the city's veins."
+                            },
+                            "2": {
+                                "emotion": "explain",
+                                "text": "The High Pope in Elephantine wishes to see conversions in Patreayl like the ones I manifested amongst the common folk of Le’visile. This is why I need your help, my young friend."
+                            },
+                            "3": {
+                                "goToJump": "questions",
+                                "text": "If we all together follow the teachings of Ma’at, surely revival will come!"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    }
+}

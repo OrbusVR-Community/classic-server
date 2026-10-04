@@ -1,0 +1,125 @@
+{
+    "traitor-execution": {
+        "completeQuest": "fassith-execution",
+        "text": "traitor-execution",
+        "tree": {
+            "0": {
+                "setFlags": [
+                    "qf_show-markos"
+                ],
+                "emotion": "hmph",
+                "text": "It’s  time for us to rid the country of this scum. Make sure you get a spot towards the front - the blood splatter’s the best part.  There’s sure to be a great crowd."
+            },
+            "1": {
+                "text": "..",
+                "choices": {
+                    "0": {
+                        "text": "@movie@2"
+                    }
+                }
+            },
+            "2": {
+                "giveQuest": "follow-the-signs",
+                "emotion": "cheer",
+                "text": "A grand show, was it not $NAME ? I must speak with Bishop Roma and inform him the deed is done.... Take leave now and find me later. I will have orders for you then."
+            }
+        },
+        "indicator": "quest"
+    },
+    "traitors-leisa-falls": {
+        "completeQuest": "two-lives",
+        "text": "traitors-leisa-falls",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "It’s about time you showed up. Did you enjoy your holiday, “your majesty?” By the goddess, anyone would think you’d been off conspiring with the enemy by the way you look."
+            },
+            "1": {
+                "text": "Not been sleeping much since Lord Oscar’s execution, huh? Don’t feel guilty over it, he was a blasphemer and a traitor, you know that."
+            },
+            "2": {
+                "emotion": "hmph",
+                "text": "Still, there’s something different about you… I just can’t place it...",
+                "choices": {
+                    "0": {
+                        "text": "Your orders?",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Alright, seems like you’re doing a good job. Bishop Roma trusts you, Guild City trusts you, hell, the whole bloody Midlands trust you, so I guess I might be able to as well."
+                            },
+                            "1": {
+                                "text": "Take this letter - don’t open it - and deliver it to my contact at Lakewood Inn. Look for the man in the Green Hat near the stables."
+                            },
+                            "2": {
+                                "giveQuest": "invisible-ink",
+                                "emotion": "hmph",
+                                "text": "Well? Hurry up!"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "invisible-ink-cpa": {
+        "completeQuest": "invisible-ink",
+        "notFlags": [
+            "qf_player-tamper"
+        ],
+        "text": "invisible-ink-cpa",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "You’re back. I knew I could trust you. Thank you for your discretion $NAME. This is for you."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "invisible-ink-cp": {
+        "completeQuest": "invisible-ink",
+        "reqFlags": [
+            "qf_player-tamper"
+        ],
+        "text": "invisible-ink-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "You’re back. Hmm… You didn’t read it did you? Well, I suppose you wouldn’t tell me, even if you had…",
+                "choices": {
+                    "0": {
+                        "text": "Never, I am here to serve.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Very well here is your pay."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "be-gone": {
+        "reqFlags": [
+            "qf_invisible-ink_cp"
+        ],
+        "indicator": "mainquest",
+        "text": "be-gone",
+        "tree": {
+            "0": {
+                "giveQuest": "time-off",
+                "emotion": "explain",
+                "text": "I’ve no need of you for now, go find something to pass the time yourself. Get a straw hat and take up fishing for all I care, I have much to plan..."
+            },
+            "1": {
+                "removeFlags": [
+                    "qf_move-fassith"
+                ],
+                "text": "...."
+            }
+        }
+    }
+}

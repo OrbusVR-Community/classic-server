@@ -1,0 +1,275 @@
+{
+    "long-ear": {
+        "notFlags": [
+            "qf_last-meal_ip"
+        ],
+        "reqFlags": [
+            "qf_time-to-eat_cp"
+        ],
+        "text": "long-ear",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Hello, you must be the new Guardian the town is in a tizzy over! My daughter told me all about you. Oh? But of course, we have yet to be formally introduced!"
+            },
+            "1": {
+                "jumpPointName": "questions",
+                "text": "I am the dashingly handsome philanthropist, Marcell Cenn of the noble house of Cenn. Yes, I am of the Parathime descent, but let’s not hold that against me!",
+                "choices": {
+                    "0": {
+                        "text": "<c=lore>Parathime Canal?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "agree",
+                                "text": "You’ve never been? Well, you are young. You will go one day I am sure. Parathime is the greatest country in all Täella-Oso!"
+                            },
+                            "1": {
+                                "text": "Close your eyes and imagine it! Glistening sapphire streams of gorgeous water, channeling through a great canal. The city - fashioned with red brick and cobblestone roofs."
+                            },
+                            "2": {
+                                "emotion": "agree",
+                                "text": "Upstream, the fresh water mixes and mingles with the colored salts of the great sea. The coast is ripe with millions of sunflowers all raising their heads high."
+                            },
+                            "3": {
+                                "text": "Can you smell it? On the air! The aroma of sweet roast duck seated on the finest china. In the distance… the bells of La’fure University chiming, chiming..."
+                            },
+                            "4": {
+                                "emotion": "agree",
+                                "text": "That is Parathime my young friend. My lady, my love, the blood pumping in my veins,  my one true home.",
+                                "choices": {
+                                    "0": {
+                                        "text": "<c=lore>Sunflowers?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "Ah, is there anything more lovely than the Parathimian Sunflower? They are harvested, dried and cured to bring about the famed Parathime Cigar. A sign of wealth, power and nobility."
+                                            },
+                                            "1": {
+                                                "text": "Alas, my friend, I am cursed with the heart of a poet, but the mind of a businessman. I saw the sunflower,  tasted of it's yellow smoke, and deigned to share it with all the world."
+                                            },
+                                            "2": {
+                                                "emotion": "explain",
+                                                "text": "I beheld in my dreams a booming Sunflower trade, and so, with my inheritance - a single packet of seeds I began to grow my farming empire. Unfortunately those bourgeois bastards back home didn't see things my way!"
+                                            },
+                                            "3": {
+                                                "text": "And so here I am, in Patreayl, growing my lovelies and peddling my wares.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "<c=lore>Poet?</c>",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "explain",
+                                                                "text": "In Canal City, we have a saying “let love guide your lips, and daring move your tongue.”  Oh, how I miss my old life studying at La’fure University."
+                                                            },
+                                                            "1": {
+                                                                "goToJump": "questions",
+                                                                "text": "Digesting the literary works of Lifré, or the poems of Penthar… Ahem… “and I bent my frame below the green, saw dwelling ‘neath the blades of grass, the tiny folk who lived between the mighty meadow’s pastured pass.”"
+                                                            }
+                                                        }
+                                                    },
+                                                    "1": {
+                                                        "text": "You needed something?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "goToJump": "questions",
+                                                                "emotion": "explain",
+                                                                "text": "Ah yes to business I see."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "You needed something?",
+                                        "tree": {
+                                            "0": {
+                                                "goToJump": "questions",
+                                                "emotion": "explain",
+                                                "text": "Ah yes to business I see."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>Your daughter?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "agree",
+                                "text": "Why, she is the prettiest girl in the village. Her name is Bell and she is everything I am proud of about myself, as well as everything I wish I could have been."
+                            },
+                            "1": {
+                                "goToJump": "questions",
+                                "text": "Back in my younger days, they used to call me “the lover.” Hoho! Alas, not so much any more. White hair and wrinkles will do that to a man’s reputation. Oh, the women I’ve known. Tall ones, short ones, skinny ones, voluptuous red cheeked beauties...."
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "Can I help?",
+                        "tree": {
+                            "0": {
+                                "emotion": "afraid",
+                                "text": "I speak a good game, but honestly, my back has been giving me all kinds of problems as of late. I have been unable to get out there myself and tend to the Sunflower fields. "
+                            },
+                            "1": {
+                                "text": "My farm is the largest around, follow the path to the South out of Highsteppe and you will find my lovely golden fields, or what's left of them."
+                            },
+                            "2": {
+                                "giveQuest": "long-ear",
+                                "emotion": "afraid",
+                                "text": "I fear they may have been overrun by those pesky Redtails. Head over there and kill yourself a few beasties. There’s some Dram in it for you once you’ve cleared it out."
+                            }
+                        }
+                    },
+                    "3": {
+                        "text": "On second thought...",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "text": "Keep your dear friend Cenn in mind when looking for things to do!"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "long-ear-cp": {
+        "completeQuest": "long-ear",
+        "text": "long-ear-cp",
+        "tree": {
+            "0": {
+                "emotion": "cheer",
+                "text": "Oh, bless you, bless you $NAME. It appears my sunflowers will be safe for a while longer. How fantastic!"
+            },
+            "1": {
+                "text": "Listen, come and see me every now and then, I’m certain those damn Redtails will be back before I can blink an eye, and in those circumstances, my wallet will have need to pay you once more."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "long-ear2": {
+        "reqFlags": [
+            "qf_long-ear_cp"
+        ],
+        "notFlags": [
+            "qf_last-meal_ip"
+        ],
+        "text": "long-ear2",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Goodday my noble Guardian, what brings you around?",
+                "choices": {
+                    "0": {
+                        "text": "The Redtails returned!",
+                        "tree": {
+                            "0": {
+                                "giveQuest": "long-ear2",
+                                "emotion": "afraid",
+                                "text": "You’re not wrong there, my Sunflower guardian! Please, remove those pesky beasts before they completely destroy my crops!"
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "On second thought...",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "text": "Very well."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "long-ear2-cp": {
+        "completeQuest": "long-ear2",
+        "text": "long-ear2-cp",
+        "tree": {
+            "0": {
+                "emotion": "agree",
+                "text": "Fantastic! You do me a great honor. Here’s your reward. Come back and see me once those cocky bastards return!"
+            }
+        },
+        "indicator": "dialog"
+    },
+    "cenns-poetry": {
+        "reqFlags": [
+            "qf_last-meal_ip"
+        ],
+        "indicator": "objective",
+        "text": "cenns-poetry",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Why hello $NAME, how have you been keeping?",
+                "choices": {
+                    "0": {
+                        "text": "I'm looking for a cigar.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Ah, say no more. Looking to indulge in the simple pleasures of Parathime’s finest tobacco? I don’t blame you my young friend."
+                            },
+                            "1": {
+                                "text": "Alas, my cigars are becoming harder and harder to produce in this dreadful, Redtail environment. You can however earn your stogie."
+                            },
+                            "2": {
+                                "emotion": "explain",
+                                "text": "There is a man in New Kingsport - a representative of the Writers Guild, he awaits a copy of my latest poetry collection for publishing. Alas, I am too old, my back is too sore for me to present him with the finished manuscript myself."
+                            },
+                            "3": {
+                                "jumpPointName": "questions",
+                                "text": "If you could see to it that my poems made their way into his hands, then perhaps I would be able to part with one of my delicious cigars.",
+                                "choices": {
+                                    "0": {
+                                        "text": "<c=pc>His name?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "cenns-poetry",
+                                                "emotion": "agree",
+                                                "text": "You’ll do it? Fantastic! His name is Erin Von Leustron, you will find him most days in New Kingsport near the water's edge . Please, take my manuscript to him. Hurry!"
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "<c=pc>Will you sell me one?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "goToJump": "questions",
+                                                "emotion": "explain",
+                                                "text": "As rare as they are now I would need a Redtails weight in Dram to part with one. I would rather have you do me the favor of delivering my poems, being published is something no amount of coin can buy."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "cenns-poetry-cp": {
+        "completeQuest": "cenns-poetry",
+        "text": "cenns-poetry-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "What’s that? You had to pay him to publish it? .... But it IS being published isn’t it?"
+            },
+            "1": {
+                "text": "Oh thank the goddess. I'm sorry if I inconvenienced you in any way, friend. Here, take a Parathime Cigar for your troubles, I hope that more than settles our little debt."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "narwhal-bay-ip": {
+        "reqFlags": [
+            "qf_narwhal-bay_ip"
+        ],
+        "notFlags": [
+            "qf_spoke-to-fisher"
+        ],
+        "text": "narwhal-bay-ip",
+        "tree": {
+            "0": {
+                "setFlags": [
+                    "qf_narwhale-bay"
+                ],
+                "text": "$NAME! My friend, what are you doing here in this forsaken place?",
+                "choices": {
+                    "0": {
+                        "text": "I’m hunting a Narwhal.",
+                        "tree": {
+                            "0": {
+                                "text": "A Narwhal! Well, it’s true that great men and women like us, we must prove ourselves against the most unruly of beasts. Our quarries may differ, but our intentions are the same."
+                            },
+                            "1": {
+                                "text": "As luck may have it, I know a bit about such creatures, if you are seeking advice.",
+                                "choices": {
+                                    "0": {
+                                        "text": "What can you tell me?",
+                                        "tree": {
+                                            "0": {
+                                                "text": "The ancient Mariners that mapped the coast of this frigid land told tale of giant leviathans that dwelt both in water and on the ice. A singular horn protruding from their snouts."
+                                            },
+                                            "1": {
+                                                "text": "For the most part, they avoided these creatures, but a few, attempted to fight them, to take a horn as their trophy. Even less survived the encounter...."
+                                            },
+                                            "2": {
+                                                "text": "I have a few lures, given to me by an old fisherman long ago, to catch such a beast but never dared use them. If you are seeking such an quarry, they may server you well.",
+                                                "giveItems": [
+                                                    "67@1@{\"maxDurability\":30|\"parts\": [505]}@1"
+                                                ]
+                                            },
+                                            "3": {
+                                                "text": "Be careful though, it's not as easy as reeling in a simple sunfish, once you are lucky enough to bring it to land is when the real fight begins.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "Thank you Ernest.",
+                                                        "tree": {
+                                                            "0": {
+                                                                "setFlags": [
+                                                                    "qf_spoke-to-fisher"
+                                                                ],
+                                                                "text": "Good luck my friend, may the gods shine on your hunt. Return to me if you lose your lure on the ice, though I don't have too many of them."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "spoke-to-fisher": {
+        "reqFlags": [
+            "qf_spoke-to-fisher"
+        ],
+        "notFlags": [
+            "qf_break-barrier_cp"
+        ],
+        "text": "spoke-to-fisher",
+        "tree": {
+            "0": {
+                "text": "This will be the most challenging beast to land. Keep casting your line to see if you can catch any.",
+                "choices": {
+                    "0": {
+                        "text": "I lost my lure.",
+                        "tree": {
+                            "0": {
+                                "text": "I only have enough for a few more casts, be sure each one you make counts.",
+                                "giveItems": [
+                                    "67@1@{\"maxDurability\":30|\"parts\": [505]}@1"
+                                ]
+                            },
+                            "1": {
+                                "text": "When you get the beast on land, know your prey. The stories of old told of its weakness to fire and flame. Remember these lures are only good on the Narwhal, all other creatures of the sea avoid this lure because of what it attracts."
+                            },
+                            "2": {
+                                "allowrepeat": true,
+                                "text": "Good luck my friend."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

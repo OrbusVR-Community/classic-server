@@ -1,0 +1,33 @@
+{
+    "description": "With some luck Ernest has secured  a contract with the Order General in charge of the garrison atop Khabor's Pass. It is a very large order, but he has promised you the Fish Scent Attractor recipie if you can deliver all the fish to him.",
+    "name": "Catch of the Day IV",
+    "completed": "Return to Ernest on the North side of Kingsport Lake, to show him your catch of the day.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "75",
+            "typenum": 5,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "74",
+            "typenum": 10,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "73",
+            "typenum": 20,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        "giveitems coin@150",
+        "unlockpage 313"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,85 @@
+{
+    "rebel-shout": {
+        "shout": true,
+        "notFlags": [
+            "qf_woodland-rebels-1"
+        ],
+        "reqFlags": [
+            "qf_woodland-rebels_ip"
+        ],
+        "indicator": "objective",
+        "text": "rebel-shout",
+        "tree": {
+            "0": {
+                "text": "Wait.. Let's talk. There needs not be bloodshed!!"
+            }
+        }
+    },
+    "rebel": {
+        "reqFlags": [
+            "qf_woodland-rebels_ip"
+        ],
+        "indicator": "objective",
+        "text": "rebel",
+        "tree": {
+            "0": {
+                "emotion": "afraid",
+                "text": "Why you! What did you do? My men! You bloody killed ‘em… Please, Enforcer, spare my life and the lives of those of us remaining."
+            },
+            "1": {
+                "setFlags": [
+                    "qf_woodland-rebels-1"
+                ],
+                "jumpPointName": "questions",
+                "text": "Your Order and our Knighthood may not see eye to eye, but, at the end of the day, we’re just two good folk trying to do our best right? Please, let us free, I’ll do anything, just shed no more blood!",
+                "choices": {
+                    "0": {
+                        "text": "<c=lore>Who are you?</c>",
+                        "tree": {
+                            "0": {
+                                "goToJump": "questions",
+                                "emotion": "hmph",
+                                "text": "Sir Albert of Wenderwood, though my friends call me Bert."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=pc>You must die!</c>",
+                        "tree": {
+                            "0": {
+                                "setFlags": [
+                                    "qf_rebel_dies"
+                                ],
+                                "addAggro": true,
+                                "emotion": "hmph",
+                                "text": "What? No! You call us beasts, but you… you enforcers, you’re the real animals! Very well then, to the death it is, have at it!"
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "<c=pc>Leave this place!</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "cheer",
+                                "text": "Thank you, noble Enforcer. You aren’t like the others and for that I'll honor your wishes. We'll leave this place, in fact, I'll take my men far away."
+                            },
+                            "1": {
+                                "text": "To the borders of the Lamavora Frontier perhaps! Thank you, thank you! I owe you a great debt now, if there is ever a way for me to clean the slate, just let it be known."
+                            },
+                            "2": {
+                                "setFlags": [
+                                    "qf_rebel_lives"
+                                ],
+                                "emotion": "agree",
+                                "text": "Please, take my Knight Crest. Evidence of your victory for your superiors. Thank you, thank you!",
+                                "giveItems": [
+                                    "125@1"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

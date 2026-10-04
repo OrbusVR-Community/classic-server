@@ -1,0 +1,32 @@
+{
+    "description": "The horn has been blessed, dripping with the poison of Ba’al. Take it and stab it into the three crystals producing the Order’s barrier, and tear apart their pathetic magick!",
+    "name": "Breaking the Barrier",
+    "completed": "Defeat the Order guards defending the Crypt entrance, and hurry below to thwart Bishop Romas' plan.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_blessedhorn1",
+            "typenum": 1,
+            "typeextra": "Destroy the barrier generator 1"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_blessedhorn2",
+            "typenum": 1,
+            "typeextra": "Destroy the barrier generator 2"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_blessedhorn3",
+            "typenum": 1,
+            "typeextra": "Destroy the barrier generator 3"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 18,
+    "rewards": [
+        "giveitems xp@90000"
+    ],
+    "autocomplete": true
+}

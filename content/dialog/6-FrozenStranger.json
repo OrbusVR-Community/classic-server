@@ -1,0 +1,113 @@
+{
+    "khaborspass-cp": {
+        "completeQuest": "khabors-pass",
+        "text": "khaborspass-cp",
+        "tree": {
+            "0": {
+                "text": "Who have we here? Ah yes. I am Mikka of the frigid wastelands. No, I’m no draugr or dreygur. I be the last remaining of the peoples that once dwelt in these lands.",
+                "choices": {
+                    "0": {
+                        "text": "Please, have you seen soldiers pass by here?",
+                        "tree": {
+                            "0": {
+                                "text": "Men in white and red robes did travel this way not too long ago. Time  vanishes in the white abyss, but by your words I believe it to be seven days passed."
+                            },
+                            "1": {
+                                "text": "They weren't meant for this terrain, the bodies of their dead scattered throughout my home. Headed deep into the hinterlands, searching for something perhaps?",
+                                "choices": {
+                                    "0": {
+                                        "text": "Where did they go exactly?",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "frozen-river",
+                                                "text": "Should you have means to follow your quarry, these men forged their path deeper north, travelling along the frozen river of Na’ghul-tetho."
+                                            },
+                                            "1": {
+                                                "jumpPointName": "questions",
+                                                "text": "The passage to Narwhal Bay where the river meets the sea is blocked off - an avalanche, I suspect them to have wandered towards the ancient ruins in the north-east.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "<c=lore>Is it Khabor’s Tomb?!</c>",
+                                                        "tree": {
+                                                            "0": {
+                                                                "text": "I can’t say whether these ruins are “Khabor’s Tomb” as you name them, my people, before they passed into ice, spoke of the cradle as “Quär-Sandebarah.”"
+                                                            },
+                                                            "1": {
+                                                                "text": "It’s a cursed place, a haunt for spirits and demons. Once, a man of your own people - wandered out from its ruins and collapsed in the wilderness..."
+                                                            },
+                                                            "2": {
+                                                                "goToJump": "questions",
+                                                                "text": "My tribe found him and nursed him back to health. He taught us the common tongue and the use of ancient magicks, but he’s lost to us now. Just another story told by parents to their children to drown out the winter’s howl."
+                                                            }
+                                                        }
+                                                    },
+                                                    "1": {
+                                                        "text": "Thank you for your help.",
+                                                        "tree": {
+                                                            "0": {
+                                                                "text": "Goodbye stranger. It’s been pleasant to talk to someone again. I’ve not done so in such a long time. Should you have need for shelter, my tent and fire are always here."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "kill-order-ip": {
+        "reqFlags": [
+            "qf_khabors-pass_cp"
+        ],
+        "text": "kill-order-ip",
+        "tree": {
+            "0": {
+                "giveQuest": "kill-order",
+                "text": "These men in red and white have taken over my hunting grounds, please rid them of this sacred ground so I may return home."
+            }
+        },
+        "indicator": "quest"
+    },
+    "kill-order-cp": {
+        "completeQuest": "kill-order",
+        "text": "kill-order-cp",
+        "tree": {
+            "0": {
+                "text": "Thank you for clearing them out, you have proven yourself, my fire is always yours if you need."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "kill-order": {
+        "reqFlags": [
+            "qf_kill-order_cp"
+        ],
+        "text": "kill-order",
+        "tree": {
+            "0": {
+                "text": "There are campfires scattered throughout the area, be sure to warm by them if the cold of the Necropolar gets to be too much."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "kill": {
+        "completeQuest": "kill",
+        "notFlags": [
+            "qf_kill-order_ip"
+        ],
+        "text": "kill",
+        "tree": {
+            "0": {
+                "text": "This should clear the quest from your journal, sorry about the troubles."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

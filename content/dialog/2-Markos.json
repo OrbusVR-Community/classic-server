@@ -1,0 +1,232 @@
+{
+    "intro": {
+        "completeQuest": "follow-the-signs",
+        "text": "intro",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "How curious, it appears we’ve a guest amongst us. Do you know what you’ve stumbled upon, stranger?",
+                "choices": {
+                    "0": {
+                        "text": "Are you the Knights of Patreayl?",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "We are. And do you know who I am? My name is Markos. I was Lord Markos of House Runvale. Adopted son to Lord Micah Runvale. But who are you?"
+                            },
+                            "1": {
+                                "text": "You wear the garb of an Enforcer, yet no Enforcer, not even in the height of their folly, would wander into our camp alone. How did you find this place?",
+                                "choices": {
+                                    "0": {
+                                        "text": "Oscar sent me.",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "hmph",
+                                                "text": "Oscar? You’ve heard from Oscar? ...Is he okay? We haven’t spoken since last I sent him off.",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "You mean you don’t know?",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "hmph",
+                                                                "text": "Know what? I’m afraid news travels slow in Patreayl, even slower when you are on the Order’s most wanted list.",
+                                                                "choices": {
+                                                                    "0": {
+                                                                        "text": "The Assassination attempt failed. Oscar is dead.",
+                                                                        "tree": {
+                                                                            "0": {
+                                                                                "emotion": "hmph",
+                                                                                "text": "And you are responsible for this, Enforcer? You would dare show your face here? Are you insane? He was a good man! A man I loved! The Order have stolen from me for the last time!",
+                                                                                "choices": {
+                                                                                    "0": {
+                                                                                        "text": "I have seen what the Order truly is.",
+                                                                                        "tree": {
+                                                                                            "0": {
+                                                                                                "emotion": "hmph",
+                                                                                                "text": "A turncoat then? Well, perhaps Oscar was right to send you our way. But we don’t let just anyone into our Knighthood."
+                                                                                            },
+                                                                                            "1": {
+                                                                                                "text": "Loyalty must be proven and trials need to be completed. I don’t think you have the temperament for that. Now please leave, I must grieve."
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "the-trials": {
+        "reqFlags": [
+            "qf_follow-the-signs_cp"
+        ],
+        "indicator": "mainquest",
+        "text": "the-trials",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "You must leave now! Before I strike you dead, Enforcer. I said go or face the consequences!",
+                "choices": {
+                    "0": {
+                        "text": "Wait! We became friends, before he... died.",
+                        "tree": {
+                            "0": {
+                                "giveQuest": "first-trials",
+                                "emotion": "explain",
+                                "text": "Friends. Then tell me. Did he… die well? Like a hero? ...So, are you a turncoat, Enforcer? Hmm...If you truly wish to atone for my Oscar’s death, and join our Knighthood, then you will complete three trials for me. Return to University Island and speak with the Scholar Sicilus, she will give you the first. "
+                            },
+                            "1": {
+                                "giveQuest": "the-trials",
+                                "text": "But be warned, I’ve eyes across all of Patreayl, and you killed a man who touched my soul. If you breathe a word of any of this to the Order, I’ll make sure you suffer endlessly, for your treachery. "
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "first-trails-cp": {
+        "completeQuest": "first-trials",
+        "text": "first-trails-cp",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "You’ve returned. Perhaps Oscar was right in sending you our way. You’ve completed the trial of intellect, but two more remain, and neither will favor you as kindly as that absent-minded scholar has."
+            },
+            "1": {
+                "giveQuest": "second-trials",
+                "text": "Next, a challenge of bravery and strength. To the south, in the burning forest, I hear a particularly nasty mother Wyrm has been causing trouble. Go speak to Lord Rudolf  in Wenderwood village, see if you might help them track and kill the beast."
+            }
+        },
+        "indicator": "quest"
+    },
+    "second-trails-cp": {
+        "completeQuest": "second-trials",
+        "text": "second-trails-cp",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "Good. Then the beast is dead. As much as I might hate you, you’ve shown both bravery and dedication to our Knighthood. One final challenge remains. A test of honor and integrity.",
+                "giveItems": [
+                    "160@1"
+                ]
+            },
+            "1": {
+                "text": "Journey to the rocky shores of Lake Susannah. The spirit of the waters dwells beneath the surface. She approves of and anoints only those most worthy and loyal to the true Patreayl."
+            },
+            "2": {
+                "giveQuest": "third-trails",
+                "emotion": "explain",
+                "text": "If she blesses you, then you are worthy to stand among the ranks of our Knighthood. Go, speak to the Master Wise One. He is sympathetic to our cause. Perhaps he can help."
+            }
+        },
+        "indicator": "quest"
+    },
+    "the-trails-cp": {
+        "completeQuest": "the-trials",
+        "text": "the-trails-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "What!? How?! She... APPROVES  of you? I… I must be honest, that trial has never been part of our initiation before you. I… I’ve sinned $NAME."
+            },
+            "1": {
+                "text": "Lady Susannah is a wraith, all who have summoned her before, have found themselves torn to pieces and strewn across the lake. The only one to have ever met with her in peace was… Oscar. Forgive me."
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "Perhaps… he guides you from the nether... One Kindling to another. Tell me, since you were a child, have you been able to do things? Things you cannot explain?"
+            },
+            "3": {
+                "text": "There exists in the other realm of Täella-Brüha, a mist, a divine effervescence of power that drips from the slumbering forms of the ancient gods."
+            },
+            "4": {
+                "emotion": "explain",
+                "text": "“The Essence.” That’s what the ancient Janists used to call it. Yes, I can sense it now. It flows strongly through your veins as it did through Oscars...…",
+                "choices": {
+                    "0": {
+                        "text": "I’ve never been to Täella-Brüha.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "I can’t rightly explain it either. Something… mystical connects you to Oscar in a way I don’t yet understand...",
+                                "choices": {
+                                    "0": {
+                                        "text": "But I was “Kindling” before Oscar?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "The Essence does not pay attention to the rules and rituals of time in this world. We may never understand this. What I can understand however, is that you are invaluable to us now, and a great threat to the Order - should they ever discover your true nature."
+                                            },
+                                            "1": {
+                                                "text": "Though it is true, many of us can practice the Runespeak, being Kindling is the difference between learning a difficult skill, versus being a prodigy from birth."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "knight-ceremony": {
+        "reqFlags": [
+            "qf_the-trials_cp"
+        ],
+        "indicator": "mainquest",
+        "text": "knight-ceremony",
+        "tree": {
+            "0": {
+                "emotion": "cheer",
+                "text": "You’ve by far exceeded my expectations. I and my men, would be honored to have you fight by our side. We'll proceed with the Knighting ceremony when you are ready.",
+                "choices": {
+                    "0": {
+                        "text": "I'm ready!",
+                        "tree": {
+                            "0": {
+                                "setFlags": [
+                                    "qf_markos-maat"
+                                ],
+                                "text": "Then let's begin! Meet me on top of Ma'at's Keep, at the foot of the great Guardian statue."
+                            },
+                            "1": {
+                                "giveQuest": "knight-ceremony",
+                                "removeFlags": [
+                                    "qf_show-markos"
+                                ],
+                                "text": "..."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "I'm not ready.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "text": "Come back when you’re prepared."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

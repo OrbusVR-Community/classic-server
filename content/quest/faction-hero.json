@@ -1,0 +1,68 @@
+{
+    "description": "Since joining the Knights, the different faction leaders seem to have need of assistance. It would be wise to keep them happy and on your side.",
+    "name": "Faction Hero (MSQ)",
+    "completed": "You have been away from the Knight's camp many nights, return to Marko's atop Ma'at's Keep to inform him of your travels.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_contractkill-2_cp",
+            "typenum": 1,
+            "typeextra": "The Grimm Reaper I"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_contractkill-3_cp",
+            "typenum": 1,
+            "typeextra": "The Grimm Reaper II"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_contractkill-4_cp",
+            "typenum": 1,
+            "typeextra": "The Grimm Reaper III"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_ghouls_cp",
+            "typenum": 1,
+            "typeextra": "Ghouls"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_ghouls-reflection_cp",
+            "typenum": 1,
+            "typeextra": "Tinny's Prophecy"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_forbidden-temple_cp",
+            "typenum": 1,
+            "typeextra": "Forbidden Temple"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_explorers-league_cp",
+            "typenum": 1,
+            "typeextra": "Explorer's League"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_black-guide_cp",
+            "typenum": 1,
+            "typeextra": "Chudkatet"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_diluvian-puzzle_cp",
+            "typenum": 1,
+            "typeextra": "Diluvian Puzzle"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 18,
+    "rewards": [
+        "giveitems coin@600,xp@10000"
+    ],
+    "autocomplete": true
+}

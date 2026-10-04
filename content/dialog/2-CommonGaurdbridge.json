@@ -1,0 +1,41 @@
+{
+    "guild-city": {
+        "text": "guild-city",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Best be on your way peasant, there are nobler than you traveling the roads. Be sure to keep to the side when the wagons pass."
+            },
+            "1": {
+                "text": "Oh your still here, what are you lost?",
+                "choices": {
+                    "0": {
+                        "text": "Yes!",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Oh another lost adventurer from some small village thought to make it big in the city. Very well I suppose you are looking for University Isle. you must cross the wooden bridge before us."
+                            },
+                            "1": {
+                                "text": "Then turn right head across a stone bridge with our guard stations on it. Finally take another right across the stone bridge of the Brotherhood."
+                            },
+                            "2": {
+                                "emotion": "hmph",
+                                "text": "There rising above the clouds stands the University of the Traveling Brotherhood of Science."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "I'll be going..",
+                        "tree": {
+                            "0": {
+                                "text": "Right, if you are looking for the market, cross the bridge and head towards the city, it's in the northeast corner of the square."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

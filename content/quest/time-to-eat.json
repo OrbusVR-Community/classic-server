@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "Time to Eat (MSQ)",
+    "completed": "Speak with Francis in Highsteppe. He can be found outside the house with the giant fork on the roof, just inside the Highsteppe market place. He is Chef Lethrows apprentice and will guide you along the way.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 2,
+    "rewards": [
+        "giveitems xp@600"
+    ],
+    "autocomplete": false
+}

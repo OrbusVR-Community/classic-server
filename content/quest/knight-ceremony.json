@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "Knighting Ceremony (MSQ)",
+    "completed": "You have proven yourself to the Knights, and they wish to make you one of their own. Meet Markos at the foot of the original protector of the Realm statues atop Ma'at's Keep for the ceremony.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 9,
+    "rewards": [
+        "giveitems 164@1"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,15 @@
+{
+  "serverName": "My OrbusVR Server",
+  "motd": "Welcome back to Orbus!",
+  "clientHosts": 1,
+  "enetBasePort": 5000,
+  "websocketBasePort": 8800,
+  "apiPort": 3000,
+  "allowNewAccounts": true,
+  "maxCharacters": 2,
+  "adminIps": [
+    "127.0.0.1",
+    "::1",
+    "::ffff:127.0.0.1"
+  ]
+}

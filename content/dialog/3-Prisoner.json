@@ -1,0 +1,34 @@
+{
+    "introb": {
+        "shout": true,
+        "text": "introb",
+        "tree": {
+            "0": {
+                "text": "Help! Get me out of here!! Did my Father send you? I'll pay you greatly!"
+            }
+        },
+        "indicator": "dialog"
+    },
+    "intro1b": {
+        "text": "intro1b",
+        "tree": {
+            "0": {
+                "emotion": "afraid",
+                "text": "I'll reward you greatly, please get me out of here.",
+                "choices": {
+                    "0": {
+                        "text": "Your name?",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "explain",
+                                "text": "Falko. Please my father is a rich merchant from Guild city, you’ll earn your weight in Dram if you get me out of here!"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

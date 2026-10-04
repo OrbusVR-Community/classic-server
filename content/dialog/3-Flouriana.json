@@ -1,0 +1,28 @@
+{
+    "meet-up": {
+        "completeQuest": "meet-up",
+        "text": "meet-up",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Just like that paranoid bastard to send a babysitter… Alright, well, you may as well make yourself useful.  There’s an Order weapon’s shipment not too far from here - on it’s way to The Bay of Two Souls."
+            },
+            "1": {
+                "text": "We’re to disguise ourselves as bandits and take it for all it's worth.  I was looking forward to smashing a few of them Order skulls together."
+            },
+            "2": {
+                "emotion": "afraid",
+                "text": "Ah bugger it! I’ve twisted my ankle....."
+            },
+            "3": {
+                "text": "Look, go on ahead, I’ll catch up in a bit. Take the potion before you go, it’ll change your color and keep them Order bastards from recognizing you."
+            },
+            "4": {
+                "giveQuest": "bandit",
+                "emotion": "explain",
+                "text": "Hurry the caravan is already on it's way!"
+            }
+        },
+        "indicator": "quest"
+    }
+}

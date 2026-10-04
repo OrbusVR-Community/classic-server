@@ -1,0 +1,20 @@
+{
+    "description": "To the South of Wenderwood, near the shore of Lake Susannah, a stubborn old pagan continues to practice healing magic in spite of the laws of Ma’at. The Order claim they have been too busy to stop him, but perhaps they are afraid?",
+    "name": "An Unruly Outlier (MSQ)",
+    "completed": ".Return with the letter the Wise one has penned and deliver it to Sergeant Siegfried.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "127",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 8,
+    "rewards": [
+        "giveitems xp@1000,coin@35"
+    ],
+    "autocomplete": false
+}

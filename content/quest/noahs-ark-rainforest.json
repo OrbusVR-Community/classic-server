@@ -1,0 +1,44 @@
+{
+    "description": "Kill twelve of all the creatures on the list to receive your reward.",
+    "name": "Noah's Ark Rainforest",
+    "completed": "Return to Hunter Dern, he can usually be found hunting along the paths of the Lowland Woods, or selling his furs inside the marketplace of Highsteppe.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "tiger",
+            "typenum": 12,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "frogmage",
+            "typenum": 12,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "wasp",
+            "typenum": 12,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "lizardmansmall",
+            "typenum": 12,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "boarblack",
+            "typenum": 12,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 12,
+    "rewards": [
+        "giveitems xp@8500,coin@36"
+    ],
+    "autocomplete": false
+}

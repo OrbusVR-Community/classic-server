@@ -1,0 +1,79 @@
+{
+    "house-hulthine": {
+        "text": "house-hulthine",
+        "tree": {
+            "0": {
+                "text": "If you're interested in moving back home, you can purchase this house behind me.",
+                "choices": {
+                    "0": {
+                        "text": "I'm ready to move",
+                        "tree": {
+                            "0": {
+                                "text": "I'll need to make sure that all your paperwork is in order do you have a <c=ooc>Housing Deed</c>?",
+                                "choices": {
+                                    "0": {
+                                        "text": "Yes I'm Ready",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "house-hulthine",
+                                                "text": "Seems everything is in order I'll just need one more signature and we can be finished"
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "No not yet",
+                                        "tree": {
+                                            "0": {
+                                                "allowrepeat": true,
+                                                "text": "You can purchase one from your local NPC vendor in the Highsteppe or Guild City market place, once you have one bring it to me and we can move on."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "Maybe Later",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "text": "Come back and see me soon.... This is a town on the rise!"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "house-hulthine-cp": {
+        "completeQuest": "house-hulthine",
+        "text": "house-hulthine-cp",
+        "tree": {
+            "0": {
+                "text": "Seems everything is in order. I'd love to give you a tour of the house but I have an another house to move."
+            },
+            "1": {
+                "removeFlags": [
+                    "qf_househighsteppe",
+                    "qf_houseguildcity",
+                    "qf_housedesert",
+                    "qf_housejungle",
+                    "qf_houseresort"
+                ],
+                "text": "I have lots of other houses for sale, come visit them if you are in need of another change of scenery."
+            },
+            "2": {
+                "setFlags": [
+                    "qf_househulthine"
+                ],
+                "removeFlags": [
+                    "dc_5-RealtorHulthine-house-hulthine"
+                ],
+                "text": "..."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "description": "Helga wishes you to prove your worthiness to be accepted into the Explorers League. The Black Guide lists magick loacations throughout Tallea-Oso, search out these locations and find a remarkable discovery to present to Helga.",
+    "name": "Chudkatet (MSQ)",
+    "completed": "Return to Helga, at her camp in the Lamavora Frontier, with the news of your discoveries.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_frontier-pools-1",
+            "typenum": 1,
+            "typeextra": "Chudkatet I"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_burning-forest-1",
+            "typenum": 1,
+            "typeextra": "Chudkatet II"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_maats-keep1",
+            "typenum": 1,
+            "typeextra": "Chudkatet III"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_chthonic-ruins-1",
+            "typenum": 1,
+            "typeextra": "Chudkatet IV"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_green-forest-temple-1",
+            "typenum": 1,
+            "typeextra": "Chudkatet V"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_kingsport-ruins-1",
+            "typenum": 1,
+            "typeextra": "Chudkatet VI"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_ithecac-mountain-1",
+            "typenum": 1,
+            "typeextra": "Chudkatet VII"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_brotherhood-altar-1",
+            "typenum": 1,
+            "typeextra": "Chudkatet VIII"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_snake-battlefield-1",
+            "typenum": 1,
+            "typeextra": "Chudkatet IX"
+        },
+        {
+            "type": "flag",
+            "typedata": "qf_blue-worm-1",
+            "typenum": 1,
+            "typeextra": "Chudkatet X"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 19,
+    "rewards": [
+        "giveitems xp@25000,coin@300,345@1"
+    ],
+    "autocomplete": false
+}

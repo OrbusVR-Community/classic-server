@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "Little Helper",
+    "completed": "Return to Boss Ngathu at the town of Tarth Fa Dathrun and inform him of a successful mission.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 16,
+    "rewards": [
+        "giveitems xp@6000"
+    ],
+    "autocomplete": false
+}

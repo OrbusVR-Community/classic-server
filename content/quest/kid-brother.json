@@ -1,0 +1,21 @@
+{
+    "description": "Markos’s clumsy kid brother has gotten himself captured. You must find the boy and free him before the Order realizes exactly who they have under lock and key. Head to the Order Jail Near Kingsport Lake and find a way to get inside. When inside break the boy out of the Jail Bars, by any means necessary.",
+    "name": "The Kid Brother (MSQ)",
+    "completed": "Return to Markos atop Ma'at's Keep, to inform him of your success in freeing his kid brother Ethan.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "159",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 10,
+    "rewards": [
+        "unlockpage 243,252",
+        "giveitems 243@4,xp@7000,coin@90"
+    ],
+    "autocomplete": false
+}

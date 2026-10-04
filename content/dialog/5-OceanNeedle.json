@@ -1,0 +1,29 @@
+{
+    "delivery-boy-ip ": {
+        "reqFlags": [
+            "qf_delivery-boy_ip"
+        ],
+        "text": "delivery-boy-ip ",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Hello stranger what can I do for you?",
+                "choices": {
+                    "0": {
+                        "text": "I have a shipment from Bjorth.",
+                        "tree": {
+                            "0": {
+                                "emotion": "greeting",
+                                "text": "Leave it on the dock. Here’s your payment, now get going...",
+                                "giveItems": [
+                                    "301@1"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

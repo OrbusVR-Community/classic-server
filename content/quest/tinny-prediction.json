@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "An Accidental Prophecy (MSQ)",
+    "completed": "Search for Iblis the Ghoul, Tinny saw him dipping his feet in the cool blue waters of a precious Oasis, wandering among the sand near ancient stone ruins with small floating pyramids and cactus that seemed to dance in the sun. Speak with him and try to convince him to join your cause.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 17,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

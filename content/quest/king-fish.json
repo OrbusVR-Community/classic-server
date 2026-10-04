@@ -1,0 +1,44 @@
+{
+    "description": "Only whispers in the darkest of rooms have been uttered about this \"king\" of fish. Hard to know if the rumors are true, but if they are, you would be considered to be a living legend of the fishing community. Hunt down this creature of the deep, but be warned, many have devoted their lives to the legend of this fish, with only an empty basket to show at the end.",
+    "name": "To become a King",
+    "completed": "Return to Ernest on the North side of Kingsport Lake,to deliver your catch.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "305",
+            "typenum": 40,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "74",
+            "typenum": 35,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "75",
+            "typenum": 30,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "210",
+            "typenum": 25,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "216",
+            "typenum": 20,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        "giveitems coin@1800,366@1,367@1"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,44 @@
+{
+    "test-vendoring": {
+        "indicator": "repair",
+        "text": "test-vendoring",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Hello there! How are you doing today? Can I help you?",
+                "choices": {
+                    "0": {
+                        "text": "Repair My Gear",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "doVendor": true,
+                                "text": "Let's see what we can do..."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "I have items for sale.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "doVendor": true,
+                                "text": "Let me see them, we might be able to make a deal..."
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "Goodbye",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "Come back when you are in need of repair, or you have items to sale."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

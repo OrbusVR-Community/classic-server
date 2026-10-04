@@ -1,0 +1,20 @@
+{
+    "description": "Defeat Bishop Roma to send a striking blow to the Orders perverse quest to use the essence for evil ways.",
+    "name": "Defeat Roma (MSQ)",
+    "completed": "Meet Markos at the top of Ma'at's Keep to inform him of what conspired in Bishop Romas chambers.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_roma-die",
+            "typenum": 1,
+            "typeextra": "Defeat Bishop Roma"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 11,
+    "rewards": [
+        "giveitems xp@11708,coin@350,183@1"
+    ],
+    "autocomplete": false
+}

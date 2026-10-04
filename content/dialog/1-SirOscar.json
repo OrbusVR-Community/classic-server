@@ -1,0 +1,47 @@
+{
+    "after-festival": {
+        "reqFlags": [
+            "qf_airship_ip"
+        ],
+        "notFlags": [
+            "qf_oscar1"
+        ],
+        "text": "after-festival",
+        "tree": {
+            "0": {
+                "emotion": "afraid",
+                "text": "It’s you. The thief. You thought you were quiet out there in the Lowland woods, but I have the eyes of a hawk. I saw you disappear into the undergrowth with my crest."
+            },
+            "1": {
+                "text": "I took you for a simple villager, a starving peasant who thought they could sell such a treasure  so as to fill their hungry belly. Who could've known you’d rat me out to the Order? It appears I underestimated your desire to please the Order."
+            },
+            "2": {
+                "setFlags": [
+                    "qf_oscar1"
+                ],
+                "emotion": "hmph",
+                "text": "I will not make that mistake a second time."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "after-festival2": {
+        "reqFlags": [
+            "qf_oscar1"
+        ],
+        "text": "after-festival2",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "This indiscretion, this failure won't deter me. I remain a loyal soldier. A warrior dedicated to the honor of the Knights of Patreayl!"
+            },
+            "1": {
+                "setFlags": [
+                    "qf_oscar2"
+                ],
+                "text": "My heart beats in time to the thud of our shields against the skulls of our enemies, and my soul, my soul holds true, enraptured by my fearless leader, Markos of Runvale!"
+            }
+        },
+        "indicator": "dialog"
+    }
+}

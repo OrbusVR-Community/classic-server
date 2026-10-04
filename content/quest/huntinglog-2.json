@@ -1,0 +1,26 @@
+{
+    "description": "Track down the specimens Sicilus wishes to study. The list she has given you seems to range mostly of the kind of creatures you can find near the towns of New Kingsport and the Snake Battlefield in the Patreyal Rainforest.",
+    "name": "Sicilus Beastiary II",
+    "completed": "Return to Sicilus at University Island, to the East of Guild City, to deliver the specimens to her.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "lizardmanbig",
+            "typenum": 4,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "venomspider",
+            "typenum": 10,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 8,
+    "rewards": [
+        "giveitems xp@2900,coin@120"
+    ],
+    "autocomplete": false
+}

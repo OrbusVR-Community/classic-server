@@ -1,0 +1,126 @@
+{
+    "patreayl-rainforest-cp": {
+        "completeQuest": "patreayl-rainforest",
+        "text": "patreayl-rainforest-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "What, pray tell - do we have here? A stranger standing before ME - the great and powerful Brother Pavara!",
+                "choices": {
+                    "0": {
+                        "text": "Are you the one in charge?",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "….I am the shadow with a thousand swords, the blade that always cuts, lord and leader of our Brotherhood. At your service.",
+                                "choices": {
+                                    "0": {
+                                        "text": "I have come to convince you of an alliance.",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "hmph",
+                                                "text": "An alliance? Against whom? The Order of Ma’at? Oh dear, haven’t you heard? Us Assassins take no sides in the wars of men. Not unless a large portion of Dram is cast at our feet!"
+                                            },
+                                            "1": {
+                                                "text": "...Still, I am no friend of the Order, and they have been an insurmountable nuisance as of late…"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "greting": {
+        "reqFlags": [
+            "qf_patreayl-rainforest_cp"
+        ],
+        "indicator": "mainquest",
+        "text": "greting",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "War bores me, taking sides bores me. But pushing a noble knight, like you $NAME - simply  to see how far you  will go to get what you desire…. Now that’s fun!",
+                "choices": {
+                    "0": {
+                        "text": "What would you ask of me?",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "This contract found it's way to us recently from an anonymous client. The target? Claudie da LaForge. You will get nothing more than a name and a location from us. You will have to imagine what terrible deeds she has done to deserve this fate...if any."
+                            },
+                            "1": {
+                                "text": "She’s from Narrow Orchard, but my spies tell me that she makes frequent trips to Wenderwood, perhaps you could ambush her on the open road?"
+                            },
+                            "2": {
+                                "emotion": "explain",
+                                "text": "Were you to take on this contract yourself, and murder dear sweet Claudie, then I’ll agree to meet with your leader to discuss this “cause” of yours."
+                            },
+                            "3": {
+                                "text": "Do you accept?",
+                                "choices": {
+                                    "0": {
+                                        "text": "Yes.",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "brother-pavara",
+                                                "emotion": "agree",
+                                                "text": "Fantastic! Well, off you go then, my young assassin - and make sure she breathes her last."
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "No, never!.",
+                                        "tree": {
+                                            "0": {
+                                                "allowrepeat": true,
+                                                "emotion": "hmph",
+                                                "text": "Such a shame. Then I can’t help you. Come see me once you’re ready to swallow that pride."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "brother-pavara-cp": {
+        "completeQuest": "brother-pavara",
+        "text": "brother-pavara-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Oh! Well, perhaps you’re not as perfect as you once thought! Tell me, did she cry? Wet her britches? Plead for her mother? Wait, I don’t wish to know - my imagination is far more... savory than your facts.",
+                "choices": {
+                    "0": {
+                        "text": "Now will you help us?",
+                        "tree": {
+                            "0": {
+                                "giveQuest": "desert",
+                                "emotion": "explain",
+                                "text": "A deal’s a deal. I’ll meet with Markos, perhaps he’ll be more challenging to corrupt than you were… Oh, I almost forgot, your payment for completing the contract. Perhaps you could have a career in this field!"
+                            },
+                            "1": {
+                                "text": "There’s always a use for someone with your talents when names float our way... speak to one of the Brothers, you’ll know them by the black cloaks they wear - if you care to make an extra Dram or two."
+                            },
+                            "2": {
+                                "removeFlags": [
+                                    "qf_show-brother"
+                                ],
+                                "text": "...."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "figure-moore-tourist-2": {
+        "reqFlags": [
+            "qf_figure-moor_ip"
+        ],
+        "text": "figure-moore-tourist-2",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Why hello deary! Such a brave young thing, you are! You remind me of myself when I was your age."
+            },
+            "1": {
+                "text": "Sorry, forgive an old woman her dreaming, it’s been so long since my skin was supple and my bones didn't creak with every waking moment."
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "How can I help you today love?",
+                "choices": {
+                    "0": {
+                        "text": "I’m investigating the figure on the moors.",
+                        "tree": {
+                            "0": {
+                                "emotion": "afraid",
+                                "text": "And such a frightful figure it is! I’ve seen it myself, two… no, three times I believe. At dusk, when the sun is setting behind the Lamavora Belt, there it is… a tall, pale, ghastly thing, clothed in tattered robes, standing on the hills watching over us."
+                            },
+                            "1": {
+                                "text": "I thought it to be a ghost or some kind of long forgotten phantom. Not once did I suspect that it might harm one of us."
+                            },
+                            "2": {
+                                "emotion": "hmph",
+                                "text": "...Poor Barnaby… He was a good lad, full of vibrancy and life. I can’t say for certain this mysterious figure is responsible, but it seems mighty coincidental if it’s not."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

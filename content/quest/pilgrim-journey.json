@@ -1,0 +1,20 @@
+{
+    "description": "Speak with the Pilgrim Leader at the far East end of the wooden bridge leading from Guild City. There you will find his pilgrims making the journey to Ma'at's Keep.The Order’s influence over Guild City pumps out a steady tide of newly saved converts, eager to make the pilgrimage to Ma’at’s Keep where they can repent and ask for forgiveness of the goddess.",
+    "name": "A Pilgrim’s Journey (MSQ)",
+    "completed": "Return to Commander Fassith in Guild City near the fountain to receive your next orders.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_pilgrim-journey-end",
+            "typenum": 1,
+            "typeextra": "Escort Pilgrim"
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "Speak with the Pilgrim Leader at the far East end of the wooden bridge leading from Guild City. There you will find his pilgrims making the journey to Ma'at's Keep.",
+    "reqlevel": 6,
+    "rewards": [
+        "giveitems xp@2000,coin@40"
+    ],
+    "autocomplete": false
+}

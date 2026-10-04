@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "The Night Before (MSQ)",
+    "completed": "Find Commander Fassith in Guild City near the fountain. The time has come for Oscar's execution.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 9,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

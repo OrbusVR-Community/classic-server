@@ -1,0 +1,26 @@
+{
+    "description": "Tinny and Sicilus have provided a solution. A Narwhal horn is a natural conductor of the Essence. Find a Narwhal and kill it to harvest its horn. Follow the frozen river and head towards the Narwhal Bay to seek your prey.",
+    "name": "Narwhal Bay",
+    "completed": "Return to Tinny and Sicilus at the fork in the frozen river, they will know how to use the horn to destroy the barrier.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_narwhale-bay",
+            "typenum": 1,
+            "typeextra": "Speak with Ernest at the Bay"
+        },
+        {
+            "type": "item",
+            "typedata": "503",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 18,
+    "rewards": [
+        "giveitems xp@50000,503@1"
+    ],
+    "autocomplete": false
+}

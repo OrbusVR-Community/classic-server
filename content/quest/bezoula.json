@@ -1,0 +1,20 @@
+{
+    "description": "The Rune Warg, Bezoula is testing your resolve before committing his allegiance to the Knights. Make your spirit journey through Lucian Plateau and return with the Ritual Bones of his ancestors. Drink the potion Bezoula has given you when you are ready to start your journey, but best hurry on this task, for the potion only lasts so long.",
+    "name": "Loyalty Of The Warg (MSQ)",
+    "completed": "Return to Bezoula at his tent in Ithecac.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "187",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 15,
+    "rewards": [
+        "giveitems xp@18800,203@1"
+    ],
+    "autocomplete": false
+}

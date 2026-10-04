@@ -1,0 +1,20 @@
+{
+    "description": "Track down the specimens Sicilus wishes to study. The list she has given you seems to range mostly of the kind of creatures you can find near Highsteppe and Lakewood Inn.",
+    "name": "Sicilus Beastiary",
+    "completed": "Return to Sicilus at University Island to deliver the specimens to her.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "firebug",
+            "typenum": 4,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 6,
+    "rewards": [
+        "giveitems xp@3700,coin@40"
+    ],
+    "autocomplete": false
+}

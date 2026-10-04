@@ -1,0 +1,30 @@
+{
+    "kingtown1": {
+        "reqFlags": [
+            "qf_digging-deeper_ip"
+        ],
+        "text": "kingtown1",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "What do you want, outsider? Folk like you shouldn’t be here. Don’t belong here. It’s not your place...",
+                "choices": {
+                    "0": {
+                        "text": "I'm here about the poisoned water.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Ain't no poisoned water! What’s happening to Kingsport Lake’s a gift from the dead lord!"
+                            },
+                            "1": {
+                                "allowrepeat": true,
+                                "text": "You got a real nerve coming here and disrespectin’ our customs outsider. Real nerve. I’d watch my back if I were you."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

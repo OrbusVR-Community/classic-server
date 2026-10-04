@@ -1,0 +1,20 @@
+{
+    "description": "Find Ethan Runvale, and free him from his jail cell. You will have to find a way to open the jail cell for him to escape.",
+    "name": "The Prisoners (MSQ)",
+    "completed": "Gather the stolen artifact from Ethan and Return it to Markos.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "jailbars",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 10,
+    "rewards": [
+        "giveitems 159@1"
+    ],
+    "autocomplete": false
+}

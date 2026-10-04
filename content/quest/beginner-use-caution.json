@@ -1,0 +1,20 @@
+{
+    "description": "Clear out the Almas Sprite along the path to the Lakewood Inn. You'll find them among the trees.",
+    "name": "Ghost Buster",
+    "completed": "Return to the Order Guard at the bottom of the steps from Highsteppe to collect your reward.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "spirit",
+            "typenum": 10,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 4,
+    "rewards": [
+        "giveitems xp@480,coin@20"
+    ],
+    "autocomplete": false
+}

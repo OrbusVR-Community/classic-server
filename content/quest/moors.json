@@ -1,0 +1,18 @@
+{
+    "description": "Strange reports of a mysterious have been floating around the luxury resort situated atop the Frontier hot pools, and now, a paying customer has gone missing! Help the Minister of Tourism solve the mystery before things get too far out of hand! The tourist was last seen heading",
+    "name": "Figure on the Moors",
+    "completed": "Return the the Minister of Tourism at the Resort, and tell him of the clothes you have found.",
+    "objectives": [
+        {
+            "type": "flag",
+            "typedata": "qf_empty-clothes-found",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 16,
+    "rewards": [],
+    "autocomplete": false
+}

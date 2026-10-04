@@ -1,0 +1,94 @@
+{
+    "mountain-pass": {
+        "notFlags": [
+            "qf_job-seeker_cp",
+            "qf_job-seeker_ip"
+        ],
+        "text": "mountain-pass",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Well look at you! You haven't worked a hard day in your life have yer? Bet yer hands are as soft as a woman’s backside…"
+            },
+            "1": {
+                "jumpPointName": "questions",
+                "text": "What’re yer doing walking aroun on Khabor's Pass?",
+                "choices": {
+                    "0": {
+                        "text": "<c=lore>Khabor's Pass</c>",
+                        "tree": {
+                            "0": {
+                                "goToJump": "questions",
+                                "emotion": "explain",
+                                "text": "The damned path yer on yer fool! Leads up to one of the Orders forts right over there. Best be careful when walking it. People ‘ave  been known to fall when they get too close to the top."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "You are?",
+                        "tree": {
+                            "0": {
+                                "emotion": "agree",
+                                "text": "The name’s Aelfraed Vogoul, I’m the Master Smither ‘round these parts. I find myself In the employ of everyone from Kings and Warlords to Aristocrats, Nobles and hundreds upon hundreds of bloody Libertarians!"
+                            },
+                            "1": {
+                                "setFlags": [
+                                    "qf_smith-intro"
+                                ],
+                                "text": "I tell yer, if yer catered to the folk I cater to, you’d swear they were pourin’ outta the bloody cracks in the ground!"
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "Good bye.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "My fire’s growing cold, so too does my concern for you."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    },
+    "maat-sword-ip": {
+        "reqFlags": [
+            "qf_sword-maat"
+        ],
+        "indicator": "objective",
+        "text": "maat-sword-ip",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "I see yer on the right side of the war now $NAME, wearing the colors of our brave Knights, and all.",
+                "choices": {
+                    "0": {
+                        "text": "I need a way in.",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "To the camp? I wouldn't go there if I were you. The Sword of Ma'at has taken over and the ones he keeps around him don’t look like normal soldiers to me."
+                            },
+                            "1": {
+                                "text": "They’ve a glow in their eyes that brings a cold chill not even my forge fires can ward off. But if you must go, I reckon I can help."
+                            },
+                            "2": {
+                                "emotion": "explain",
+                                "text": "Head down the hill to the base of the mountain. <c=lore>There’s a cave near Leisa Falls that an old Hedgewitch, Tinny, has lived for ages.</c> Inside the cave is an boarded up door. Most haven't a clue where it leads, but you’ll find it tunnels up through the mountain and into the stables inside the fort."
+                            },
+                            "3": {
+                                "text": "Folks says that a group of Miners abandoned the tunnel a good fifty years back. Wailing and screaming of the horrors in the nameless dark. Superstitious times, they were. I wouldn’t worry about it. Here’s the key to the door. Tinny gave it to me for safekeeping.",
+                                "giveItems": [
+                                    "242@1"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "description": "The Sergeant seems to want to test your skills on getting rid of another camp of traitor Knights. Enter the cave of Ma'at's Throat to reach the plateau of Ma'at's Keep, then root them out from there. The rebels were spotted hiding on the lower plateau along the South side of the mountain. You’ve been asked to get rid of them quickly and quietly in case of another assassination attempt. You could always kill them, but perhaps there is another more peaceful way?",
+    "name": "Woodland Rebels (MSQ)",
+    "completed": "Return to the outpost, near Hulthine's Gate, and report to Sergeant Siegfried your actions in ridding the rebel scum.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "125",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 7,
+    "rewards": [
+        "giveitems xp@3000,coin@30"
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,47 @@
+{
+    "test-vendoring": {
+        "indicator": "mainquest",
+        "text": "test-vendoring",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "jumpPointName": "questions",
+                "text": "You've answered the call to return home!!",
+                "choices": {
+                    "0": {
+                        "text": "I'm here to help!",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "doVendor": true,
+                                "text": "With enough help, we may just prevent this chaos."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>What's happened?</c>",
+                        "tree": {
+                            "0": {
+                                "text": "The Order is crumbling, but without their leash and manpower the chaos moves closer to our humble town, and the Realm. We swore an oath long ago, we must defend Highsteppe, we must retake the lands around before this evil takes hold!"
+                            },
+                            "1": {
+                                "goToJump": "questions",
+                                "text": "Bart knows this will not be an easy victory, he is having me hoard supplies here before its too late."
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "Goodbye",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "Spread the word, we will need everyone if we are to succeed."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

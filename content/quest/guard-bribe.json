@@ -1,0 +1,20 @@
+{
+    "description": "Convince the Guard to let you pass to warn Bishop Roma of the plot. It seems as though he will not take anything less than some weight of dram in his hand.",
+    "name": "Secret Tithing (MSQ)",
+    "completed": "Head up the stairs to warn Bishop Roma of the assassins plot.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "coin",
+            "typenum": 12,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 4,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,48 @@
+{
+    "wenderwood": {
+        "text": "wenderwood",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "These people don’t fear the goddess. They deserve their misery from the Valsunga Wyrms, but my orders are to keep the blasted creatures out of the town."
+            },
+            "1": {
+                "text": "If you help me out I’ll make it worth your time in Dram...that is, if you return in one piece.",
+                "choices": {
+                    "0": {
+                        "text": "Of course!",
+                        "tree": {
+                            "0": {
+                                "giveQuest": "wenderwood",
+                                "emotion": "explain",
+                                "text": "Good. Head down the path towards the Burning Forest and slay as many of those flying devils as you can."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "Never mind.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "You peasants are all the same. Always wanting a hand out, but never doing a damn thing to earn it."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "wenderwood-cp": {
+        "completeQuest": "wenderwood",
+        "text": "wenderwood-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "I had my doubts that I’d ever see you again. Many a strong warrior has been swallowed whole by the fiery depths of that forest."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "fassifth-tent ": {
+        "shout": true,
+        "text": "fassifth-tent ",
+        "tree": {
+            "0": {
+                "text": "Fassith: Be quiet you oaf! Someone will hear us!"
+            }
+        },
+        "indicator": "dialog"
+    },
+    "convo-started-fass-gen": {
+        "text": "convo-started-fass-gen",
+        "tree": {
+            "0": {
+                "text": "General C: I don’t care, why shouldn’t the whole world know? I’m tired of hating you."
+            },
+            "1": {
+                "text": "Fassith: I know, I know, but if anyone were to connect things…"
+            },
+            "2": {
+                "text": "General C: Bah! To hell with Archibald, the old clown. He can stay in exile for all I care."
+            },
+            "3": {
+                "text": "Fassith: Reinstating Archibald is the only way we can ever go public with our feelings!"
+            },
+            "4": {
+                "text": "General C: Well, then what are we waiting for? I’ll send someone to kill that bastard Roma, right now!"
+            },
+            "5": {
+                "text": "Fassith: You do that and you betray the goddess herself. No. The only way this works is if Roma survives his removal. Otherwise we risk the wrath of the High Pope…"
+            },
+            "6": {
+                "setFlags": [
+                    "qf_listen-convo-comander"
+                ],
+                "text": "..."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

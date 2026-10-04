@@ -1,0 +1,32 @@
+{
+    "description": "Ernest has sent you on a quest to catch the Axolotol Fish, but didn't mention where to catch them, or what they were used for...",
+    "name": "Catch of the Day VI",
+    "completed": "Return to Ernest on the North side of Kingsport Lake,to deliver your catch.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "73",
+            "typenum": 20,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "75",
+            "typenum": 15,
+            "typeextra": ""
+        },
+        {
+            "type": "item",
+            "typedata": "210",
+            "typenum": 10,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        "giveitems coin@900,313@3,368@1"
+    ],
+    "autocomplete": false
+}

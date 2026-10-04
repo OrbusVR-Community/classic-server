@@ -1,0 +1,32 @@
+{
+    "description": "She insists that you not leave without the Lizard Codex she came to retrieve. She thinks that one of the Lizardmen is carrying it on his belt. Retrieve the Lizardmen Codex and fight your way out of the camp to meet her back at New Kingsport.",
+    "name": "The Lizards Codex",
+    "completed": "Return to the Anthropologist, at her room in New Kingsport, and deliver the Codex to her to collect a reward.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "309",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "lizardmanbig",
+            "typenum": 5,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "lizardmanbigquest",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 18,
+    "rewards": [
+        "giveitems xp@18000,coin@200"
+    ],
+    "autocomplete": false
+}

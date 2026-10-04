@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "Something Fishy",
+    "completed": "Sicilus has asked you to investigate the Kingsport Lake and discover what could be killing off some of the fish. There was Beslial the Archaeologist that seemed to know the history of the Island, that may be a good place to start.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 17,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

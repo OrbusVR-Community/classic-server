@@ -1,0 +1,58 @@
+{
+    "introa": {
+        "shout": true,
+        "indicator": "objective",
+        "text": "introa",
+        "tree": {
+            "0": {
+                "text": "Help! Destroy the bars to get me out of here!"
+            }
+        }
+    },
+    "prisoners-cp": {
+        "completeQuest": "prisoners",
+        "text": "prisoners-cp",
+        "tree": {
+            "0": {
+                "emotion": "afraid",
+                "text": "Thank you. What is your name?",
+                "choices": {
+                    "0": {
+                        "text": "I'm of the Patreayl Knights.",
+                        "tree": {
+                            "0": {
+                                "emotion": "agree",
+                                "text": "I knew it! I knew you would come. Here’s the weapon I stole from the Order. It looks like some kind of potion. I hid it in my shoe. Make sure you take it to Markos! He’ll know what to do with it.",
+                                "choices": {
+                                    "0": {
+                                        "text": "What is it?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "No idea. But getting my hands on it wasn’t easy! They had it very heavily guarded."
+                                            },
+                                            "1": {
+                                                "text": "Listen, I’m very small and you’re quite large. We’ll have better luck escaping this jail if we go our separate ways and meet up later."
+                                            },
+                                            "2": {
+                                                "emotion": "explain",
+                                                "text": "I think I saw a sewer drain I should be able to fit through. If you’re ever near Narrow Orchard I’ll see that my parents reward you for this!"
+                                            },
+                                            "3": {
+                                                "removeFlags": [
+                                                    "qf_ethan-move"
+                                                ],
+                                                "text": "..."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "dialog"
+    }
+}

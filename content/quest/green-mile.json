@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "The Green Mile (MSQ)",
+    "completed": "The oddly charming traitor, Oscar Hulthine awaits you at General Clavacius' Fort to the South of Guild City. He is to be executed soon, and by rights is owed one final meal. Speak with him there, he is being kept there in a cage meant for beasts and traitors.",
+    "objectives": [
+        {
+            "type": "",
+            "typenum": null,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 8,
+    "rewards": [
+        ""
+    ],
+    "autocomplete": false
+}

@@ -1,0 +1,12 @@
+{
+    "greeting": {
+        "text": "greeting",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "Hello and may the light shine upon you."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

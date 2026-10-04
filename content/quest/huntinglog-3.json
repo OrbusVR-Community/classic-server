@@ -1,0 +1,26 @@
+{
+    "description": "Track down the specimens Sicilus wishes to study. The list she has given you seems to range mostly of the kind of creatures you can find in a cave near the Corner Path to the West of Wenderwood. It would be wise to bring others with you on this journey.",
+    "name": "Sicilus Beastiary III",
+    "completed": "Return to Sicilus at the Zoological Gardens, to the North West of Loch Caplargh, to deliver the specimens to her.",
+    "objectives": [
+        {
+            "type": "kill",
+            "typedata": "golemboss",
+            "typenum": 1,
+            "typeextra": ""
+        },
+        {
+            "type": "kill",
+            "typedata": "crabboss",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 12,
+    "rewards": [
+        "giveitems xp@12000,coin@140"
+    ],
+    "autocomplete": false
+}

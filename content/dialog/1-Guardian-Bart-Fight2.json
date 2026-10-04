@@ -1,0 +1,220 @@
+{
+    "highsteppe-guardiansnice-cp": {
+        "completeQuest": "highsteppe-guardiansnice",
+        "indicator": "mainquest",
+        "text": "highsteppe-guardiansnice-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "What is it? Why are you running?",
+                "choices": {
+                    "0": {
+                        "text": "I'm glad you're safe.",
+                        "tree": {
+                            "0": {
+                                "removeFlags": [
+                                    "qf_highsteppe"
+                                ],
+                                "emotion": "hmph",
+                                "text": "Enough blubbering, I know why you've come.  I’m no idiot, my child. Remember who it was that taught you."
+                            },
+                            "1": {
+                                "text": "The only reason you would be here, is to rally me and my Guardians to the cause of the Patreayl Knights."
+                            },
+                            "2": {
+                                "setFlags": [
+                                    "qf_sword-maat"
+                                ],
+                                "emotion": "explain",
+                                "text": "It humbles me to say this, but - I will pledge my allegiance, but first we must put an end to this bloodshed. The Inquisitor's leader calls himself \"The Sword of Ma’at\", he has set up his camp at the Order Fort atop Khabors Pass. "
+                            },
+                            "3": {
+                                "jumpPointName": "questions",
+                                "text": "Nice and High - He will see you coming. Though I have trust that you will find a way inside.",
+                                "choices": {
+                                    "0": {
+                                        "text": "I will defeat him, to save our town!",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "loyalty-guardiannice",
+                                                "emotion": "explain",
+                                                "text": "Go then and be wary, they will have the upper hand in this fight, it may be wise to bring other Guardians to stand by your side."
+                                            },
+                                            "1": {
+                                                "text": "Speak with the Master Smith, Aelfred along the path to Khabors Pass, he may be able to help."
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "<c=lore>The \"Sword of Ma'at\"?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "afraid",
+                                                "text": "There’s something off about that man. I have fought many in my lifetime. The War of the Dandelion… the siege of La’fure…"
+                                            },
+                                            "1": {
+                                                "text": "But nothing compares to crossing blades with that… monstrosity. He channels the Essence, I am sure of it. Great darkness travels through his heart, infusing his weaponry…"
+                                            },
+                                            "2": {
+                                                "emotion": "afraid",
+                                                "text": "The Inquisitors were supposed to have died out - banned by the Order after it was discovered the inhumanity they forced upon their victims."
+                                            },
+                                            "3": {
+                                                "goToJump": "questions",
+                                                "text": "But they've returned, and I fear for this country, more than I have ever done so before…"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "highsteppe-guardians-cp": {
+        "completeQuest": "highsteppe-guardians",
+        "indicator": "mainquest",
+        "text": "highsteppe-guardians-cp",
+        "tree": {
+            "0": {
+                "emotion": "hmph",
+                "text": "What is it why are you running?",
+                "choices": {
+                    "0": {
+                        "text": "To find you!",
+                        "tree": {
+                            "0": {
+                                "removeFlags": [
+                                    "qf_highsteppe"
+                                ],
+                                "emotion": "hmph",
+                                "text": "You had no qualms about leaving me the first time, no fear of what your actions might bring upon me and MY home..."
+                            },
+                            "1": {
+                                "text": "I know why you have come...  I’m no idiot, although you must think me one. Don't forget who taught you all you know!"
+                            },
+                            "2": {
+                                "text": "The only reason you would be here is to rally me and my Guardians to the cause of the Patreayl Knights."
+                            },
+                            "3": {
+                                "setFlags": [
+                                    "qf_sword-maat"
+                                ],
+                                "emotion": "hmph",
+                                "text": "Well, you’re deluding yourself if you thought that we would ever join forces with your terrorist knights! No, I will not draw anymore hostile attention from the Order onto my people."
+                            },
+                            "4": {
+                                "text": "You’ve brought the anger of the Order upon our heads and upon our homes. So go. Defeat the Inquisitors, kill the one they call \"The Sword of Ma'at.” If not for me, then for the ease of your own conscience!"
+                            },
+                            "5": {
+                                "jumpPointName": "questions",
+                                "emotion": "afraid",
+                                "text": "He has set up his camp at the Order Fort atop Khabors Pass. Nice and High He will see you coming.",
+                                "choices": {
+                                    "0": {
+                                        "text": "I will defeat him!",
+                                        "tree": {
+                                            "0": {
+                                                "giveQuest": "loyalty-guardian",
+                                                "emotion": "hmph",
+                                                "text": "Yes $NAME, yourself above all others. Go then and be wary, they will have the upper hand in this fight."
+                                            },
+                                            "1": {
+                                                "text": "If there are any Guardians left that will fight by your side, bring them and you might stand a chance."
+                                            },
+                                            "2": {
+                                                "emotion": "explain",
+                                                "text": "Speak with the Master Smith Aelfred, along the path to Khabors Pass, he may have be able to help."
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "<c=lore>The \"Sword of Ma'at\"?</c>",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "afraid",
+                                                "text": "There’s something off about that man. I have fought many in my lifetime. The War of the Dandelion… the siege of La’fure…"
+                                            },
+                                            "1": {
+                                                "text": "But nothing compared to crossing blades with that… monstrosity. He channels the Essence, I am sure of it. Great  darkness travels through his heart, infusing his weaponry…"
+                                            },
+                                            "2": {
+                                                "emotion": "explain",
+                                                "text": "The Inquisitors were supposed to have died out - banned by the Order after it was discovered the inhumanity they forced on their victims."
+                                            },
+                                            "3": {
+                                                "goToJump": "questions",
+                                                "text": "But they have returned, and I fear for this country, more than I have ever done so before…"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "loyalty-guardian-nice-cp": {
+        "completeQuest": "loyalty-guardiannice",
+        "indicator": "mainquest",
+        "text": "loyalty-guardian-nice-cp",
+        "tree": {
+            "0": {
+                "removeFlags": [
+                    "qf_sword-maat"
+                ],
+                "emotion": "cheer",
+                "text": "Thank the goddess we're safe! I knew that you had it in you. You've made me proud, $NAME, defeating the Sword of Ma'at."
+            },
+            "1": {
+                "giveQuest": "lucianwilds",
+                "achievement": "guardianfaction",
+                "text": "I will meet with this Markos of Runvale and pledge my support to his cause. The Order will pay for what they've done! "
+            }
+        }
+    },
+    "loyalty-guardiana-cp": {
+        "completeQuest": "loyalty-guardian",
+        "indicator": "mainquest",
+        "text": "loyalty-guardiana-cp",
+        "tree": {
+            "0": {
+                "emotion": "cheer",
+                "text": "Thank the goddess, today is not the day we die. It seems that you've continued your training in the art of fighting though, and I can acknowledge a great warrior."
+            },
+            "1": {
+                "removeFlags": [
+                    "qf_sword-maat"
+                ],
+                "achievement": "guardianfaction",
+                "text": "Defeating the Sword of Ma'at was no easy task, you have proven yourself as a great warrior.",
+                "choices": {
+                    "0": {
+                        "text": "Join me and the Knights.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "Even after all that has transpired, you’d dare ask me to do that? Blast you, $NAME. Have learnt nothing in your time away?"
+                            },
+                            "1": {
+                                "text": "I will not support a terrorist group that defies the truth of Ma’at. No. When the Order sends more men to find out what happened here, we will simply have to try reason with them, and hope that it does not get us all killed."
+                            },
+                            "2": {
+                                "emotion": "hmph",
+                                "text": "It seems that you have continued your training in the art of fighting though, and I can acknowledge a great warrior when I see one."
+                            },
+                            "3": {
+                                "giveQuest": "lucianwilds",
+                                "text": "Take this ring. Not because I care for you as I once did, but as a token from one warrior to another."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

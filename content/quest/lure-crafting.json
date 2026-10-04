@@ -1,0 +1,20 @@
+{
+    "description": "Ernest Trimm has promised to teach you how to catch fish, but first you must craft a lure to coax them from the water. Return to your house and craft a Lure using the Lesser eye and Small tongue he has given you.",
+    "name": "Lure Crafting",
+    "completed": "Return to Ernest on the North side of Kingsport Lake, to continue in your training.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "67",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 1,
+    "rewards": [
+        "giveitems 66@2,5@1,70@2"
+    ],
+    "autocomplete": false
+}

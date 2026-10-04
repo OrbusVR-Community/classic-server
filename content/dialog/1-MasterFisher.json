@@ -1,0 +1,567 @@
+{
+    "fishingintro": {
+        "text": "fishingintro",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "The water sings, doesn’t she?",
+                "choices": {
+                    "0": {
+                        "text": "I’m sorry, who are you?",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "My mother named me Ernest. I was a soldier, and explorer. Now, I am a writer and a man who enjoys to fish. Though, any man can do these things if the passion drives him. In that, I am not special. I am simply a stranger sitting peacefully, by a lake, nothing more, nothing less.",
+                                "choices": {
+                                    "0": {
+                                        "text": "Can you teach me to fish?",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "If you have a mind to learn, then together we can fish and catch and eat."
+                                            },
+                                            "1": {
+                                                "text": "Until, of course, the sun once more sets and rises and we must return to that place, by the water, rod in hand. Seeking out the truth we have lost in the night…",
+                                                "choices": {
+                                                    "0": {
+                                                        "text": "Okay….",
+                                                        "tree": {
+                                                            "0": {
+                                                                "emotion": "explain",
+                                                                "text": "Fishing is like coaxing a small dragon from the dying embers of a cooling hearth. You must establish your power, should you ever wish it to obey your command."
+                                                            },
+                                                            "1": {
+                                                                "text": "<c=ooc>Return to your home where you will find a Lure crafting station, place the Lure parts into the chest next to the table.</c>"
+                                                            },
+                                                            "2": {
+                                                                "text": "<c=ooc>To craft the Lure, grab the lure parts off the table and place them on the hook in the stand.</c>"
+                                                            },
+                                                            "3": {
+                                                                "giveQuest": "lure-crafting",
+                                                                "text": "<c=ooc>Once you have the Lure you desire click \"Finish\" and it will be added to your inventory, clicking cancel returns the parts to the table.</c>",
+                                                                "giveItems": [
+                                                                    "66@2",
+                                                                    "70@2"
+                                                                ]
+                                                            },
+                                                            "4": {
+                                                                "emotion": "explain",
+                                                                "text": "The Sunfish is an easy catch. They find their love in eye and tongue. Craft your lure and we will begin the lesson."
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "1": {
+                                        "text": "Good day.",
+                                        "tree": {
+                                            "0": {
+                                                "allowrepeat": true,
+                                                "emotion": "explain",
+                                                "text": "It’s always a good day when you see the water."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "lure-crafting-cp": {
+        "completeQuest": "lure-crafting",
+        "text": "lure-crafting-cp",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "achievement": "beginnerfisher",
+                "text": "Ah you’ve returned $NAME, and with the lure I see. Here’s a Beginner's Rod to get you started."
+            },
+            "1": {
+                "text": "Remember a hungry fish will always bite. But it’s not the fisherman’s job to make it bite. No. The fisherman’s job is to make it bite with passion."
+            },
+            "2": {
+                "text": "<c=ooc>Equip your fishing pole by opening your inventory and placing the pole into one of the weapon slots</c>"
+            },
+            "3": {
+                "text": "<c=ooc>Equip a lure by placing it underneath the fishing pole on the left side of the inventory screen, into the class ability slot.</c>"
+            },
+            "4": {
+                "text": "<c=ooc>To cast, hold the Trigger while flicking your wrist forward, and release the Trigger to let the line unspool. You will feel a rumble in the controller when a fish bites</c>"
+            },
+            "5": {
+                "text": "<c=ooc>Jerk the rod upwards to set the hook, then start reeling in your catch, be sure to give the fish some slack when your line starts to turn red to keep from snapping the line and losing your lure.</c>"
+            },
+            "6": {
+                "giveQuest": "catch-day",
+                "emotion": "explain",
+                "text": "Here, I’ll give you two extra Lure parts, as each time you cast your Lure will lose durability. See if you can catch five Sunfish from the waters below. Once you have mastered these small creatures, we will move onto more challenging prey."
+            }
+        },
+        "indicator": "quest"
+    },
+    "catch-day-cp": {
+        "completeQuest": "catch-day",
+        "text": "catch-day-cp",
+        "tree": {
+            "0": {
+                "achievement": "catchofday1",
+                "emotion": "greeting",
+                "text": "Did your life flash before your eyes? Did ecstasy grip your heart? No? Then, still you must chase those elusive scales beneath the surface of the water."
+            },
+            "1": {
+                "text": "Only when you land your quarry, and the feeling is better than a woman’s embrace, will you find your great truth."
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "The Green Bellied Bass hunts in these waters. It seeks both tongue and tooth. Will you call it in to eat?",
+                "choices": {
+                    "0": {
+                        "text": "I need a lure.",
+                        "tree": {
+                            "0": {
+                                "emotion": "hmph",
+                                "text": "I have already given you two, It is time to make your own. If you are hunting parts for Lures, you will have to go in the woods and gather them, or check at the Marketplace in Highsteppe."
+                            },
+                            "1": {
+                                "text": "<c=ooc>You can collect Lure parts by killing monsters, collecting the Lure parts they drop, and crafting the Lure in your House.</c>",
+                                "choices": {
+                                    "0": {
+                                        "text": "I will.",
+                                        "tree": {
+                                            "0": {
+                                                "emotion": "explain",
+                                                "text": "Very good, grab your Rod and begin the hunt. Do not return unless you carry with you, five Green Bellied Bass. I have given you a few Fish Scent Attractant potion I make to bring the big ones in."
+                                            },
+                                            "1": {
+                                                "giveQuest": "catch-day-2",
+                                                "text": "Try making it next time you are around your house, it might coax the monsters of the deep to the surface easier."
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "catch-day-2-cp": {
+        "completeQuest": "catch-day-2",
+        "text": "catch-day-2-cp",
+        "tree": {
+            "0": {
+                "achievement": "catchofday2",
+                "emotion": "greeting",
+                "text": "You are doing well $NAME, learning the touch of a soft line, and the hard pull it takes to set the hook."
+            },
+            "1": {
+                "text": "When I was a young man out on the Glass Ocean, I hunted a mighty beast. A Leviathan. A Blue Ghost. In a small dinghy I sat for days."
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "I dreamed of wines from the Secret Terrace and the pretty women in La’fure. The great Marlin surfaced finally, and it's strength surprised me. I toppled and fell from my boat."
+            },
+            "3": {
+                "text": "The fish never surfaced a second time…."
+            },
+            "4": {
+                "emotion": "explain",
+                "text": "Return when the wind blows against your hair and the smell of salt water brushes your nose, or the sweet call of the water’s voice draws you in."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "catch-day-3": {
+        "reqFlags": [
+            "qf_catch-day-2_cp"
+        ],
+        "text": "catch-day-3",
+        "tree": {
+            "0": {
+                "emotion": "greeting",
+                "text": "Did you hear her voice and smell her scent?"
+            },
+            "1": {
+                "text": "You have shown potential in catching small fry. But the larger ones still swim unafraid. I sell my fish at market in Highsteppe, though the efforts of a single man cannot quench the hunger of an entire village."
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "I will pay you for the fish you catch, but they must be the ones I need most at the time.",
+                "choices": {
+                    "0": {
+                        "text": "I'm in.",
+                        "tree": {
+                            "0": {
+                                "giveQuest": "catch-day-3",
+                                "emotion": "hmph",
+                                "text": "Very well - the Katyharan Catfish, harder to catch than those you are used to. Stock up on lures with Small Tooth and Feathers before beginning this hunt."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "Later, when I have more time.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "emotion": "hmph",
+                                "text": "I hope you are well. And that you are loved. And that you love someone in return."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "catch-day-3-cp": {
+        "completeQuest": "catch-day-3",
+        "text": "catch-day-3-cp",
+        "tree": {
+            "0": {
+                "achievement": "catchofday3",
+                "emotion": "agree",
+                "text": "You are proving to be quite the skilled fisherman $NAME."
+            },
+            "1": {
+                "text": "I will have more for you soon, return to me once the sea beckons."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "catch-day-3-cp-1": {
+        "reqFlags": [
+            "qf_catch-day-3_cp"
+        ],
+        "text": "catch-day-3-cp-1",
+        "tree": {
+            "0": {
+                "emotion": "explain",
+                "text": "I have spoken with an old comrade of mine from the Octophian Legion. He is now a cook for the garrison atop Khabor's Pass. They need fish and lots of it."
+            },
+            "1": {
+                "text": "There are to be troops stationed with a new leader that my friend does not like. They will need from us forty Sunfish, twenty Green Bellies, and ten Katyharan."
+            },
+            "2": {
+                "giveQuest": "catch-day-4",
+                "emotion": "explain",
+                "text": "It is a large order, so I will catch half. If we pull this off, I will give you your normal pay, as well as the recipe to my Fish Scent Attractant, one that has served me well."
+            }
+        },
+        "indicator": "quest"
+    },
+    "catch-day-4": {
+        "completeQuest": "catch-day-4",
+        "text": "catch-day-4",
+        "tree": {
+            "0": {
+                "achievement": "catchofday4",
+                "emotion": "greeting",
+                "text": "I feared you would not complete your half in time, but here you are, and with a full net, I see. As promised the recipe for my attractant."
+            },
+            "1": {
+                "text": "You will need time to brew a few batches, but do not take too long, the orders are coming in from every part of Patreayl now. It seems we have built quite the reputation."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "catch-day-5": {
+        "reqFlags": [
+            "qf_catch-day-4_cp"
+        ],
+        "text": "catch-day-5",
+        "tree": {
+            "0": {
+                "emotion": "agree",
+                "text": "I trust that you are well practiced and ready, as I have just had a new request. There is a man named Erin Von Leustron, a fellow writer, though an arrogant one. He has quite an odd request."
+            },
+            "1": {
+                "text": "He claims a Saddled Lion Eel resides in the Rainforest basin. He wishes us to catch it for him so he can describe it accurately. He aims to write on the slithering corruption in the realm, using our crafty little friend as an analogy."
+            },
+            "2": {
+                "giveQuest": "catch-day-5",
+                "emotion": "explain",
+                "text": "Go, if it is there, then catch this Saddled Lion Eel for him, but also see what other creatures you can drag from the depths while you are at it."
+            }
+        },
+        "indicator": "quest"
+    },
+    "catch-day-5-cp": {
+        "completeQuest": "catch-day-5",
+        "text": "catch-day-5-cp",
+        "tree": {
+            "0": {
+                "achievement": "catchofday5",
+                "emotion": "greeting",
+                "text": "You've done well, I'm sure our friend will be pleased."
+            },
+            "1": {
+                "text": "I see you also caught Large Minnows, what a great eye you have for the waters."
+            },
+            "2": {
+                "emotion": "explain",
+                "text": "These little buggers will come in handy when going after larger fish in deeper pools, though I doubt that <c=ooc>Begginer Rod</c> will fare well against stronger jaws and faster currents."
+            },
+            "3": {
+                "text": "Here’s the pay I owe you, and a little extra to cover your travel costs."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "catch-day-5-cp-cp": {
+        "reqFlags": [
+            "qf_catch-day-5_cp"
+        ],
+        "text": "catch-day-5-cp-cp",
+        "tree": {
+            "0": {
+                "jumpPointName": "questions",
+                "emotion": "greeting",
+                "text": "Yes $NAME? ",
+                "choices": {
+                    "0": {
+                        "text": "Do you need more fish?",
+                        "tree": {
+                            "0": {
+                                "text": "And the prodigal returns. In a time of prosperity, no less. Our fish have been selling and selling, and the requests keep coming in, my friend. But I do need your help once more."
+                            },
+                            "1": {
+                                "text": "A prominent man in the Order has asked that we bring him a basket, filled with Axolotol Fish."
+                            },
+                            "2": {
+                                "text": "It’s an odd request to be sure. But we shant judge a man. Not when we all could be judged ourselves - weighed against Ma’at’s feather of truth as it where..."
+                            },
+                            "3": {
+                                "text": "Track down a school of the amphibious enigmas and return with a plentiful amount. I’ll reveal the oddity of his desires upon your return my friend - let that be something to whet the appetite of gossip, haha."
+                            },
+                            "4": {
+                                "giveQuest": "catch-day-6",
+                                "text": "Oh, and if you perchance upon Sunfish or Katyharan, then you should know, our stall is running low."
+                            }
+                        }
+                    },
+                    "1": {
+                        "text": "<c=lore>Tell me about your writing?</c>",
+                        "tree": {
+                            "0": {
+                                "emotion": "explain",
+                                "text": "They are fine books. Strong and true. Though they cannot capture reality. “Prisoner of the Rainforest” tells what it is like to slave beneath a canopy of vines…"
+                            },
+                            "1": {
+                                "text": "...but it does not tell you what the trees smelt of. Nor the relief felt by a man, having fallen against their mattress at the end of a long day."
+                            },
+                            "2": {
+                                "emotion": "hmph",
+                                "text": "In that sense, my writing has failed and my pen has failed and I have failed."
+                            },
+                            "3": {
+                                "goToJump": "questions",
+                                "text": "Alas, stories are like fish. You either catch them, or they get away."
+                            }
+                        }
+                    },
+                    "2": {
+                        "text": "Never mind.",
+                        "tree": {
+                            "0": {
+                                "allowrepeat": true,
+                                "text": "She calls? The sea?"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indicator": "quest"
+    },
+    "catch-day-6-cp": {
+        "completeQuest": "catch-day-6",
+        "text": "catch-day-6-cp",
+        "tree": {
+            "0": {
+                "text": "Ah, $NAME, you are never one to disappoint. Before your time. During the the famed Dandelion Wars. General Janlier - Guardian Bart to you - lead a grievous assault on the families of Lamavoran royalty to end the struggle."
+            },
+            "1": {
+                "text": "They say, he happened upon the Dandelions enjoying a magnificent stew made from these Axolotl fish - believed to be an opiate of sorts - a delicacy like none other."
+            },
+            "2": {
+                "text": "They also say the General’s men - filled with bloodlust, boiled the Dandelions in a great cauldron of that stew. One by one, they drowned in a soup of their own indulgence. Since then, these fish have been a taboo, to both Lamavoran and Midlander alike. I’ve known none to request such a meal, until now… I wonder why?"
+            },
+            "3": {
+                "text": "Here, I've just brewed a new batch of fish attractants, take these potions as partial payment, along with this new cloak I made. I wove it from old fishing net lying around, but it turned out nice, and smells of the ocean breeze."
+            },
+            "4": {
+                "text": "Come visit again, once you’re done showing off your new cloak and are ready to cast a lure once more."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "catch-day-7": {
+        "reqFlags": [
+            "qf_catch-day-6_cp"
+        ],
+        "text": "catch-day-7",
+        "tree": {
+            "0": {
+                "text": "I heard tale of you, strutting through town in your new cloak! Turned a few heads, I reckon!"
+            },
+            "1": {
+                "text": "Another strange request has come through for us, this one a little less illicit in nature. Remember our old client Mr. Von Leustron, he writes yet another pretentious literary escapade for his journal, The Last Word."
+            },
+            "2": {
+                "text": "He believes the Cloak fish to represent how all us have in our hearts, a hiding beast, calling in a whispered voice, tempting others to follow the guiding light and be dashed against the rocks of our deathly teeth!"
+            },
+            "3": {
+                "text": "He misunderstands the fundamental task of a poet. It is not the writer’s job, to wallow in the sorrow of this world and the wickedness of human nature. Rather, we are the chosen few, to highlight the beauty of life, the goodness of mankind and the depths of the human heart."
+            },
+            "4": {
+                "giveQuest": "catch-day-7",
+                "text": "Of course, he wishes to dissect such a creature, and learn it inside out for his work. I’ve never had any luck with catching these elusive beasts, so if we want the Dram, you might fare better asking around town to see if any of the local fisherman have a favorite spot."
+            }
+        },
+        "indicator": "quest"
+    },
+    "catch-day-7-cp": {
+        "completeQuest": "catch-day-7",
+        "text": "catch-day-7-cp",
+        "tree": {
+            "0": {
+                "text": "I may start calling you Dastur, Parathimian God of the Sea, if you keep hauling up all these baskets brimming with fish!"
+            },
+            "1": {
+                "text": "I took some time while you were gone to run to town and get you a little present. May it serve you well in some later adventure. A hat to keep the sun off your neck while fishing."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "catch-day-7-cp-cp": {
+        "reqFlags": [
+            "qf_catch-day-7_cp"
+        ],
+        "text": "catch-day-7-cp-cp",
+        "tree": {
+            "0": {
+                "text": "Head to the township of Fisherman's Crust and fill your basket with the Ridgeback Piranha. Be careful though, there are plenty of fisherman walking around the Frosted Spit missing a toe or two!"
+            },
+            "1": {
+                "giveQuest": "catch-day-8",
+                "text": "Be sure to bring multiple baskets with you and fill them all. You may need to leave the rest of your gear at home, just to get everything back to me!"
+            }
+        },
+        "indicator": "quest"
+    },
+    "catch-day-8-cp": {
+        "completeQuest": "catch-day-8",
+        "text": "catch-day-8-cp",
+        "tree": {
+            "0": {
+                "text": "$NAME, are you sure you’re not the Mariner from the verses of old? ...Hmm, no... It would appear one of my attractant potions has leaked all over you. That would explain your oceanic magnetism."
+            },
+            "1": {
+                "text": "Here, take some of my old clothes, please change as soon as possible, I've known the sea my entire life, but this odor is far too strong even for me to handle!"
+            }
+        },
+        "indicator": "dialog"
+    },
+    "catch-day-8-cp-cp": {
+        "reqFlags": [
+            "qf_catch-day-8_cp"
+        ],
+        "text": "catch-day-8-cp-cp",
+        "tree": {
+            "0": {
+                "text": "How do my old clothes fit, $NAME? I see the ocean breeze has sung its siren song, and returned you to me. If you have some time, I have a newer set I'd be willing to trade, but I require a heavy basket this time."
+            },
+            "1": {
+                "text": "There's is a new face around the fish market in Guild city, one that is trying to drive my stall out of town. You must return with a full basket, so that I may stifle this small competition."
+            },
+            "2": {
+                "giveQuest": "catch-day-9",
+                "text": "Hurry though, before this new stall puts me under. For the trouble, I'll see about getting that new outfit for you to fish in, one that matches your style closer."
+            }
+        },
+        "indicator": "quest"
+    },
+    "catch-day-9-cp": {
+        "completeQuest": "catch-day-9",
+        "text": "catch-day-9-cp",
+        "tree": {
+            "0": {
+                "text": "Once again, saved by my trusty hero $NAME. Here are the clothes as promised, but I have other matters I wish to discuss."
+            },
+            "1": {
+                "text": "I think it’s time I told you of the fish I’ve tried catching for most of my adult life! <c=lore>Legendary</c> fish. These creatures of the deep are crafty buggers, within your grasp one minute, and across the country in the next!"
+            },
+            "2": {
+                "text": "I wish there were a spot I could send you to, some never-fail fishing hole… Alas! Such a place does not exist for these creatures. They are nomadic. And so to must you be, leaving behind your life and all you think you know, if you are to catch such creatures."
+            },
+            "3": {
+                "text": "Search everywhere - oceans, creeks, lochs, inlets, lakes, rivers, channels… eventually you might find one. I've caught only one in my time, It was the greatest battle at sea, between man and monster, I've ever experienced."
+            },
+            "4": {
+                "text": "Caught a 32 lb Blimp Fish! But I was young, innocent, some would say stupid. A local merchant swindled me of its value and took off to make a king’s fortune."
+            },
+            "5": {
+                "text": "If you were to wrangle some of these beasties for me, I would reward you greater than I ever had before. Oh I know, the thrill is in the chase, but I am becoming an old man. I could not hold up against the ferocity of such a creature, not like you could."
+            },
+            "6": {
+                "giveQuest": "catch-day-10",
+                "text": "Return to me once you have filled a bag. While you are fishing, keep the lesser fish to sell at the markets."
+            }
+        },
+        "indicator": "quest"
+    },
+    "catch-day-10-cp": {
+        "completeQuest": "catch-day-10",
+        "text": "catch-day-10-cp",
+        "tree": {
+            "0": {
+                "text": "Isn’t it just the way? Here you are, returning to me with such a beautiful fish, ready to bask in the fame and glory afforded to the few of us who have succeeded in such feats, yet even as we speak, a new, even more valuable fish has been found amongst the waters. They call it the <c=lore>Frosted Perch</c>!"
+            },
+            "1": {
+                "giveQuest": "catch-day-11",
+                "text": "There’s a race to be the first to catch this new wonder of the water. I suggest it should be you. Hurry, before a flood of locals beat you to it. Oh, but first, I had this outfit tailored for you, it should be a welcome change to the stinky garments I gave you last. "
+            }
+        },
+        "indicator": "quest"
+    },
+    "catch-day-11-cp": {
+        "completeQuest": "catch-day-11",
+        "text": "catch-day-11-cp",
+        "tree": {
+            "0": {
+                "text": "My friend! I never doubted you! Not for a second. The Frosted Perch… I could never repay you enough for delivering it to me. But I shall try with this reward."
+            },
+            "1": {
+                "text": "Now, I’ve heard of one last fish of true rarity. Never been caught. Named after a powerful mage. There are some who even consider it to be the scaled king of all fishkind."
+            },
+            "2": {
+                "text": "If you were to land such a gilled deity, you would go down in legend, as the greatest fisherman in all of Patreayl! I would never dream of offering to buy the \"scaled king\" of all fish from you if you land one, as it would be a trophy to you for to never part with."
+            },
+            "3": {
+                "text": "But if you happen to catch one, and want to part ways, I'm sure there are others around willing to pay you a kings ransom for one."
+            }
+        },
+        "indicator": "dialog"
+    },
+    "catch-day-11-cp-cp": {
+        "reqFlags": [
+            "qf_catch-day-11_cp"
+        ],
+        "text": "catch-day-11-cp-cp",
+        "tree": {
+            "0": {
+                "allowrepeat": true,
+                "text": "No scaled god yet? Well, they don’t call him a rarity for nothing! Keep trying my friend."
+            }
+        },
+        "indicator": "dialog"
+    }
+}

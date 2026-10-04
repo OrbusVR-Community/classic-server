@@ -1,0 +1,59 @@
+# OrbusVR Classic community server. See README.md for setup.
+#
+# Ports: the API on TCP 3000, and per clienthost n: ENet on UDP 5000+n and websockets on TCP 8800+n.
+# The defaults run one clienthost; publish more ports here if you raise clientHosts in your config.
+name: classic-server
+
+x-orbus: &orbus
+  image: ghcr.io/orbusvr-community/classic-server:1.0.0
+  volumes:
+    - ./config:/config:ro
+    - ./content:/app/content:ro
+    - ./mods:/app/mods:ro
+  environment:
+    ORBUS_REDIS_HOST: redis
+    ORBUS_DB_HOST: rethinkdb
+    ORBUS_GAME_HOST: game
+    ORBUS_ADMIN_BIND: 0.0.0.0
+
+services:
+  redis:
+    image: redis:6
+    restart: unless-stopped
+
+  rethinkdb:
+    image: rethinkdb:2.4
+    restart: unless-stopped
+    volumes:
+      - rethinkdb-data:/data
+
+  setup:
+    <<: *orbus
+    command: ["node", "orbus-server.js", "setup-db"]
+    depends_on: [rethinkdb]
+
+  game:
+    <<: *orbus
+    command: ["node", "orbus-server.js", "cardinal"]
+    restart: unless-stopped
+    depends_on:
+      redis:
+        condition: service_started
+      setup:
+        condition: service_completed_successfully
+    ports:
+      - "5000:5000/udp"
+      - "8800:8800"
+
+  api:
+    <<: *orbus
+    command: ["node", "orbus-server.js", "api"]
+    restart: unless-stopped
+    depends_on:
+      setup:
+        condition: service_completed_successfully
+    ports:
+      - "3000:3000"
+
+volumes:
+  rethinkdb-data:

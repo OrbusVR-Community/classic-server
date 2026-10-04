@@ -1,0 +1,20 @@
+{
+    "description": "Petyr has received word a regular weapons shipment for the Order is headed from the Rainforest outpost of New Kingsport, headed for the village of Mountain Crest. Reach the shipment and destroy it's contents before it reaches its destination, or it will be gone in the trees. It's path starts at New Kingsport and travels through the Rainforest.",
+    "name": "To Be A Bandit! (MSQ)",
+    "completed": "You have disrupted the weapon shipment and stopped this one from reaching the Orders hands. Return to Sir Petyr of The Twins and deliver the weapons crate to him there.",
+    "objectives": [
+        {
+            "type": "item",
+            "typedata": "172",
+            "typenum": 1,
+            "typeextra": ""
+        }
+    ],
+    "objectiveType": "and",
+    "shortdesc": "",
+    "reqlevel": 11,
+    "rewards": [
+        "giveitems xp@5000,coin@200"
+    ],
+    "autocomplete": false
+}
