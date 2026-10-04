@@ -55,8 +55,9 @@ OrbusVR Classic is PC VR only. Download the community edition client from the
 [Releases](https://github.com/orbusvr-community/classic-server/releases) page. It's separate from the old
 Steam and Oculus Store versions, which can no longer log in.
 
-- **PC (SteamVR or Oculus, including Meta Horizon Link):** download `OrbusVR-Classic-Community-PC.zip`,
-  unzip it, and run `vrclient.exe` from the unzipped folder.
+- **PC (SteamVR or Oculus, including Meta Horizon Link):** download `OrbusVR-Classic-Community-PC.7z`,
+  extract it, and run `vrclient.exe` from the extracted folder. Windows 11 can open `.7z` files directly;
+  on Windows 10, use [7-Zip](https://www.7-zip.org/).
 
 The game uses the Oculus (Meta) runtime when it's installed, and SteamVR otherwise. To play through
 SteamVR on a PC that also has the Meta software installed, start the game with
